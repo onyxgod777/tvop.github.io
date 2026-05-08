@@ -1,132 +1,409 @@
+/* The True Value Of Pi — Modern Redesign */
+
 * {
-  text-align: center;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --gold: #d4a843;
+  --gold-light: #f0d080;
+  --gold-dark: #a07830;
+  --navy: #0a1628;
+  --navy-light: #132044;
+  --cream: #f5f0e8;
+  --text: #e8e0d0;
+  --text-muted: #a09880;
+  --border: rgba(212, 168, 67, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-background-color: navy;
-background-image: url(../img/Pi.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: var(--navy);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
 }
 
-img {
-  box-shadow: 0 5px 10px black;
+/* ── Background ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(212, 168, 67, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 50%, rgba(212, 168, 67, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, 0.02) 0%, transparent 30%);
+  pointer-events: none;
+  z-index: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-  background-color: #2077dd;
-  color: gold;
-  border-bottom: darkgreen 8px solid;
+/* ── Navigation ── */
+header {
   position: fixed;
   top: 0;
   width: 100%;
-  overflow: hidden;
+  z-index: 100;
+  background: rgba(10, 22, 40, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
 }
 
 .header h1 {
-  text-shadow: 5px 5px 5px black;
-  font-size: 30px;
+  font-size: 18px;
+  color: var(--gold);
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-.header li {
-  display: inline;
+.header h1 span {
+  font-weight: 700;
+  color: var(--gold-light);
 }
 
-.header a {
-  font-weight: 900;
-  margin: 2vw;
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.menu a {
+  color: var(--text-muted);
   text-decoration: none;
-  color: gold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.menu a:hover {
+  color: var(--gold-light);
+  background: rgba(212, 168, 67, 0.1);
+}
+
+/* ── Hero ── */
+.Pi {
+  margin-top: 120px;
+  text-align: center;
+  padding: 60px 20px 40px;
 }
 
 .Pi h2 {
-  color: white;
-  font-weight: bolder;
-  font-size: 79px;
-  margin: auto;
-  margin-top: 120px;
-  text-shadow: 0px 0px 10px white;
+  font-size: 72px;
+  color: var(--gold-light);
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-shadow: 0 0 40px rgba(212, 168, 67, 0.3);
+  animation: fadeIn 1s ease-out;
 }
 
-main img {
-  height: 400px;
-  max-width: 100%;
-  margin: auto;
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Content ── */
+main {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
 }
 
 main h3 {
-  color: gold;
-  margin: 2vw;
+  color: var(--gold);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 30px 0;
+  text-align: center;
 }
 
-section {
-  color: gold;
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 30px auto;
 }
 
-section h2 {
-color: gold;
-margin: 2vw;
-}
-
+/* ── Links Section ── */
 .section-1 {
-  margin-bottom: 100px;
-}
-
-.section-1 p {
-  margin: 2vw;
-}
-
-.section-1 h5 {
-  margin-top: 40px;
-}
-
-.counter {
-  margin: 2vw;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #2077dd;
-  color: gold;
-  border-top: darkgreen 8px solid;
-  padding: 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 40px;
-}
-
-.social {
-  margin: 2vw;
+  text-align: center;
+  padding: 40px 0;
 }
 
 #links {
-  font-size: xx-large;
+  font-size: 28px;
+  color: var(--gold);
+  margin-bottom: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.link_list {
+  text-align: center;
 }
 
 .link_list a {
+  display: inline-block;
+  color: var(--text-muted);
   text-decoration: none;
-  color: white;
-  font-size: larger;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 4px 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.link_list a:hover {
+  color: var(--gold-light);
+  border-color: var(--border);
+  background: rgba(212, 168, 67, 0.05);
+}
+
+.link_list img {
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+/* ── Sections ── */
+section {
+  margin: 60px 0;
+}
+
+section h4, section h5 {
+  color: var(--gold);
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+section h4 a, section h5 a {
+  color: var(--gold-light);
+}
+
+/* ── Math Content ── */
+section p {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 16px 0;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid var(--border);
+  border-radius: 0 8px 8px 0;
+}
+
+section strong {
+  color: var(--gold-light);
+}
+
+/* ── Footer ── */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(10, 22, 40, 0.92);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border);
+  z-index: 100;
+}
+
+footer .social {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 48px;
 }
 
 .fa {
-  color: gold;
-  font-size: xx-large;
+  color: var(--text-muted);
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.fa:hover {
+  color: var(--gold-light);
+}
+
+/* ── Buttons ── */
+.button, a[href*="bitcoin"], a[href*="donate"] {
+  display: inline-block;
+  padding: 10px 28px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: var(--navy) !important;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s;
   text-decoration: none;
-  margin: 1vw;
-  text-shadow: 5px 5px 2px white;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.button:hover, a[href*="bitcoin"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 168, 67, 0.3);
+}
+
+/* ── Video link ── */
+a[href*="video"] strong {
+  color: var(--gold-light);
+  font-size: 20px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 20px;
+    gap: 8px;
+  }
+  
+  .header h1 {
+    font-size: 14px;
+  }
+  
+  .menu a {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+  
+  .Pi {
+    margin-top: 140px;
+  }
+  
+  .Pi h2 {
+    font-size: 42px;
+  }
+  
+  main h3 {
+    font-size: 17px;
+  }
+  
+  #links {
+    font-size: 22px;
+  }
+  
+  .link_list a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  section p {
+    font-size: 15px;
+    padding: 12px 16px;
+  }
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* ── Pi Decorative Badge ── */
+.pi-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--gold-dark);
+  border-radius: 50%;
+  margin: 20px auto;
+  font-size: 14px;
+  color: var(--gold);
+  text-align: center;
+  line-height: 1.4;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(212, 168, 67, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(212, 168, 67, 0.4); }
+}
+
+/* ── Donate Button ── */
+.donate-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: var(--navy);
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  margin: 20px 0;
+}
+
+.donate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(212, 168, 67, 0.3);
+}
+
+/* ── Math Block ── */
+.math-block {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 32px;
+  margin: 24px 0;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.math-block code {
+  font-size: 24px;
+  color: var(--gold-light);
+  background: none;
+}
+
+/* ── Counter ── */
+.counter {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 40px 0;
 }
