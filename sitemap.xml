@@ -1,9 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc></loc>
-  <priority>0.6</priority>
-  <changefreq>daily</changefreq>
-  <lastmod>2025-03-25</lastmod>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/phi-pi-research-001.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-08</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/golden-pi-identity.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/squaring-circle-golden-pi-geometric-proof.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-09</lastmod>
+  </url>
 </urlset>
