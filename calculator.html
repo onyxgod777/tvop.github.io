@@ -561,10 +561,10 @@ function Calculator() {
     }
     
     // Constants
-    if (input === 'πg') { setDisplay(d => d + PI_GOLDEN.toFixed(7)); return; }
-    if (input === 'π') { setDisplay(d => d + 'π'); return; }
-    if (input === 'φ') { setDisplay(d => d + 'φ'); return; }
-    if (input === 'e') { setDisplay(d => d + 'e'); return; }
+    if (input === 'πg') { setDisplay(d => d === '0' ? PI_GOLDEN.toFixed(7) : d + PI_GOLDEN.toFixed(7)); return; }
+    if (input === 'π') { setDisplay(d => d === '0' ? 'π' : d + 'π'); return; }
+    if (input === 'φ') { setDisplay(d => d === '0' ? 'φ' : d + 'φ'); return; }
+    if (input === 'e') { setDisplay(d => d === '0' ? `${Math.E}`.slice(0,8) : d + `${Math.E}`.slice(0,8)); return; }
     
     // Operator handling
     const ops = ['+', '-', '*', '/', '^', '**', '%'];
