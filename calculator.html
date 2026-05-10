@@ -311,9 +311,9 @@ const TRIG_ANGLES = [
 ];
 
 // ─── Trig functions with Golden Pi ─────────
-function sin_g(deg) { return Math.sin(deg * PI_GOLDEN / 180); }
-function cos_g(deg) { return Math.cos(deg * PI_GOLDEN / 180); }
-function tan_g(deg) { return Math.tan(deg * PI_GOLDEN / 180); }
+function sin_g(deg) { return Math.sin(deg * Math.PI / 180); }
+function cos_g(deg) { return Math.cos(deg * Math.PI / 180); }
+function tan_g(deg) { return Math.tan(deg * Math.PI / 180); }
 function asin_g(v)  { return Math.asin(v) * 180 / PI_GOLDEN; }
 function acos_g(v)  { return Math.acos(v) * 180 / PI_GOLDEN; }
 function atan_g(v)  { return Math.atan(v) * 180 / PI_GOLDEN; }
