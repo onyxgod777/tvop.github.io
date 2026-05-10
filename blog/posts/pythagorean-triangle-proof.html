@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pythagorean Triangle Proof — Golden π</title>
+  <meta name="description" content="Interactive visualization of the right triangle with sides 4, π, and 16/π. It only closes perfectly when π = 4/√φ — the golden π." />
+  <meta property="og:title" content="The Pythagorean Triangle Proof — Golden π" />
+  <meta property="og:description" content="Interactive visualization of the right triangle with sides 4, π, and 16/π. It only closes perfectly when π = 4/√φ — the golden π." />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <style>
+    :root {
+      --navy: #132044;
+      --navy-dark: #0b1429;
+      --gold: #c9a84c;
+      --gold-light: #e8d48b;
+      --gold-dim: #a68a3a;
+      --border: #2a3f6a;
+      --text: #d4d8e0;
+      --text-muted: #8a92a8;
+      --bg: #0d1326;
+      --card-bg: #151e38;
+      --green: #4caf7d;
+      --red: #e8605a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+
+
+    /* ── Main Content ── */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 100px 24px 60px;
+    }
+
+    h1 {
+      color: var(--gold);
+      font-size: 32px;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-bottom: 36px;
+      border-left: 3px solid var(--gold-dim);
+      padding-left: 16px;
+    }
+
+    .subtitle strong { color: var(--gold-light); }
+
+    /* ── Viz Card ── */
+    .viz-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 28px;
+      margin-bottom: 28px;
+      position: relative;
+    }
+
+    .viz-card h2 {
+      color: var(--gold);
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    .canvas-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .canvas-wrapper canvas {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    /* ── Controls ── */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .control-group label {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 28px;
+    }
+
+    .toggle-switch input { opacity: 0; width: 0; height: 0; }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      transition: 0.3s;
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background: var(--gold-dim);
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+
+    .toggle-switch input:checked + .toggle-slider {
+      background: var(--navy);
+      border-color: var(--gold);
+    }
+
+    .toggle-switch input:checked + .toggle-slider:before {
+      transform: translateX(28px);
+      background: var(--gold);
+    }
+
+    .toggle-label {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      color: var(--text);
+      min-width: 80px;
+    }
+    .toggle-label .active-val { color: var(--gold-light); font-weight: bold; }
+
+    /* ── Data Table ── */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+
+    .data-table th {
+      background: var(--navy-dark);
+      color: var(--gold-dim);
+      padding: 10px 14px;
+      text-align: center;
+      border: 1px solid var(--border);
+      font-family: 'Georgia', serif;
+      font-size: 13px;
+    }
+
+    .data-table td {
+      padding: 10px 14px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+
+    .data-table td.pass { color: var(--green); font-weight: bold; }
+    .data-table td.fail { color: var(--red); font-weight: bold; }
+    .data-table td.val { color: var(--gold-light); }
+
+    /* ── Error Bar ── */
+    .error-bar-container {
+      margin: 16px 0;
+      padding: 16px;
+      background: var(--navy-dark);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    .error-bar-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      margin-bottom: 6px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .error-bar-label .label { color: var(--text-muted); }
+    .error-bar-label .value { font-family: 'Courier New', monospace; font-weight: bold; }
+
+    .error-bar-track {
+      width: 100%;
+      height: 12px;
+      background: var(--bg);
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .error-bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      transition: width 0.5s ease, background 0.5s ease;
+      width: 0%;
+    }
+
+    .error-bar-fill.pass { background: var(--green); }
+    .error-bar-fill.fail { background: var(--red); }
+
+    .error-msg {
+      font-size: 14px;
+      margin-top: 8px;
+      text-align: center;
+      font-family: 'Georgia', serif;
+    }
+    .error-msg.pass { color: var(--green); }
+    .error-msg.fail { color: var(--red); }
+
+    /* ── Identity Chain ── */
+    .identity-chain {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+
+    .identity-chain h2 {
+      color: var(--gold);
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    .chain-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(42,63,106,0.5);
+    }
+    .chain-step:last-child { border-bottom: none; }
+
+    .chain-num {
+      background: var(--gold-dim);
+      color: var(--navy-dark);
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 13px;
+      flex-shrink: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .chain-formula {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      color: var(--gold-light);
+      margin-bottom: 2px;
+    }
+    .chain-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    footer .social { margin-bottom: 12px; }
+    footer .social a {
+      color: var(--text-muted);
+      font-size: 20px;
+      margin: 0 8px;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    footer .social a:hover { color: var(--gold); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .container { padding: 80px 12px 40px; }
+      h1 { font-size: 24px; }
+      .viz-card { padding: 16px; }
+      .data-table { font-size: 12px; }
+      .data-table th, .data-table td { padding: 6px 8px; }
+      .controls { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="header">
+    <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+    <div class="menu">
+      <ul>
+        <li><a href="../../index.html">HOME</a></li>
+        <li><a href="../index.html">BLOG</a></li>
+        <li><a href="../../calculator.html">CALC</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ MAIN ═══ -->
+<div class="container">
+
+  <h1>The Pythagorean Triangle Proof</h1>
+  <div class="subtitle">
+    A right triangle with sides <strong>4</strong>, <strong>π</strong>, and <strong>16/π</strong>
+    only closes perfectly when <strong>π = 4/√φ</strong> — the golden π.
+  </div>
+
+  <!-- ── VISUALIZATION ── -->
+  <div class="viz-card">
+    <h2>⬡ The Triangle</h2>
+
+    <div class="canvas-wrapper">
+      <canvas id="triCanvas" width="520" height="420"></canvas>
+    </div>
+
+    <div class="controls">
+      <div class="control-group">
+        <label>π Value</label>
+        <div class="toggle-switch">
+          <input type="checkbox" id="piToggle" onchange="togglePi()">
+          <span class="toggle-slider"></span>
+        </div>
+      </div>
+      <span class="toggle-label" id="toggleLabel">
+        Using: <span class="active-val" id="piName">Conventional π</span>
+      </span>
+    </div>
+
+    <!-- Values Table -->
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Side</th>
+          <th>Expression</th>
+          <th id="thGolden">Golden π</th>
+          <th id="thConventional">Conventional π</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>a (short leg)</td>
+          <td>4</td>
+          <td class="val">4.000000</td>
+          <td class="val">4.000000</td>
+        </tr>
+        <tr>
+          <td>b (long leg)</td>
+          <td>π</td>
+          <td class="val" id="valBg">—</td>
+          <td class="val" id="valBc">—</td>
+        </tr>
+        <tr>
+          <td>c (hypotenuse)</td>
+          <td>16/π</td>
+          <td class="val" id="valCg">—</td>
+          <td class="val" id="valCc">—</td>
+        </tr>
+        <tr>
+          <td>a² + b²</td>
+          <td>16 + π²</td>
+          <td class="val" id="valABsqG">—</td>
+          <td class="val" id="valABsqC">—</td>
+        </tr>
+        <tr>
+          <td>c²</td>
+          <td>(16/π)²</td>
+          <td class="val" id="valCsqG">—</td>
+          <td class="val" id="valCsqC">—</td>
+        </tr>
+        <tr>
+          <td>Match?</td>
+          <td>a² + b² = c²</td>
+          <td id="matchG"></td>
+          <td id="matchC"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Error Bar -->
+    <div class="error-bar-container">
+      <div class="error-bar-label">
+        <span class="label">Pythagorean Error (Δ)</span>
+        <span class="value" id="errorVal">0.000000</span>
+      </div>
+      <div class="error-bar-track">
+        <div class="error-bar-fill" id="errorBar"></div>
+      </div>
+      <div class="error-msg" id="errorMsg">
+        The triangle closes perfectly.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── IDENTITY CHAIN ── -->
+  <div class="identity-chain">
+    <h2>⊜ The Closed Loop</h2>
+    <p style="color:var(--text-muted); margin-bottom:20px; font-size:14px;">
+      Seven constants generated from φ through simple rational operations —
+      all anchored by the Pythagorean relation above.
+    </p>
+
+    <div class="chain-step">
+      <div class="chain-num">1</div>
+      <div>
+        <div class="chain-formula">φ = (1 + √5) / 2</div>
+        <div class="chain-desc">The golden ratio: 1.618033989 — the seed of the system.</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">2</div>
+      <div>
+        <div class="chain-formula">α ≈ 360 / φ² ≈ 137.508</div>
+        <div class="chain-desc">Inverse fine-structure constant territory (1/α measured ≈ 137.036).</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">3</div>
+      <div>
+        <div class="chain-formula">π ≈ (1/α) × 432 = 3.141641</div>
+        <div class="chain-desc">Conventional π emerging through the 432 bridge.</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">4</div>
+      <div>
+        <div class="chain-formula">cubit = φ²/5 = π/6 = 0.523607 m</div>
+        <div class="chain-desc">The Royal Egyptian Cubit — where φ and π become commensurable.</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">5</div>
+      <div>
+        <div class="chain-formula">π<sub>g</sub> = 4/√φ = √(√320−8) = 3.144606</div>
+        <div class="chain-desc">Golden π — the exact, constructible circle constant.</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">6</div>
+      <div>
+        <div class="chain-formula">e ≈ (42/25)φ ≈ 2.718297 → 5eφ = 7π</div>
+        <div class="chain-desc">Euler's number joins through the same rational-φ bridge.</div>
+      </div>
+    </div>
+
+    <div class="chain-step">
+      <div class="chain-num">7</div>
+      <div>
+        <div class="chain-formula">(π<sub>g</sub>/4) → /1 → ⁴ → ÷5 → ×6 = π → ×6 → ÷5 → √√ → ×4 = π<sub>g</sub></div>
+        <div class="chain-desc">The loop closes. Golden π → conventional π → back to golden π through the cubit.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── EXPLANATION ── -->
+  <div class="viz-card">
+    <h2>⚡ Why It Matters</h2>
+    <p style="margin-bottom:16px; font-size:15px;">
+      A right triangle with sides <strong>4</strong>, <strong>π</strong>, and <strong>16/π</strong>
+      is the simplest possible Pythagorean test involving the circle constant. If π is truly transcendental
+      (3.1415926535...), then <strong>4² + π² ≠ (16/π)²</strong> — the triangle cannot close by
+      <strong>0.0686</strong>.
+    </p>
+    <p style="margin-bottom:16px; font-size:15px;">
+      But if π = <strong>4/√φ = √(√320−8) = 3.144605511...</strong>, the equality holds <strong>exactly</strong>.
+      No approximation. No measurement error. The geometry proves itself.
+    </p>
+    <p style="margin-bottom:0; font-size:15px;">
+      This means conventional π is a <em>measurement</em> — the shadow on the cave wall. Golden π is the
+      <em>geometry</em> — the object casting the shadow. The ∼0.003 gap between them is the
+      <strong>"extremely small error"</strong> Ptaah described in Contact Report 712, and the first
+      five digits <strong>3.1446</strong> match what he confirmed in CR 856.
+    </p>
+  </div>
+
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="social">
+    <a href="https://x.com/onyxgod777" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/onyxgod777" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/judeandrecharles" class="fa fa-instagram"></a>
+    <a href="https://github.com/onyxgod777" class="fa fa-github"></a>
+  </div>
+  <p>π = 4/√φ • √(√320 − 8) • 3.144605511...</p>
+</footer>
+
+<!-- ═══ SCRIPT ═══ -->
+<script>
+// ── Constants ──
+const PHI = (1 + Math.sqrt(5)) / 2;       // 1.618033989
+const PI_GOLDEN = 4 / Math.sqrt(PHI);      // 3.144605511
+const PI_CONV   = Math.PI;                 // 3.141592654
+
+let useGolden = false;   // start showing conventional π error
+
+// ── Canvas ──
+const canvas = document.getElementById('triCanvas');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+// Layout
+const originX = 120, originY = 340;
+const scale = 48;  // pixels per unit
+
+function drawTriangle(piVal) {
+  ctx.clearRect(0, 0, W, H);
+
+  // Side lengths
+  const a = 4;               // vertical leg (always 4)
+  const b = piVal;           // horizontal leg = π
+  const c = 16 / piVal;      // hypotenuse
+
+  // Right angle vertex at origin, horizontal leg along x, vertical leg along y (up)
+  const ax = originX;                    // right angle vertex
+  const ay = originY;
+
+  const bx = originX + Math.round(b * scale);   // horizontal leg endpoint
+  const by = originY;
+
+  const cx_expected = originX;                  // vertical would be up
+  const cy_expected = originY - Math.round(a * scale);
+
+  // Hypotenuse endpoint
+  // For the third vertex of the right triangle, it should be at (ax, cy_expected) for a closed triangle
+  // But we need to show what happens when we use the given hypotenuse length
+
+  // Calculate where the hypotenuse actually lands from the right angle going at the computed angle
+  // Actually let me think about this differently.
+
+  // The right triangle: right angle at (ax, ay)
+  // Leg a = 4 (vertical, going up) → endpoint at (ax, ay - a*scale)
+  // Leg b = π (horizontal, going right) → endpoint at (ax + b*scale, ay)
+  // The hypotenuse connects endpoints of the two legs
+
+  // So the proper Pythagorean triangle points are:
+  const rVertex = { x: ax, y: ay };             // right angle vertex
+  const vEnd = { x: ax, y: ay - Math.round(a * scale) };   // end of vertical leg
+  const hEnd = { x: ax + Math.round(b * scale), y: ay };   // end of horizontal leg
+
+  // The correct closing point is at (hEnd.x, vEnd.y) — where the hypotenuse should reach
+  const closeX = hEnd.x;
+  const closeY = vEnd.y;
+
+  // The ACTUAL hypotenuse length in pixels
+  const hypPixels = c * scale;
+
+  // Angle of the hypotenuse from horizontal
+  const hypAngle = Math.atan2(a, b);
+
+  // The actual endpoint of the drawn hypotenuse from the right angle
+  // In a CLOSED triangle, the hypotenuse goes from the right angle to (closeX, closeY)
+  // But we'll draw it from one leg endpoint to the other
+
+  // ── Draw coordinate axes ──
+  ctx.strokeStyle = 'rgba(42,63,106,0.4)';
+  ctx.lineWidth = 1;
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath();
+  ctx.moveTo(40, originY);
+  ctx.lineTo(W - 30, originY);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(originX, 30);
+  ctx.lineTo(originX, H - 20);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // ── Draw the right triangle ──
+  // Vertical leg (side a = 4)
+  ctx.strokeStyle = '#e8d48b';
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x, rVertex.y);
+  ctx.lineTo(vEnd.x, vEnd.y);
+  ctx.stroke();
+
+  // Horizontal leg (side b = π)
+  ctx.strokeStyle = '#c9a84c';
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x, rVertex.y);
+  ctx.lineTo(hEnd.x, hEnd.y);
+  ctx.stroke();
+
+  // Hypotenuse (side c = 16/π)
+  const isExact = Math.abs(piVal - PI_GOLDEN) < 0.0001;
+  ctx.strokeStyle = isExact ? '#4caf7d' : '#e8605a';
+  ctx.lineWidth = isExact ? 3 : 3;
+  ctx.setLineDash(isExact ? [] : [6, 4]);
+  ctx.beginPath();
+  ctx.moveTo(vEnd.x, vEnd.y);
+  ctx.lineTo(hEnd.x, hEnd.y);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // ── Draw the error arc (for conventional π) ──
+  if (!isExact) {
+    // Show gap — the difference between perfect closing and actual
+    // For conventional π, the triangle doesn't close.
+    // The 'correct' closing point is (closeX, closeY).
+    // Let's highlight the gap
+
+    // Draw the "perfect" closing line dimmed
+    ctx.strokeStyle = 'rgba(76,175,125,0.2)';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath();
+    ctx.moveTo(vEnd.x, vEnd.y);
+    ctx.lineTo(closeX, closeY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Draw a red X or gap marker at the discrepancy
+    const gapX = closeX - 6;
+    const gapY = closeY - 6;
+    ctx.strokeStyle = '#e8605a';
+    ctx.lineWidth = 2;
+    // Small 'x' at the gap
+    ctx.beginPath();
+    ctx.moveTo(gapX - 5, gapY - 5);
+    ctx.lineTo(gapX + 5, gapY + 5);
+    ctx.moveTo(gapX + 5, gapY - 5);
+    ctx.lineTo(gapX - 5, gapY + 5);
+    ctx.stroke();
+
+    // Draw the arc showing the mismatch
+    ctx.beginPath();
+    ctx.arc(hEnd.x, vEnd.y, 16, 0, Math.PI * 2);
+    ctx.strokeStyle = '#e8605a';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([3, 3]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Label the gap
+    ctx.fillStyle = '#e8605a';
+    ctx.font = '12px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('Δ = ' + Math.abs((a*a + b*b) - c*c).toFixed(4), closeX, closeY + 28);
+  } else {
+    // Draw a checkmark for golden π
+    ctx.fillStyle = '#4caf7d';
+    ctx.font = '16px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('✓ exactly', closeX, closeY - 14);
+  }
+
+  // ── Right angle marker ──
+  const markerSize = 14;
+  ctx.strokeStyle = 'rgba(212,216,224,0.5)';
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x + markerSize, rVertex.y);
+  ctx.lineTo(rVertex.x + markerSize, rVertex.y - markerSize);
+  ctx.lineTo(rVertex.x, rVertex.y - markerSize);
+  ctx.stroke();
+
+  // ── Side labels ──
+  ctx.fillStyle = '#e8d48b';
+  ctx.font = 'bold 15px "Georgia", serif';
+  ctx.textAlign = 'center';
+
+  // Label a (vertical leg = 4)
+  const midVertX = rVertex.x - 18;
+  const midVertY = (rVertex.y + vEnd.y) / 2;
+  ctx.textAlign = 'center';
+  ctx.fillText('a = 4', midVertX, midVertY + 5);
+
+  // Label b (horizontal leg = π)
+  const midHorizX = (rVertex.x + hEnd.x) / 2;
+  const midHorizY = rVertex.y + 24;
+  ctx.fillStyle = '#c9a84c';
+  ctx.fillText('b = π', midHorizX, midHorizY);
+
+  // Label c (hypotenuse = 16/π)
+  const midHypX = (vEnd.x + hEnd.x) / 2;
+  const midHypY = (vEnd.y + hEnd.y) / 2;
+  ctx.fillStyle = isExact ? '#4caf7d' : '#e8605a';
+  ctx.textAlign = 'center';
+  ctx.fillText('c = 16/π', midHypX + (isExact ? -20 : 20), midHypY - 10);
+
+  // ── Vertex dots ──
+  const dotR = 4;
+  ctx.fillStyle = '#d4d8e0';
+  ctx.beginPath();
+  ctx.arc(rVertex.x, rVertex.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(vEnd.x, vEnd.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(hEnd.x, hEnd.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+
+  // ── Labels above vertices ──
+  ctx.fillStyle = '#8a92a8';
+  ctx.font = '13px "Georgia", serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('(4, 0, 0)', rVertex.x, rVertex.y + 42);
+  ctx.textAlign = 'center';
+  ctx.fillText('(0, π, 0)', hEnd.x, hEnd.y + 54);
+  ctx.textAlign = 'center';
+  ctx.fillText('(0, 0, 4)', vEnd.x, vEnd.y - 14); // won't overlap
+}
+
+function updateNumbers(piVal) {
+  const a = 4;
+  const b = piVal;
+  const c = 16 / piVal;
+  const sumSq = a*a + b*b;
+  const cSq = c*c;
+  const err = Math.abs(sumSq - cSq);
+
+  const isGolden = Math.abs(piVal - PI_GOLDEN) < 0.0001;
+  const prefix = isGolden ? 'G' : 'C';
+
+  document.getElementById('valB' + prefix).textContent = b.toFixed(6);
+  document.getElementById('valC' + prefix).textContent = c.toFixed(6);
+  document.getElementById('valABsq' + prefix).textContent = sumSq.toFixed(6);
+  document.getElementById('valCsq' + prefix).textContent = cSq.toFixed(6);
+
+  const matchCell = document.getElementById('match' + prefix);
+  if (err < 0.00001) {
+    matchCell.textContent = '✓ EXACT';
+    matchCell.className = 'pass';
+  } else {
+    matchCell.textContent = '✗ OFF by ' + err.toFixed(4);
+    matchCell.className = 'fail';
+  }
+
+  // Error bar
+  const maxErr = 0.07;
+  const pct = Math.min((err / maxErr) * 100, 100);
+  const bar = document.getElementById('errorBar');
+  bar.style.width = pct + '%';
+  bar.className = 'error-bar-fill ' + (err < 0.00001 ? 'pass' : 'fail');
+
+  document.getElementById('errorVal').textContent = err.toFixed(6);
+  const msg = document.getElementById('errorMsg');
+  if (err < 0.00001) {
+    msg.textContent = '✓ The triangle closes perfectly. Pythagorean equality is exact.';
+    msg.className = 'error-msg pass';
+  } else {
+    msg.textContent = '✗ The triangle does NOT close. Pythagorean error = ' + err.toFixed(6) + ' (off by ' + (err / sumSq * 100).toFixed(2) + '%)';
+    msg.className = 'error-msg fail';
+  }
+}
+
+function togglePi() {
+  useGolden = document.getElementById('piToggle').checked;
+  const piVal = useGolden ? PI_GOLDEN : PI_CONV;
+  const piName = document.getElementById('piName');
+  piName.textContent = useGolden ? 'Golden π' : 'Conventional π';
+  piName.style.color = useGolden ? '#4caf7d' : '#e8605a';
+
+  drawTriangle(piVal);
+  updateNumbers(piVal);
+}
+
+// ── Init ──
+togglePi();  // start with conventional π
+</script>
+
+</body>
+</html>
