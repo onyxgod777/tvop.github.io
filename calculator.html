@@ -314,9 +314,9 @@ const TRIG_ANGLES = [
 const SIN_90_NORM = Math.sin(90 * PI_GOLDEN / 180);
 function sin_g(deg) { return Math.sin(deg * PI_GOLDEN / 180) / SIN_90_NORM; }
 function cos_g(deg) { return Math.cos(deg * PI_GOLDEN / 180) / SIN_90_NORM; }
-function tan_g(deg) { return Math.tan(deg * PI_GOLDEN / 180) / SIN_90_NORM; }
-function asin_g(v)  { return Math.asin(v) * 180 / PI_GOLDEN; }
-function acos_g(v)  { return Math.acos(v) * 180 / PI_GOLDEN; }
+function tan_g(deg) { return Math.tan(deg * PI_GOLDEN / 180); /* tan = sin/cos, so normalization cancels */ }
+function asin_g(v)  { return Math.asin(v * SIN_90_NORM) * 180 / PI_GOLDEN; }
+function acos_g(v)  { return Math.acos(v * SIN_90_NORM) * 180 / PI_GOLDEN; }
 function atan_g(v)  { return Math.atan(v) * 180 / PI_GOLDEN; }
 
 function fn_golden(name, arg) {
