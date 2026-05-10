@@ -45,6 +45,10 @@
       padding: 100px 24px 60px;
     }
 
+    @media (max-width: 640px) {
+      .container { padding: 80px 12px 40px; }
+    }
+
     h1 {
       color: var(--gold);
       font-size: 32px;
@@ -746,16 +750,13 @@ function drawTriangle(piVal) {
   ctx.fillText('(0, 0, 4)', vEnd.x, vEnd.y - 14); // won't overlap
 }
 
-function updateNumbers(piVal) {
+function populateRow(piVal, prefix) {
   const a = 4;
   const b = piVal;
   const c = 16 / piVal;
   const sumSq = a*a + b*b;
   const cSq = c*c;
   const err = Math.abs(sumSq - cSq);
-
-  const isGolden = Math.abs(piVal - PI_GOLDEN) < 0.0001;
-  const prefix = isGolden ? 'G' : 'C';
 
   document.getElementById('valB' + prefix).textContent = b.toFixed(6);
   document.getElementById('valC' + prefix).textContent = c.toFixed(6);
@@ -770,8 +771,21 @@ function updateNumbers(piVal) {
     matchCell.textContent = '✗ OFF by ' + err.toFixed(4);
     matchCell.className = 'fail';
   }
+}
 
-  // Error bar
+function updateNumbers(goldenPiVal) {
+  // Always update BOTH columns
+  populateRow(PI_GOLDEN, 'G');
+  populateRow(PI_CONV, 'C');
+
+  // Error bar and message depend on which mode is active
+  const a = 4;
+  const b = goldenPiVal;
+  const c = 16 / goldenPiVal;
+  const sumSq = a*a + b*b;
+  const cSq = c*c;
+  const err = Math.abs(sumSq - cSq);
+
   const maxErr = 0.07;
   const pct = Math.min((err / maxErr) * 100, 100);
   const bar = document.getElementById('errorBar');
