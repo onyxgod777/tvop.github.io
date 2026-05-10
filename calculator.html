@@ -1,720 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="icon" type="image/x-icon" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" type="image/x-icon" href="apple-touch-icon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Golden π Calculator — The True Value Of Pi</title>
-  <meta name="description" content="Interactive calculator using Golden Pi π<sub>τ</sub> = 4/√φ = 3.144606. Compare trig values, explore the unit circle, and see the difference from standard π.">
-  <meta property="og:title" content="Golden π Calculator — The True Value Of Pi">
-  <meta property="og:description" content="Interactive calculator using Golden Pi π<sub>τ</sub> = 4/√φ">
-  <meta property="og:url" content="https://pi.thealpha-secret.xyz/calculator.html">
-  <meta property="og:type" content="website">
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <meta name="description" content="Interactive calculator using golden π = 4/√φ = 3.144605511030. Full expression evaluator with trig, comparison mode." />
+  <meta property="og:title" content="Golden π Calculator" />
+  <meta property="og:description" content="Interactive calculator using golden π = 4/√φ = 3.144605511030. Full expression evaluator with trig, comparison mode." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    /* ── Calculator-specific styles ── */
-    .calc-wrapper {
-      max-width: 500px;
-      margin: 120px auto 80px;
-      padding: 0 16px;
+    :root {
+      --navy: #0a1628; --navy-light: #132044; --navy-dark: #060e1a;
+      --gold: #d4a843; --gold-light: #f0d080; --gold-dim: #a07830;
+      --border: rgba(212,168,67,0.3); --text: #e8e0d0; --text-muted: #a09880;
+      --green: #4caf7d; --red: #e8605a; --card-bg: #0f1e36;
     }
-    
-    .calc-card {
-      font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace;
-      background: rgba(19, 32, 68, 0.6);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--navy); color: var(--text);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      min-height: 100vh;
     }
-    
-    .calc-card h2 {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 4px;
-      color: var(--text);
-      font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace;
+
+    /* ── Layout ── */
+    .calc-wrap {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 100px 16px 40px;
     }
-    .calc-card h2 span { color: var(--gold); }
-    .calc-card .subtitle {
-      font-size: 11px;
+
+    .calc-wrap h1 {
+      color: var(--gold);
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .calc-wrap .subtitle {
+      text-align: center;
       color: var(--text-muted);
-      margin-bottom: 16px;
+      font-size: 14px;
+      margin-bottom: 24px;
+      font-family: 'Courier New', monospace;
     }
-    
-    .mode-toggle {
+
+    /* ── Mode Bar ── */
+    .mode-bar {
       display: flex;
+      justify-content: center;
       gap: 0;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
       border-radius: 8px;
       overflow: hidden;
-      border: 1px solid var(--border);
     }
-    .mode-toggle button {
+    .mode-btn {
       flex: 1;
-      padding: 8px;
-      font-size: 12px;
-      font-family: inherit;
-      cursor: pointer;
-      border: none;
-      background: rgba(19,32,68,0.8);
-      color: var(--text-muted);
-      transition: all 0.15s;
-    }
-    .mode-toggle button.active-gold {
-      background: rgba(212,168,67,0.2);
-      color: var(--gold);
-    }
-    .mode-toggle button.active-std {
-      background: rgba(88,166,255,0.15);
-      color: #58a6ff;
-    }
-    .mode-toggle button:first-child {
-      border-right: 1px solid var(--border);
-    }
-    
-    .display {
-      background: rgba(10,22,40,0.6);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 12px;
-      text-align: right;
-    }
-    .display .formula {
-      font-size: 11px;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-      min-height: 16px;
-    }
-    .display .result {
-      font-size: 28px;
-      font-weight: 600;
-      word-break: break-all;
-    }
-    .display .result.gold { color: var(--gold); }
-    .display .result.std { color: #58a6ff; }
-    .display .diff {
-      font-size: 11px;
-      margin-top: 4px;
-      padding: 4px 8px;
-      border-radius: 4px;
-      display: inline-block;
-    }
-    .diff.positive {
-      color: #3fb950;
-      background: rgba(63,185,80,0.1);
-    }
-    .diff.negative {
-      color: #f85149;
-      background: rgba(248,81,73,0.1);
-    }
-    
-    .pi-display {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .pi-card {
-      flex: 1;
-      background: rgba(10,22,40,0.6);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px;
+      padding: 10px 12px;
       text-align: center;
-    }
-    .pi-card .label {
-      font-size: 10px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
       color: var(--text-muted);
-    }
-    .pi-card .value {
-      font-size: 14px;
-      font-weight: 600;
-      margin-top: 2px;
-    }
-    .pi-card .value.gold { color: var(--gold); }
-    .pi-card .value.std { color: #58a6ff; }
-    
-    .button-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .button-grid button {
-      padding: 14px 8px;
-      font-size: 14px;
-      font-family: inherit;
       cursor: pointer;
+      transition: all 0.2s;
+      background: transparent;
+      border: none;
+      letter-spacing: 0.5px;
+    }
+    .mode-btn:hover { color: var(--gold-light); background: rgba(212,168,67,0.08); }
+    .mode-btn.active {
+      color: var(--gold-light);
+      background: rgba(212,168,67,0.15);
+      font-weight: bold;
+    }
+    .mode-btn.active-golden { border-bottom: 2px solid var(--gold); }
+    .mode-btn.active-standard { border-bottom: 2px solid var(--text-muted); }
+
+    /* ── Display ── */
+    .display-area {
+      background: var(--navy-dark);
       border: 1px solid var(--border);
       border-radius: 8px;
-      background: rgba(19,32,68,0.8);
-      color: var(--text);
-      transition: all 0.1s;
-    }
-    .button-grid button:hover {
-      background: rgba(212,168,67,0.1);
-      border-color: var(--gold-dark);
-    }
-    .button-grid button:active {
-      transform: scale(0.96);
-    }
-    .button-grid button.op { color: var(--gold); }
-    .button-grid button.fn { color: #58a6ff; font-size: 11px; }
-    .button-grid button.equals {
-      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
-      color: var(--navy);
-      border-color: var(--gold);
-      font-weight: 700;
-    }
-    .button-grid button.equals:hover {
-      background: var(--gold-light);
-    }
-    .button-grid button.clear { color: #f85149; }
-    .button-grid button.span2 { grid-column: span 2; }
-    
-    .constants {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 4px;
+      padding: 14px 18px;
       margin-bottom: 12px;
+      min-height: 80px;
     }
-    .constants button {
-      padding: 6px 8px;
-      font-size: 10px;
-      font-family: inherit;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      background: rgba(19,32,68,0.8);
+    .display-area .formula {
+      font-size: 14px;
       color: var(--text-muted);
-      transition: all 0.1s;
+      min-height: 22px;
+      word-break: break-all;
+      font-family: 'Courier New', monospace;
     }
-    .constants button:hover {
-      background: rgba(212,168,67,0.1);
-      color: var(--text);
-    }
-    
-    .unit-diagram {
-      background: rgba(10,22,40,0.6);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 12px;
-    }
-    .unit-diagram h3 {
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-bottom: 8px;
-    }
-    .unit-diagram canvas {
-      display: block;
-      margin: 0 auto;
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-    }
-    
-    .compare-table {
-      background: rgba(10,22,40,0.6);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px;
-      margin-bottom: 12px;
-      font-size: 11px;
-    }
-    .compare-table h3 {
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-bottom: 8px;
-    }
-    .compare-table table { width: 100%; border-collapse: collapse; }
-    .compare-table th, .compare-table td {
-      padding: 4px 8px;
+    .display-area .result {
+      font-size: 28px;
+      color: var(--gold-light);
+      min-height: 36px;
+      word-break: break-all;
       text-align: right;
-      border-bottom: 1px solid var(--border);
+      font-family: 'Courier New', monospace;
     }
-    .compare-table th { color: var(--text-muted); font-weight: 500; }
-    .compare-table td:first-child { text-align: left; }
-    .compare-table .diff-pct { font-size: 10px; }
-    
-    .error {
-      color: #f85149;
+    .display-area .result.error {
+      color: var(--red);
+      font-size: 16px;
+    }
+
+    /* ── Button Grid ── */
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .btn-grid button {
+      padding: 13px 4px;
+      font-size: 15px;
+      font-family: 'Courier New', monospace;
+      background: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.12s;
+    }
+    .btn-grid button:hover { background: var(--navy-light); border-color: var(--gold-dim); }
+    .btn-grid button:active { transform: scale(0.95); background: rgba(212,168,67,0.15); }
+    .btn-grid button.fn { color: var(--gold); font-size: 13px; }
+    .btn-grid button.op { color: var(--gold-light); font-size: 18px; }
+    .btn-grid button.const { color: var(--gold-dim); font-size: 14px; }
+    .btn-grid button.eq { background: var(--gold-dim); color: var(--navy-dark); font-weight: bold; border-color: var(--gold); }
+    .btn-grid button.eq:hover { background: var(--gold); }
+    .btn-grid button.clr { color: var(--red); }
+    .btn-grid button.bs { color: var(--red); }
+
+    /* ── π Info Bar ── */
+    .pi-bar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 16px;
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+    }
+    .pi-bar .golden { color: var(--gold-light); }
+    .pi-bar .standard { color: var(--text-muted); }
+
+    /* ── Trig Compare ── */
+    .trig-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Courier New', monospace;
       font-size: 12px;
-      margin-top: 4px;
+      margin-bottom: 20px;
     }
-    
+    .trig-table th {
+      background: var(--navy-dark);
+      color: var(--gold-dim);
+      padding: 7px 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .trig-table td {
+      padding: 6px 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .trig-table .gold { color: var(--gold-light); }
+    .trig-table .std { color: var(--text-muted); }
+    .trig-table .diff-pos { color: var(--green); }
+    .trig-table .diff-neg { color: var(--red); }
+
+    .trig-table .angle-label { color: var(--gold); font-weight: bold; }
+
     @media (max-width: 480px) {
-      .calc-wrapper { margin-top: 140px; }
-      .button-grid button { padding: 12px 6px; font-size: 13px; }
-      .display .result { font-size: 24px; }
+      .calc-wrap { padding: 80px 10px 30px; }
+      .calc-wrap h1 { font-size: 20px; }
+      .btn-grid { gap: 4px; }
+      .btn-grid button { padding: 11px 2px; font-size: 13px; }
+      .display-area .result { font-size: 22px; }
+      .pi-bar { font-size: 11px; gap: 10px; }
+      .trig-table { font-size: 10px; }
+      .trig-table th, .trig-table td { padding: 4px 3px; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="header">
-      <h1>&Phi; The True Value Of Pi &Pi;</h1>
-      <div class="menu">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="bitcoin:bc1qxj9pa0vpe7289c3dq782hfj9cl8wcja2xwls2c">DONATE</a></li>
-          <li><a href="mailto:sunntzu@realvalueofpi.xyz">CONTACT</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="calculator.html" style="color:var(--gold-light);">CALC</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
 
-  <div class="calc-wrapper">
-    <div class="calc-card">
-      <div id="root"></div>
+<header>
+  <div class="header">
+    <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="blog/index.html">BLOG</a></li>
+        <li><a href="calculator.html" style="color:var(--gold-light);">CALC</a></li>
+      </ul>
     </div>
   </div>
+</header>
 
-  <footer>
-    <div class="social">
-      <a href="https://x.com/JudeAndreCharl7?t=OteEep36h8dswQlO8ADxow&s=09" class="fa fa-twitter"></a>
-      <a href="https://www.youtube.com/onyxgod777" target="_blank" class="fa fa-youtube"></a>
-      <a href="https://www.instagram.com/judeandrecharles?igsh=aTY3cjdjN3JtNGw1" class="fa fa-instagram"></a>
-      <a href="https://github.com/onyxgod777" target="_blank" class="fa fa-github"></a>
-    </div>
-  </footer>
+<div class="calc-wrap">
 
-  <script type="text/babel">
-const { useState, useRef, useEffect, useCallback } = React;
+<h1>Golden π Calculator</h1>
+<p class="subtitle">π<sub>g</sub> = 4/√φ &middot; √(√320−8)</p>
 
-// ─── Constants ─────────────────────────────
-const PHI = (1 + Math.sqrt(5)) / 2;     // 1.618...
-const PI_GOLDEN = 4 / Math.sqrt(PHI);    // 3.144605511...
-const PI_STANDARD = Math.PI;             // 3.141592653...
-const RATIO = PI_GOLDEN / PI_STANDARD;   // ≈ 1.00096 (0.096% larger)
+<!-- ── Mode Toggle ── -->
+<div class="mode-bar">
+  <button class="mode-btn active active-golden" data-mode="golden" onclick="setMode('golden')">✦ Golden π</button>
+  <button class="mode-btn" data-mode="standard" onclick="setMode('standard')">◯ Standard π</button>
+</div>
 
-const TRIG_ANGLES = [
-  { deg: 0,   label: '0°' },
-  { deg: 15,  label: '15°' },
-  { deg: 30,  label: '30°' },
-  { deg: 45,  label: '45°' },
-  { deg: 60,  label: '60°' },
-  { deg: 75,  label: '75°' },
-  { deg: 90,  label: '90°' },
-  { deg: 180, label: '180°' },
-  { deg: 270, label: '270°' },
-  { deg: 360, label: '360°' },
-];
+<!-- ── Display ── -->
+<div class="display-area">
+  <div class="formula" id="formula">&nbsp;</div>
+  <div class="result" id="display">0</div>
+</div>
 
-// ─── Trig functions with Golden Pi ─────────
-const SIN_90_NORM = Math.sin(90 * PI_GOLDEN / 180);
-function sin_g(deg) { return Math.sin(deg * PI_GOLDEN / 180) / SIN_90_NORM; }
-function cos_g(deg) { return Math.cos(deg * PI_GOLDEN / 180) / SIN_90_NORM; }
-function tan_g(deg) { return Math.tan(deg * PI_GOLDEN / 180); /* tan = sin/cos, so normalization cancels */ }
-function asin_g(v)  { return Math.asin(v * SIN_90_NORM) * 180 / PI_GOLDEN; }
-function acos_g(v)  { return Math.acos(v * SIN_90_NORM) * 180 / PI_GOLDEN; }
-function atan_g(v)  { return Math.atan(v) * 180 / PI_GOLDEN; }
+<!-- ── π Info Bar ── -->
+<div class="pi-bar" id="piBar">
+  <span class="golden">π<sub>g</sub> = 3.144605511030</span>
+  <span class="standard">π = 3.141592653590</span>
+  <span>Ratio: <span id="ratioDisplay">+0.0955</span>%</span>
+</div>
 
-function fn_golden(name, arg) {
-  switch(name) {
-    case 'sin': return sin_g(arg);
-    case 'cos': return cos_g(arg);
-    case 'tan': return tan_g(arg);
-    case 'asin': return asin_g(arg);
-    case 'acos': return acos_g(arg);
-    case 'atan': return atan_g(arg);
-    default: return NaN;
+<!-- ── Button Grid ── -->
+<div class="btn-grid">
+  <button class="fn" onclick="insert('sin(')">sin</button>
+  <button class="fn" onclick="insert('cos(')">cos</button>
+  <button class="fn" onclick="insert('tan(')">tan</button>
+  <button class="fn" onclick="insert('asin(')">asin</button>
+  <button class="fn" onclick="insert('acos(')">acos</button>
+
+  <button class="fn" onclick="insert('atan(')">atan</button>
+  <button class="fn" onclick="insert('sqrt(')">√</button>
+  <button class="fn" onclick="insert('abs(')">abs</button>
+  <button class="const" onclick="insert('πg')">π<sub>g</sub></button>
+  <button class="const" onclick="insert('π')">π</button>
+
+  <button class="const" onclick="insert('φ')">φ</button>
+  <button class="const" onclick="insert('e')">e</button>
+  <button class="op" onclick="insert('^')">^</button>
+  <button class="op" onclick="insert('(')">(</button>
+  <button class="op" onclick="insert(')')">)</button>
+
+  <button class="clr" onclick="clearAll()">AC</button>
+  <button class="bs" onclick="backspace()">⌫</button>
+  <button style="color:var(--gold-dim);" onclick="insert('%')">%</button>
+  <button class="op" onclick="insert('/')">÷</button>
+  <button class="op" onclick="insert('*')">×</button>
+
+  <button onclick="insert('7')">7</button>
+  <button onclick="insert('8')">8</button>
+  <button onclick="insert('9')">9</button>
+  <button class="op" onclick="insert('-')">−</button>
+  <button class="eq" onclick="evaluate()">=</button>
+
+  <button onclick="insert('4')">4</button>
+  <button onclick="insert('5')">5</button>
+  <button onclick="insert('6')">6</button>
+  <button class="op" onclick="insert('+')">+</button>
+  <button class="fn" onclick="insert('πg/π')" style="font-size:11px;">π<sub>g</sub>/π</button>
+
+  <button onclick="insert('1')">1</button>
+  <button onclick="insert('2')">2</button>
+  <button onclick="insert('3')">3</button>
+  <button onclick="insert('0')">0</button>
+  <button onclick="insert('.')">.</button>
+</div>
+
+<!-- ── Trig Comparison Table ── -->
+<h3 style="color:var(--gold);font-size:15px;margin-bottom:8px;">Trigonometric Comparison</h3>
+<table class="trig-table" id="trigTable">
+  <thead>
+    <tr>
+      <th>Angle</th>
+      <th>sin (golden)</th>
+      <th>sin (standard)</th>
+      <th>Δ%</th>
+      <th>cos (golden)</th>
+      <th>cos (standard)</th>
+      <th>Δ%</th>
+    </tr>
+  </thead>
+  <tbody id="trigBody"></tbody>
+</table>
+
+</div>
+
+<footer>
+  <div class="social">
+    <a href="https://x.com/onyxgod777" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/onyxgod777" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/judeandrecharles" class="fa fa-instagram"></a>
+    <a href="https://github.com/onyxgod777" class="fa fa-github"></a>
+  </div>
+  <p>π = 4/√φ &middot; √(√320−8) &middot; 3.144605511030</p>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+//  Golden π Calculator — Pure Vanilla JS
+// ═══════════════════════════════════════════════════════════════
+
+// ── Constants ──
+const PHI = (1 + Math.sqrt(5)) / 2;          // 1.618033988749895
+const PI_G = 4 / Math.sqrt(PHI);              // 3.144605511029693
+const PI_S = Math.PI;                         // 3.141592653589793
+const EULER = Math.E;                         // 2.718281828459045
+
+// ── State ──
+let mode = 'golden';
+let display = '0';
+let formula = '';
+
+// DOM refs
+const displayEl = document.getElementById('display');
+const formulaEl = document.getElementById('formula');
+const trigBody = document.getElementById('trigBody');
+
+// ── Trig implementations ──
+// Golden mode: convert deg→rad using PI_G, compute, then normalize so sin(90°)=1
+const SIN_90_G = Math.sin(90 * PI_G / 180);  // normalization factor
+
+function sinG(deg)  { return Math.sin(deg * PI_G / 180) / SIN_90_G; }
+function cosG(deg)  { return Math.cos(deg * PI_G / 180) / SIN_90_G; }
+function tanG(deg)  { return Math.tan(deg * PI_G / 180); }  // tan = sin/cos, normalization cancels
+function asinG(v)   { return Math.asin(v * SIN_90_G) * 180 / PI_G; }
+function acosG(v)   { return Math.acos(v * SIN_90_G) * 180 / PI_G; }
+function atanG(v)   { return Math.atan(v) * 180 / PI_G; }
+
+function sinS(deg)  { return Math.sin(deg * PI_S / 180); }
+function cosS(deg)  { return Math.cos(deg * PI_S / 180); }
+function tanS(deg)  { return Math.tan(deg * PI_S / 180); }
+function asinS(v)   { return Math.asin(v) * 180 / PI_S; }
+function acosS(v)   { return Math.acos(v) * 180 / PI_S; }
+function atanS(v)   { return Math.atan(v) * 180 / PI_S; }
+
+// ── Mode switching ──
+function setMode(m) {
+  mode = m;
+  document.querySelectorAll('.mode-btn').forEach(b => {
+    b.classList.remove('active', 'active-golden', 'active-standard');
+    if (b.dataset.mode === m) {
+      b.classList.add('active');
+      b.classList.add(m === 'golden' ? 'active-golden' : 'active-standard');
+    }
+  });
+  document.getElementById('ratioDisplay').textContent =
+    (((PI_G / PI_S - 1) * 100).toFixed(4));
+  renderTrigTable();
+}
+
+// ── Display helpers ──
+function updateDisplay() {
+  displayEl.textContent = display;
+  displayEl.className = 'result';
+  formulaEl.innerHTML = formula || '&nbsp;';
+}
+
+function insert(val) {
+  if (display === '0' && !'+-*/^%'.includes(val) && val !== ')') {
+    display = (val === '.' ? '0.' : val);
+  } else {
+    display += val;
+  }
+  updateDisplay();
+}
+
+function backspace() {
+  if (display.length <= 1) { display = '0'; }
+  else { display = display.slice(0, -1); }
+  updateDisplay();
+}
+
+function clearAll() {
+  display = '0'; formula = '';
+  updateDisplay();
+}
+
+// ── Expression evaluator ──
+function evaluate() {
+  if (!display || display === '0') return;
+
+  try {
+    let expr = display;
+
+    // Expand constants to full precision BEFORE evaluation
+    expr = expr.replace(/πg|pi_g/gi, `(${PI_G})`);
+    expr = expr.replace(/(?<![a-zA-Z])π(?!_)/g, `(${mode === 'golden' ? PI_G : PI_S})`);
+    expr = expr.replace(/φ|phi/gi, `(${PHI})`);
+    expr = expr.replace(/(?<![a-zA-Z])e(?![a-zA-Z(])/g, `(${EULER})`);
+
+    // ^ → **
+    expr = expr.replace(/\^/g, '**');
+
+    // Function replacements
+    const funcs = ['sin', 'cos', 'tan', 'asin', 'acos', 'atan'];
+    for (const fn of funcs) {
+      while (expr.includes(fn + '(')) {
+        expr = expr.replace(fn + '(', fn + '_eval(');
+      }
+    }
+    expr = expr.replace(/sqrt\(/g, 'Math.sqrt(');
+    expr = expr.replace(/abs\(/g, 'Math.abs(');
+
+    // Build evaluator with the correct trig implementations
+    let fn;
+    if (mode === 'golden') {
+      fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
+        `return (${expr})`);
+      var result = fn(sinG, cosG, tanG, asinG, acosG, atanG, Math);
+    } else {
+      fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
+        `return (${expr})`);
+      var result = fn(sinS, cosS, tanS, asinS, acosS, atanS, Math);
+    }
+
+    if (!isFinite(result)) throw new Error('Undefined');
+
+    formula = display + ' =';
+    display = String(parseFloat(result.toFixed(12)));
+    updateDisplay();
+  } catch(e) {
+    formula = display + ' =';
+    display = 'Error';
+    displayEl.className = 'result error';
+    formulaEl.innerHTML = formula;
   }
 }
 
-function fn_standard(name, arg) {
-  switch(name) {
-    case 'sin': return Math.sin(arg * Math.PI / 180);
-    case 'cos': return Math.cos(arg * Math.PI / 180);
-    case 'tan': return Math.tan(arg * Math.PI / 180);
-    case 'asin': return Math.asin(arg) * 180 / Math.PI;
-    case 'acos': return Math.acos(arg) * 180 / Math.PI;
-    case 'atan': return Math.atan(arg) * 180 / Math.PI;
-    default: return NaN;
+// ── Trig Comparison Table ──
+function renderTrigTable() {
+  const angles = [0, 15, 30, 45, 60, 75, 90, 180, 270, 360];
+  const PI = mode === 'golden' ? PI_G : PI_S;
+  const sF = mode === 'golden' ? sinG : sinS;
+  const cF = mode === 'golden' ? cosG : cosS;
+
+  let html = '';
+  for (const deg of angles) {
+    const sv = sF(deg);
+    const cv = cF(deg);
+    const sv_s = sinS(deg);
+    const cv_s = cosS(deg);
+
+    const sinDiff = ((sv - sv_s) / sv_s) * 100;
+    const cosDiff = ((cv - cv_s) / cv_s) * 100;
+
+    html += `<tr>
+      <td class="angle-label">${deg}°</td>
+      <td class="gold">${sv.toFixed(10)}</td>
+      <td class="std">${sv_s.toFixed(10)}</td>
+      <td class="${sinDiff >= 0 ? 'diff-pos' : 'diff-neg'}">${sinDiff >= 0 ? '+' : ''}${sinDiff.toFixed(4)}%</td>
+      <td class="gold">${cv.toFixed(10)}</td>
+      <td class="std">${cv_s.toFixed(10)}</td>
+      <td class="${cosDiff >= 0 ? 'diff-pos' : 'diff-neg'}">${cosDiff >= 0 ? '+' : ''}${cosDiff.toFixed(4)}%</td>
+    </tr>`;
   }
+  trigBody.innerHTML = html;
 }
 
-// ─── Unit Circle Canvas ────────────────────
-function UnitCircle({ golden }) {
-  const canvasRef = useRef(null);
-  const PI = golden ? PI_GOLDEN : PI_STANDARD;
-  
-  useEffect(() => {
-    const c = canvasRef.current;
-    if (!c) return;
-    const dpr = window.devicePixelRatio || 1;
-    c.width = c.clientWidth * dpr;
-    c.height = c.clientHeight * dpr;
-    const ctx = c.getContext('2d');
-    ctx.scale(dpr, dpr);
-    
-    const w = c.clientWidth, h = c.clientHeight;
-    const cx = w / 2, cy = h / 2, r = Math.min(w, h) / 2.8;
-    
-    ctx.clearRect(0, 0, w, h);
-    
-    // Grid
-    ctx.strokeStyle = 'rgba(33, 55, 100, 0.3)';
-    ctx.lineWidth = 1;
-    for (let i = 0; i < w; i += w/8) {
-      ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, h); ctx.stroke();
-    }
-    for (let i = 0; i < h; i += h/8) {
-      ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(w, i); ctx.stroke();
-    }
-    
-    // Axes
-    ctx.strokeStyle = 'rgba(212, 168, 67, 0.3)';
-    ctx.lineWidth = 1.5;
-    ctx.beginPath(); ctx.moveTo(0, cy); ctx.lineTo(w, cy); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(cx, 0); ctx.lineTo(cx, h); ctx.stroke();
-    
-    // Circle
-    ctx.strokeStyle = golden ? '#d4a843' : '#58a6ff';
-    ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.arc(cx, cy, r, 0, PI * 2); ctx.stroke();
-    
-    // π labels
-    ctx.fillStyle = '#a09880';
-    ctx.font = '11px monospace';
-    ctx.fillText( PI.toFixed(6), cx + r + 8, cy + 4);
-    ctx.fillText('0', cx - 8, cy + 16);
-    ctx.fillText((PI/2).toFixed(6), cx + r * Math.cos(PI/2) + 8, cy - r * Math.sin(PI/2) - 4);
-    ctx.fillText((PI * 3/2).toFixed(6), cx + r * Math.cos(3*PI/2) + 8, cy - r * Math.sin(3*PI/2) + 16);
-    
-    // Tick marks on circle at 30° intervals
-    for (let deg = 0; deg < 360; deg += 30) {
-      const rad = deg * PI / 180;
-      const x = cx + r * Math.cos(rad);
-      const y = cy - r * Math.sin(rad);
-      ctx.fillStyle = '#a09880';
-      ctx.font = '9px monospace';
-      
-      const label = deg === 0 ? '0°' : deg + '°';
-      if (deg % 90 === 0) {
-        ctx.fillStyle = golden ? '#d4a843' : '#58a6ff';
-        ctx.beginPath(); ctx.arc(x, y, 3, 0, PI * 2); ctx.fill();
-      }
-      ctx.fillStyle = '#a09880';
-      ctx.fillText(label, x + 5, y + 4);
-    }
-    
-    // Legend
-    ctx.fillStyle = golden ? '#d4a843' : '#58a6ff';
-    ctx.font = '10px monospace';
-    ctx.fillText('π = ' + PI.toFixed(12), 8, 16);
-    
-  }, [golden, PI]);
-  
-  return (
-    <div className="unit-diagram">
-      <h3>Unit Circle ({golden ? 'Golden π' : 'Standard π'})</h3>
-      <canvas ref={canvasRef} style={{ width: '100%', maxWidth: 300, height: 300 }} />
-    </div>
-  );
-}
+// ── Keyboard support ──
+document.addEventListener('keydown', (e) => {
+  const key = e.key;
+  if (/^[\d.+\-*/^%()]$/.test(key)) { insert(key); e.preventDefault(); }
+  else if (key === 'Enter') { evaluate(); e.preventDefault(); }
+  else if (key === 'Backspace') { backspace(); e.preventDefault(); }
+  else if (key === 'Escape') { clearAll(); e.preventDefault(); }
+  else if (key === 'p') { insert('πg'); e.preventDefault(); }
+  else if (key === 'P') { insert('π'); e.preventDefault(); }
+  else if (key === 'f' || key === 'F') { insert('φ'); e.preventDefault(); }
+});
 
-// ─── Trig Compare Table ────────────────────
-function TrigCompare() {
-  return (
-    <div className="compare-table">
-      <h3>Trigonometric Comparison</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Angle</th>
-            <th>sin (Golden)</th>
-            <th>sin (Std)</th>
-            <th>Diff %</th>
-          </tr>
-        </thead>
-        <tbody>
-          {TRIG_ANGLES.map(({ deg, label }) => {
-            const g = sin_g(deg);
-            const s = Math.sin(deg * Math.PI / 180);
-            const diff = ((g - s) / s * 100);
-            return (
-              <tr key={deg}>
-                <td>{label}</td>
-                <td>{g.toFixed(8)}</td>
-                <td>{s.toFixed(8)}</td>
-                <td className="diff-pct" style={{ 
-                  color: Math.abs(diff) < 0.01 ? '#a09880' : diff > 0 ? '#3fb950' : '#f85149' 
-                }}>
-                  {diff > 0 ? '+' : ''}{diff.toFixed(6)}%
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
-// ─── Calculator Component ──────────────────
-function Calculator() {
-  const [mode, setMode] = useState('golden');  // 'golden' | 'standard'
-  const [display, setDisplay] = useState('0');
-  const [formula, setFormula] = useState('');
-  const [error, setError] = useState('');
-  
-  const PI = mode === 'golden' ? PI_GOLDEN : PI_STANDARD;
-  
-  const evaluate = useCallback((expr) => {
-    try {
-      // Replace constants
-      let e = expr
-        .replace(/π_τ|πg|pi_g/g, `(${PI_GOLDEN})`)
-        .replace(/π|pi/g, `(${PI})`)
-        .replace(/φ|phi/g, `(${PHI})`)
-        .replace(/e\b/g, `(${Math.E})`);
-      
-      // Replace ^ with ** for exponentiation
-      e = e.replace(/\^/g, '**');
-      
-      // Replace trig function calls: sin( → sin_g(, cos( → cos_g(, etc.
-      // This works for both golden and standard modes — the Function constructor
-      // receives different implementations for sin_g/cos_g/tan_g based on mode.
-      const trigs = ['sin', 'cos', 'tan', 'asin', 'acos', 'atan'];
-      for (const fn of trigs) {
-        while (e.includes(fn + '(')) {
-          e = e.replace(fn + '(', fn + '_g(');
-        }
-      }
-      
-      // Replace sqrt( → Math.sqrt( and abs( → Math.abs(
-      e = e.replace(/sqrt\(/g, 'Math.sqrt(');
-      e = e.replace(/abs\(/g, 'Math.abs(');
-      
-      // Build evaluation function with trig implementations based on mode
-      if (mode === 'golden') {
-        // Golden mode: use _g functions that compute with PI_GOLDEN
-        const fn = new Function(
-          'sin_g', 'cos_g', 'tan_g', 'asin_g', 'acos_g', 'atan_g', 'Math',
-          `return (${e})`
-        );
-        const result = fn(sin_g, cos_g, tan_g, asin_g, acos_g, atan_g, Math);
-        if (!isFinite(result)) throw new Error('Undefined');
-        return { value: result, expr: e };
-      } else {
-        // Standard mode: use standard trig (degrees in, degrees out)
-        const fn = new Function(
-          'sin_g', 'cos_g', 'tan_g', 'asin_g', 'acos_g', 'atan_g', 'Math',
-          `return (${e})`
-        );
-        const result = fn(
-          (x) => Math.sin(x * Math.PI / 180),
-          (x) => Math.cos(x * Math.PI / 180),
-          (x) => Math.tan(x * Math.PI / 180),
-          (x) => Math.asin(x) * 180 / Math.PI,
-          (x) => Math.acos(x) * 180 / Math.PI,
-          (x) => Math.atan(x) * 180 / Math.PI,
-          Math
-        );
-        if (!isFinite(result)) throw new Error('Undefined');
-        return { value: result, expr: e };
-      }
-    } catch(e) {
-      throw e;
-    }
-  }, [mode]);
-  
-  const handleInput = useCallback((input) => {
-    setError('');
-    if (input === '=') {
-      try {
-        const result = evaluate(display);
-        setFormula(display + ' =');
-        setDisplay(String(parseFloat(result.value.toFixed(12))));
-      } catch(e) {
-        setError(e.message || 'Error');
-      }
-      return;
-    }
-    
-    if (input === 'C') {
-      setDisplay('0');
-      setFormula('');
-      setError('');
-      return;
-    }
-    
-    if (input === '⌫') {
-      setDisplay(d => d.length > 1 ? d.slice(0, -1) : '0');
-      return;
-    }
-    
-    // Trig/math function buttons
-    const funcs = ['sin(', 'cos(', 'tan(', 'asin(', 'acos(', 'atan(', 'sqrt(', 'abs('];
-    if (funcs.includes(input)) {
-      setDisplay(d => d === '0' ? input : d + input);
-      return;
-    }
-    
-    // Constants
-    if (input === 'πg') { setDisplay(d => d === '0' ? PI_GOLDEN.toFixed(12) : d + PI_GOLDEN.toFixed(12)); return; }
-    if (input === 'π') { setDisplay(d => d === '0' ? 'π' : d + 'π'); return; }
-    if (input === 'φ') { setDisplay(d => d === '0' ? 'φ' : d + 'φ'); return; }
-    if (input === 'e') { setDisplay(d => d === '0' ? `${Math.E}`.slice(0,8) : d + `${Math.E}`.slice(0,8)); return; }
-    
-    // Operator handling
-    const ops = ['+', '-', '*', '/', '^', '**', '%'];
-    if (ops.includes(input)) {
-      setDisplay(d => d + ' ' + input + ' ');
-      return;
-    }
-    
-    // Parentheses
-    if (input === '(' || input === ')') {
-      setDisplay(d => d + input);
-      return;
-    }
-    
-    // Numbers and decimal
-    if (input === '.' && display.includes('.')) return;
-    setDisplay(d => d === '0' ? input : d + input);
-  }, [display, evaluate]);
-  
-  const handleKeyDown = useCallback((e) => {
-    const key = e.key;
-    if (key === 'Enter' || key === '=') { handleInput('='); }
-    else if (key === 'Escape' || key === 'c') { handleInput('C'); }
-    else if (key === 'Backspace') { handleInput('⌫'); }
-    else if (/^[\d.]$/.test(key)) { handleInput(key); }
-    else if (['+', '-', '*', '/'].includes(key)) { handleInput(key); }
-    else if (key === '(' || key === ')') { handleInput(key); }
-  }, [handleInput]);
-  
-  useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleKeyDown]);
-  
-  const gold = mode === 'golden';
-  
-  const buttons = [
-    { row: [
-      { label: 'C', action: 'C', cls: 'clear' },
-      { label: '⌫', action: '⌫', cls: '' },
-      { label: '()', action: '()', disabled: true, cls: '' },
-      { label: '÷', action: '/', cls: 'op' },
-    ]},
-    { row: [
-      { label: 'sin', action: 'sin(', cls: 'fn' },
-      { label: '7', action: '7' },
-      { label: '8', action: '8' },
-      { label: '9', action: '9' },
-    ]},
-    { row: [
-      { label: 'cos', action: 'cos(', cls: 'fn' },
-      { label: '4', action: '4' },
-      { label: '5', action: '5' },
-      { label: '6', action: '6' },
-    ]},
-    { row: [
-      { label: 'tan', action: 'tan(', cls: 'fn' },
-      { label: '1', action: '1' },
-      { label: '2', action: '2' },
-      { label: '3', action: '3' },
-    ]},
-    { row: [
-      { label: 'asin', action: 'asin(', cls: 'fn' },
-      { label: 'acos', action: 'acos(', cls: 'fn' },
-      { label: 'atan', action: 'atan(', cls: 'fn' },
-      { label: '×', action: '*', cls: 'op' },
-    ]},
-    { row: [
-      { label: '√', action: 'sqrt(', cls: 'fn' },
-      { label: '0', action: '0' },
-      { label: '.', action: '.' },
-      { label: '−', action: '-', cls: 'op' },
-    ]},
-    { row: [
-      { label: 'πg', action: 'πg', cls: 'op' },
-      { label: 'π', action: 'π', cls: 'fn' },
-      { label: 'φ', action: 'φ', cls: 'fn' },
-      { label: '+', action: '+', cls: 'op' },
-    ]},
-    { row: [
-      { label: '(', action: '(', cls: 'fn' },
-      { label: ')', action: ')', cls: 'fn' },
-      { label: '^', action: '^', cls: 'op' },
-      { label: '=', action: '=', cls: 'equals' },
-    ]},
-  ];
-  
-  return (
-    <div>
-      <h2>Golden <span>π</span> Calculator</h2>
-      <div className="subtitle">π<sub>τ</sub> = 4/√φ = {PI_GOLDEN.toFixed(12)} · φ = {PHI.toFixed(12)}</div>
-      
-      <div className="mode-toggle">
-        <button className={gold ? 'active-gold' : ''} onClick={() => setMode('golden')}>Golden π</button>
-        <button className={!gold ? 'active-std' : ''} onClick={() => setMode('standard')}>Standard π</button>
-      </div>
-      
-      <div className="pi-display">
-        <div className="pi-card">
-          <div className="label">Golden π (π<sub>τ</sub>)</div>
-          <div className="value gold">{PI_GOLDEN.toFixed(12)}</div>
-        </div>
-        <div className="pi-card">
-          <div className="label">Standard π</div>
-          <div className="value std">{PI_STANDARD.toFixed(12)}</div>
-        </div>
-        <div className="pi-card" style={{ borderColor: '#3fb950' }}>
-          <div className="label">Difference</div>
-          <div className="value" style={{ color: '#3fb950', fontSize: 12 }}>
-            +{((PI_GOLDEN / PI_STANDARD - 1) * 100).toFixed(6)}%
-          </div>
-        </div>
-      </div>
-      
-      <div className="display">
-        <div className="formula">{formula}&nbsp;</div>
-        <div className={`result ${gold ? 'gold' : 'std'}`}>{display}</div>
-        {error && <div className="error">{error}</div>}
-      </div>
-      
-      {buttons.map((group, gi) => (
-        <div className="button-grid" key={gi}>
-          {group.row.map((btn, bi) => (
-            <button
-              key={bi}
-              className={`${btn.cls || ''} ${btn.span2 ? 'span2' : ''}`}
-              onClick={() => !btn.disabled && handleInput(btn.action)}
-              disabled={btn.disabled}
-            >
-              {btn.label}
-            </button>
-          ))}
-        </div>
-      ))}
-      
-      <div className="constants">
-        <button onClick={() => setDisplay('πg')}>π golden = 4/√φ</button>
-        <button onClick={() => setDisplay('π')}>π standard</button>
-        <button onClick={() => setDisplay('φ')}>φ = (1+√5)/2</button>
-        <button onClick={() => setDisplay(d => d + '**' + (1/2))}>√x</button>
-      </div>
-      
-      <TrigCompare />
-      <UnitCircle golden={gold} />
-    </div>
-  );
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(<Calculator />);
+// ── Init ──
+renderTrigTable();
+setMode('golden');
 </script>
+
 </body>
 </html>
