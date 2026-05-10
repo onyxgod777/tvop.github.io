@@ -397,7 +397,7 @@ function evaluate() {
     expr = expr.replace(/πg|pi_g/gi, `(${PI_G})`);
     expr = expr.replace(/(?<![a-zA-Z])π(?!_)/g, `(${mode === 'golden' ? PI_G : PI_S})`);
     expr = expr.replace(/φ|phi/gi, `(${PHI})`);
-    expr = expr.replace(/(?<![a-zA-Z])e(?![a-zA-Z(])/g, `(${EULER})`);
+    expr = expr.replace(/\be\b/g, `(${EULER})`);
 
     // ^ → **
     expr = expr.replace(/\^/g, '**');
@@ -432,6 +432,7 @@ function evaluate() {
   } catch(e) {
     formula = display + ' =';
     display = 'Error';
+    displayEl.textContent = display;
     displayEl.className = 'result error';
     formulaEl.innerHTML = formula;
   }
