@@ -386,10 +386,10 @@ function UnitCircle({ golden }) {
     // π labels
     ctx.fillStyle = '#a09880';
     ctx.font = '11px monospace';
-    ctx.fillText( PI.toFixed(4), cx + r + 8, cy + 4);
+    ctx.fillText( PI.toFixed(6), cx + r + 8, cy + 4);
     ctx.fillText('0', cx - 8, cy + 16);
-    ctx.fillText((PI/2).toFixed(4), cx + r * Math.cos(PI/2) + 8, cy - r * Math.sin(PI/2) - 4);
-    ctx.fillText((PI * 3/2).toFixed(4), cx + r * Math.cos(3*PI/2) + 8, cy - r * Math.sin(3*PI/2) + 16);
+    ctx.fillText((PI/2).toFixed(6), cx + r * Math.cos(PI/2) + 8, cy - r * Math.sin(PI/2) - 4);
+    ctx.fillText((PI * 3/2).toFixed(6), cx + r * Math.cos(3*PI/2) + 8, cy - r * Math.sin(3*PI/2) + 16);
     
     // Tick marks on circle at 30° intervals
     for (let deg = 0; deg < 360; deg += 30) {
@@ -411,7 +411,7 @@ function UnitCircle({ golden }) {
     // Legend
     ctx.fillStyle = golden ? '#d4a843' : '#58a6ff';
     ctx.font = '10px monospace';
-    ctx.fillText('π = ' + PI.toFixed(7), 8, 16);
+    ctx.fillText('π = ' + PI.toFixed(12), 8, 16);
     
   }, [golden, PI]);
   
@@ -445,12 +445,12 @@ function TrigCompare() {
             return (
               <tr key={deg}>
                 <td>{label}</td>
-                <td>{g.toFixed(6)}</td>
-                <td>{s.toFixed(6)}</td>
+                <td>{g.toFixed(8)}</td>
+                <td>{s.toFixed(8)}</td>
                 <td className="diff-pct" style={{ 
                   color: Math.abs(diff) < 0.01 ? '#a09880' : diff > 0 ? '#3fb950' : '#f85149' 
                 }}>
-                  {diff > 0 ? '+' : ''}{diff.toFixed(4)}%
+                  {diff > 0 ? '+' : ''}{diff.toFixed(6)}%
                 </td>
               </tr>
             );
@@ -535,7 +535,7 @@ function Calculator() {
       try {
         const result = evaluate(display);
         setFormula(display + ' =');
-        setDisplay(String(parseFloat(result.value.toFixed(10))));
+        setDisplay(String(parseFloat(result.value.toFixed(12))));
       } catch(e) {
         setError(e.message || 'Error');
       }
@@ -562,7 +562,7 @@ function Calculator() {
     }
     
     // Constants
-    if (input === 'πg') { setDisplay(d => d === '0' ? PI_GOLDEN.toFixed(7) : d + PI_GOLDEN.toFixed(7)); return; }
+    if (input === 'πg') { setDisplay(d => d === '0' ? PI_GOLDEN.toFixed(12) : d + PI_GOLDEN.toFixed(12)); return; }
     if (input === 'π') { setDisplay(d => d === '0' ? 'π' : d + 'π'); return; }
     if (input === 'φ') { setDisplay(d => d === '0' ? 'φ' : d + 'φ'); return; }
     if (input === 'e') { setDisplay(d => d === '0' ? `${Math.E}`.slice(0,8) : d + `${Math.E}`.slice(0,8)); return; }
@@ -656,7 +656,7 @@ function Calculator() {
   return (
     <div>
       <h2>Golden <span>π</span> Calculator</h2>
-      <div className="subtitle">π<sub>τ</sub> = 4/√φ = {PI_GOLDEN.toFixed(7)} · φ = {PHI.toFixed(7)}</div>
+      <div className="subtitle">π<sub>τ</sub> = 4/√φ = {PI_GOLDEN.toFixed(12)} · φ = {PHI.toFixed(12)}</div>
       
       <div className="mode-toggle">
         <button className={gold ? 'active-gold' : ''} onClick={() => setMode('golden')}>Golden π</button>
@@ -666,16 +666,16 @@ function Calculator() {
       <div className="pi-display">
         <div className="pi-card">
           <div className="label">Golden π (π<sub>τ</sub>)</div>
-          <div className="value gold">{PI_GOLDEN.toFixed(7)}</div>
+          <div className="value gold">{PI_GOLDEN.toFixed(12)}</div>
         </div>
         <div className="pi-card">
           <div className="label">Standard π</div>
-          <div className="value std">{PI_STANDARD.toFixed(7)}</div>
+          <div className="value std">{PI_STANDARD.toFixed(12)}</div>
         </div>
         <div className="pi-card" style={{ borderColor: '#3fb950' }}>
           <div className="label">Difference</div>
           <div className="value" style={{ color: '#3fb950', fontSize: 12 }}>
-            +{((PI_GOLDEN / PI_STANDARD - 1) * 100).toFixed(4)}%
+            +{((PI_GOLDEN / PI_STANDARD - 1) * 100).toFixed(6)}%
           </div>
         </div>
       </div>
