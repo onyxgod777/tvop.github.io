@@ -407,3 +407,48 @@ a[href*="video"] strong {
   font-size: 14px;
   margin: 40px 0;
 }
+
+/* ── Mobile scrolling fix ── */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row !important;
+    height: 56px !important;
+    padding: 0 12px !important;
+    gap: 0 !important;
+    overflow-x: auto;
+  }
+  .header h1 {
+    font-size: 11px !important;
+    white-space: nowrap;
+  }
+  .menu a {
+    font-size: 10px !important;
+    padding: 4px 8px !important;
+  }
+  .Pi { margin-top: 80px !important; padding: 30px 12px 20px !important; }
+  .Pi h2 { font-size: 32px !important; }
+  main { padding: 0 12px 60px !important; }
+  .container { padding: 70px 12px 60px !important; }
+  footer { position: relative !important; }
+  .social { height: 40px !important; }
+}
+
+/* ── Blog post page fix ── */
+.container { padding: 90px 24px 70px; }
+@media (max-width: 640px) {
+  .container { padding: 70px 12px 60px !important; }
+}
+
+/* ── Comments section ── */
+.comments-section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px 24px;
+  border-top: 1px solid var(--border);
+}
+.comments-section h3 {
+  color: var(--gold);
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-align: center;
+}
