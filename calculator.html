@@ -402,8 +402,8 @@ function evaluate() {
     // ^ → **
     expr = expr.replace(/\^/g, '**');
 
-    // Function replacements
-    const funcs = ['sin', 'cos', 'tan', 'asin', 'acos', 'atan'];
+    // Function replacements — longer names first so asin isn't mangled by sin
+    const funcs = ['asin', 'acos', 'atan', 'sin', 'cos', 'tan'];
     for (const fn of funcs) {
       while (expr.includes(fn + '(')) {
         expr = expr.replace(fn + '(', fn + '_eval(');
@@ -413,15 +413,16 @@ function evaluate() {
     expr = expr.replace(/abs\(/g, 'Math.abs(');
 
     // Build evaluator with the correct trig implementations
+    let result;
     let fn;
     if (mode === 'golden') {
       fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
         `return (${expr})`);
-      var result = fn(sinG, cosG, tanG, asinG, acosG, atanG, Math);
+      result = fn(sinG, cosG, tanG, asinG, acosG, atanG, Math);
     } else {
       fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
         `return (${expr})`);
-      var result = fn(sinS, cosS, tanS, asinS, acosS, atanS, Math);
+      result = fn(sinS, cosS, tanS, asinS, acosS, atanS, Math);
     }
 
     if (!isFinite(result)) throw new Error('Undefined');
