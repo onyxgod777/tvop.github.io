@@ -38,4 +38,44 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/pythagorean-triangle-proof.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/432-connexion-phi-pi-alpha.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/phi-pi-research-002.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/harry-lear-measuring-pi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-12</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/music-spheres-golden-ratio-harmonics.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-13</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/calculator.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/keybase.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
 </urlset>
