@@ -414,25 +414,31 @@ a[href*="video"] strong {
 
 /* ── Mobile scrolling fix ── */
 @media (max-width: 768px) {
+  header {
+    height: auto;
+    min-height: 50px;
+  }
   .header {
     flex-direction: row !important;
-    height: 56px !important;
+    min-height: 50px !important;
+    height: auto !important;
     padding: 0 12px !important;
-    gap: 0 !important;
-    overflow-x: auto;
+    gap: 4px !important;
+    flex-wrap: wrap;
   }
   .header h1 {
-    font-size: 11px !important;
+    font-size: 12px !important;
     white-space: nowrap;
+    letter-spacing: 1px;
   }
   .menu a {
-    font-size: 10px !important;
-    padding: 4px 8px !important;
+    font-size: 11px !important;
+    padding: 6px 10px !important;
   }
-  .Pi { margin-top: 80px !important; padding: 30px 12px 20px !important; }
+  .Pi { margin-top: 100px !important; padding: 30px 12px 20px !important; }
   .Pi h2 { font-size: 32px !important; }
-  main { padding: 0 12px 60px !important; }
-  .container { padding: 70px 12px 60px !important; }
+  main { padding: 100px 12px 60px !important; }
+  .container { padding: 100px 12px 60px !important; }
   footer { position: relative !important; }
   .social { height: 40px !important; }
 }
