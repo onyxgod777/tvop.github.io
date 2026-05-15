@@ -427,7 +427,8 @@ function evaluate() {
     if (!isFinite(result)) throw new Error('Undefined');
 
     formula = display + ' =';
-    display = String(parseFloat(result.toFixed(12)));
+    // toFixed avoids floating-point artifacts; strip only excess trailing zeros
+    display = result.toFixed(12).replace(/(\.[0-9]*?[1-9])0+$/, '$1').replace(/\.0+$/, '');
     updateDisplay();
   } catch(e) {
     formula = display + ' =';
@@ -438,10 +439,26 @@ function evaluate() {
   }
 }
 
+// ── Helper: safe percent diff, guarding against near-zero denominator ──
+function safePctDiff(goldenVal, stdVal) {
+  if (Math.abs(stdVal) < 1e-12) {
+    // Standard value is effectively zero — diff is meaningless
+    return Math.abs(goldenVal) < 1e-12 ? '0.0000%' : '—';
+  }
+  const diff = ((goldenVal - stdVal) / stdVal) * 100;
+  return (diff >= 0 ? '+' : '') + diff.toFixed(4) + '%';
+}
+
+// ── Helper: format diff color class ──
+function diffColorClass(goldenVal, stdVal) {
+  if (Math.abs(stdVal) < 1e-12 && Math.abs(goldenVal) < 1e-12) return 'diff-pos';
+  if (stdVal === 0) return '';
+  return ((goldenVal - stdVal) / stdVal) >= 0 ? 'diff-pos' : 'diff-neg';
+}
+
 // ── Trig Comparison Table ──
 function renderTrigTable() {
   const angles = [0, 15, 30, 45, 60, 75, 90, 180, 270, 360];
-  const PI = mode === 'golden' ? PI_G : PI_S;
   const sF = mode === 'golden' ? sinG : sinS;
   const cF = mode === 'golden' ? cosG : cosS;
 
@@ -452,17 +469,19 @@ function renderTrigTable() {
     const sv_s = sinS(deg);
     const cv_s = cosS(deg);
 
-    const sinDiff = ((sv - sv_s) / sv_s) * 100;
-    const cosDiff = ((cv - cv_s) / cv_s) * 100;
+    const sinDiffStr = safePctDiff(sv, sv_s);
+    const cosDiffStr = safePctDiff(cv, cv_s);
+    const sinCls = diffColorClass(sv, sv_s);
+    const cosCls = diffColorClass(cv, cv_s);
 
     html += `<tr>
       <td class="angle-label">${deg}°</td>
       <td class="gold">${sv.toFixed(10)}</td>
       <td class="std">${sv_s.toFixed(10)}</td>
-      <td class="${sinDiff >= 0 ? 'diff-pos' : 'diff-neg'}">${sinDiff >= 0 ? '+' : ''}${sinDiff.toFixed(4)}%</td>
+      <td class="${sinCls}">${sinDiffStr}</td>
       <td class="gold">${cv.toFixed(10)}</td>
       <td class="std">${cv_s.toFixed(10)}</td>
-      <td class="${cosDiff >= 0 ? 'diff-pos' : 'diff-neg'}">${cosDiff >= 0 ? '+' : ''}${cosDiff.toFixed(4)}%</td>
+      <td class="${cosCls}">${cosDiffStr}</td>
     </tr>`;
   }
   trigBody.innerHTML = html;
