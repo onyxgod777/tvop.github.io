@@ -398,6 +398,11 @@ function evaluate() {
     expr = expr.replace(/φ|phi/gi, `(${PHI})`);
     expr = expr.replace(/\be\b/g, `(${EULER})`);
 
+    // Handle implicit multiplication: digit( or )(
+    // e.g., 2π → 2(3.14) → 2*(3.14); (π)(2) → (3.14)(2) → (3.14)*(2)
+    expr = expr.replace(/(\d)\(/g, '$1*(');
+    expr = expr.replace(/\)\(/g, ')*(');
+
     // ^ → **
     expr = expr.replace(/\^/g, '**');
 
