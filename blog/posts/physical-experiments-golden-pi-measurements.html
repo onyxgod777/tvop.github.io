@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Physical Experiments That Measured Golden Pi: CNC, Laser, and Rolling Tests Converge on π = 4/√φ</title>
+    <meta name="description" content="Three independent physical experiments over 7 years — CNC machining, laser measurement, and rolling tests — all converge on golden π ≈ 3.1446, not conventional π ≈ 3.14159. The measurement precision is 1000× greater than the discrepancy, making systematic error an insufficient explanation.">
+    <link rel="canonical" href="https://pi.thealpha-secret.xyz/blog/posts/physical-experiments-golden-pi-measurements.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Three Physical Experiments That Measured Golden Pi: CNC, Laser, and Rolling Tests Converge on π = 4/√φ">
+    <meta property="og:description" content="Three independent physical experiments over 7 years — CNC machining, laser measurement, and rolling tests — all converge on golden π ≈ 3.1446, not conventional π ≈ 3.14159.">
+    <meta property="og:url" content="https://pi.thealpha-secret.xyz/blog/posts/physical-experiments-golden-pi-measurements.html">
+    <meta property="og:image" content="https://pi.thealpha-secret.xyz/blog/images/golden-pi-physical-experiments-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Three Physical Experiments That Measured Golden Pi: CNC, Laser, and Rolling Tests Converge on π = 4/√φ">
+    <meta name="twitter:description" content="Three independent physical experiments over 7 years — CNC machining, laser measurement, and rolling tests — all converge on golden π ≈ 3.1446, not conventional π ≈ 3.14159.">
+    <meta name="twitter:image" content="https://pi.thealpha-secret.xyz/blog/images/golden-pi-physical-experiments-og.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: #0d0d0d;
+            color: #e0dcc7;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 100%);
+            border-bottom: 1px solid #2a2a3e;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .site-title {
+            font-size: 1.8em;
+            color: #d4a843;
+            text-decoration: none;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .site-title:hover {
+            color: #e8c56a;
+        }
+
+        .site-subtitle {
+            color: #8a886e;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        /* Article */
+        article {
+            padding: 50px 0;
+        }
+
+        .post-meta {
+            color: #8a886e;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .post-meta span {
+            margin: 0 8px;
+        }
+
+        .post-meta .separator {
+            opacity: 0.4;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            color: #d4a843;
+            text-align: center;
+            line-height: 1.3;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #d4a843;
+            margin: 45px 0 20px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #2a2a3e;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #c9b87a;
+            margin: 30px 0 15px 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Pull quote */
+        .pull-quote {
+            border-left: 3px solid #d4a843;
+            background: rgba(212, 168, 67, 0.05);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+            font-size: 1.1em;
+            color: #c9b87a;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .pull-quote strong {
+            color: #d4a843;
+        }
+
+        /* Highlight box */
+        .highlight-box {
+            background: rgba(212, 168, 67, 0.08);
+            border: 1px solid #2a2a3e;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+        }
+
+        /* Experiment card */
+        .experiment {
+            background: #13131f;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 35px 0;
+            border-left: 4px solid #d4a843;
+        }
+
+        .experiment h3 {
+            color: #d4a843;
+            margin-top: 0;
+        }
+
+        .experiment .exp-meta {
+            font-size: 0.85em;
+            color: #8a886e;
+            margin-bottom: 12px;
+        }
+
+        .experiment .result {
+            display: inline-block;
+            background: rgba(212, 168, 67, 0.15);
+            color: #d4a843;
+            font-family: 'Courier New', monospace;
+            font-size: 1.3em;
+            font-weight: 700;
+            padding: 8px 18px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        /* Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95em;
+        }
+
+        .data-table thead th {
+            background: #1a1a2e;
+            color: #d4a843;
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 2px solid #d4a843;
+            font-weight: 600;
+        }
+
+        .data-table tbody td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #2a2a3e;
+        }
+
+        .data-table tbody tr:hover {
+            background: rgba(212, 168, 67, 0.05);
+        }
+
+        .data-table .value-golden {
+            color: #d4a843;
+            font-weight: 600;
+        }
+
+        .data-table .value-conv {
+            color: #8a886e;
+        }
+
+        /* Cross-links */
+        .cross-links {
+            background: #13131f;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 40px 0;
+            border: 1px solid #2a2a3e;
+        }
+
+        .cross-links h3 {
+            margin-top: 0;
+        }
+
+        .cross-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .cross-links li {
+            padding: 8px 0;
+            border-bottom: 1px solid #1a1a2e;
+        }
+
+        .cross-links li:last-child {
+            border-bottom: none;
+        }
+
+        .cross-links a {
+            color: #d4a843;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .cross-links a:hover {
+            color: #e8c56a;
+            text-decoration: underline;
+        }
+
+        /* Back to blog */
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #8a886e;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: #d4a843;
+        }
+
+        .back-link::before {
+            content: "← ";
+        }
+
+        /* Support section */
+        .support-section {
+            background: #13131f;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 50px 0;
+            text-align: center;
+            border: 1px solid #2a2a3e;
+        }
+
+        .support-section h3 {
+            color: #d4a843;
+            margin-top: 0;
+        }
+
+        .support-section p {
+            text-align: center;
+            color: #8a886e;
+            font-size: 0.9em;
+        }
+
+        .support-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .support-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            transition: all 0.2s;
+        }
+
+        .support-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .support-btn.coffee {
+            background: #FF813F;
+            color: #fff;
+        }
+
+        .support-btn.kofi {
+            background: #13C5BB;
+            color: #fff;
+        }
+
+        .support-btn.crypto {
+            background: transparent;
+            color: #d4a843;
+            border: 1px solid #d4a843;
+            font-size: 0.8em;
+            word-break: break-all;
+        }
+
+        .support-btn.crypto:hover {
+            background: rgba(212, 168, 67, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #4a483e;
+            font-size: 0.85em;
+            border-top: 1px solid #1a1a2e;
+        }
+
+        /* Utterances */
+        .comments {
+            margin: 50px 0;
+        }
+
+        /* Mathematical */
+        .math {
+            font-family: 'Courier New', monospace;
+            color: #d4a843;
+            background: rgba(212, 168, 67, 0.08);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.95em;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+
+            .experiment {
+                padding: 20px;
+            }
+
+            .support-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .support-btn {
+                width: 100%;
+                max-width: 280px;
+                text-align: center;
+            }
+
+            .data-table {
+                font-size: 0.85em;
+            }
+
+            .data-table thead th,
+            .data-table tbody td {
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 1.3em;
+            }
+
+            .post-meta {
+                font-size: 0.8em;
+            }
+        }
+
+        /* Print */
+        @media print {
+            body {
+                background: #fff;
+                color: #333;
+            }
+            .support-section, .comments {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <a href="https://pi.thealpha-secret.xyz/blog/" class="site-title">π THE ALPHA SECRET</a>
+        <div class="site-subtitle">Investigating the True Value of Pi</div>
+    </div>
+</header>
+
+<article>
+    <div class="container">
+        <div class="post-meta">
+            <span>📅 May 17, 2026</span>
+            <span class="separator">·</span>
+            <span>📖 14 min read</span>
+        </div>
+
+        <h1>Three Physical Experiments That Measured Golden Pi: CNC, Laser, and Rolling Tests Converge on <span class="math">π = 4/√φ</span></h1>
+
+        <p>For centuries, π has been considered settled — an irrational constant whose digits stretch infinitely without pattern, computed by mathematicians to trillions of decimal places. The debate over its value appears closed.</p>
+
+        <p>But what if you could <em>measure</em> π physically? What if three independent experiments, conducted across 7 years by different researchers on different continents, using different methodologies, all returned the same value — <strong>π ≈ 3.1446</strong> — instead of the conventionally accepted <strong>π ≈ 3.14159</strong>?</p>
+
+        <p>This is not a question for mathematicians alone. When physical measurement converges on a value different from convention — and does so with precision a thousand times greater than the gap between the two — the burden of proof shifts. Systematic error becomes an insufficient explanation. Something real demands to be addressed.</p>
+
+        <div class="pull-quote">
+            "Three independent experiments, three different methodologies, three converging results — all pointing toward π = 4/√φ. At what point does coincidence become evidence?"
+        </div>
+
+        <h2>The Fundamental Question</h2>
+
+        <p>Mathematics defines π as the ratio of a circle's circumference to its diameter. This definition appears unambiguous. Yet there exists an alternative expression: <span class="math">π = 4/√φ</span>, where <span class="math">φ = (1 + √5)/2 ≈ 1.618</span> (the golden ratio). This yields <span class="math">π ≈ 3.144605</span> — a value that differs from the conventional π by about 0.003, or 0.096%.</p>
+
+        <p>The difference is small — just 3 parts in 10,000 — but it is not negligible. For a circle of diameter 1 meter, the discrepancy in circumference is about 3 millimeters. That is an amount well within the reach of careful physical measurement.</p>
+
+        <p>Conventional π is derived analytically through infinite series, geometric constructions, and computational algorithms. Golden π is derived from the geometric relationship between the circle and the golden ratio — specifically, the ratio of a circle's circumference to the perimeter of its inscribed square, when that square is constructed according to the golden proportion.</p>
+
+        <p>Which value does the physical world actually realize? Three experiments set out to answer that question.</p>
+
+        <h2>Experiment 1 — Harry Lear (2017): CNC-Cut Birch Wood Disk</h2>
+
+        <div class="experiment">
+            <div class="exp-meta">📌 Researcher: Harry Lear · Year: 2017 · Reference: <a href="http://measuringpisquaringphi.com" style="color:#d4a843;">measuringpisquaringphi.com</a></div>
+            <p><strong>Method:</strong> A circular disk was CNC-cut from birch wood to an exactly specified diameter of 1 unit. CNC (computer numerical control) machining provides extremely precise cutting with tolerances measured in thousandths of an inch. The disk's circumference was then measured by several methods, including rolling the disk along a calibrated scale and measuring the linear distance traveled in one complete revolution.</p>
+            <p><strong>Result:</strong> <span class="result">π = 3.1446</span></p>
+            <p><strong>Detail:</strong> Lear's experiment was notable for its directness. A precisely machined disk of exactly 1 unit diameter — simple in concept, demanding in execution. The circumference measurement, repeated multiple times to ensure consistency, returned a value that matched golden π far more closely than conventional π. Lear documented the entire process with photographs, calibration records, and measurement logs available on his website.</p>
+            <p>The experiment was part of a broader investigation into the relationship between π and φ that Lear had been pursuing for years. His work, published at <em>Measuring Pi Squaring Phi</em>, remains one of the earliest documented physical measurements of golden π.</p>
+        </div>
+
+        <p>Critics have pointed out that a single experiment by one researcher using relatively simple equipment cannot be considered definitive. This is a reasonable objection — which is exactly why the subsequent experiments matter.</p>
+
+        <h2>Experiment 2 — Axel Groß &amp; Fernando Gonzalez (2017): Precision Laser Optical Measurement</h2>
+
+        <div class="experiment">
+            <div class="exp-meta">📌 Researchers: Axel Groß &amp; Fernando Gonzalez · Year: 2017 · Precision: 1/1000 mm</div>
+            <p><strong>Method:</strong> An aluminum circle was precisely machined to a diameter of 1000.000 mm in a clean room environment. The circumference was measured using a laser optical displacement system with a resolution of 1/1000 mm (1 micron). This represented a significant leap in measurement precision over the CNC-cut wood experiment.</p>
+            <p><strong>Result:</strong> <span class="result">π = 3.144605</span></p>
+            <p><strong>Detail:</strong> The measured value matched <span class="math">4/√φ</span> to <strong>six decimal places</strong> — differences only in the seventh decimal and beyond, attributable to measurement noise at the sub-micron level. The laser system's 1 μm precision over a 1000 mm diameter gave a relative precision of 1 part per million. The gap between golden π and conventional π is 960 parts per million — nearly three orders of magnitude larger than the measurement precision.</p>
+            <p>This is the crucial point: <strong>the measurement was 1000× more precise than necessary to distinguish between golden π and conventional π.</strong> If conventional π were correct, this experiment should have clearly detected it. Instead, it returned a value consistent with golden π to within the measurement's own uncertainty bounds.</p>
+        </div>
+
+        <p>The Groß-Gonzalez experiment is among the most rigorous physical measurements of π ever attempted. The use of laser interferometry in a controlled clean room environment removed many of the variables that could introduce systematic error — thermal expansion, humidity, mechanical play, and human measurement bias.</p>
+
+        <h2>Experiment 3 — Ralf Brohmer (2024): Rolled Aluminum Ring</h2>
+
+        <div class="experiment">
+            <div class="exp-meta">📌 Researcher: Ralf Brohmer · Year: 2024 · Method: Mechanical rolling of precision-machined ring</div>
+            <p><strong>Method:</strong> An aluminum ring with a diameter of 600.8 mm was precision-machined and then rolled along a calibrated track. The distance traveled in one complete revolution was measured. This method — rolling a circular object along a straight line — is perhaps the most intuitive way to measure π: the circumference is simply the distance covered in one rotation.</p>
+            <p><strong>Result:</strong> <span class="result">π = 3.1441</span></p>
+            <p><strong>Detail:</strong> Brohmer's result of π ≈ 3.1441 deviates from the golden π value of 3.144605 by approximately 0.016% — or about 160 parts per million. This is a slightly larger deviation than the other two experiments, but it falls well within a reasonable error budget for a mechanical rolling test (where factors like surface friction, deformation of the contact patch, and alignment imperfections affect the measurement).</p>
+            <p>Critically, Brohmer's result is still far closer to golden π than to conventional π. The 0.016% deviation is an order of magnitude smaller than the 0.096% gap between golden and conventional π. In other words, Brohmer's measurement independently confirms golden π to within its experimental uncertainty.</p>
+        </div>
+
+        <p>The rolling test is the simplest and most transparent method of the three. Any graduate student could replicate it. The fact that it, too, converges toward golden π rather than conventional π adds significant weight to the accumulating evidence.</p>
+
+        <h2>Comparative Summary</h2>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Experiment</th>
+                    <th>Year</th>
+                    <th>Material</th>
+                    <th>Measured π</th>
+                    <th>Deviation from golden π</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry Lear (CNC wood disk)</td>
+                    <td>2017</td>
+                    <td>Birch wood</td>
+                    <td class="value-golden">3.1446</td>
+                    <td>&lt; 0.001% (within rounding)</td>
+                </tr>
+                <tr>
+                    <td>Groß &amp; Gonzalez (laser)</td>
+                    <td>2017</td>
+                    <td>Aluminum, 1000.000 mm</td>
+                    <td class="value-golden">3.144605</td>
+                    <td>~0.0000% (6 decimal place match)</td>
+                </tr>
+                <tr>
+                    <td>Ralf Brohmer (rolling)</td>
+                    <td>2024</td>
+                    <td>Aluminum, 600.8 mm</td>
+                    <td class="value-golden">3.1441</td>
+                    <td>~0.016% (within mechanical tolerances)</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="color:#8a886e;"><strong>Conventional π (reference)</strong></td>
+                    <td style="color:#8a886e;">—</td>
+                    <td class="value-conv">3.14159265</td>
+                    <td class="value-conv">~0.096% gap from golden π</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Analysis: Precision vs. Discrepancy</h2>
+
+        <p>The most compelling argument against dismissing these experiments as systematic error is the ratio of <strong>measurement precision</strong> to <strong>observed discrepancy</strong>.</p>
+
+        <p>Consider the numbers:</p>
+
+        <ul style="margin-bottom:20px; padding-left:20px; list-style-type:disc;">
+            <li style="margin-bottom:8px;">The gap between golden π (<span class="math">4/√φ ≈ 3.144605</span>) and conventional π (<span class="math">≈ 3.141593</span>) is <strong>0.003012</strong> — approximately <strong>960 parts per million</strong>.</li>
+            <li style="margin-bottom:8px;">The Groß-Gonzalez laser experiment achieved a measurement precision of <strong>1 part per million</strong> (1 μm on 1000 mm diameter).</li>
+            <li style="margin-bottom:8px;">This means the measurement was <strong>960× more precise</strong> than necessary to distinguish the two values.</li>
+        </ul>
+
+        <p>To put this in perspective: if the conventional value were correct, the Groß-Gonzalez measurement would have been off by nearly <strong>3 full standard deviations</strong> of its own precision. That is not a subtle statistical fluctuation — it is a glaring anomaly.</p>
+
+        <div class="highlight-box">
+            <h3>📐 The Precision Argument</h3>
+            <p><strong>Conventional π:</strong> 3.1415926535...</p>
+            <p><strong>Golden π (4/√φ):</strong> 3.1446055110...</p>
+            <p><strong>Difference:</strong> 0.0030128574... (~0.096%)</p>
+            <p style="margin-top:15px; color:#c9b87a;"><strong>Measurement precision (Groß-Gonzalez):</strong> ~0.0001% (1 part per million)</p>
+            <p><strong>Conclusion:</strong> The difference (0.096%) is ~960× larger than the measurement uncertainty (~0.0001%). Systematic error at that scale would require a flaw in the measurement three orders of magnitude larger than the experiment's own precision budget — a deeply implausible explanation.</p>
+        </div>
+
+        <p>For systematic error to explain the results, all three experiments would need to share a common bias that shifts their measurements consistently toward golden π and away from conventional π — despite using completely different materials (wood, aluminum), different measurement principles (rolling, laser, mechanical rotation), and being conducted by independent researchers years apart. The probability of such convergence by coincidence is vanishingly small.</p>
+
+        <h2>Source Material</h2>
+
+        <p>The primary sources for these experiments are documented in:</p>
+
+        <ul style="margin-bottom:20px; padding-left:20px; list-style-type:disc;">
+            <li style="margin-bottom:8px;"><strong>FIGU Bulletin 123</strong> — Contains detailed descriptions of the experiments and their results, presented alongside the broader context of the golden π hypothesis as discussed in the Plejaren contact reports.</li>
+            <li style="margin-bottom:8px;"><strong>Substack (Arthur3144)</strong> — Independent analysis and replication data, with critical examination of measurement methodologies and potential sources of error. Searchable under the golden pi / physical measurement topic.</li>
+            <li style="margin-bottom:8px;"><strong>Measuring Pi Squaring Phi</strong> (measuringpisquaringphi.com) — Harry Lear's comprehensive documentation of the CNC disk experiment, including raw data, photographs, and procedural detail.</li>
+        </ul>
+
+        <h2>What This Means: Physical Evidence Demands an Answer</h2>
+
+        <p>Science advances not by consensus but by evidence. When three independent physical measurements converge on a value that conflicts with mathematical convention, the correct response is not dismissal — it is investigation.</p>
+
+        <p>The claim that golden π replaces conventional π is not yet proven. But the claim that physical measurement returns conventional π has been tested — and it failed. Three tests, three failures to confirm the conventional value. Three confirmations of an alternative.</p>
+
+        <p>The burden of proof has shifted. Those who maintain that conventional π is correct must now explain why physical measurement consistently returns a different value. Appeals to mathematical authority are no longer sufficient — because mathematics does not determine physical reality. Only experiment does.</p>
+
+        <div class="pull-quote">
+            "Mathematics can define π however it likes. But physics measures what is. And what physics keeps measuring is π = 4/√φ."
+        </div>
+
+        <p>The discrepancy is real. The measurements are precise. The convergence is compelling. The golden π hypothesis — that the true ratio of a circle's circumference to its diameter is <span class="math">4/√φ</span> — has moved from theoretical speculation to empirically testable claim. And by every physical test conducted so far, it has been confirmed.</p>
+
+        <p>The challenge now is not to dismiss these results, but to replicate them, refine them, and establish a consensus through the normal process of scientific verification. That process begins with awareness — and with the courage to question what we think we know.</p>
+
+        <!-- Cross-links to related posts -->
+        <div class="cross-links">
+            <h3>📖 Related Reading</h3>
+            <p style="text-align:left; color:#8a886e; font-size:0.9em;">Explore the full golden π investigation:</p>
+            <ul>
+                <li>📄 <a href="harry-lear-measuring-pi.html">Harry Lear's CNC Measurement of Golden Pi</a> — Detailed analysis of the original CNC experiment</li>
+                <li>📄 <a href="figu-plejaren-contact-report-251-pi-correction.html">FIGU / Plejaren Contact Report 251: The Pi Correction</a> — The source that started the investigation</li>
+                <li>📄 <a href="squaring-circle-golden-pi-geometric-proof.html">Squaring the Circle: The Geometric Proof of Golden Pi</a> — The mathematical derivation of π = 4/√φ</li>
+                <li>📄 <a href="../../index.html">π The Alpha Secret — Main Hub</a></li>
+            </ul>
+        </div>
+
+        <a href="https://pi.thealpha-secret.xyz/blog/" class="back-link">Back to the blog</a>
+
+        <!-- Support Section -->
+        <div class="support-section">
+            <h3>☕ Support Independent Research</h3>
+            <p>If this investigation resonates with you, consider supporting the work. Truth-seeking doesn't pay the bills — but your support makes it sustainable.</p>
+            <div class="support-buttons">
+                <a href="https://www.buymeacoffee.com/onyxgod777" class="support-btn coffee" target="_blank" rel="noopener">☕ Buy Me a Coffee</a>
+                <a href="https://ko-fi.com/onyxgod777" class="support-btn kofi" target="_blank" rel="noopener">🎗️ Support on Ko-fi</a>
+                <span class="support-btn crypto">₿ Crypto: 0x48F3AE27D2d49Aab2E57eAF4FEA22Ed3E835Bf0a</span>
+            </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="comments">
+            <script src="https://utteranc.es/client.js"
+                    repo="onyxgod777/pi"
+                    issue-term="pathname"
+                    theme="github-dark"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </div>
+    </div>
+</article>
+
+<footer>
+    <div class="container">
+        <p>π The Alpha Secret &mdash; Question everything. Measure carefully. Think for yourself.</p>
+    </div>
+</footer>
+
+</body>
+</html>
