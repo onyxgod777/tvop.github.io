@@ -272,7 +272,7 @@
   <button onclick="insert('8')">8</button>
   <button onclick="insert('9')">9</button>
   <button class="op" onclick="insert('-')">−</button>
-  <button class="eq" onclick="evaluate()">=</button>
+  <button class="eq" onclick="calc()">=</button>
 
   <button onclick="insert('4')">4</button>
   <button onclick="insert('5')">5</button>
@@ -397,7 +397,7 @@ function clearAll() {
 }
 
 // ── Expression evaluator ──
-function evaluate() {
+function calc() {
   if (!display || display === '0') return;
 
   try {
@@ -513,7 +513,7 @@ function renderTrigTable() {
 document.addEventListener('keydown', (e) => {
   const key = e.key;
   if (/^[\d.+\-*/^%()]$/.test(key)) { insert(key); e.preventDefault(); }
-  else if (key === 'Enter') { evaluate(); e.preventDefault(); }
+  else if (key === 'Enter') { calc(); e.preventDefault(); }
   else if (key === 'Backspace') { backspace(); e.preventDefault(); }
   else if (key === 'Escape') { clearAll(); e.preventDefault(); }
   else if (key === 'p') { insert('πg'); e.preventDefault(); }
