@@ -9,6 +9,7 @@
     <loc>https://pi.thealpha-secret.xyz/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <lastmod>2026-05-17</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/blog/</loc>
@@ -19,7 +20,7 @@
     <loc>https://pi.thealpha-secret.xyz/blog/posts/432-connexion-phi-pi-alpha.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-17</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/blog/posts/figu-plejaren-contact-report-251-pi-correction.html</loc>
@@ -67,13 +68,13 @@
     <loc>https://pi.thealpha-secret.xyz/blog/posts/phi-pi-research-002.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-17</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/blog/posts/pythagorean-triangle-proof.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-17</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/blog/posts/restoring-trigonometry-golden-pi-sine-function.html</loc>
@@ -96,6 +97,13 @@
     <loc>https://pi.thealpha-secret.xyz/calculator.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <lastmod>2026-05-17</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/video/videos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-05-17</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/keybase.txt</loc>
