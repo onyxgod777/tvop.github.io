@@ -415,12 +415,6 @@ function calc() {
     expr = expr.replace(/\)\(/g, ')*(');
 
     // ^ → **
-    // Handle implicit multiplication: digit( or )(
-    // e.g., 2π → 2(3.14) → 2*(3.14); (π)(2) → (3.14)(2) → (3.14)*(2)
-    expr = expr.replace(/(\d)\(/g, '$1*(');
-    expr = expr.replace(/\)\(/g, ')*(');
-
-    // ^ → **
     expr = expr.replace(/\^/g, '**');
 
     // Function replacements — longer names first so asin isn't mangled by sin
@@ -432,6 +426,11 @@ function calc() {
     }
     expr = expr.replace(/sqrt\(/g, 'Math.sqrt(');
     expr = expr.replace(/abs\(/g, 'Math.abs(');
+
+    // Handle implicit multiplication between number/close-paren and function names
+    // e.g., 2sin(30) → 2*sin_eval(30); (π)sin(30) → (π)*sin_eval(30)
+    expr = expr.replace(/(\d)(sin_eval|cos_eval|tan_eval|asin_eval|acos_eval|atan_eval|Math\.sqrt|Math\.abs)/g, '$1*$2');
+    expr = expr.replace(/\)(sin_eval|cos_eval|tan_eval|asin_eval|acos_eval|atan_eval|Math\.sqrt|Math\.abs)/g, ')*$2');
 
     // Build evaluator with the correct trig implementations
     let result;
