@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', 'Georgia', 'Times New Roman', serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   background: var(--navy);
   color: var(--text);
   line-height: 1.7;
@@ -241,13 +241,13 @@ section strong {
 
 /* ── Footer ── */
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
   width: 100%;
   background: rgba(10, 22, 40, 0.92);
   backdrop-filter: blur(12px);
   border-top: 1px solid var(--border);
-  z-index: 100;
+  margin-top: 48px;
+  padding-bottom: 16px;
 }
 
 footer .social {
@@ -456,7 +456,6 @@ a[href*="video"] strong {
   .social { height: 40px !important; }
 }
 
-/* ── Blog post page fix ── */
 .container { padding: 90px 24px 70px; }
 @media (max-width: 640px) {
   .container { padding: 70px 12px 60px !important; }
