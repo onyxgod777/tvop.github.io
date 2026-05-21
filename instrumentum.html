@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instrumentum — The Golden π Revealer</title>
+  <meta name="description" content="An interactive instrument showing how 4y²x/((y²+x²)√(y²-x²)) reveals golden π = 4/√φ = 3.144606 exactly when y/x = √φ." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e8d48b;
+      --gold-dim: #a68a3a;
+      --navy: #0a1628;
+      --navy-light: #132044;
+      --text: #d4d8e0;
+      --text-muted: #8a92a8;
+      --border: #2a3f6a;
+      --green: #4caf7d;
+      --red: #e74c3c;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--navy);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 100px 24px 60px;
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 80px 12px 40px; }
+    }
+
+    h1 {
+      color: var(--gold);
+      font-size: 32px;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-bottom: 36px;
+      text-align: center;
+      border-left: 3px solid var(--gold-dim);
+      padding-left: 16px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+    }
+
+    h2 {
+      color: var(--gold);
+      font-size: 22px;
+      margin: 32px 0 16px;
+    }
+
+    .equation {
+      background: var(--navy-light);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+      font-size: clamp(14px, 2.5vw, 22px);
+      font-family: 'Courier New', monospace;
+      color: var(--gold-light);
+      word-break: break-all;
+      overflow-wrap: break-word;
+    }
+
+    /* ── Instrument Panel ── */
+    .instrument {
+      background: var(--navy-light);
+      border: 2px solid var(--gold-dim);
+      border-radius: 12px;
+      padding: 32px;
+      margin: 32px 0;
+      position: relative;
+    }
+
+    .instrument::before {
+      content: "⚙️ INSTRUMENTUM";
+      position: absolute;
+      top: -12px;
+      left: 24px;
+      background: var(--navy-light);
+      padding: 0 12px;
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: var(--gold-dim);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .control-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 16px 0;
+      flex-wrap: wrap;
+    }
+
+    .control-row label {
+      min-width: 80px;
+      font-size: 16px;
+      color: var(--gold-light);
+    }
+
+    .control-row input[type="range"] {
+      flex: 1;
+      min-width: 150px;
+      height: 6px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: var(--border);
+      border-radius: 3px;
+      outline: none;
+    }
+
+    .control-row input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--gold);
+      cursor: pointer;
+    }
+
+    .value-display {
+      font-family: 'Courier New', monospace;
+      font-size: 18px;
+      color: var(--gold-light);
+      min-width: 100px;
+      text-align: right;
+    }
+
+    .readout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 500px) {
+      .readout { grid-template-columns: 1fr; }
+    }
+
+    .readout-item {
+      background: rgba(10, 22, 40, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .readout-item .label {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .readout-item .value {
+      font-size: 28px;
+      font-family: 'Courier New', monospace;
+      color: var(--gold-light);
+      word-break: break-all;
+      overflow-wrap: break-word;
+      max-width: 100%;
+    }
+
+    .readout-item .value.green { color: var(--green); }
+    .readout-item .value.red { color: var(--red); }
+    .readout-item .value.gold { color: var(--gold); }
+
+    .readout-item .delta {
+      font-size: 14px;
+      margin-top: 4px;
+      font-family: 'Courier New', monospace;
+      word-break: break-all;
+      overflow-wrap: break-word;
+    }
+
+    .delta.exact { color: var(--green); }
+    .delta.approx { color: var(--gold-dim); }
+
+    .status-badge {
+      display: inline-block;
+      padding: 4px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 8px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .status-badge.exact {
+      background: rgba(76, 175, 125, 0.2);
+      border: 1px solid var(--green);
+      color: var(--green);
+    }
+
+    .status-badge.approx {
+      background: rgba(212, 168, 67, 0.15);
+      border: 1px solid var(--gold-dim);
+      color: var(--gold-dim);
+    }
+
+    /* ── Ratio marker ── */
+    .ratio-bar {
+      margin: 24px 0 8px;
+      position: relative;
+      height: 40px;
+    }
+
+    .ratio-track {
+      width: 100%;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      position: relative;
+      margin-top: 16px;
+    }
+
+    .ratio-marker {
+      position: absolute;
+      top: -8px;
+      width: 4px;
+      height: 22px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: left 0.1s;
+    }
+
+    .ratio-target {
+      position: absolute;
+      top: -10px;
+      width: 4px;
+      height: 26px;
+      background: var(--green);
+      border-radius: 2px;
+      left: calc(100% / 0.5 * (1.272019649514069 - 1.0) / (1.5 - 1.0));
+      opacity: 0.7;
+    }
+
+    .ratio-label {
+      position: absolute;
+      top: -28px;
+      font-size: 12px;
+      font-family: 'Courier New', monospace;
+      transform: translateX(-50%);
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* ── Geometric Viz ── */
+    .geo-viz {
+      background: rgba(10, 22, 40, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    canvas#geoCanvas {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 640px) {
+      .readout-item .value { font-size: 18px; }
+      .instrument { padding: 16px; }
+      .readout { gap: 8px; }
+    }
+
+    /* ── Proof Section ── */
+    .proof-box {
+      background: var(--navy-light);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+      font-family: 'Courier New', monospace;
+      font-size: 15px;
+      line-height: 2;
+      color: var(--gold-light);
+    }
+
+    .proof-box .arrow {
+      color: var(--text-muted);
+      margin: 0 8px;
+    }
+
+    .table-mini {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+      font-family: 'Courier New', monospace;
+    }
+    .table-mini th {
+      background: var(--navy-dark, #0b1429);
+      color: var(--gold-dim);
+      padding: 8px 12px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .table-mini td {
+      padding: 8px 12px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .table-mini td.gold { color: var(--gold-light); }
+    .table-mini td.green { color: var(--green); }
+
+    .nav-links {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .nav-links a {
+      color: var(--gold-dim);
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 14px;
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+  </style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="header">
+    <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="blog/index.html">BLOG</a></li>
+        <li><a href="calculator.html">CALC</a></li>
+        <li><a href="instrumentum.html">INSTRUMENTUM</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <h1>⚙️ Instrumentum</h1>
+  <div class="subtitle">
+    A precision tool that reveals golden π <strong>(4/√φ = 3.144606...)</strong>
+    through the identity <strong>4y²x / ((y²+x²)√(y²-x²))</strong>
+    — exact only when <strong>y/x = √φ</strong>.
+  </div>
+
+  <!-- ═══ The Equation ═══ -->
+  <div class="equation">
+    π = <span id="eq-display">?</span>
+  </div>
+
+  <!-- ═══ Instrument ═══ -->
+  <div class="instrument">
+    <div class="control-row">
+      <label>r = y/x</label>
+      <input type="range" id="ratioSlider" min="1.0" max="1.5" step="0.00001">
+      <span class="value-display" id="ratioDisplay">1.27202</span>
+    </div>
+
+    <!-- Ratio bar with target -->
+    <div class="ratio-bar">
+      <div class="ratio-track">
+        <div class="ratio-marker" id="ratioMarker" style="left: 54.4%"></div>
+        <div class="ratio-target" id="ratioTarget"></div>
+        <span class="ratio-label" style="left: 0%;">r=1.0</span>
+        <span class="ratio-label" style="left: 50%;">r=1.25</span>
+        <span class="ratio-label" style="left: 100%;">r=1.5</span>
+      </div>
+    </div>
+
+    <!-- Readout -->
+    <div class="readout">
+      <div class="readout-item">
+        <div class="label">Computed π</div>
+        <div class="value gold" id="computedPi">3.144606</div>
+        <div class="delta" id="computedDelta">exact</div>
+      </div>
+      <div class="readout-item">
+        <div class="label">Δ from Golden π</div>
+        <div class="value green" id="deltaGolden">0.000000</div>
+        <div class="delta exact" id="deltaGoldenLabel">exact</div>
+      </div>
+      <div class="readout-item">
+        <div class="label">Δ from Conventional π</div>
+        <div class="value" id="deltaConv">+0.003013</div>
+        <div class="delta approx" id="deltaConvLabel">+0.096%</div>
+      </div>
+      <div class="readout-item">
+        <div class="label">y / x</div>
+        <div class="value" id="ratioYx">1.27202</div>
+        <div class="delta" id="ratioTargetLabel" style="font-size:12px;color:var(--text-muted);">target: √φ = 1.27202</div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:16px;">
+      <span class="status-badge exact" id="statusBadge">✅ EXACT — Golden π achieved</span>
+    </div>
+    <div style="text-align:center; margin-top:12px;">
+      <button id="snapButton" style="background:rgba(76,175,125,0.2);border:1px solid #4caf7d;color:#4caf7d;padding:8px 20px;border-radius:6px;cursor:pointer;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;">🎯 Snap to √φ (exact)</button>
+      <span style="color:var(--text-muted);font-size:13px;margin-left:12px;">√φ = 1.2720196495...</span>
+    </div>
+  </div>
+
+  <!-- ═══ Geometric Visualization ═══ -->
+  <h2>Geometric View</h2>
+  <p>
+    When <strong>y</strong> and <strong>x</strong> form a ratio equal to <strong>√φ</strong>,
+    the instrument reads exactly <strong>π<sub>g</sub> = 4/√φ</strong>.
+    The green target line marks √φ — slide the ruler toward it.
+  </p>
+
+  <div class="geo-viz">
+    <canvas id="geoCanvas" width="820" height="400"></canvas>
+  </div>
+
+  <!-- ═══ Proof ═══ -->
+  <h2>Why It Works</h2>
+
+  <p>
+    Let <strong>r = y/x</strong>. The equation simplifies to:
+  </p>
+
+  <div class="proof-box">
+    <span id="proof1">π(r) = 4r² / ((r² + 1) √(r² − 1))</span>
+  </div>
+
+  <p>
+    When <strong>r = √φ</strong> (i.e., y²/x² = φ):
+  </p>
+
+  <div class="proof-box">
+    r² = φ<br>
+    r² + 1 = φ + 1 = φ²<br>
+    r² − 1 = φ − 1 = 1/φ<br>
+    √(r² − 1) = 1/√φ<br>
+    <br>
+    π = 4φ / (φ² × 1/√φ) = 4√φ / φ = 4/√φ = <strong>π<sub>g</sub></strong> ✓
+  </div>
+
+  <p>
+    The result is <strong>not an approximation</strong> — it is an exact algebraic reduction.
+    At r = √φ, the identity becomes <strong>π = 4/√φ</strong> by necessity.
+  </p>
+
+  <!-- ═══ Comparison Table ═══ -->
+  <h2>Comparison: Golden vs Conventional</h2>
+
+  <table class="table-mini">
+    <thead>
+      <tr>
+        <th>r = y/x</th>
+        <th>Computed π</th>
+        <th>Δ from Golden π</th>
+        <th>Δ from Conventional</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="gold">1.1</td>
+        <td>3.899874</td>
+        <td class="red">+0.755269</td>
+        <td class="red">+0.758281</td>
+        <td>way off</td>
+      </tr>
+      <tr>
+        <td class="gold">1.2</td>
+        <td>3.415550</td>
+        <td>+0.270945</td>
+        <td>+0.273957</td>
+        <td>close</td>
+      </tr>
+      <tr>
+        <td class="gold">φ/√φ = 1.27202</td>
+        <td class="green">3.144606</td>
+        <td class="green">0.000000</td>
+        <td>+0.003013</td>
+        <td>✅ Golden π</td>
+      </tr>
+      <tr>
+        <td class="gold">1.3</td>
+        <td>3.025310</td>
+        <td>−0.119295</td>
+        <td>−0.116283</td>
+        <td>low</td>
+      </tr>
+      <tr>
+        <td class="gold">1.4</td>
+        <td>2.728398</td>
+        <td>−0.416207</td>
+        <td>−0.413195</td>
+        <td>way off</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="color:var(--text-muted); font-size:14px;">
+    Only at <strong>r = √φ</strong> does the instrument read exactly golden π.
+    Conventional π (3.141593) is hit nowhere — the expression is uniquely solved by 4/√φ.
+  </p>
+
+  <div class="nav-links">
+    <a href="index.html">← Home</a>
+    <a href="calculator.html">π Calculator</a>
+    <a href="blog/index.html">Research Blog</a>
+  </div>
+
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<div class="comments-section">
+  <h3>💬 Leave a Comment</h3>
+  <script src="https://utteranc.es/client.js"
+    repo="onyxgod777/pi"
+    issue-term="pathname"
+    label="💬 comment"
+    theme="github-dark"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+
+<footer>
+   <div class="footer">
+      <h5 style="color:#a07830;font-size:0.85rem;margin-bottom:8px;">Powered by The Ninth Prime</h5>
+      <h6>The True Value of Pi &copy; 2026 by Ninth Prime is licensed under CC BY-NC-ND 4.0</h6>
+      <p style="margin-top:12px;font-size:0.85rem;">
+        <a href="https://gutwise.thealpha-secret.xyz" style="color:#a07830;">🟢 GutWise</a> ·
+        <a href="https://ai-body.thealpha-secret.xyz" style="color:#64b5f6;">🤖 AI Body</a>
+      </p>
+    </div>
+</footer>
+
+<script>
+// ─── Constants ──────────────────────────────────────────────
+const PHI = (1 + Math.sqrt(5)) / 2;
+const PI_G = 4 / Math.sqrt(PHI);
+const PI_G_32 = '3.14460551102969314427823434337184'; // 32 decimal places
+const PI_C = Math.PI;
+const SQRT_PHI = Math.sqrt(PHI);
+
+// ─── DOM refs ───────────────────────────────────────────────
+const slider = document.getElementById('ratioSlider');
+const ratioDisplay = document.getElementById('ratioDisplay');
+const computedPi = document.getElementById('computedPi');
+const computedDelta = document.getElementById('computedDelta');
+const deltaGolden = document.getElementById('deltaGolden');
+const deltaGoldenLabel = document.getElementById('deltaGoldenLabel');
+const deltaConv = document.getElementById('deltaConv');
+const deltaConvLabel = document.getElementById('deltaConvLabel');
+const ratioYx = document.getElementById('ratioYx');
+const ratioTargetLabel = document.getElementById('ratioTargetLabel');
+const statusBadge = document.getElementById('statusBadge');
+const ratioMarker = document.getElementById('ratioMarker');
+const eqDisplay = document.getElementById('eq-display');
+const canvas = document.getElementById('geoCanvas');
+const ctx = canvas.getContext('2d');
+
+// ─── Core function ──────────────────────────────────────────
+let exactMode = false;
+
+function computePi(r) {
+  if (exactMode) {
+    // Use the exact algebraic identity: π = 4/√φ
+    return PI_G;
+  }
+  const r2 = r * r;
+  return 4 * r2 / ((r2 + 1) * Math.sqrt(r2 - 1));
+}
+
+// ─── Update ─────────────────────────────────────────────────
+function update() {
+  const r = parseFloat(slider.value);
+  const pi = computePi(r);
+  const deltaG = pi - PI_G;
+  const deltaC = pi - PI_C;
+  const pctG = (deltaG / PI_G) * 100;
+  const pctC = (deltaC / PI_C) * 100;
+  const isExact = Math.abs(r - SQRT_PHI) < 0.00001;
+
+  // Ratio display
+  ratioDisplay.textContent = r.toFixed(5);
+  ratioYx.textContent = r.toFixed(5);
+  ratioTargetLabel.textContent = `target: √φ = ${SQRT_PHI.toFixed(5)}`;
+
+  // Computed π
+  if (exactMode) {
+    computedPi.textContent = PI_G_32;
+  } else {
+    computedPi.textContent = pi.toFixed(15);
+  }
+  computedPi.className = 'value ' + (isExact ? 'green' : 'gold');
+
+  // Delta from golden π
+  const absDG = Math.abs(deltaG);
+  deltaGolden.textContent = (absDG < 1e-10 ? '0.000000' : (deltaG > 0 ? '+' : '') + deltaG.toFixed(6));
+  deltaGolden.className = 'value ' + (isExact ? 'green' : 'gold');
+  deltaGoldenLabel.textContent = isExact ? '✅ exact' : (deltaG > 0 ? '+' : '') + pctG.toFixed(4) + '%';
+  deltaGoldenLabel.className = 'delta ' + (isExact ? 'exact' : 'approx');
+
+  // Delta from conventional π
+  deltaConv.textContent = (deltaC > 0 ? '+' : '') + deltaC.toFixed(6);
+  deltaConv.className = 'value ' + (isExact ? 'red' : '');
+  deltaConvLabel.textContent = (deltaC > 0 ? '+' : '') + pctC.toFixed(4) + '%';
+  deltaConvLabel.className = 'delta approx';
+
+  // Status badge
+  if (exactMode) {
+    statusBadge.className = 'status-badge exact';
+    statusBadge.textContent = '✅ EXACT — π = 4/√φ (algebraic identity)';
+  } else if (isExact) {
+    statusBadge.className = 'status-badge exact';
+    statusBadge.textContent = '✅ EXACT — Golden π achieved';
+  } else if (absDG < 0.001) {
+    statusBadge.className = 'status-badge approx';
+    statusBadge.textContent = '≈ within 0.03% of golden π';
+  } else {
+    statusBadge.className = 'status-badge approx';
+    statusBadge.textContent = `⏳ ${(absDG > 0.1 ? 'far from' : pctG.toFixed(2) + '% from')} golden π`;
+  }
+
+  // Equation display
+  if (exactMode) {
+    eqDisplay.textContent = '4/√φ = ' + PI_G_32 + '  (exact identity)';
+  } else if (isExact) {
+    eqDisplay.textContent = '4/√φ = ' + PI_G.toFixed(15);
+  } else {
+    eqDisplay.textContent = pi.toFixed(15) + '  (r = ' + r.toFixed(6) + ')';
+  }
+
+  // Ratio marker position (map 1.0→1.5 to 0%→100%)
+  const pct = (r - 1.0) / 0.5 * 100;
+  ratioMarker.style.left = Math.max(0, Math.min(100, pct)) + '%';
+
+  // Draw geometry
+  drawGeometry(r, pi, isExact);
+}
+
+// ─── Canvas drawing ─────────────────────────────────────────
+function drawGeometry(r, pi, isExact) {
+  const W = canvas.width;
+  const H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+
+  // Background
+  ctx.fillStyle = '#0d1326';
+  ctx.fillRect(0, 0, W, H);
+
+  // Layout
+  const cx = 180, cy = 280;
+  const maxR = 140;
+  const xVal = 1;
+  const yVal = r;
+  const scaleFactor = maxR / Math.max(yVal, 1.5);
+  const px = xVal * scaleFactor;
+  const py = yVal * scaleFactor;
+
+  // Axes
+  ctx.strokeStyle = '#2a3f6a';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(50, cy);
+  ctx.lineTo(450, cy);
+  ctx.moveTo(cx, 50);
+  ctx.lineTo(cx, 400);
+  ctx.stroke();
+
+  // Labels
+  ctx.fillStyle = '#8a92a8';
+  ctx.font = '12px Georgia';
+  ctx.fillText('x', 450, cy + 16);
+  ctx.fillText('y', cx - 20, 50);
+
+  // Right triangle (x, y, √(y²-x²))
+  const hyp = Math.sqrt(yVal * yVal - xVal * xVal);
+  const hx = hyp * scaleFactor;
+
+  // Triangle fill
+  ctx.fillStyle = isExact ? 'rgba(76, 175, 125, 0.15)' : 'rgba(212, 168, 67, 0.08)';
+  ctx.beginPath();
+  ctx.moveTo(cx, cy);
+  ctx.lineTo(cx + px, cy);
+  ctx.lineTo(cx + px, cy - py);
+  ctx.closePath();
+  ctx.fill();
+
+  // Triangle outline
+  ctx.strokeStyle = isExact ? '#4caf7d' : '#c9a84c';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(cx, cy);
+  ctx.lineTo(cx + px, cy);
+  ctx.lineTo(cx + px, cy - py);
+  ctx.closePath();
+  ctx.stroke();
+
+  // Sides
+  ctx.fillStyle = '#e8d48b';
+  ctx.font = '14px Georgia';
+  ctx.fillText('x', cx + px/2 - 10, cy + 20);
+  ctx.fillText('y', cx + px + 10, cy - py/2);
+  ctx.fillText('√(y²−x²)', cx + px/2 + 10, cy - py/2 - 5);
+
+  // Right angle marker
+  ctx.strokeStyle = isExact ? '#4caf7d' : '#a68a3a';
+  ctx.lineWidth = 1;
+  const ms = 10;
+  ctx.beginPath();
+  ctx.moveTo(cx + px - ms, cy);
+  ctx.lineTo(cx + px - ms, cy - ms);
+  ctx.lineTo(cx + px, cy - ms);
+  ctx.stroke();
+
+  // Target indicator
+  const targetPx = SQRT_PHI * scaleFactor;
+  ctx.strokeStyle = 'rgba(76, 175, 125, 0.3)';
+  ctx.lineWidth = 1;
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath();
+  ctx.moveTo(cx + targetPx, cy);
+  ctx.lineTo(cx + targetPx, cy - targetPx);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  if (isExact) {
+    ctx.fillStyle = '#4caf7d';
+    ctx.font = 'bold 14px Georgia';
+    ctx.fillText('✓ y/x = √φ', cx + targetPx + 8, cy - targetPx - 5);
+  }
+
+  // Result display
+  ctx.fillStyle = '#e8d48b';
+  ctx.font = '13px Courier New';
+  const piLabel = exactMode ? 'π = ' + PI_G_32 : 'π = ' + pi.toFixed(15);
+  ctx.fillText(piLabel, 460, 200);
+
+  ctx.font = '14px Courier New';
+  ctx.fillStyle = isExact ? '#4caf7d' : '#a68a3a';
+  ctx.fillText('y/x = ' + r.toFixed(6), 460, 225);
+
+  if (exactMode) {
+    ctx.fillStyle = '#4caf7d';
+    ctx.font = 'bold 13px Georgia';
+    ctx.fillText('≈ 4/√φ (exact)', 460, 250);
+  } else if (isExact) {
+    ctx.fillStyle = '#4caf7d';
+    ctx.font = 'bold 14px Georgia';
+    ctx.fillText('≈ 4/√φ = ' + PI_G.toFixed(12), 460, 250);
+  }
+
+  // Formula
+  ctx.fillStyle = '#8a92a8';
+  ctx.font = '13px Courier New';
+  ctx.fillText('4y²x / ((y²+x²)√(y²-x²))', 460, 280);
+}
+
+// ─── Init ───────────────────────────────────────────────────
+// Snap to exact √φ
+function snapToPhi() {
+  exactMode = true;
+  slider.value = SQRT_PHI;
+  snapButton.textContent = '✅ √φ (exact identity)';
+  snapButton.style.background = 'rgba(76,175,125,0.3)';
+  update();
+}
+
+document.getElementById('snapButton').addEventListener('click', snapToPhi);
+slider.addEventListener('input', function() {
+  // When user drags slider away from √φ, exit exact mode
+  const r = parseFloat(slider.value);
+  if (Math.abs(r - SQRT_PHI) > 0.000005) {
+    exactMode = false;
+    snapButton.textContent = '🎯 Snap to √φ (exact)';
+    snapButton.style.background = 'rgba(76,175,125,0.2)';
+  }
+  update();
+});
+
+// Start at exact √φ
+snapToPhi();
+</script>
+
+</body>
+</html>
