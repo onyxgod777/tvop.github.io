@@ -351,6 +351,7 @@ const EULER = Math.E;                         // 2.718281828459045
 let mode = 'golden';
 let display = '0';
 let formula = '';
+let justEvaluated = false;
 
 // DOM refs
 const displayEl = document.getElementById('display');
@@ -398,11 +399,19 @@ function updateDisplay() {
 }
 
 function insert(val) {
+  // After = press, starting a number resets display
+  if (justEvaluated && /^[\d.]$/.test(val)) {
+    display = (val === '.' ? '0.' : val);
+    justEvaluated = false;
+    updateDisplay();
+    return;
+  }
   if (display === '0' && !'+-*/^%'.includes(val) && val !== ')') {
     display = (val === '.' ? '0.' : val);
   } else {
     display += val;
   }
+  justEvaluated = false;
   updateDisplay();
 }
 
@@ -422,6 +431,7 @@ function calc() {
   if (!display || display === '0') return;
 
   try {
+    justEvaluated = false;
     let expr = display;
 
     // Expand constants to full precision BEFORE evaluation
@@ -434,6 +444,8 @@ function calc() {
     // e.g., 2π → 2(3.14) → 2*(3.14); (π)(2) → (3.14)(2) → (3.14)*(2)
     expr = expr.replace(/(\d)\(/g, '$1*(');
     expr = expr.replace(/\)\(/g, ')*(');
+    // implicit multiplication: ) followed by digit, e.g. (π)2 or sin(90)2
+    expr = expr.replace(/\)(\d)/g, ')*$1');
 
     // ^ → **
     expr = expr.replace(/\^/g, '**');
@@ -471,6 +483,7 @@ function calc() {
     formula = display + ' =';
     // toFixed avoids floating-point artifacts; strip only excess trailing zeros
     display = result.toFixed(12).replace(/(\.[0-9]*?[1-9])0+$/, '$1').replace(/\.0+$/, '');
+    justEvaluated = true;
     updateDisplay();
   } catch(e) {
     formula = display + ' =';
@@ -478,6 +491,7 @@ function calc() {
     displayEl.textContent = display;
     displayEl.className = 'result error';
     formulaEl.innerHTML = formula;
+    justEvaluated = false;
   }
 }
 
@@ -542,7 +556,6 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ── Init ──
-renderTrigTable();
 setMode('golden');
 </script>
 
