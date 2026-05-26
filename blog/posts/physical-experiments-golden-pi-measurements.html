@@ -461,5 +461,17 @@
       </p>
     </div>
   </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.querySelector('.menu');
+  if (btn && menu) {
+    btn.addEventListener('click', function() {
+      menu.classList.toggle('open');
+      btn.classList.toggle('active');
+    });
+  }
+});
+</script>
 </body>
 </html>

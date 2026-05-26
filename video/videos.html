@@ -39,8 +39,14 @@
   <header>
     <div class="header">
       <h1>&Phi; The True Value Of Pi &Pi;</h1>
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
       <div class="menu">
-        <div class="menu"><ul>
+              <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu"><ul>
         <li><a href="https://pi.thealpha-secret.xyz">HOME</a></li>
         <li><a href="bitcoin:bc1qxj9pa0vpe7289c3dq782hfj9cl8wcja2xwls2c">DONATE</a></li>
         <li><a href="mailto:sunntzu@realvalueofpi.xyz">CONTACT</a></li>
@@ -104,5 +110,17 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><b
       </p>
     </div>
   </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.querySelector('.menu');
+  if (btn && menu) {
+    btn.addEventListener('click', function() {
+      menu.classList.toggle('open');
+      btn.classList.toggle('active');
+    });
+  }
+});
+</script>
 </body>
 </html>

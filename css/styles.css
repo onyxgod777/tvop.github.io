@@ -112,6 +112,28 @@ header {
   background: rgba(212, 168, 67, 0.1);
 }
 
+/* ── Hamburger Menu ── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  padding: 8px;
+  background: none;
+  border: none;
+}
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--gold);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
 /* ── Hero ── */
 main {
   padding-top: 80px;
@@ -300,19 +322,42 @@ a[href*="video"] strong {
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
+    flex-wrap: wrap;
     height: auto;
-    padding: 12px 20px;
-    gap: 8px;
+    padding: 8px 16px;
   }
   
   .header h1 {
     font-size: 14px;
   }
   
+  .hamburger {
+    display: flex;
+  }
+  
+  .menu {
+    display: none;
+    width: 100%;
+    order: 3;
+    margin-top: 8px;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    gap: 4px;
+  }
+  
   .menu a {
-    font-size: 11px;
-    padding: 6px 10px;
+    font-size: 12px;
+    padding: 10px 14px;
+    display: block;
+    text-align: center;
   }
   
   .Pi {
