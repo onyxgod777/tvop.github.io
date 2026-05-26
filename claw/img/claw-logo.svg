@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </radialGradient>
+    <linearGradient id="clawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#d4a843"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="250" fill="url(#bg)" stroke="url(#clawGrad)" stroke-width="3"/>
+  <!-- Dragon claw grasping a gem -->
+  <path d="M256,120 Q320,180 350,250 Q370,300 330,340" fill="none" stroke="url(#clawGrad)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220,140 Q280,200 320,270" fill="none" stroke="url(#clawGrad)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M190,180 Q240,230 290,290" fill="none" stroke="url(#clawGrad)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="45" fill="none" stroke="#d4a843" stroke-width="3"/>
+  <polygon points="256,215 280,245 270,280 242,280 232,245" fill="#d4a843" opacity="0.8"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#d4a843" letter-spacing="8">$CLAW</text>
+</svg>

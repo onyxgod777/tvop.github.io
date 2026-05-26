@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$CLAW Whitepaper — Decentralized Intelligence Token</title>
+    <meta name="description" content="$CLAW whitepaper — fair launch tokenomics, bonding curve mechanics, and the vision for decentralized intelligence on Solana." />
+    <link rel="canonical" href="https://claw.thealpha-secret.xyz/whitepaper" />
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: Georgia, 'Times New Roman', serif; background:#0d0d0d; color:#e0dcc7; line-height:1.8; }
+        .container { max-width:800px; margin:0 auto; padding:60px 24px; }
+
+        .header { text-align:center; padding:40px 0 60px; border-bottom:1px solid #1a1a2e; margin-bottom:60px; }
+        .header h1 { font-size:2.5rem; color:#d4a843; letter-spacing:4px; margin-bottom:8px; }
+        .header .sub { color:#8a886e; font-size:1rem; }
+        .header .date { color:#4a483e; font-size:0.85rem; margin-top:8px; }
+
+        h2 { color:#d4a843; font-size:1.5rem; margin:48px 0 20px; padding-bottom:8px; border-bottom:1px solid #1a1a2e; }
+        h3 { color:#c084fc; font-size:1.1rem; margin:32px 0 12px; }
+        p { color:#b0aa8e; margin-bottom:16px; text-align:justify; }
+        ul { color:#b0aa8e; margin:0 0 20px 24px; }
+        li { margin-bottom:8px; }
+
+        .highlight { background:#13131f; border-left:3px solid #d4a843; padding:16px 20px; margin:20px 0; border-radius:0 8px 8px 0; }
+        .highlight p { color:#d4a843; margin:0; font-style:italic; }
+        .highlight strong { color:#f6d365; }
+
+        table { width:100%; border-collapse:collapse; margin:20px 0; }
+        th, td { padding:12px 16px; text-align:left; border-bottom:1px solid #1a1a2e; color:#b0aa8e; }
+        th { color:#d4a843; font-weight:700; background:#13131f; }
+        td { font-size:0.95rem; }
+
+        code { background:#13131f; color:#d4a843; padding:2px 6px; border-radius:4px; font-size:0.85rem; }
+        pre { background:#13131f; color:#d4a843; padding:16px 20px; border-radius:8px; overflow-x:auto; margin:20px 0; font-size:0.85rem; border:1px solid #1a1a2e; }
+
+        .toc { background:#13131f; border:1px solid #1a1a2e; border-radius:12px; padding:24px 32px; margin:40px 0; }
+        .toc h3 { color:#d4a843; margin-top:0; }
+        .toc ol { margin:12px 0 0 20px; }
+        .toc li { margin-bottom:6px; }
+        .toc a { color:#c084fc; text-decoration:none; }
+        .toc a:hover { color:#d4a843; text-decoration:underline; }
+
+        .footer { text-align:center; padding:40px 0; margin-top:60px; border-top:1px solid #1a1a2e; color:#4a483e; font-size:0.85rem; }
+        .footer a { color:#8a886e; }
+
+        .btn-back { display:inline-block; margin-top:20px; padding:10px 24px; background:transparent; border:1px solid #d4a843; color:#d4a843; border-radius:6px; text-decoration:none; font-size:0.9rem; transition:all .3s; }
+        .btn-back:hover { background:#d4a843; color:#0d0d0d; }
+
+        @media(max-width:600px) { .header h1 { font-size:1.8rem; } .container { padding:40px 16px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>$CLAW</h1>
+            <p class="sub">Decentralized Intelligence Token — Whitepaper</p>
+            <p class="date">v1.0 &mdash; May 2026</p>
+        </div>
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#vision">Vision &amp; Philosophy</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#bonding">Bonding Curve Mechanics</a></li>
+                <li><a href="#burn">Token Burn &amp; Supply Reduction</a></li>
+                <li><a href="#fairness">Fair Launch Principles</a></li>
+                <li><a href="#governance">Community Governance</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#security">Security &amp; Audits</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ol>
+        </div>
+
+        <section id="abstract">
+            <h2>1. Abstract</h2>
+            <p>$CLAW is a fair-launched community-driven token on the Solana blockchain. Built on a transparent bonding curve via pump.fun, $CLAW represents a return to the core principles of decentralized finance: fair access, transparent mechanics, and community ownership.</p>
+            <p>The name $CLAW symbolizes the first grip of a growing network — from a single claw, a decentralized ecosystem expands. No presales, no team allocations, no hidden wallets. Every token is earned through the open market.</p>
+            <div class="highlight">
+                <p><strong>From a single claw, the network grows.</strong></p>
+            </div>
+        </section>
+
+        <section id="vision">
+            <h2>2. Vision &amp; Philosophy</h2>
+            <h3>2.1 The Problem</h3>
+            <p>The current memecoin landscape is dominated by insider deals, pre-sales to VCs, and team allocations that allow developers to dump on retail. Pump.fun was created to solve this, but even on fair-launch platforms, most tokens lack transparency, community engagement, or long-term vision.</p>
+
+            <h3>2.2 The $CLAW Solution</h3>
+            <p>$CLAW is built on three pillars:</p>
+            <ul>
+                <li><strong>Fair Launch</strong> — Every buyer, including the creator, buys on the open bonding curve at market price. No tokens are pre-mined, pre-allocated, or reserved.</li>
+                <li><strong>Transparency</strong> — All token movements, burns, and holdings are publicly visible on Solana's blockchain. The deployer wallet is disclosed.</li>
+                <li><strong>Community Governance</strong> — Future decisions about the token's direction, marketing, and development are made collectively by holders.</li>
+            </ul>
+
+            <h3>2.3 Decentralized Intelligence</h3>
+            <p>$CLAW is called the "Decentralized Intelligence Token" because it represents the collective intelligence of its community. Rather than relying on a centralized team to make decisions, $CLAW holders steer the project through engagement, voting, and shared purpose. The token is a vehicle for decentralized coordination.</p>
+        </section>
+
+        <section id="tokenomics">
+            <h2>3. Tokenomics</h2>
+
+            <table>
+                <tr><th>Parameter</th><th>Value</th></tr>
+                <tr><td>Token Name</td><td>CLAW</td></tr>
+                <tr><td>Symbol</td><td>$CLAW</td></tr>
+                <tr><td>Network</td><td>Solana</td></tr>
+                <tr><td>Total Supply</td><td>1,000,000,000 (1 Billion)</td></tr>
+                <tr><td>Decimals</td><td>6</td></tr>
+                <tr><td>Mint Address</td><td><code>EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29</code></td></tr>
+                <tr><td>Launch Method</td><td>Fair Launch via pump.fun Bonding Curve</td></tr>
+                <tr><td>Initial Liquidity</td><td>Automated via Bonding Curve</td></tr>
+                <tr><td>Token Standard</td><td>SPL (Solana Program Library)</td></tr>
+            </table>
+
+            <h3>3.1 Supply Allocation</h3>
+            <table>
+                <tr><th>Category</th><th>Amount</th><th>Percentage</th><th>Notes</th></tr>
+                <tr><td>Fair Launch (Bonding Curve)</td><td>1,000,000,000</td><td>100%</td><td>All tokens available on the open market</td></tr>
+                <tr><td>Team / Dev Allocation</td><td>0</td><td>0%</td><td>No pre-allocated tokens</td></tr>
+                <tr><td>Presale / VC</td><td>0</td><td>0%</td><td>No insider sales</td></tr>
+                <tr><td>Marketing / Treasury</td><td>0</td><td>0%</td><td>No locked wallets</td></tr>
+                <tr><td>Airdrop</td><td>0</td><td>0%</td><td>All tokens earned through market</td></tr>
+                <tr><td><strong>Burned (as of May 2026)</strong></td><td><strong>1,500,000</strong></td><td><strong>0.15%</strong></td><td><strong>Permanently destroyed</strong></td></tr>
+                <tr><td><strong>Circulating Supply</strong></td><td><strong>998,500,000</strong></td><td><strong>99.85%</strong></td><td><strong>All in public hands</strong></td></tr>
+            </table>
+
+            <div class="highlight">
+                <p>100% of the supply entered circulation through the open bonding curve. There are no team wallets, no locked contracts, and no hidden allocations. The circulating supply equals the total supply minus burned tokens.</p>
+            </div>
+        </section>
+
+        <section id="bonding">
+            <h2>4. Bonding Curve Mechanics</h2>
+            <p>$CLAW launched on pump.fun's automated bonding curve. The bonding curve is a mathematical pricing mechanism where the price of tokens increases as more tokens are purchased.</p>
+
+            <h3>4.1 How It Works</h3>
+            <ul>
+                <li>The first buyer purchases tokens at the lowest possible price</li>
+                <li>Each subsequent buy increases the price for the next buyer</li>
+                <li>Sellers can exit at any time — the curve always has liquidity</li>
+                <li>No impermanent loss or complex LP management required</li>
+            </ul>
+
+            <h3>4.2 Raydium Migration</h3>
+            <p>When the bonding curve reaches a market cap of approximately $69,000 (100% curve completion), the accumulated liquidity is automatically migrated to Raydium, a decentralized exchange on Solana. This transition provides:</p>
+            <ul>
+                <li>Access to a wider trading audience via Jupiter aggregator</li>
+                <li>Potential listing on DexScreener and DexTools</li>
+                <li>Deepened liquidity through Raydium's AMM pools</li>
+            </ul>
+        </section>
+
+        <section id="burn">
+            <h2>5. Token Burn &amp; Supply Reduction</h2>
+            <p>Token burning is the permanent removal of tokens from circulation by sending them to an incinerator wallet. $CLAW has already executed burns to demonstrate commitment to supply scarcity.</p>
+
+            <h3>5.1 Burn History</h3>
+            <table>
+                <tr><th>Date</th><th>Amount</th><th>Transaction</th></tr>
+                <tr><td>May 2026</td><td>1,000,000 CLAW</td><td><code>5KCrH3EHeBsYHZq…LuC3</code></td></tr>
+                <tr><td>May 2026</td><td>500,000 CLAW</td><td><code>3o3x9kUjhV6nnvG…mGQR</code></td></tr>
+                <tr><td><strong>Total Burned</strong></td><td><strong>1,500,000 CLAW</strong></td><td></td></tr>
+            </table>
+
+            <h3>5.2 Future Burns</h3>
+            <p>Future burns may be executed based on community voting and market conditions. Burn events are always publicly announced and verifiable on-chain.</p>
+        </section>
+
+        <section id="fairness">
+            <h2>6. Fair Launch Principles</h2>
+            <p>$CLAW adheres to strict fair launch principles:</p>
+            <ul>
+                <li><strong>No Presale:</strong> No tokens were sold before the public launch.</li>
+                <li><strong>No Team Allocation:</strong> The creator holds no pre-allocated tokens. Any tokens held by the deployer were purchased on the open bonding curve at market price, just like any other buyer.</li>
+                <li><strong>No Hidden Wallets:</strong> All wallets associated with the project are publicly disclosed.</li>
+                <li><strong>Equal Access:</strong> Every buyer has equal opportunity to purchase at the same bonding curve price.</li>
+                <li><strong>Verifiable Supply:</strong> Total supply, circulating supply, and burn amounts are fully verifiable on Solana's block explorer.</li>
+            </ul>
+
+            <div class="highlight">
+                <p><strong>Deployer Wallet:</strong> <code>EsoPk5bZoBTFWL9xkHoTgWUA8bszGJreQo4zTJTjfvsi</code><br>
+                <strong>Incinerator (Burns):</strong> <code>1nc1nerator11111111111111111111111111111111</code></p>
+            </div>
+        </section>
+
+        <section id="governance">
+            <h2>7. Community Governance</h2>
+            <p>$CLAW is governed by its community. Key decisions are made collectively through:</p>
+            <ul>
+                <li><strong>Telegram Group:</strong> Real-time discussion and informal polling (link available on the website)</li>
+                <li><strong>On-Chain Voting:</strong> Future implementation of token-weighted voting for major decisions</li>
+                <li><strong>Burn Decisions:</strong> The community votes on the timing and amount of future burns</li>
+                <li><strong>Marketing Strategy:</strong> Community-driven promotion and content creation</li>
+            </ul>
+            <p>Every holder has a voice. The project's direction is determined by collective engagement, not a centralized team.</p>
+        </section>
+
+        <section id="roadmap">
+            <h2>8. Roadmap</h2>
+            <table>
+                <tr><th>Phase</th><th>Milestone</th><th>Status</th></tr>
+                <tr><td>1</td><td>Token creation on pump.fun</td><td>✅ Complete</td></tr>
+                <tr><td>1</td><td>Website launch (claw.thealpha-secret.xyz)</td><td>✅ Complete</td></tr>
+                <tr><td>1</td><td>Initial token burn (1.5M CLAW)</td><td>✅ Complete</td></tr>
+                <tr><td>1</td><td>Telegram community group</td><td>✅ Complete</td></tr>
+                <tr><td>2</td><td>Bonding curve growth (first 25%)</td><td>🔄 In Progress</td></tr>
+                <tr><td>2</td><td>Community engagement &amp; Twitter presence</td><td>🔄 In Progress</td></tr>
+                <tr><td>3</td><td>King of the Hill milestone</td><td>⏳ Pending</td></tr>
+                <tr><td>3</td><td>DexScreener/DexTools listing</td><td>⏳ Pending</td></tr>
+                <tr><td>4</td><td>Raydium migration (100% curve)</td><td>⏳ Pending</td></tr>
+                <tr><td>4</td><td>CoinGecko &amp; CoinMarketCap listing</td><td>⏳ Pending</td></tr>
+                <tr><td>5</td><td>Community governance &amp; voting implementation</td><td>⏳ Future</td></tr>
+                <tr><td>5</td><td>Partnerships &amp; ecosystem expansion</td><td>⏳ Future</td></tr>
+            </table>
+        </section>
+
+        <section id="security">
+            <h2>9. Security &amp; Audits</h2>
+            <p>$CLAW is built on Solana's battle-tested SPL token standard and launched via pump.fun's audited bonding curve program. Key security notes:</p>
+            <ul>
+                <li><strong>Mint Revoked:</strong> No additional tokens can be minted. The supply is fixed at 1 billion.</li>
+                <li><strong>No Freeze Authority:</strong> No entity can freeze or seize token holdings.</li>
+                <li><strong>No Upgrade Authority:</strong> The token contract is immutable.</li>
+                <li><strong>No Team Wallets:</strong> No wallets holding tokens outside the open market.</li>
+                <li><strong>pump.fun Program:</strong> Pump.fun's bonding curve program has been audited by multiple third-party firms and battle-tested with millions of transactions.</li>
+            </ul>
+            <p>All token operations are fully transparent and verifiable on Solana's block explorer:</p>
+            <pre>https://solscan.io/token/EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29</pre>
+        </section>
+
+        <section id="conclusion">
+            <h2>10. Conclusion</h2>
+            <p>$CLAW represents a return to the fundamentals of decentralized finance: fair access, transparent mechanics, and community ownership. In a space dominated by insiders, VCs, and hidden allocations, $CLAW stands for radical transparency.</p>
+            <p>The bonding curve is open. The community is growing. The claw is reaching out.</p>
+            <div class="highlight">
+                <p><strong>From a single claw, the network grows.</strong></p>
+            </div>
+            <p style="margin-top:24px;">
+                <a href="https://pump.fun/coin/EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29" style="color:#c084fc;">Buy $CLAW on pump.fun</a> &middot;
+                <a href="https://claw.thealpha-secret.xyz" style="color:#c084fc;">Visit Website</a> &middot;
+                <a href="https://solscan.io/token/EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29" style="color:#c084fc;">View on Solscan</a>
+            </p>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2026 The Alpha Secret &middot; <a href="https://thealpha-secret.xyz">thealpha-secret.xyz</a></p>
+            <p style="margin-top:4px;">$CLAW is a community token. This whitepaper is for informational purposes only and does not constitute financial advice.</p>
+            <a href="index.html" class="btn-back">&larr; Back to $CLAW</a>
+        </div>
+    </div>
+</body>
+</html>
