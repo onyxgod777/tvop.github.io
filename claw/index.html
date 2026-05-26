@@ -129,5 +129,56 @@
             <p>&copy; 2026 The Alpha Secret &middot; <a href="https://thealpha-secret.xyz">thealpha-secret.xyz</a> &middot; <a href="whitepaper.html">Whitepaper</a></p>
         </footer>
     </div>
+<script>
+// Live $CLAW data fetcher
+const MINT = "EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29";
+const PUMP = "https://frontend-api-v3.pump.fun/coins/";
+const DEX = "https://api.dexscreener.com/latest/dex/tokens/";
+const RPC = "https://api.mainnet-beta.solana.com";
+
+async function fetchData() {
+  try {
+    // 1. DexScreener for price + market cap
+    const dexRes = await fetch(DEX + MINT);
+    const dex = await dexRes.json();
+    const pair = dex?.pairs?.[0];
+    if (pair) {
+      const price = parseFloat(pair.priceUsd || 0);
+      const mc = parseFloat(pair.fdv || 0);
+      document.querySelector('.hero .price').textContent = price ? `$${price.toFixed(8)}` : '—';
+      document.querySelectorAll('.stat-card .num')[0].textContent = mc ? `$${(mc/1000).toFixed(1)}K` : '—';
+    }
+  } catch(e) { console.log('DexScreener error:', e); }
+
+  try {
+    // 2. Solana RPC — total supply
+    const supplyRes = await fetch(RPC, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({jsonrpc:'2.0',id:1,method:'getTokenSupply',params:[MINT]})
+    });
+    const supply = await supplyRes.json();
+    const total = supply?.result?.value?.uiAmountString;
+    if (total) document.querySelectorAll('.stat-card .num')[2].textContent = (parseFloat(total)/1e9).toFixed(1) + 'B';
+  } catch(e) { console.log('Supply error:', e); }
+
+  try {
+    // 3. Pump.fun API — bonding curve progress + holders
+    const pumpRes = await fetch(PUMP + MINT);
+    const pump = await pumpRes.json();
+    if (pump) {
+      // Bonding curve progress
+      const vsol = parseFloat(pump.virtualSolReserves || 0);
+      const progress = Math.min(100, (vsol / 85e9) * 100); // ~85 SOL = 100%
+      document.querySelectorAll('.stat-card .num')[3].textContent = progress.toFixed(1) + '%';
+      // Holders
+      if (pump.holderCount) {
+        document.querySelectorAll('.stat-card .num')[1].textContent = pump.holderCount;
+      }
+    }
+  } catch(e) { console.log('Pump.fun error:', e); }
+}
+fetchData();
+setInterval(fetchData, 60000); // refresh every 60s
+</script>
 </body>
 </html>
