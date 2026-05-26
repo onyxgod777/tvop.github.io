@@ -176,4 +176,28 @@
     <priority>0.7</priority>
     <lastmod>2026-05-24</lastmod>
   </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/fine-structure-alpha-golden-pi-unity.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/kepler-triangle-golden-pi-genesis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-26</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/golden-pi-seven-derivations-unity.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-26</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/platonic-year-golden-pi-precession-432.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
 </urlset>
