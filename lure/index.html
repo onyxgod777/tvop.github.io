@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <div id="mint-address">Loading contract address...</div>
+    <div id="mint-address">Contract: GF7QcQcMcedTFXv8NR2wYHKXbp6gn7iiquuLmkBZZFET</div>
 
     <div style="margin: 20px 0;">
       <a class="btn btn-primary" id="buy-btn" href="#">🛒 Buy $LURE</a>
@@ -113,7 +113,7 @@
     </div>
 
     <div class="links">
-      <a href="https://solscan.io/token/" id="solscan-link">🔍 Solscan</a>
+      <a href="https://solscan.io/token/GF7QcQcMcedTFXv8NR2wYHKXbp6gn7iiquuLmkBZZFET" id="solscan-link">🔍 Solscan</a>
       <a href="https://claw.thealpha-secret.xyz">🦞 $CLAW</a>
       <a href="https://t.me/+ID9tmiVfKFNlYTkx">💬 Community</a>
     </div>
@@ -142,7 +142,7 @@
       if (!mint) return;
       
       document.getElementById('mint-address').textContent = `Contract: ${mint}`;
-      document.getElementById('buy-btn').href = `https://pump.fun/coin/${mint}`;
+      document.getElementById('buy-btn').href = `https://pump.fun/coin/GF7QcQcMcedTFXv8NR2wYHKXbp6gn7iiquuLmkBZZFET`;
       document.getElementById('solscan-link').href = `https://solscan.io/token/${mint}`;
 
       try {
