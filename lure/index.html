@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$LURE 🎣 — The Bait That Catches Whales</title>
+  <meta name="description" content="$LURE — The bait that catches whales. Fair launch token on Solana.">
+  <meta property="og:title" content="$LURE 🎣">
+  <meta property="og:description" content="The bait that catches whales.">
+  <meta property="og:image" content="https://claw.thealpha-secret.xyz/img/lure-logo.svg">
+  <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1/browser.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container { max-width: 600px; width: 100%; padding: 40px 20px; text-align: center; }
+    .logo { width: 200px; height: 200px; margin: 0 auto 30px; }
+    .logo img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 0 20px rgba(255,215,0,0.3)); }
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(135deg, #ffd700, #ff8c00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .subtitle { color: #888; font-size: 1.1em; margin: 10px 0 30px; }
+    .tagline { font-size: 1.4em; color: #ffd700; margin-bottom: 30px; font-style: italic; }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin: 30px 0;
+    }
+    .stat-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,215,0,0.2);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .stat-card .label { color: #888; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; }
+    .stat-card .value { color: #ffd700; font-size: 1.8em; font-weight: bold; margin-top: 5px; }
+    .stat-card .value.loading { color: #666; font-size: 1em; }
+    .btn {
+      display: inline-block;
+      padding: 16px 40px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin: 10px;
+      transition: all 0.2s;
+    }
+    .btn-primary { background: linear-gradient(135deg, #ffd700, #ff8c00); color: #000; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(255,215,0,0.3); }
+    .btn-secondary { background: transparent; border: 2px solid #ffd700; color: #ffd700; }
+    .btn-secondary:hover { background: rgba(255,215,0,0.1); }
+    .links { margin: 40px 0; }
+    .links a { color: #ffd700; text-decoration: none; margin: 0 15px; font-size: 0.9em; }
+    .links a:hover { text-decoration: underline; }
+    .footer { color: #444; font-size: 0.8em; margin-top: 60px; padding: 20px; }
+    #mint-address { 
+      background: rgba(255,255,255,0.05); 
+      padding: 12px; 
+      border-radius: 8px; 
+      font-family: monospace; 
+      font-size: 0.8em;
+      word-break: break-all;
+      margin: 20px 0;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://claw.thealpha-secret.xyz/img/lure-logo.svg" alt="$LURE Logo">
+    </div>
+    <h1>$LURE</h1>
+    <div class="tagline">🎣 The Bait That Catches Whales</div>
+    <div class="subtitle">Fair launch token on Solana. No presale. No team allocation.</div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="label">Market Cap</div>
+        <div class="value loading" id="market-cap">Loading...</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Holders</div>
+        <div class="value loading" id="holders">Loading...</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Price</div>
+        <div class="value loading" id="price">Loading...</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total Supply</div>
+        <div class="value" id="supply">1,000,000,000</div>
+      </div>
+    </div>
+
+    <div id="mint-address">Loading contract address...</div>
+
+    <div style="margin: 20px 0;">
+      <a class="btn btn-primary" id="buy-btn" href="#">🛒 Buy $LURE</a>
+      <a class="btn btn-secondary" href="https://t.me/+ID9tmiVfKFNlYTkx">💬 Telegram</a>
+    </div>
+
+    <div class="links">
+      <a href="https://solscan.io/token/" id="solscan-link">🔍 Solscan</a>
+      <a href="https://claw.thealpha-secret.xyz">🦞 $CLAW</a>
+      <a href="https://t.me/+ID9tmiVfKFNlYTkx">💬 Community</a>
+    </div>
+
+    <div class="footer">
+      $LURE — Fair launch. No rug. Just bait. 🎣<br>
+      Part of the $CLAW ecosystem
+    </div>
+  </div>
+
+  <script>
+    const MINT = localStorage.getItem('lureMint');
+    
+    async function loadTokenData() {
+      // Try to read mint from file
+      try {
+        const resp = await fetch('/lure-mint.txt');
+        const text = await resp.text();
+        const mint = text.trim().split('\n').find(l => l.startsWith('MINT='))?.split('=')[1];
+        if (mint) {
+          localStorage.setItem('lureMint', mint);
+        }
+      } catch(e) {}
+
+      const mint = localStorage.getItem('lureMint');
+      if (!mint) return;
+      
+      document.getElementById('mint-address').textContent = `Contract: ${mint}`;
+      document.getElementById('buy-btn').href = `https://pump.fun/coin/${mint}`;
+      document.getElementById('solscan-link').href = `https://solscan.io/token/${mint}`;
+
+      try {
+        const resp = await fetch(`https://frontend-api.pump.fun/coins/${mint}`);
+        const data = await resp.json();
+        document.getElementById('market-cap').textContent = `$${(data.market_cap || 0).toLocaleString()}`;
+        document.getElementById('market-cap').className = 'value';
+        document.getElementById('holders').textContent = data.holder_count || '0';
+        document.getElementById('holders').className = 'value';
+        document.getElementById('price').textContent = `$${(data.usd_price || 0).toLocaleString()}`;
+        document.getElementById('price').className = 'value';
+      } catch(e) {
+        document.getElementById('market-cap').textContent = '—';
+        document.getElementById('holders').textContent = '—';
+        document.getElementById('price').textContent = '—';
+      }
+    }
+    loadTokenData();
+    setInterval(loadTokenData, 30000);
+  </script>
+</body>
+</html>
