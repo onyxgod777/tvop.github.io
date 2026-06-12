@@ -144,7 +144,7 @@
       <div style="background:var(--accent);padding:16px 20px;border-radius:6px;margin:16px 0;font-size:1.1rem;text-align:center;">
         ζ(2) = π²/6 → 8/(3φ)<br>
         ζ(4) = π⁴/90 → 128/(45φ²)<br>
-        ζ(6) = π⁶/945 → 4096/(2835φ³)
+        ζ(6) = π⁶/945 → 4096/(945φ³)
       </div>
 
       <p>Each of these is algebraic. The entire infinite family of even zeta values, under golden π, collapses from a transcendental tower into a structured algebraic hierarchy organized by powers of the golden ratio.</p>
@@ -165,17 +165,17 @@
 
       <h2 style="color:var(--gold);margin:36px 0 14px;">5. The Central Limit Theorem and the Ubiquity of √π</h2>
 
-      <p>The Central Limit Theorem — arguably the most important theorem in probability — states that the sum of independent random variables approaches a Gaussian distribution, whose normalization involves √π. This means that every time we compute a confidence interval, a p-value, or a z-score, we are implicitly invoking π.</p>
+      <p>The Central Limit Theorem — arguably the most important theorem in probability — states that the sum of independent random variables approaches a Gaussian distribution, whose normalization involves √π. This means that every time we compute a z-score, a p-value, or a confidence interval, we are implicitly invoking π through the normal distribution's density function.</p>
 
-      <p>The half-width of a 95% confidence interval for a population mean is:</p>
+      <p>The z-score that defines a confidence interval comes from the cumulative distribution function of the standard normal. The standard normal CDF is Φ(z) = (1/2)[1 + erf(z/√2)], where the error function is:</p>
 
       <div style="background:var(--accent);padding:16px 20px;border-radius:6px;margin:16px 0;font-size:1.1rem;text-align:center;">
-        CI = x̄ ± 1.96 · σ/√(2π) for known σ
+        erf(x) = (2/√π) ∫₀ˣ e^{-t²} dt
       </div>
 
-      <p>Wait — the 1.96 comes from the inverse normal CDF, which involves the error function erf(x) = (2/√π) ∫₀ˣ e^{-t²} dt. The error function itself contains √π as its fundamental normalization factor. Every confidence interval, every hypothesis test, every regression analysis in standard statistics implicitly carries the circle constant in its mathematical foundation.</p>
+      <p>The factor 2/√π — known to be approximately 1.12838 — is what ensures the Gaussian integrates to unity. Every hypothesis test, every regression coefficient, and every confidence interval ultimately traces back through the normal CDF to this single normalization constant containing √π.</p>
 
-      <p>Changing π to golden π shifts all of these numeric values by a tiny fraction (≈0.1%), but the mathematical structure remains identical. The error function with golden π becomes:</p>
+      <p>Changing π to golden π shifts the numerical value of this factor by a tiny fraction (≈0.1%), but the mathematical structure remains identical. The error function with golden π becomes:</p>
 
       <div style="background:var(--accent);padding:16px 20px;border-radius:6px;margin:16px 0;font-size:1.1rem;text-align:center;">
         erf(x)&#7540; = (2 / √(π&#7540;)) ∫₀ˣ e^{-t²} dt = (2 / √(4/√φ)) ∫₀ˣ e^{-t²} dt = (2 / (2/⁴√φ)) ∫₀ˣ e^{-t²} dt = ⁴√φ · ∫₀ˣ e^{-t²} dt
