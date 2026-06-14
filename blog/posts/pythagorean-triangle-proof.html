@@ -7,17 +7,6 @@
   <meta name="description" content="Interactive visualization of the right triangle with sides 4, π, and 16/π. It only closes perfectly when π = 4/√φ — the golden π." />
   <meta property="og:title" content="The Pythagorean Triangle Proof — Golden π" />
   <meta property="og:description" content="Interactive visualization of the right triangle with sides 4, π, and 16/π. It only closes perfectly when π = 4/√φ — the golden π." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://pi.thealpha-secret.xyz/blog/posts/pythagorean-triangle-proof.html" />
-  <meta property="og:url" content="https://pi.thealpha-secret.xyz/blog/posts/pythagorean-triangle-proof.html" />
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://pi.thealpha-secret.xyz/img/Abnormal.jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="The Pythagorean Triangle Proof — Golden π" />
-  <meta name="twitter:description" content="Interactive visualization of the right triangle with sides 4, π, and 16/π. It only closes perfectly when π = 4/√φ — the golden π." />
-  <meta name="twitter:image" content="https://pi.thealpha-secret.xyz/img/Abnormal.jpeg" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../css/styles.css">
@@ -339,15 +328,6 @@
       .controls { flex-direction: column; }
     }
   </style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WNFQTNH7F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-6WNFQTNH7F");
-  </script>
-  <meta name="google-adsense-account" content="ca-pub-7510426943014771">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7510426943014771" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -355,10 +335,7 @@
 <header>
   <div class="header">
     <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
-                      <button class="hamburger" id="hamburger-btn" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-      <div class="menu">
+          <div class="menu">
         <ul>
           <li><a href="../../index.html">HOME</a></li>
           <li><a href="../../about.html">ABOUT</a></li>
@@ -420,14 +397,14 @@
         <tr>
           <td>b (long leg)</td>
           <td>π</td>
-          <td class="val" id="valBg">—</td>
-          <td class="val" id="valBc">—</td>
+          <td class="val" id="valBG">—</td>
+          <td class="val" id="valBC">—</td>
         </tr>
         <tr>
           <td>c (hypotenuse)</td>
           <td>16/π</td>
-          <td class="val" id="valCg">—</td>
-          <td class="val" id="valCc">—</td>
+          <td class="val" id="valCG">—</td>
+          <td class="val" id="valCC">—</td>
         </tr>
         <tr>
           <td>a² + b²</td>
@@ -554,7 +531,296 @@
 </div>
 
 <!-- ═══ FOOTER ═══ -->
-  <!-- ── Comments ── -->
+
+
+<!-- ═══ SCRIPT ═══ -->
+<script>
+// ── Constants ──
+const PHI = (1 + Math.sqrt(5)) / 2;       // 1.618033989
+const PI_GOLDEN = 4 / Math.sqrt(PHI);      // 3.144605511
+const PI_CONV   = Math.PI;                 // 3.141592654
+
+let useGolden = false;   // start showing conventional π error
+
+// ── Canvas ──
+const canvas = document.getElementById('triCanvas');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+// Layout
+const originX = 120, originY = 340;
+const scale = 48;  // pixels per unit
+
+function drawTriangle(piVal) {
+  ctx.clearRect(0, 0, W, H);
+
+  // Side lengths
+  const a = 4;               // vertical leg (always 4)
+  const b = piVal;           // horizontal leg = π
+  const c = 16 / piVal;      // hypotenuse
+
+  // Right angle vertex at origin, horizontal leg along x, vertical leg along y (up)
+  const ax = originX;                    // right angle vertex
+  const ay = originY;
+
+  const bx = originX + Math.round(b * scale);   // horizontal leg endpoint
+  const by = originY;
+
+  const cx_expected = originX;                  // vertical would be up
+  const cy_expected = originY - Math.round(a * scale);
+
+  // Hypotenuse endpoint
+  // For the third vertex of the right triangle, it should be at (ax, cy_expected) for a closed triangle
+  // But we need to show what happens when we use the given hypotenuse length
+
+  // Calculate where the hypotenuse actually lands from the right angle going at the computed angle
+  // Actually let me think about this differently.
+
+  // The right triangle: right angle at (ax, ay)
+  // Leg a = 4 (vertical, going up) → endpoint at (ax, ay - a*scale)
+  // Leg b = π (horizontal, going right) → endpoint at (ax + b*scale, ay)
+  // The hypotenuse connects endpoints of the two legs
+
+  // So the proper Pythagorean triangle points are:
+  const rVertex = { x: ax, y: ay };             // right angle vertex
+  const vEnd = { x: ax, y: ay - Math.round(a * scale) };   // end of vertical leg
+  const hEnd = { x: ax + Math.round(b * scale), y: ay };   // end of horizontal leg
+
+  // The correct closing point is at (hEnd.x, vEnd.y) — where the hypotenuse should reach
+  const closeX = hEnd.x;
+  const closeY = vEnd.y;
+
+  // The ACTUAL hypotenuse length in pixels
+  const hypPixels = c * scale;
+
+  // Angle of the hypotenuse from horizontal
+  const hypAngle = Math.atan2(a, b);
+
+  // The actual endpoint of the drawn hypotenuse from the right angle
+  // In a CLOSED triangle, the hypotenuse goes from the right angle to (closeX, closeY)
+  // But we'll draw it from one leg endpoint to the other
+
+  // ── Draw coordinate axes ──
+  ctx.strokeStyle = 'rgba(42,63,106,0.4)';
+  ctx.lineWidth = 1;
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath();
+  ctx.moveTo(40, originY);
+  ctx.lineTo(W - 30, originY);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(originX, 30);
+  ctx.lineTo(originX, H - 20);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // ── Draw the right triangle ──
+  // Vertical leg (side a = 4)
+  ctx.strokeStyle = '#e8d48b';
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x, rVertex.y);
+  ctx.lineTo(vEnd.x, vEnd.y);
+  ctx.stroke();
+
+  // Horizontal leg (side b = π)
+  ctx.strokeStyle = '#c9a84c';
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x, rVertex.y);
+  ctx.lineTo(hEnd.x, hEnd.y);
+  ctx.stroke();
+
+  // Hypotenuse (side c = 16/π)
+  const isExact = Math.abs(piVal - PI_GOLDEN) < 0.0001;
+  ctx.strokeStyle = isExact ? '#4caf7d' : '#e8605a';
+  ctx.lineWidth = isExact ? 3 : 3;
+  ctx.setLineDash(isExact ? [] : [6, 4]);
+  ctx.beginPath();
+  ctx.moveTo(vEnd.x, vEnd.y);
+  ctx.lineTo(hEnd.x, hEnd.y);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // ── Draw the error arc (for conventional π) ──
+  if (!isExact) {
+    // Show gap — the difference between perfect closing and actual
+    // For conventional π, the triangle doesn't close.
+    // The 'correct' closing point is (closeX, closeY).
+    // Let's highlight the gap
+
+    // Draw the "perfect" closing line dimmed
+    ctx.strokeStyle = 'rgba(76,175,125,0.2)';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath();
+    ctx.moveTo(vEnd.x, vEnd.y);
+    ctx.lineTo(closeX, closeY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Draw a red X or gap marker at the discrepancy
+    const gapX = closeX - 6;
+    const gapY = closeY - 6;
+    ctx.strokeStyle = '#e8605a';
+    ctx.lineWidth = 2;
+    // Small 'x' at the gap
+    ctx.beginPath();
+    ctx.moveTo(gapX - 5, gapY - 5);
+    ctx.lineTo(gapX + 5, gapY + 5);
+    ctx.moveTo(gapX + 5, gapY - 5);
+    ctx.lineTo(gapX - 5, gapY + 5);
+    ctx.stroke();
+
+    // Draw the arc showing the mismatch
+    ctx.beginPath();
+    ctx.arc(hEnd.x, vEnd.y, 16, 0, Math.PI * 2);
+    ctx.strokeStyle = '#e8605a';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([3, 3]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Label the gap
+    ctx.fillStyle = '#e8605a';
+    ctx.font = '12px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('Δ = ' + Math.abs((a*a + b*b) - c*c).toFixed(4), closeX, closeY + 28);
+  } else {
+    // Draw a checkmark for golden π
+    ctx.fillStyle = '#4caf7d';
+    ctx.font = '16px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('✓ exactly', closeX, closeY - 14);
+  }
+
+  // ── Right angle marker ──
+  const markerSize = 14;
+  ctx.strokeStyle = 'rgba(212,216,224,0.5)';
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  ctx.moveTo(rVertex.x + markerSize, rVertex.y);
+  ctx.lineTo(rVertex.x + markerSize, rVertex.y - markerSize);
+  ctx.lineTo(rVertex.x, rVertex.y - markerSize);
+  ctx.stroke();
+
+  // ── Side labels ──
+  ctx.fillStyle = '#e8d48b';
+  ctx.font = 'bold 15px "Georgia", serif';
+  ctx.textAlign = 'center';
+
+  // Label a (vertical leg = 4)
+  const midVertX = rVertex.x - 18;
+  const midVertY = (rVertex.y + vEnd.y) / 2;
+  ctx.textAlign = 'center';
+  ctx.fillText('a = 4', midVertX, midVertY + 5);
+
+  // Label b (horizontal leg = π)
+  const midHorizX = (rVertex.x + hEnd.x) / 2;
+  const midHorizY = rVertex.y + 24;
+  ctx.fillStyle = '#c9a84c';
+  ctx.fillText('b = π', midHorizX, midHorizY);
+
+  // Label c (hypotenuse = 16/π)
+  const midHypX = (vEnd.x + hEnd.x) / 2;
+  const midHypY = (vEnd.y + hEnd.y) / 2;
+  ctx.fillStyle = isExact ? '#4caf7d' : '#e8605a';
+  ctx.textAlign = 'center';
+  ctx.fillText('c = 16/π', midHypX + (isExact ? -20 : 20), midHypY - 10);
+
+  // ── Vertex dots ──
+  const dotR = 4;
+  ctx.fillStyle = '#d4d8e0';
+  ctx.beginPath();
+  ctx.arc(rVertex.x, rVertex.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(vEnd.x, vEnd.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(hEnd.x, hEnd.y, dotR, 0, 2*Math.PI);
+  ctx.fill();
+
+  // ── Labels above vertices ──
+  ctx.fillStyle = '#8a92a8';
+  ctx.font = '13px "Georgia", serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('(4, 0, 0)', rVertex.x, rVertex.y + 42);
+  ctx.textAlign = 'center';
+  ctx.fillText('(0, π, 0)', hEnd.x, hEnd.y + 54);
+  ctx.textAlign = 'center';
+  ctx.fillText('(0, 0, 4)', vEnd.x, vEnd.y - 14); // won't overlap
+}
+
+function populateRow(piVal, prefix) {
+  const a = 4;
+  const b = piVal;
+  const c = 16 / piVal;
+  const sumSq = a*a + b*b;
+  const cSq = c*c;
+  const err = Math.abs(sumSq - cSq);
+
+  document.getElementById('valB' + prefix).textContent = b.toFixed(6);
+  document.getElementById('valC' + prefix).textContent = c.toFixed(6);
+  document.getElementById('valABsq' + prefix).textContent = sumSq.toFixed(6);
+  document.getElementById('valCsq' + prefix).textContent = cSq.toFixed(6);
+
+  const matchCell = document.getElementById('match' + prefix);
+  if (err < 0.00001) {
+    matchCell.textContent = '✓ EXACT';
+    matchCell.className = 'pass';
+  } else {
+    matchCell.textContent = '✗ OFF by ' + err.toFixed(4);
+    matchCell.className = 'fail';
+  }
+}
+
+function updateNumbers(goldenPiVal) {
+  // Always update BOTH columns
+  populateRow(PI_GOLDEN, 'G');
+  populateRow(PI_CONV, 'C');
+
+  // Error bar and message depend on which mode is active
+  const a = 4;
+  const b = goldenPiVal;
+  const c = 16 / goldenPiVal;
+  const sumSq = a*a + b*b;
+  const cSq = c*c;
+  const err = Math.abs(sumSq - cSq);
+
+  const maxErr = 0.07;
+  const pct = Math.min((err / maxErr) * 100, 100);
+  const bar = document.getElementById('errorBar');
+  bar.style.width = pct + '%';
+  bar.className = 'error-bar-fill ' + (err < 0.00001 ? 'pass' : 'fail');
+
+  document.getElementById('errorVal').textContent = err.toFixed(6);
+  const msg = document.getElementById('errorMsg');
+  if (err < 0.00001) {
+    msg.textContent = '✓ The triangle closes perfectly. Pythagorean equality is exact.';
+    msg.className = 'error-msg pass';
+  } else {
+    msg.textContent = '✗ The triangle does NOT close. Pythagorean error = ' + err.toFixed(6) + ' (off by ' + (err / sumSq * 100).toFixed(2) + '%)';
+    msg.className = 'error-msg fail';
+  }
+}
+
+function togglePi() {
+  useGolden = document.getElementById('piToggle').checked;
+  const piVal = useGolden ? PI_GOLDEN : PI_CONV;
+  const piName = document.getElementById('piName');
+  piName.textContent = useGolden ? 'Golden π' : 'Conventional π';
+  piName.style.color = useGolden ? '#4caf7d' : '#e8605a';
+
+  drawTriangle(piVal);
+  updateNumbers(piVal);
+}
+
+// ── Init ──
+togglePi();  // start with conventional π
+</script>
+
+
+<!-- ── Comments ── -->
 <div class="comments-section">
   <h3>💬 Leave a Comment</h3>
   <script src="https://utteranc.es/client.js"
@@ -567,35 +833,27 @@
   </script>
 </div>
 
-<!-- ── Social ── -->
-<div style="text-align:center;padding:8px 0 0;">
-  <a href="https://x.com/ninthprime23" target="_blank" style="color:#a07830;font-size:1.1rem;margin:0 6px;text-decoration:none;">𝕏</a>
-  <a href="https://www.youtube.com/onyxgod777" target="_blank" style="color:#a07830;font-size:1.1rem;margin:0 6px;text-decoration:none;">▶</a>
-</div>
 
-<footer>
-    <div style="text-align:center;padding:12px 24px;font-size:0.75rem;">
-      <p style="margin:0 0 4px;">
-        <a href="https://gutwise.thealpha-secret.xyz" style="color:#a07830;">GutWise</a>
-        · <a href="https://ai-body.thealpha-secret.xyz" style="color:#64b5f6;">AI Body</a>
-        · <a href="https://www.youtube.com/onyxgod777" style="color:#a07830;">YouTube</a>
-      </p>
-      <p style="margin:0;color:rgba(212,168,67,0.5);font-size:0.7rem;">
-        The True Value of Pi &copy; <script>document.write(new Date().getFullYear())</script> &middot; Powered by the Ninth Prime
-      </p>
+  <footer>
+    <div class="social">
+    <a href="https://x.com/ninthprime23" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/onyxgod777" class="fa fa-youtube"></a>
+    <a href="https://github.com/onyxgod777" class="fa fa-github"></a>
+  </div>
+    <p>π = 4/√φ • √(√320 − 8) • 3.144605511...</p>
+
+    <div style="text-align:center;padding:16px 24px;font-size:0.8rem;">
+      <p style="margin:0 0 8px;color:#a07830;">☕ Support this work</p>
+      <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;align-items:center;">
+        <a href="https://buymeacoffee.com/onyxg777" target="_blank" style="display:inline-flex;align-items:center;gap:4px;padding:5px 12px;background:#FFDD00;color:#000;border-radius:5px;text-decoration:none;font-weight:600;">☕ Buy Me a Coffee</a>
+        <a href="https://ko-fi.com/ninthprime" target="_blank" style="display:inline-flex;align-items:center;gap:4px;padding:5px 12px;background:#FF5E5B;color:#fff;border-radius:5px;text-decoration:none;font-weight:600;">🎁 Ko-fi</a>
+        <span style="color:rgba(212,168,67,0.5);">|</span>
+        <span style="color:#a07830;">◆ Crypto:</span>
+        <code style="font-family:monospace;background:rgba(212,168,67,0.08);padding:3px 8px;border-radius:4px;border:1px solid rgba(212,168,67,0.15);cursor:pointer;color:#ccc;" onclick="navigator.clipboard?.writeText('0x48F3AE27D2d49Aab2E57eAF4FEA22Ed3E835Bf0a');this.textContent='✓ Copied!';setTimeout(()=>this.textContent='0x48F3AE27D2d49Aab2E57eAF4FEA22Ed3E835Bf0a',2000)" title="Click to copy">0x48F3AE27...35Bf0a</code>
+        <span style="color:rgba(212,168,67,0.4);font-size:0.75rem;">MATIC / USDC (Polygon)</span>
+      </div>
     </div>
   </footer>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const btn = document.getElementById('hamburger-btn');
-  const menu = document.querySelector('.menu');
-  if (btn && menu) {
-    btn.addEventListener('click', function() {
-      menu.classList.toggle('open');
-      btn.classList.toggle('active');
-    });
-  }
-});
-</script>
+
 </body>
 </html>
