@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Golden Pi Updates — Archive</title>
+<link rel="stylesheet" href="../css/styles.css">
+<meta name="description" content="Archived daily Golden Pi research updates from June 18–21, 2026." />
+<style>
+  .archive-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .archive-card a { color: var(--gold); font-size: 18px; }
+  .archive-card .date { opacity: 0.6; font-size: 14px; margin: 4px 0 12px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+      <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="/"><i class="fa fa-home"></i> Home</a>
+        <a href="/blog/"><i class="fa fa-book"></i> Blog</a>
+        <a href="/#proof"><i class="fa fa-flask"></i> Proof</a>
+        <a href="/#about"><i class="fa fa-info-circle"></i> About</a>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top:120px;padding-bottom:60px;max-width:800px;margin:0 auto;">
+    <h2 style="color:var(--gold);text-align:center;margin:40px 0;font-size:28px;">Daily Golden Pi Updates — Archive</h2>
+
+    <div class="archive-card">
+      <a href="posts/2026-06-21-daily-golden-pi-update.html">Daily Golden Pi Update — June 21, 2026</a>
+      <p class="date">June 21, 2026</p>
+      <p>The latest daily entry (June 20, 2026) reports new evidence from natural logarithmic spirals reinforcing the thesis that the circle constant closes algebraically as π = 4/√φ ≈ 3.144606.</p>
+    </div>
+
+    <div class="archive-card">
+      <a href="posts/2026-06-20-daily-golden-pi-update.html">Daily Golden Pi Update — June 20, 2026</a>
+      <p class="date">June 20, 2026</p>
+      <p>New evidence from natural logarithmic spirals reinforces the thesis that the circle constant closes algebraically as π = 4/√φ ≈ 3.144606.</p>
+    </div>
+
+    <div class="archive-card">
+      <a href="posts/2026-06-19-daily-golden-pi-update.html">Daily Golden Pi Update — June 19, 2026</a>
+      <p class="date">June 19, 2026</p>
+      <p>Daily update compiling the latest Golden Pi evidence and thesis reinforcement for June 19, 2026.</p>
+    </div>
+
+    <div class="archive-card">
+      <a href="posts/2026-06-18-daily-golden-pi-proof.html">The Daily Constant: Why Golden Pi = 4/√φ is the Only Self-Consistent Circle Measure</a>
+      <p class="date">June 18, 2026</p>
+      <p>A precise algebraic test shows only π = 4/√φ satisfies (4²/π)² − π² = 4² exactly. Explore why the 0.096% gap between conventional π and golden π matters across geometry, physics, and ancient measure.</p>
+    </div>
+
+    <p style="text-align:center;margin-top:40px;">
+      <a href="/blog/" style="color:var(--gold);">← Back to all posts</a>
+    </p>
+  </main>
+
+  <script>
+    const btn = document.getElementById('hamburger-btn');
+    const nav = document.getElementById('nav-links');
+    if (btn && nav) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        nav.classList.toggle('open');
+      });
+      window.addEventListener('click', () => nav.classList.remove('open'));
+      nav.addEventListener('click', () => nav.classList.remove('open'));
+    }
+  </script>
+</body>
+</html>

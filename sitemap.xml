@@ -213,10 +213,22 @@
     <lastmod>2026-05-31</lastmod>
   </url>
   <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/daily-updates-archive.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-24</lastmod>
+  </url>
+  <url>
     <loc>https://pi.thealpha-secret.xyz/blog/posts/2026-06-22-parthenon-golden-blueprint-true-pi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-22</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/samuel-laboy-perfect-symbol-squaring-circle.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-24</lastmod>
   </url>
   <url>
     <loc>https://pi.thealpha-secret.xyz/blog/posts/2026-06-23-reuleaux-triangle-golden-pi-constant-width.html</loc>
@@ -229,5 +241,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-24</lastmod>
+  </url>
+  <url>
+    <loc>https://pi.thealpha-secret.xyz/blog/posts/2026-06-25-eye-horus-rhind-papyrus-golden-pi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-25</lastmod>
   </url>
 </urlset>
