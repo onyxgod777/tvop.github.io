@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="../../css/styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +20,15 @@
 <body>
   <header>
     <div class="header">
-      <h1><span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+      <h1><i class="fas fa-circle-notch"></i> <span>Φ</span> The True Value Of Pi <span>Π</span></h1>
       <button class="hamburger" id="hamburger-btn" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
       <div class="menu">
         <ul>
           <li><a href="../../index.html">HOME</a></li>
+          <li><a href="../../bitcoin:bc1qxj9pa0vpe7289c3dq782hfj9cl8wcja2xwls2c">DONATE</a></li>
+          <li><a href="mailto:sunntzu@realvalueofpi.xyz">CONTACT</a></li>
           <li><a href="../../about.html">ABOUT</a></li>
           <li><a href="../index.html">BLOG</a></li>
           <li><a href="../../calculator.html">CALC</a></li>
@@ -36,19 +38,9 @@
     </div>
   </header>
   <main style="padding-top:100px;">
-    <article style="max-width:780px;margin:0 auto;padding:20px 24px 60px;">
-      <h1>The Threefold Path to Golden Pi</h1><p style="color:#d4a843;font-size:16px;margin:0 0 30px;"><em>DNA, Kepler's Triangle, and Seven Derivations Converge on π = 4/√φ</em></p>
-
-      <p style="font-size:18px;line-height:1.8;color:#c8c6b8;border-left:3px solid #d4a843;padding-left:20px;margin:30px 0;">
-      Three independent approaches — the DNA double helix, Kepler's sacred triangle, and seven cross-disciplinary derivations — all converge on the same truth: the circle constant is algebraically π = 4/√φ (3.144606). From life's blueprint to geometry's most elegant proof.
-      </p>
-
-      <!-- Part 1: Kepler Triangle -->
-      <hr style="border-color:#2a2940;margin:40px 0;">
-      <h2 style="color:#d4a843;">Part I: The Kepler Triangle Genesis</h2>
-      
-    <p style="margin-bottom:20px;"><a href="../index.html" style="color:var(--text-muted);">← Back to blog</a></p>
-    <h2 style="color:var(--gold);font-size:28px;margin-bottom:8px;">The Kepler Triangle Genesis — How a 1–√φ–φ Right Triangle Demands π = 4/√φ</h2>
+    <p class="back-link"><a href="../index.html">← Back to blog</a></p>
+<div class="blog-content">
+<h2 style="color:var(--gold);font-size:28px;margin-bottom:8px;">The Kepler Triangle Genesis — How a 1–√φ–φ Right Triangle Demands π = 4/√φ</h2>
     <p style="opacity:0.6;margin-bottom:30px;">May 26, 2026 · 14 min read</p>
 
     <img src="../../img/Abnormal.jpeg" alt="Kepler triangle golden pi proof" style="width:100%;max-width:720px;height:auto;border-radius:12px;margin:0 auto 24px;display:block;" />
@@ -890,7 +882,8 @@
       Three independent paths — Kepler's sacred triangle, the DNA double helix, and seven cross-disciplinary derivations — each arrive at the same destination: π = 4/√φ. When geometry, biology, and mathematics converge on a single constant, the evidence becomes overwhelming. The golden circle constant is not one proof among many — it is the inevitable conclusion of every approach.
       </p>
     </article>
-  </main>
+</div>
+</main>
   <script>
   document.addEventListener("DOMContentLoaded",function(){var b=document.getElementById("hamburger-btn"),m=document.querySelector(".menu");b&&m&&b.addEventListener("click",function(){m.classList.toggle("open"),b.classList.toggle("active")})});
   </script>

@@ -520,3 +520,149 @@ a[href*="video"] strong {
   margin-bottom: 16px;
   text-align: center;
 }
+
+/* ── Blog Cards ── */
+.blog-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+.blog-card:hover {
+  border-color: rgba(212, 168, 67, 0.5);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+.blog-card h3 {
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.blog-card h3 a {
+  color: var(--gold);
+  text-decoration: none;
+}
+.blog-card h3 a:hover {
+  color: var(--gold-light);
+}
+.blog-card p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+.blog-card .date {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+
+/* ── Blog Article Content ── */
+.blog-article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.blog-content h2 {
+  color: var(--gold);
+  font-size: 26px;
+  margin: 40px 0 16px;
+  font-weight: 500;
+}
+.blog-content h3 {
+  color: var(--gold);
+  font-size: 20px;
+  margin: 32px 0 12px;
+  font-weight: 500;
+}
+.blog-content p {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 16px 0;
+}
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+.blog-content th {
+  background: rgba(212, 168, 67, 0.1);
+  color: var(--gold);
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.blog-content td {
+  padding: 8px 14px;
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  color: var(--text);
+}
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 24px auto;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+.blog-content .math-block {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 32px;
+  margin: 24px 0;
+  text-align: center;
+  font-size: 22px;
+  color: var(--gold-light);
+}
+.blog-content .back-link {
+  margin-bottom: 20px;
+}
+.blog-content .back-link a {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.blog-content .back-link a:hover {
+  color: var(--gold-light);
+}
+
+/* ── Social bar (standalone, not just footer) ── */
+.social-bar {
+  text-align: center;
+  padding: 16px 0 0;
+}
+.social-bar a {
+  color: var(--gold-dark);
+  font-size: 1.3rem;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.social-bar a:hover {
+  color: var(--gold-light);
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    padding: 16px 18px;
+  }
+  .blog-card h3 {
+    font-size: 17px;
+  }
+  .blog-card p {
+    font-size: 14px;
+  }
+  .blog-content table {
+    font-size: 12px;
+  }
+  .blog-content th,
+  .blog-content td {
+    padding: 6px 8px;
+  }
+}
