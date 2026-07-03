@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search — Golden Pi Wiki</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="/wiki/_pagefind/pagefind-ui.css" rel="stylesheet">
+  <style>
+    .search-page { max-width: 800px; margin: 3rem auto; padding: 0 1.5rem; }
+    .search-page h1 { color: #b8860b; }
+    #search { margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <div class="search-page">
+    <h1>🔍 Search Golden Pi Wiki</h1>
+    <p>Full-text search across all wiki pages — powered by Pagefind.</p>
+    <div id="search"></div>
+    <p style="margin-top: 2rem; color: #666;">
+      <a href="/wiki/">← Back to Wiki Home</a>
+    </p>
+  </div>
+  <script src="/wiki/_pagefind/pagefind-ui.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      new PagefindUI({ element: "#search", showSubResults: true });
+    });
+  </script>
+</body>
+</html>

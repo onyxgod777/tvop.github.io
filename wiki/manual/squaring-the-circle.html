@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Pi Manual Wiki — Squaring the Circle</title>
+  <meta name="description" content="Hand-crafted wiki page demonstrating cross-linked HTML wiki content.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .wiki-layout { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+    .wiki-sidebar { background: #f5f0e8; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; }
+    body.dark .wiki-sidebar { background: #1a1a2e; }
+    .wiki-sidebar h3 { margin-top: 0; }
+    .wiki-sidebar ul { list-style: none; padding: 0; }
+    .wiki-sidebar li { margin: 0.5rem 0; }
+    .wiki-sidebar a { color: #b8860b; text-decoration: none; }
+    .wiki-sidebar a:hover { text-decoration: underline; }
+    .wiki-content { line-height: 1.8; font-size: 1.05rem; }
+    .wiki-content h2 { border-bottom: 2px solid #b8860b; padding-bottom: 0.3rem; margin-top: 2.5rem; }
+    .wiki-content .see-also { background: #f5f0e8; padding: 1rem; border-radius: 8px; margin-top: 2rem; }
+    body.dark .wiki-content .see-also { background: #1a1a2e; }
+    .wiki-content .see-also a { color: #b8860b; }
+    .wiki-nav { display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ccc; }
+    .wiki-tag { display: inline-block; background: #b8860b; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin: 2px; }
+    .wiki-math { font-family: 'Times New Roman', serif; font-style: italic; font-size: 1.2rem; }
+    .wiki-search { margin-bottom: 1.5rem; }
+    .wiki-search input { width: 100%; padding: 0.75rem; border: 1px solid #b8860b; border-radius: 6px; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="wiki-layout">
+    <div class="wiki-search">
+      <input type="text" id="wikiSearch" placeholder="Search wiki pages..." onkeyup="filterWiki()">
+    </div>
+
+    <div class="wiki-sidebar">
+      <h3>📖 Golden Pi Wiki</h3>
+      <ul>
+        <li><a href="/wiki/">Home</a></li>
+        <li><a href="/wiki/manual/true-value-of-pi.html">True Value of Pi</a></li>
+        <li><strong>Squaring the Circle</strong> <span class="wiki-tag">hand-crafted</span></li>
+        <li><a href="/wiki/">Kepler's Triangle</a></li>
+        <li><a href="/wiki/">Golden Ratio (Φ)</a></li>
+        <li><a href="/wiki/evidence/pyramid-of-giza/index.html">Pyramid of Giza</a></li>
+        <li><a href="/wiki/evidence/billy-meier/index.html">Billy Meier</a></li>
+        <li style="margin-top:1rem;border-top:1px solid #ccc;padding-top:0.5rem;">
+          <a href="/wiki/manual/">← Back to Manual Wiki Index</a>
+        </li>
+      </ul>
+    </div>
+
+    <article class="wiki-content">
+      <h1>Squaring the Circle</h1>
+      <p><em>Hand-crafted wiki article — demonstrating manual cross-linked HTML wiki format</em></p>
+
+      <p><strong>Squaring the circle</strong> is the ancient geometric problem of constructing a square with the same area as a given circle using only compass and straightedge.</p>
+
+      <h2>The Problem</h2>
+      <p>Given a circle of radius <em>r</em>, construct a square of side <em>s</em> such that:</p>
+      <p class="wiki-math">s² = πr²</p>
+      <p>With conventional π (3.14159...), this is impossible because π is <strong>transcendental</strong> — it cannot be expressed as a finite combination of algebraic operations.</p>
+
+      <h2>The Golden Pi Solution</h2>
+      <p>Using <a href="true-value-of-pi.html">Golden Pi</a> (4/√Φ), the circle can be squared through the Golden Ratio:</p>
+      <p class="wiki-math">π = 4 / √Φ = 4 / 1.27201965... = 3.14460551...</p>
+      <p>The key insight is that Φ is an algebraic number (it satisfies Φ² = Φ + 1), so √Φ and therefore 4/√Φ are also algebraic — enabling exact geometric construction.</p>
+
+      <h2>Step-by-Step Construction</h2>
+      <ol>
+        <li>Construct a line segment of length Φ using the golden section division</li>
+        <li>Construct √Φ as the geometric mean of 1 and Φ</li>
+        <li>Divide 4 by √Φ (constructible as the fourth proportional)</li>
+        <li>Use this length to construct the square's side equal to the circle's area</li>
+      </ol>
+
+      <h2>Historical Significance</h2>
+      <p>For over 2,000 years, squaring the circle was considered the ultimate geometric challenge. The <a href="../evidence/pyramid-of-giza/index.html">Pyramid of Giza</a> may have encoded the solution thousands of years ago.</p>
+
+      <div class="see-also">
+        <strong>See also:</strong>
+        <a href="true-value-of-pi.html">True Value of Pi</a> ·
+        <a href="/wiki/golden-ratio/phi/index.html">Golden Ratio (Φ)</a> ·
+        <a href="/wiki/golden-pi/kepler-triangle/index.html">Kepler's Right Triangle</a> ·
+        <a href="/wiki/evidence/pyramid-of-giza/index.html">Pyramid of Giza</a>
+      </div>
+    </article>
+
+    <div class="wiki-nav">
+      <span>← <a href="true-value-of-pi.html">True Value of Pi</a></span>
+      <span><a href="/wiki/golden-ratio/phi/index.html">Golden Ratio →</a></span>
+    </div>
+  </div>
+
+  <script>
+    function filterWiki() {
+      var input = document.getElementById('wikiSearch').value.toLowerCase();
+      var links = document.querySelectorAll('.wiki-sidebar a');
+      links.forEach(function(link) {
+        var text = link.textContent.toLowerCase();
+        link.parentElement.style.display = text.includes(input) ? '' : 'none';
+      });
+    }
+    // Simple in-page search highlighting
+    if (window.location.hash) {
+      var term = decodeURIComponent(window.location.hash.slice(1));
+      document.getElementById('wikiSearch').value = term;
+      filterWiki();
+    }
+  </script>
+</body>
+</html>

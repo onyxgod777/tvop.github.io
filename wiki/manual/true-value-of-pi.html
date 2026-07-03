@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>True Value of Pi — Manual Wiki</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .wiki-layout { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+    .wiki-sidebar { background: #f5f0e8; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; }
+    body.dark .wiki-sidebar { background: #1a1a2e; }
+    .wiki-sidebar h3 { margin-top: 0; }
+    .wiki-sidebar ul { list-style: none; padding: 0; }
+    .wiki-sidebar li { margin: 0.5rem 0; }
+    .wiki-sidebar a { color: #b8860b; text-decoration: none; }
+    .wiki-content { line-height: 1.8; font-size: 1.05rem; }
+    .wiki-content h2 { border-bottom: 2px solid #b8860b; padding-bottom: 0.3rem; margin-top: 2.5rem; }
+    .wiki-content .see-also { background: #f5f0e8; padding: 1rem; border-radius: 8px; margin-top: 2rem; }
+    body.dark .wiki-content .see-also { background: #1a1a2e; }
+    .wiki-nav { display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ccc; }
+    .wiki-tag { display: inline-block; background: #b8860b; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin: 2px; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    th, td { padding: 0.5rem; border: 1px solid #ccc; text-align: left; }
+    th { background: #b8860b; color: white; }
+  </style>
+</head>
+<body>
+  <div class="wiki-layout">
+    <div class="wiki-sidebar">
+      <h3>📖 Golden Pi Wiki — Manual Edition</h3>
+      <ul>
+        <li><a href="/wiki/">MkDocs Wiki Home</a></li>
+        <li><strong>True Value of Pi</strong> <span class="wiki-tag">hand-crafted</span></li>
+        <li><a href="squaring-the-circle.html">Squaring the Circle</a></li>
+        <li><a href="kepler-triangle.html">Kepler's Triangle</a></li>
+        <li><a href="phi.html">Golden Ratio (Φ)</a></li>
+        <li><a href="pyramid-of-giza.html">Pyramid of Giza</a></li>
+      </ul>
+    </div>
+
+    <article class="wiki-content">
+      <h1>True Value of Pi</h1>
+      <p><span class="wiki-tag">mathematics</span> <span class="wiki-tag">golden pi</span> <span class="wiki-tag">geometry</span></p>
+
+      <p>The conventional value of π = 3.14159... is the <em>approximate</em> ratio used in engineering. <strong>Golden Pi</strong> proposes that the <em>true</em> geometric value is:</p>
+
+      <p class="wiki-math" style="font-size:1.5rem;text-align:center;margin:1.5rem 0;">π = 4 / √Φ = 3.144605511029693...</p>
+
+      <h2>Comparison</h2>
+      <table>
+        <tr><th>Constant</th><th>Value</th></tr>
+        <tr><td>Φ (Golden Ratio)</td><td>1.618033988749895...</td></tr>
+        <tr><td>√Φ</td><td>1.272019649514069...</td></tr>
+        <tr><td><strong>Golden Pi (4/√Φ)</strong></td><td><strong>3.144605511029693...</strong></td></tr>
+        <tr><td>Conventional π</td><td>3.141592653589793...</td></tr>
+      </table>
+
+      <h2>Derivation</h2>
+      <p>From <a href="kepler-triangle.html">Kepler's Right Triangle</a>, where the sides are in the ratio <strong>1 : √Φ : Φ</strong>, the circumference of a circle with diameter equal to the triangle's height relates directly to 4/√Φ.</p>
+
+      <div class="see-also">
+        <strong>See also:</strong>
+        <a href="kepler-triangle.html">Kepler's Right Triangle</a> ·
+        <a href="squaring-the-circle.html">Squaring the Circle</a> ·
+        <a href="phi.html">Golden Ratio (Φ)</a> ·
+        <a href="pyramid-of-giza.html">Pyramid of Giza</a>
+      </div>
+    </article>
+
+    <div class="wiki-nav">
+      <span>← <a href="/wiki/">Wiki Home</a></span>
+      <span><a href="squaring-the-circle.html">Squaring the Circle →</a></span>
+    </div>
+  </div>
+</body>
+</html>
