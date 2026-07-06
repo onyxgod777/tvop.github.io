@@ -1,0 +1,89 @@
+site_name: Golden Pi Wiki
+site_description: "The True Value of Pi — 4/√Φ = 3.144606 — Knowledge Base"
+site_url: https://pi.thealpha-secret.xyz/
+repo_url: https://github.com/onyxgod777/tvop.github.io
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: amber
+    accent: deep-orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: /img/favicon.ico
+  logo: /img/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/onyxgod777
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/ninthprime23
+    - icon: fontawesome/solid/globe
+      link: https://pi.thealpha-secret.xyz
+  generator: false
+  analytics:
+    provider: google
+    property: G-6WNFQTNH7F
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.keys
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+copyright: |
+  <a href="mailto:sunntzu@realvalueofpi.xyz">Contact</a> &nbsp;|&nbsp;
+  <a href="https://buymeacoffee.com/onyxg777" target="_blank">Donate</a> &nbsp;|&nbsp;
+  <a href="https://pi.thealpha-secret.xyz">Golden Pi Wiki</a>
+
+nav:
+  - Home: index.md
+  - Golden Pi:
+    - True Value: golden-pi/true-value.md
+    - Kepler's Triangle: golden-pi/kepler-triangle.md
+    - Squaring the Circle: golden-pi/squaring-circle.md
+  - Golden Ratio:
+    - Phi (φ): golden-ratio/phi.md
+    - In Nature: golden-ratio/in-nature.md
+    - In Architecture: golden-ratio/in-architecture.md
+  - Evidence:
+    - Pyramid of Giza: evidence/pyramid-of-giza.md
+    - Ancient Knowledge: evidence/ancient-knowledge.md
+    - Billy Meier / FIGU: evidence/billy-meier.md
+  - Resources:
+    - Bibliography: resources/bibliography.md
+    - Calculator: calculator/index.md
+  - Manual:
+    - Squaring the Circle: manual/squaring-the-circle.md
+    - True Value of Pi: manual/true-value-of-pi.md
+  - Blog:
+    - Research Articles: blog/index.md
+  - About: about.md
+  - Instrumentum: instrumentum.md
+  - Videos: video/videos.md

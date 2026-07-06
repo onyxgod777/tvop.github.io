@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden π Calculator — The True Value Of Pi</title>
+  <meta name="description" content="Interactive calculator using golden π = 4/√φ = 3.144605511030. Full expression evaluator with trig, comparison mode." />
+  <meta property="og:title" content="Golden π Calculator" />
+  <meta property="og:description" content="Interactive calculator using golden π = 4/√φ = 3.144605511030. Full expression evaluator with trig, comparison mode." />
+  <meta property="og:url" content="https://pi.thealpha-secret.xyz/calculator.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://pi.thealpha-secret.xyz/img/PiCover.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pi.thealpha-secret.xyz/calculator.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Golden π Calculator — The True Value Of Pi" />
+  <meta name="twitter:description" content="Interactive calculator using golden π = 4/√φ = 3.144605511030. Full expression evaluator with trig, comparison mode." />
+  <meta name="twitter:image" content="https://pi.thealpha-secret.xyz/img/PiCover.jpeg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    /* ── Layout ── */
+    .calc-wrap {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 100px 16px 40px;
+    }
+
+    .calc-wrap h1 {
+      color: var(--gold);
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .calc-wrap .subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 24px;
+      font-family: 'Courier New', monospace;
+    }
+
+    /* ── Mode Bar ── */
+    .mode-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      margin-bottom: 16px;
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .mode-btn {
+      flex: 1;
+      padding: 10px 12px;
+      text-align: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      background: transparent;
+      border: none;
+      letter-spacing: 0.5px;
+    }
+    .mode-btn:hover { color: var(--gold-light); background: rgba(212,168,67,0.08); }
+    .mode-btn.active {
+      color: var(--gold-light);
+      background: rgba(212,168,67,0.15);
+      font-weight: bold;
+    }
+    .mode-btn.active-golden { border-bottom: 2px solid var(--gold); }
+    .mode-btn.active-standard { border-bottom: 2px solid var(--text-muted); }
+
+    /* ── Display ── */
+    .display-area {
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      min-height: 80px;
+    }
+    .display-area .formula {
+      font-size: 14px;
+      color: var(--text-muted);
+      min-height: 22px;
+      word-break: break-all;
+      font-family: 'Courier New', monospace;
+    }
+    .display-area .result {
+      font-size: 28px;
+      color: var(--gold-light);
+      min-height: 36px;
+      word-break: break-all;
+      text-align: right;
+      font-family: 'Courier New', monospace;
+    }
+    .display-area .result.error {
+      color: var(--red);
+      font-size: 16px;
+    }
+
+    /* ── Button Grid ── */
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .btn-grid button {
+      padding: 13px 4px;
+      font-size: 15px;
+      font-family: 'Courier New', monospace;
+      background: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.12s;
+    }
+    .btn-grid button:hover { background: var(--navy-light); border-color: var(--gold-dim); }
+    .btn-grid button:active { transform: scale(0.95); background: rgba(212,168,67,0.15); }
+    .btn-grid button.fn { color: var(--gold); font-size: 13px; }
+    .btn-grid button.op { color: var(--gold-light); font-size: 18px; }
+    .btn-grid button.const { color: var(--gold-dim); font-size: 14px; }
+    .btn-grid button.eq { background: var(--gold-dim); color: var(--navy-dark); font-weight: bold; border-color: var(--gold); }
+    .btn-grid button.eq:hover { background: var(--gold); }
+    .btn-grid button.clr { color: var(--red); }
+    .btn-grid button.bs { color: var(--red); }
+
+    /* ── π Info Bar ── */
+    .pi-bar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 16px;
+      background: var(--navy-dark);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+    }
+    .pi-bar .golden { color: var(--gold-light); }
+    .pi-bar .standard { color: var(--text-muted); }
+
+    /* ── Trig Compare ── */
+    .trig-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .trig-table th {
+      background: var(--navy-dark);
+      color: var(--gold-dim);
+      padding: 7px 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .trig-table td {
+      padding: 6px 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .trig-table .gold { color: var(--gold-light); }
+    .trig-table .std { color: var(--text-muted); }
+    .trig-table .diff-pos { color: var(--green); }
+    .trig-table .diff-neg { color: var(--red); }
+
+    .trig-table .angle-label { color: var(--gold); font-weight: bold; }
+
+    @media (max-width: 480px) {
+      .calc-wrap { padding: 80px 10px 30px; }
+      .calc-wrap h1 { font-size: 20px; }
+      .btn-grid { gap: 4px; }
+      .btn-grid button { padding: 11px 2px; font-size: 13px; }
+      .display-area .result { font-size: 22px; }
+      .pi-bar { font-size: 11px; gap: 10px; }
+      .trig-table { font-size: 10px; }
+      .trig-table th, .trig-table td { padding: 4px 3px; }
+    }
+  </style>
+  <meta name="google-adsense-account" content="ca-pub-7510426943014771">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7510426943014771" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <div class="header">
+    <h1><i class="fas fa-circle-notch"></i> <span>Φ</span> The True Value Of Pi <span>Π</span></h1>
+                      <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="bitcoin:bc1qxj9pa0vpe7289c3dq782hfj9cl8wcja2xwls2c">DONATE</a></li>
+          <li><a href="mailto:sunntzu@realvalueofpi.xyz">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="blog/index.html">BLOG</a></li>
+          <li><a href="calculator.html">CALC</a></li>
+          <li><a href="instrumentum.html">INSTRUMENTUM</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<div class="calc-wrap">
+
+<h1>Golden π Calculator</h1>
+<p class="subtitle">π<sub>g</sub> = 4/√φ &middot; √(√320−8)</p>
+
+<!-- ── Mode Toggle ── -->
+<div class="mode-bar">
+  <button class="mode-btn active active-golden" data-mode="golden" onclick="setMode('golden')">✦ Golden π</button>
+  <button class="mode-btn" data-mode="standard" onclick="setMode('standard')">◯ Standard π</button>
+</div>
+
+<!-- ── Display ── -->
+<div class="display-area">
+  <div class="formula" id="formula">&nbsp;</div>
+  <div class="result" id="display">0</div>
+</div>
+
+<!-- ── π Info Bar ── -->
+<div class="pi-bar" id="piBar">
+  <span class="golden">π<sub>g</sub> = 3.144605511030</span>
+  <span class="standard">π = 3.141592653590</span>
+  <span>Ratio: <span id="ratioDisplay">+0.0955</span>%</span>
+</div>
+
+<!-- ── Button Grid ── -->
+<div class="btn-grid">
+  <button class="fn" onclick="insert('sin(')">sin</button>
+  <button class="fn" onclick="insert('cos(')">cos</button>
+  <button class="fn" onclick="insert('tan(')">tan</button>
+  <button class="fn" onclick="insert('asin(')">asin</button>
+  <button class="fn" onclick="insert('acos(')">acos</button>
+
+  <button class="fn" onclick="insert('atan(')">atan</button>
+  <button class="fn" onclick="insert('sqrt(')">√</button>
+  <button class="fn" onclick="insert('abs(')">abs</button>
+  <button class="const" onclick="insert('πg')">π<sub>g</sub></button>
+  <button class="const" onclick="insert('π')">π</button>
+
+  <button class="const" onclick="insert('φ')">φ</button>
+  <button class="const" onclick="insert('e')">e</button>
+  <button class="op" onclick="insert('^')">^</button>
+  <button class="op" onclick="insert('(')">(</button>
+  <button class="op" onclick="insert(')')">)</button>
+
+  <button class="clr" onclick="clearAll()">AC</button>
+  <button class="bs" onclick="backspace()">⌫</button>
+  <button style="color:var(--gold-dim);" onclick="insert('%')">%</button>
+  <button class="op" onclick="insert('/')">÷</button>
+  <button class="op" onclick="insert('*')">×</button>
+
+  <button onclick="insert('7')">7</button>
+  <button onclick="insert('8')">8</button>
+  <button onclick="insert('9')">9</button>
+  <button class="op" onclick="insert('-')">−</button>
+  <button class="eq" onclick="calc()">=</button>
+
+  <button onclick="insert('4')">4</button>
+  <button onclick="insert('5')">5</button>
+  <button onclick="insert('6')">6</button>
+  <button class="op" onclick="insert('+')">+</button>
+  <button class="fn" onclick="insert('πg/π')" style="font-size:11px;">π<sub>g</sub>/π</button>
+
+  <button onclick="insert('1')">1</button>
+  <button onclick="insert('2')">2</button>
+  <button onclick="insert('3')">3</button>
+  <button onclick="insert('0')">0</button>
+  <button onclick="insert('.')">.</button>
+</div>
+
+<!-- ── Trig Comparison Table ── -->
+<h3 style="color:var(--gold);font-size:15px;margin-bottom:8px;">Trigonometric Comparison</h3>
+<table class="trig-table" id="trigTable">
+  <thead>
+    <tr>
+      <th>Angle</th>
+      <th>sin (golden)</th>
+      <th>sin (standard)</th>
+      <th>Δ%</th>
+      <th>cos (golden)</th>
+      <th>cos (standard)</th>
+      <th>Δ%</th>
+    </tr>
+  </thead>
+  <tbody id="trigBody"></tbody>
+</table>
+
+</div>
+
+<!-- ── Social ── -->
+<div class="social-bar">
+  <a href="https://x.com/ninthprime23" target="_blank">𝕏</a>
+  <a href="https://www.youtube.com/onyxgod777" target="_blank">▶</a>
+</div>
+
+<footer>
+   <div style="text-align:center;padding:16px 24px;">
+      <p style="margin:0 0 6px;font-size:0.8rem;color:rgba(212,168,67,0.6);">
+        The True Value of Pi &copy; <script>document.write(new Date().getFullYear())</script> &middot; Powered by the Ninth Prime
+      </p>
+      <p style="margin:0 0 8px;font-size:0.75rem;">
+        <a href="https://gutwise.thealpha-secret.xyz" style="color:#a07830;">GutWise</a>
+        · <a href="https://ai-body.thealpha-secret.xyz" style="color:#64b5f6;">AI Body</a>
+        · <a href="https://cryptotab.thealpha-secret.xyz" style="color:#a07830;">CryptoTab</a>
+      </p>
+      <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;align-items:center;font-size:0.75rem;">
+        <a href="https://buymeacoffee.com/onyxg777" target="_blank" style="display:inline-flex;align-items:center;gap:3px;padding:4px 10px;background:#FFDD00;color:#000;border-radius:4px;text-decoration:none;font-weight:600;">☕ Coffee</a>
+        <a href="https://ko-fi.com/ninthprime" target="_blank" style="display:inline-flex;align-items:center;gap:3px;padding:4px 10px;background:#FF5E5B;color:#fff;border-radius:4px;text-decoration:none;font-weight:600;">🎁 Ko-fi</a>
+        <span style="color:rgba(212,168,67,0.4);">|</span>
+        <span style="color:#a07830;font-size:0.7rem;">◆ Crypto:</span>
+        <code style="font-family:monospace;background:rgba(212,168,67,0.06);padding:2px 6px;border-radius:3px;border:1px solid rgba(212,168,67,0.1);cursor:pointer;color:#999;font-size:0.7rem;" onclick="navigator.clipboard?.writeText('0x48F3AE27D2d49Aab2E57eAF4FEA22Ed3E835Bf0a');this.textContent='✓';setTimeout(()=>this.textContent='0x48F3AE27...35Bf0a',2000)">0x48F3AE27...35Bf0a</code>
+      </div>
+    </div>
+  </footer>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+//  Golden π Calculator — Pure Vanilla JS
+// ═══════════════════════════════════════════════════════════════
+
+// ── Constants ──
+const PHI = (1 + Math.sqrt(5)) / 2;          // 1.618033988749895
+const PI_G = 4 / Math.sqrt(PHI);              // 3.144605511029693
+const PI_S = Math.PI;                         // 3.141592653589793
+const EULER = Math.E;                         // 2.718281828459045
+
+// ── State ──
+let mode = 'golden';
+let display = '0';
+let formula = '';
+let justEvaluated = false;
+
+// DOM refs
+const displayEl = document.getElementById('display');
+const formulaEl = document.getElementById('formula');
+const trigBody = document.getElementById('trigBody');
+
+// ── Trig implementations ──
+// Golden mode: convert deg→rad using PI_G, compute, then normalize so sin(90°)=1
+const SIN_90_G = Math.sin(90 * PI_G / 180);  // normalization factor
+
+function sinG(deg)  { return Math.sin(deg * PI_G / 180) / SIN_90_G; }
+function cosG(deg)  { return Math.cos(deg * PI_G / 180) / SIN_90_G; }
+function tanG(deg)  { return Math.tan(deg * PI_G / 180); }  // tan = sin/cos, normalization cancels
+function asinG(v)   { return Math.asin(v * SIN_90_G) * 180 / PI_G; }
+function acosG(v)   { return Math.acos(v * SIN_90_G) * 180 / PI_G; }
+function atanG(v)   { return Math.atan(v) * 180 / PI_G; }
+
+function sinS(deg)  { return Math.sin(deg * PI_S / 180); }
+function cosS(deg)  { return Math.cos(deg * PI_S / 180); }
+function tanS(deg)  { return Math.tan(deg * PI_S / 180); }
+function asinS(v)   { return Math.asin(v) * 180 / PI_S; }
+function acosS(v)   { return Math.acos(v) * 180 / PI_S; }
+function atanS(v)   { return Math.atan(v) * 180 / PI_S; }
+
+// ── Mode switching ──
+function setMode(m) {
+  mode = m;
+  document.querySelectorAll('.mode-btn').forEach(b => {
+    b.classList.remove('active', 'active-golden', 'active-standard');
+    if (b.dataset.mode === m) {
+      b.classList.add('active');
+      b.classList.add(m === 'golden' ? 'active-golden' : 'active-standard');
+    }
+  });
+  document.getElementById('ratioDisplay').textContent =
+    (((PI_G / PI_S - 1) * 100).toFixed(4));
+  renderTrigTable();
+}
+
+// ── Display helpers ──
+function updateDisplay() {
+  displayEl.textContent = display;
+  displayEl.className = 'result';
+  formulaEl.innerHTML = formula || '&nbsp;';
+}
+
+function insert(val) {
+  // After = press, starting a number resets display
+  if (justEvaluated && /^[\d.]$/.test(val)) {
+    display = (val === '.' ? '0.' : val);
+    justEvaluated = false;
+    updateDisplay();
+    return;
+  }
+  if (display === '0' && !'+-*/^%'.includes(val) && val !== ')') {
+    display = (val === '.' ? '0.' : val);
+  } else {
+    display += val;
+  }
+  justEvaluated = false;
+  updateDisplay();
+}
+
+function backspace() {
+  if (display.length <= 1) { display = '0'; }
+  else { display = display.slice(0, -1); }
+  updateDisplay();
+}
+
+function clearAll() {
+  display = '0'; formula = '';
+  updateDisplay();
+}
+
+// ── Expression evaluator ──
+function calc() {
+  if (!display || display === '0') return;
+
+  try {
+    justEvaluated = false;
+    let expr = display;
+
+    // Expand constants to full precision BEFORE evaluation
+    expr = expr.replace(/πg|pi_g/gi, `(${PI_G})`);
+    expr = expr.replace(/(?<![a-zA-Z])π(?!_)/g, `(${mode === 'golden' ? PI_G : PI_S})`);
+    expr = expr.replace(/φ|phi/gi, `(${PHI})`);
+    expr = expr.replace(/\be\b/g, `(${EULER})`);
+
+    // Handle implicit multiplication: digit( or )(
+    // e.g., 2π → 2(3.14) → 2*(3.14); (π)(2) → (3.14)(2) → (3.14)*(2)
+    expr = expr.replace(/(\d)\(/g, '$1*(');
+    expr = expr.replace(/\)\(/g, ')*(');
+    // implicit multiplication: ) followed by digit, e.g. (π)2 or sin(90)2
+    expr = expr.replace(/\)(\d)/g, ')*$1');
+
+    // ^ → **
+    expr = expr.replace(/\^/g, '**');
+
+    // Function replacements — longer names first so asin isn't mangled by sin
+    const funcs = ['asin', 'acos', 'atan', 'sin', 'cos', 'tan'];
+    for (const fn of funcs) {
+      while (expr.includes(fn + '(')) {
+        expr = expr.replace(fn + '(', fn + '_eval(');
+      }
+    }
+    expr = expr.replace(/sqrt\(/g, 'Math.sqrt(');
+    expr = expr.replace(/abs\(/g, 'Math.abs(');
+
+    // Handle implicit multiplication between number/close-paren and function names
+    // e.g., 2sin(30) → 2*sin_eval(30); (π)sin(30) → (π)*sin_eval(30)
+    expr = expr.replace(/(\d)(sin_eval|cos_eval|tan_eval|asin_eval|acos_eval|atan_eval|Math\.sqrt|Math\.abs)/g, '$1*$2');
+    expr = expr.replace(/\)(sin_eval|cos_eval|tan_eval|asin_eval|acos_eval|atan_eval|Math\.sqrt|Math\.abs)/g, ')*$2');
+
+    // Build evaluator with the correct trig implementations
+    let result;
+    let fn;
+    if (mode === 'golden') {
+      fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
+        `return (${expr})`);
+      result = fn(sinG, cosG, tanG, asinG, acosG, atanG, Math);
+    } else {
+      fn = new Function('sin_eval','cos_eval','tan_eval','asin_eval','acos_eval','atan_eval','Math',
+        `return (${expr})`);
+      result = fn(sinS, cosS, tanS, asinS, acosS, atanS, Math);
+    }
+
+    if (!isFinite(result)) throw new Error('Undefined');
+
+    formula = display + ' =';
+    // toFixed avoids floating-point artifacts; strip only excess trailing zeros
+    display = result.toFixed(12).replace(/(\.[0-9]*?[1-9])0+$/, '$1').replace(/\.0+$/, '');
+    justEvaluated = true;
+    updateDisplay();
+  } catch(e) {
+    formula = display + ' =';
+    display = 'Error';
+    displayEl.textContent = display;
+    displayEl.className = 'result error';
+    formulaEl.innerHTML = formula;
+    justEvaluated = false;
+  }
+}
+
+// ── Helper: safe percent diff, guarding against near-zero denominator ──
+function safePctDiff(goldenVal, stdVal) {
+  if (Math.abs(stdVal) < 1e-12) {
+    // Standard value is effectively zero — diff is meaningless
+    return Math.abs(goldenVal) < 1e-12 ? '0.0000%' : '—';
+  }
+  const diff = ((goldenVal - stdVal) / stdVal) * 100;
+  return (diff >= 0 ? '+' : '') + diff.toFixed(4) + '%';
+}
+
+// ── Helper: format diff color class ──
+function diffColorClass(goldenVal, stdVal) {
+  if (Math.abs(stdVal) < 1e-12 && Math.abs(goldenVal) < 1e-12) return 'diff-pos';
+  if (stdVal === 0) return '';
+  return ((goldenVal - stdVal) / stdVal) >= 0 ? 'diff-pos' : 'diff-neg';
+}
+
+// ── Trig Comparison Table ──
+function renderTrigTable() {
+  const angles = [0, 15, 30, 45, 60, 75, 90, 180, 270, 360];
+  const sF = mode === 'golden' ? sinG : sinS;
+  const cF = mode === 'golden' ? cosG : cosS;
+
+  let html = '';
+  for (const deg of angles) {
+    const sv = sF(deg);
+    const cv = cF(deg);
+    const sv_s = sinS(deg);
+    const cv_s = cosS(deg);
+
+    const sinDiffStr = safePctDiff(sv, sv_s);
+    const cosDiffStr = safePctDiff(cv, cv_s);
+    const sinCls = diffColorClass(sv, sv_s);
+    const cosCls = diffColorClass(cv, cv_s);
+
+    html += `<tr>
+      <td class="angle-label">${deg}°</td>
+      <td class="gold">${sv.toFixed(10)}</td>
+      <td class="std">${sv_s.toFixed(10)}</td>
+      <td class="${sinCls}">${sinDiffStr}</td>
+      <td class="gold">${cv.toFixed(10)}</td>
+      <td class="std">${cv_s.toFixed(10)}</td>
+      <td class="${cosCls}">${cosDiffStr}</td>
+    </tr>`;
+  }
+  trigBody.innerHTML = html;
+}
+
+// ── Keyboard support ──
+document.addEventListener('keydown', (e) => {
+  const key = e.key;
+  if (/^[\d.+\-*/^%()]$/.test(key)) { insert(key); e.preventDefault(); }
+  else if (key === 'Enter') { calc(); e.preventDefault(); }
+  else if (key === 'Backspace') { backspace(); e.preventDefault(); }
+  else if (key === 'Escape') { clearAll(); e.preventDefault(); }
+  else if (key === 'p') { insert('πg'); e.preventDefault(); }
+  else if (key === 'P') { insert('π'); e.preventDefault(); }
+  else if (key === 'f' || key === 'F') { insert('φ'); e.preventDefault(); }
+});
+
+// ── Init ──
+setMode('golden');
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.querySelector('.menu');
+  if (btn && menu) {
+    btn.addEventListener('click', function() {
+      menu.classList.toggle('open');
+      btn.classList.toggle('active');
+    });
+  }
+});
+</script>
+</body>
+</html>
