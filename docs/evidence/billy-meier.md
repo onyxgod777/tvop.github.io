@@ -8,7 +8,7 @@
 
 
 # Billy Meier
-Eduard Albert "Billy" Meier is a Swiss citizen and former UFO contactee whose organization FIGU independently published that the value of π had been miscalculated (Contact Report 251, 1995). His work predates the modern golden π movement by over a decade.
+Eduard Albert "Billy" Meier is a Swiss citizen and UFO contactee whose organization FIGU independently published that the value of π had been miscalculated (Contact Report 251, 1995). His work predates the modern golden π movement by over a decade.
 
 
 ## The Formula
