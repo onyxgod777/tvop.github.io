@@ -11,7 +11,7 @@ theme:
     primary: amber
     accent: deep-orange
   font:
-    text: Roboto
+    text: Inter
     code: Roboto Mono
   favicon: /img/favicon.ico
   logo: /img/favicon.ico
@@ -24,6 +24,9 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 extra:
   social:
