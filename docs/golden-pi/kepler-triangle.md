@@ -1,47 +1,34 @@
+# Kepler's Triangle
 
-                
-                  
+![Kepler Triangle](/img/kepler.jpg){ align=right width=200 }
 
+Kepler's Right Triangle is a right triangle with sides in geometric progression **1 : √Φ : Φ**. It is named after Johannes Kepler, who first noted this remarkable relationship.
 
-  
-  
+## The Triangle
 
+A right triangle with sides $a$, $b$, and hypotenuse $c$ satisfies the geometric progression:
 
-# Kepler's Right Triangle
-A **Kepler triangle** is a right triangle with edge lengths in geometric progression:
+$$a : b : c = 1 : \sqrt{\Phi} : \Phi$$
 
+This means:
+- $a = 1$
+- $b = \sqrt{\Phi}$
+- $c = \Phi$
 
-$$
-1 : \sqrt{\Phi} : \Phi
-$$
-## The Proof
-In a right triangle with sides $a$, $b$, and hypotenuse $c$:
+## Verification
 
+$$a^2 + b^2 = 1^2 + (\sqrt{\Phi})^2 = 1 + \Phi = \Phi^2 = c^2$$
 
-| Side | Length |
-| --- | --- |
-| a | 1 |
-| b | √Φ |
-| c | Φ |
-The Pythagorean theorem confirms:
+The Pythagorean theorem holds because $\Phi^2 = \Phi + 1$.
 
+## Golden Pi Connection
 
-$$
-1^2 + (\sqrt{\Phi})^2 = 1 + \Phi = \Phi^2
-$$
-Since $\Phi^2 = \Phi + 1$ (the defining property of the Golden Ratio), this equality holds exactly.
+The Kepler triangle provides the direct geometric link between Φ and Golden Pi:
 
-
-## Connection to Pi
-The Kepler triangle provides the geometric foundation for [Golden Pi](true-value.md). When the triangle is inscribed in a semicircle, the circumference relationship yields $4/\sqrt{\Phi}$.
-
-
-## Historical Significance
-Named after Johannes Kepler (1571–1630), who first described this triangle. Kepler wrote: "Geometry has two great treasures: one is the Theorem of Pythagoras; the other, the division of a line into extreme and mean ratio [the Golden Ratio]. The first we may compare to a measure of gold; the second we may name a precious jewel."
-
+$$\pi = \frac{4}{\sqrt{\Phi}} = 3.144605511029693\ldots$$
 
 ## See Also
 
-- [Golden Ratio (Φ)](../golden-ratio/phi.md)
 - [True Value of Pi](true-value.md)
 - [Squaring the Circle](squaring-circle.md)
+- [Golden Ratio (Φ)](../golden-ratio/phi.md)

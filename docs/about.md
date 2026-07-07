@@ -1,5 +1,7 @@
 # About
 
+![Golden Pi](/img/Abnormal.jpeg){ align=right width=250 }
+
 We're all about the Truth... And we love math!!
 
 This site is dedicated to exploring and proving that the true geometric value of Pi is:

@@ -1,39 +1,29 @@
+# Ancient Knowledge
 
-                
-                  
+![Sacred Geometry](/img/sacred-geometry.jpg){ align=right width=200 }
 
+Ancient civilizations encoded profound mathematical knowledge into their sacred structures and symbols. The connection between the Golden Ratio and the circle constant appears repeatedly in the archaeological record.
 
-  
-  
+## Rhind Papyrus
 
+The Rhind Mathematical Papyrus (c. 1650 BCE) contains one of the earliest known approximations of π: 256/81 ≈ 3.1605. This value is closer to Golden Pi (3.1446) than to conventional π (3.1416) — a difference of only 0.5%.
 
-# Ancient Knowledge of Golden Pi
-Evidence suggests that ancient civilizations may have known about the relationship between Pi and the Golden Ratio.
+## Eye of Horus
 
+![Sacred Geometry](/img/sacred-geometry.jpg){ align=left width=150 }
 
-## Egyptian Knowledge
-Beyond the [Great Pyramid](pyramid-of-giza.md), Egyptian mathematics shows awareness of both π and Φ in their construction and measurement systems.
+The Eye of Horus fractions (1/2, 1/4, 1/8, 1/16, 1/32, 1/64) sum to 63/64. The "missing" 1/64 has been interpreted as representing the transcendental gap — the difference between the approximate and the exact.
 
+## Royal Cubit
 
-## Greek Knowledge
-The Greeks, particularly through Pythagorean and Platonic traditions, understood the Golden Ratio as a fundamental geometric principle. Whether they connected it to the circle remains an open question.
+The Egyptian Royal Cubit, used to build the pyramids, measures approximately 0.5236 meters. Remarkably:
 
+$$\text{Royal Cubit} = \frac{\Phi^2}{5} = \frac{\pi}{6}$$
 
-## The Lost Knowledge Thesis
-The Golden Pi formula represents a recovery of knowledge that was either:
-
-
-<ol>
-- Known to ancient civilizations and later lost
-- Independently discoverable through pure geometric reasoning
-- Revealed through the FIGU / Billy Meier contact
-</ol>
-## Modern Validation
-Modern computational geometry confirms that the relationship $\pi = 4/\sqrt{\Phi}$ holds when Pi is understood as the true geometric ratio, not the conventional engineering approximation.
-
+This identity holds exactly when $\pi = 4/\sqrt{\Phi}$.
 
 ## See Also
 
-- [True Value of Pi](../golden-pi/true-value.md)
 - [Pyramid of Giza](pyramid-of-giza.md)
-- [Billy Meier](billy-meier.md)
+- [Billy Meier / FIGU](billy-meier.md)
+- [True Value of Pi](../golden-pi/true-value.md)

@@ -1,40 +1,30 @@
+# Golden Ratio in Architecture
 
-                
-                  
+![Vitruvian Man](/img/vitruvian-man.jpg){ align=right width=200 }
 
-
-  
-  
-
-
-# The Golden Ratio in Architecture
-The Golden Ratio has been used in architecture for millennia, both intentionally and as a natural aesthetic principle.
-
+The Golden Ratio has been employed in architecture and art for millennia, from the pyramids of Egypt to the temples of Greece and the cathedrals of the Renaissance.
 
 ## The Great Pyramid of Giza
-The Great Pyramid encodes both Pi and the Golden Ratio:
 
-- Height / half-base = Φ
-- Base perimeter / height = 2π (with Golden Pi)
+![Great Pyramid](/img/great-pyramid.jpg){ align=left width=150 }
 
-See [Pyramid of Giza](../evidence/pyramid-of-giza.md) for detailed analysis.
-
+The Great Pyramid's dimensions encode Φ and √Φ in its geometry. The ratio of the pyramid's slant height to half its base equals Φ, and its height-to-base ratio connects directly to Golden Pi through Kepler's Right Triangle.
 
 ## The Parthenon
-The Parthenon in Athens exhibits golden ratio proportions in its facade dimensions.
 
+The Parthenon in Athens is often cited as an architectural embodiment of the golden ratio. The ratio of its width to height, the spacing of its columns, and the proportions of its pediment all approximate Φ.
 
-## Notre-Dame de Paris
-The cathedral's proportions follow golden ratio patterns in its rose windows and nave dimensions.
+## Leonardo da Vinci
 
+Leonardo's *Vitruvian Man* explicitly demonstrates the golden proportions of the human body inscribed within both a circle and a square — the definitive Renaissance statement of squaring the circle.
 
-## Modern Architecture
-Le Corbusier's **Modulor** system was explicitly based on the Golden Ratio and Fibonacci sequence.
+## Gothic Cathedrals
 
+Notre-Dame de Paris and Chartres Cathedral incorporate golden ratio proportions in their facades, rose windows, and floor plans, following the sacred geometry traditions passed down through the medieval guilds.
 
 ## See Also
 
-- [The Golden Ratio (Φ)](phi.md)
+- [Golden Ratio (Φ)](phi.md)
 - [In Nature](in-nature.md)
 - [Pyramid of Giza](../evidence/pyramid-of-giza.md)
 - [True Value of Pi](../golden-pi/true-value.md)

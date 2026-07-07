@@ -1,23 +1,17 @@
-
-                
-                  
-
-
-  
-  
-
-
 # The Golden Ratio (Φ)
+
+![Golden Ratio Spiral](/img/golden-ratio-spiral.jpg){ align=right width=200 }
+
 The **Golden Ratio** ($\Phi = 1.618033988749895\ldots$) is a mathematical constant that appears throughout nature, art, and architecture.
 
-
 ## Definition
-Two quantities are in the golden ratio if their ratio equals the ratio of their sum to the larger quantity:
 
+Two quantities are in the golden ratio if their ratio equals the ratio of their sum to the larger quantity:
 
 $$
 \frac{a + b}{a} = \frac{a}{b} = \Phi \approx 1.618
 $$
+
 ## Properties
 
 - $\Phi^2 = \Phi + 1$
@@ -25,16 +19,17 @@ $$
 - $\Phi = \frac{1 + \sqrt{5}}{2}$
 
 ## Relationship to Pi
-The [Golden Pi formula](../golden-pi/true-value.md) states:
 
+The [Golden Pi formula](../golden-pi/true-value.md) states:
 
 $$
 \pi = \frac{4}{\sqrt{\Phi}}
 $$
+
 This connects the two most famous irrational numbers through [Kepler's Right Triangle](../golden-pi/kepler-triangle.md).
 
-
 ## In Nature
+
 The Golden Ratio appears in:
 
 - **Nautilus shells** — logarithmic spiral growth
