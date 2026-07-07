@@ -4,210 +4,118 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 ---
 
-<div class="grid cards" markdown>
+## 📰 Daily Updates
 
--   __Daily Golden Pi Update — July 6, 2026__
+Daily/current articles on new discoveries and developments.
 
-    2026-07-06 — Independent arXiv mathematics paper (Thompson, June 2026) establishes 2/√φ as a near-optimal upper bound in operator theory — exactly half of golden π = 4/√φ.
+- [**Daily Golden Pi Update — July 6, 2026**](posts/2026-07-06-daily-golden-pi-update.html) *(2026-07-06)* — Thompson paper establishes 2/√φ as optimal bound in operator theory
+- [**Nine Roads, One Constant: The Unified Case for Golden Pi**](posts/2026-07-05-nine-roads-one-constant-unified-case-golden-pi.html) *(2026-07-05)* — Nine independent paths converge on π = 4/√φ
+- [**Euler's Field Equation**](posts/2026-07-04-euler-field-golden-pi-terms.html) *(2026-07-04)* — Why mathematical constants must conform to Golden Pi
+- [**Planck-Electron Coincidence**](posts/2026-07-03-planck-electron-coincidence-algebraic-collision.html) *(2026-07-03)* — Golden π inside the Fine Structure Constant
+- [**Why All Roads of Geometry Collapse to One Identity**](posts/2026-07-02-geometry-collapses-one-identity.html) *(2026-07-02)*
+- [**Why the Pentagon Hides the True Circle Constant**](posts/2026-07-01-pentagon-hides-true-circle-constant.html) *(2026-07-01)*
+- [**Build, Grow, Measure: One Constant**](posts/2026-06-30-build-grow-measure-shared-constant.html) *(2026-06-30)* — Architecture, biology, and physics converge
+- [**Fibonacci Frequencies: Harmonic Series Collapse**](posts/2026-06-29-fibonacci-frequencies-harmonic-resonance-golden-pi.html) *(2026-06-29)*
+- [**Pi and the Language of Nature**](posts/2026-06-28-pi-language-of-nature-circles-spirals-crystals.html) *(2026-06-28)*
+- [**The Golden Angle 137.5°**](posts/2026-06-27-golden-angle-137-5-phi-pi-geometry.html) *(2026-06-27)*
+- [**Golden Pi and the Human Ear**](posts/2026-06-26-golden-pi-cochlea-spiral-of-sound.html) *(2026-06-26)*
+- [**The Eye of Horus and the Rhind Papyrus**](posts/2026-06-25-eye-horus-rhind-papyrus-golden-pi.html) *(2026-06-25)*
+- [**The Nautilus Geometry Decoded**](posts/2026-06-24-nautilus-geometry-true-pi-golden-spiral.html) *(2026-06-24)*
+- [**Samuel Laboy's Perfect Symbol**](posts/samuel-laboy-perfect-symbol-squaring-circle.html) *(2026-06-24)*
+- [**The Reuleaux Triangle and Golden Pi**](posts/2026-06-23-reuleaux-triangle-golden-pi-constant-width.html) *(2026-06-23)*
+- [**The Parthenon's Golden Blueprint**](posts/2026-06-22-parthenon-golden-blueprint-true-pi.html) *(2026-06-22)*
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-06-daily-golden-pi-update.html)
+---
 
--   __Nine Roads, One Constant: The Unified Case for Golden Pi__
+## 📐 Geometry & Proofs
 
-    2026-07-05 — Geometry, physics, probability, Euler's formula, and harmonic resonance — nine independent paths converge on π = 4/√φ.
+Pure geometric derivations and mathematical proofs for Golden Pi.
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-05-nine-roads-one-constant-unified-case-golden-pi.html)
+- [**Five Algebraic Proofs That π = 4/√φ**](posts/five-algebraic-proofs-4-over-root-phi-pi.html) *(2026-05-26)*
+- [**The Pentagon Proof**](posts/pentagon-pentagram-golden-pi-proof.html) *(2026-05-23)* — How φ's polygon demands Golden π
+- [**Kepler's Triangle and Golden Pi**](posts/kepler-triangle-golden-pi-circle-constant.html) *(2026-06-02)*
+- [**Squaring the Circle: Geometric Proof**](posts/squaring-circle-golden-pi-geometric-proof.html)
+- [**Geometric Proof: Squaring the Circle**](posts/geometric-proof-squaring-circle-golden-pi.html)
+- [**The Geometric Mean Connection**](posts/geometric-mean-golden-ratio-golden-pi-proof.html) *(2026-05-30)*
+- [**Pythagorean Triangle Proof**](posts/pythagorean-triangle-proof.html)
+- [**Seven Derivations of Golden Pi**](posts/golden-pi-seven-derivations-unity.html)
+- [**Restoring Trigonometry with Golden Pi**](posts/restoring-trigonometry-golden-pi-sine-function.html)
 
--   __Euler's Field Equation: Why Mathematical Constants Must Conform to Golden Pi__
+---
 
-    2026-07-04 — Euler's expression e^(iθ) − 1 = 0 becomes an algebraic identity only when every term lives in the same field as φ.
+## 🔬 Physics & Mathematics
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-04-euler-field-golden-pi-terms.html)
+Golden Pi in physics, probability, and mathematical constants.
 
--   __Planck-Electron Coincidence — Why Golden π Appears Inside the Fine Structure Constant__
+- [**Euler's Identity with Golden π**](posts/euler-identity-golden-pi-algebraic-closure.html) *(2026-05-21)*
+- [**The π Gap**](posts/pi-gap-comparison-conventional-golden.html) *(2026-05-18)* — Systematic comparison across domains
+- [**Pi and Probability**](posts/golden-pi-probability-gaussian-buffon-needle.html) *(2026-06-12)* — Gaussian, Buffon's needle, Basel problem
+- [**Transcendence vs Algebra**](posts/golden-pi-algebraic-transcendental-divide.html) *(2026-05-19)*
+- [**Physical Experiments That Measured Golden Pi**](posts/physical-experiments-golden-pi-measurements.html) *(2026-05-17)*
+- [**Threefold Path to Golden Pi**](posts/threefold-path-golden-pi.html) *(2026-05-26)* — DNA, Kepler's Triangle, seven derivations
+- [**Source Map: 30+ References**](posts/source-map-30-references-golden-pi.html)
 
-    2026-07-03 — An algebraic collision at the junction of Planck scale and electron radius: the fine structure constant resolves cleanly when π = 4/√φ.
+---
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-03-planck-electron-coincidence-algebraic-collision.html)
+## 🎵 Harmonics & 432
 
--   __Why All Roads of Geometry Collapse to One Identity__
+Golden Pi, harmonic resonance, and the 432 Hz connection.
 
-    2026-07-02 — Five independent geometric arguments each reach the same collision point. Only π = 4/√φ ≈ 3.144605 survives every constraint.
+- [**Golden Pi and 432 Hz**](posts/golden-pi-432hz-harmonic-fine-structure-constant.html) *(2026-06-12)* — The φ → π → 432 → α chain
+- [**The 432 Hz Harmonic**](posts/432-harmonic-golden-pi-resonance.html) *(2026-05-27)*
+- [**432 Connexion: φ, π, α**](posts/432-connexion-phi-pi-alpha.html)
+- [**Music of the Spheres**](posts/music-spheres-golden-ratio-harmonics.html)
+- [**Fine-Structure Constant α and Golden Pi**](posts/fine-structure-alpha-golden-pi-unity.html) *(2026-05-24)*
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-02-geometry-collapses-one-identity.html)
+---
 
--   __Why the Pentagon Hides the True Circle Constant__
+## 🏛️ Ancient Knowledge
 
-    2026-07-01 — The pentagon, pentagram, and dodecahedron encode golden π = 4/√φ ≈ 3.144605.
+Pyramids, sacred geometry, and ancient measures.
 
-    [:octicons-arrow-right-24: Read](posts/2026-07-01-pentagon-hides-true-circle-constant.html)
+- [**The Royal Cubit and the Sphere**](posts/royal-cubit-golden-pi-sphere.html) *(2026-05-28)*
+- [**The Royal Cubit Revealed**](posts/royal-cubit-phi-squared-pi-six-connection.html) *(2026-05-17)* — φ²/5 = π/6
+- [**The Great Pyramid Encodes Earth's Dimensions**](posts/great-pyramid-golden-pi-encodes-earth-dimensions.html)
+- [**The Vesica Piscis and Golden Pi**](posts/vesica-piscis-golden-pi-sacred-geometry.html) *(2026-05-31)*
+- [**Platonic Solids Proof**](posts/platonic-solids-decagon-dodecahedron-icosahedron-golden-pi.html) *(2026-05-22)*
+- [**The Vitruvian Man and Golden Pi**](posts/vitruvian-man-golden-pi-leonardo-proportions.html) *(2026-06-08)*
 
--   __Build, Grow, Measure: One Constant for Architecture, Biology, and Physics__
+---
 
-    2026-06-30 — Architecture, biology, and physics all converge on the same circle constant: golden π = 4/√φ.
+## 🌿 Nature & Biology
 
-    [:octicons-arrow-right-24: Read](posts/2026-06-30-build-grow-measure-shared-constant.html)
+Golden Pi in the natural world.
 
--   __Fibonacci Frequencies: Why Harmonic Series Collapse to One Circle Constant__
+- [**Golden Pi in Nature**](posts/golden-pi-nature-biological-forms.html) *(2026-05-21)* — Biological forms
+- [**Golden Spiral: Fibonacci and Pi**](posts/golden-spiral-fibonacci-pi.html)
+- [**Kepler Triangle & Vesica Piscis**](posts/kepler-triangle-vesica-piscis-golden-pi.html)
+- [**Platonic Year and Golden Pi (432)**](posts/platonic-year-golden-pi-precession-432.html) *(2026-05-25)*
+- [**Platonic Year and Golden Pi**](posts/platonic-year-golden-pi-precession.html) *(2026-05-22)*
 
-    2026-06-29 — Harmonic resonance in music, planetary orbits, and standing waves all converge on π = 4/√φ.
+---
 
-    [:octicons-arrow-right-24: Read](posts/2026-06-29-fibonacci-frequencies-harmonic-resonance-golden-pi.html)
+## 🛸 FIGU / Contact Reports
 
--   __Pi and the Language of Nature: Why Circles, Spirals, and Crystals Share One Number__
+Billy Meier's Plejaren contacts and the correction of π.
 
-    2026-06-28 — Spirals, waves, crystal faces, and planetary orbits all point to π = 4/√φ.
+- [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction.html) *(2026-05-20)* — Ptaah's statements spanning 22 years
+- [**FIGU Contact Report 251**](posts/figu-plejaren-contact-report-251-pi-correction.html) *(2026-05-16)*
+- [**Harry Lear: Measuring Pi**](posts/harry-lear-measuring-pi.html) — The researcher who visited FIGU in 2017
 
-    [:octicons-arrow-right-24: Read](posts/2026-06-28-pi-language-of-nature-circles-spirals-crystals.html)
+---
 
--   __Why 137.5° Is the Most Important Angle in Nature__
+## 👤 Researchers
 
-    2026-06-27 — The golden angle of 137.5° emerges from φ² and connects directly to π = 4/√φ.
+Key figures in the Golden Pi movement.
 
-    [:octicons-arrow-right-24: Read](posts/2026-06-27-golden-angle-137-5-phi-pi-geometry.html)
+- [**Panagiotis Stefanides**](posts/stefanides-golden-root-symmetries-engineering-golden-pi.html) *(2026-05-17)* — Golden Root symmetries
+- [**Jain 108: Book of Phi**](posts/jain-108-jainpi-book-of-phi.html)
+- [**Samuel Laboy: Perfect Symbol**](posts/samuel-laboy-perfect-symbol-squaring-circle.html)
 
--   __Golden Pi and the Human Ear: How the Cochlear Spiral Encodes the True Circle Constant__
+---
 
-    2026-06-26 — The human cochlea is a logarithmic spiral governed by φ, revealing π = 4/√φ as nature's circle constant.
+## 🌌 Sacred Geometry
 
-    [:octicons-arrow-right-24: Read](posts/2026-06-26-golden-pi-cochlea-spiral-of-sound.html)
-
--   __The Eye of Horus and the Rhind Papyrus__
-
-    2026-06-25 — Ancient Egyptians encoded π ≈ 256/81. The 'missing 1/64' mirrors the transcendental gap golden π eliminates.
-
-    [:octicons-arrow-right-24: Read](posts/2026-06-25-eye-horus-rhind-papyrus-golden-pi.html)
-
--   __The Nautilus Geometry Decoded__
-
-    2026-06-24 — How 4/√φ bridges the golden spiral and the circle.
-
-    [:octicons-arrow-right-24: Read](posts/2026-06-24-nautilus-geometry-true-pi-golden-spiral.html)
-
--   __Samuel Laboy's Perfect Symbol__
-
-    2026-06-24 — The geometric solution to squaring the circle, linking the Great Pyramid to π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/samuel-laboy-perfect-symbol-squaring-circle.html)
-
--   __The Reuleaux Triangle and Golden Pi__
-
-    2026-06-23 — Barbier's theorem: every curve of constant width has perimeter π × w. When w = √φ, π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/2026-06-23-reuleaux-triangle-golden-pi-constant-width.html)
-
--   __The Parthenon's Golden Blueprint__
-
-    2026-06-22 — How ancient architects encoded 4/√φ (3.144606) in the Parthenon's proportions.
-
-    [:octicons-arrow-right-24: Read](posts/2026-06-22-parthenon-golden-blueprint-true-pi.html)
-
--   __Pi and Probability — Gaussian, Buffon's Needle, and the Basel Problem__
-
-    2026-06-12 — Under golden π, Buffon's needle probability becomes √φ/2, the Basel sum becomes 8/(3φ).
-
-    [:octicons-arrow-right-24: Read](posts/golden-pi-probability-gaussian-buffon-needle.html)
-
--   __Golden Pi and 432 Hz — The Harmonic Bridge__
-
-    2026-06-12 — 432/π₉ = 432/(4/√φ) = 108√φ ≈ 137.375 — the φ → π → 432 → α chain.
-
-    [:octicons-arrow-right-24: Read](posts/golden-pi-432hz-harmonic-fine-structure-constant.html)
-
--   __The Vitruvian Man and Golden Pi__
-
-    2026-06-08 — Leonardo's circle-square proportion equals exactly 1/φ when π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/vitruvian-man-golden-pi-leonardo-proportions.html)
-
--   __Golden Pi in Crop Circles__
-
-    2026-06-05 — How Barbury Castle and Avebury Trusloe formations encode π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/golden-pi-crop-circles-sacred-geometry.html)
-
--   __Kepler's Triangle and Golden Pi__
-
-    2026-06-02 — Kepler's sacred triangle provides a direct algebraic bridge between φ and π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/kepler-triangle-golden-pi-circle-constant.html)
-
--   __The Vesica Piscis and Golden Pi__
-
-    2026-05-31 — Sacred geometry's oldest symbol demands π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/vesica-piscis-golden-pi-sacred-geometry.html)
-
--   __The Geometric Mean Connection__
-
-    2026-05-30 — How φ's defining property demands golden π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/geometric-mean-golden-ratio-golden-pi-proof.html)
-
--   __The Royal Cubit and the Sphere__
-
-    2026-05-28 — The Royal Cubit = φ²/5 = π/6 proves golden π from sphere-volume relationships.
-
-    [:octicons-arrow-right-24: Read](posts/royal-cubit-golden-pi-sphere.html)
-
--   __The 432 Hz Harmonic__
-
-    2026-05-27 — How the universe's tuning fork resonates with golden π.
-
-    [:octicons-arrow-right-24: Read](posts/432-harmonic-golden-pi-resonance.html)
-
--   __The Threefold Path to Golden Pi__
-
-    2026-05-26 — DNA, Kepler's Triangle, and seven derivations converge on π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/threefold-path-golden-pi.html)
-
--   __Five Algebraic Proofs That π = 4/√φ__
-
-    2026-05-26 — Pure algebra, no approximations.
-
-    [:octicons-arrow-right-24: Read](posts/five-algebraic-proofs-4-over-root-phi-pi.html)
-
--   __Contact Reports 260 & 712: Ptaah's Two Statements on π__
-
-    2026-05-20 — Plejaren statements on the circle constant spanning 22 years.
-
-    [:octicons-arrow-right-24: Read](posts/figu-contact-260-712-pi-correction.html)
-
--   __Transcendence vs Algebra: Why Golden π Unlocks a Closed φ-Field__
-
-    2026-05-19 — Golden π is algebraic, satisfying x⁴ + 16x² − 256 = 0 in Q(√5).
-
-    [:octicons-arrow-right-24: Read](posts/golden-pi-algebraic-transcendental-divide.html)
-
--   __The π Gap__
-
-    2026-05-18 — A systematic comparison of conventional π vs golden π across geometry, physics, and engineering.
-
-    [:octicons-arrow-right-24: Read](posts/pi-gap-comparison-conventional-golden.html)
-
--   __Physical Experiments That Measured Golden Pi__
-
-    2026-05-17 — CNC, laser, and rolling tests converge on π = 4/√φ.
-
-    [:octicons-arrow-right-24: Read](posts/physical-experiments-golden-pi-measurements.html)
-
--   __Panagiotis Stefanides and the Golden Root Symmetries__
-
-    2026-05-17 — An engineer's peer-reviewed case for golden π.
-
-    [:octicons-arrow-right-24: Read](posts/stefanides-golden-root-symmetries-engineering-golden-pi.html)
-
--   __The Royal Cubit Revealed: φ²/5 = π/6__
-
-    2026-05-17 — The ancient unit bridging φ, golden π, the Great Pyramid, and natural law.
-
-    [:octicons-arrow-right-24: Read](posts/royal-cubit-phi-squared-pi-six-connection.html)
-
--   __FIGU Contact Report 251__
-
-    2026-05-16 — How the Plejaren transmission predicted the correction of π.
-
-    [:octicons-arrow-right-24: Read](posts/figu-plejaren-contact-report-251-pi-correction.html)
-
-</div>
+- [**Golden Pi in Crop Circles**](posts/golden-pi-crop-circles-sacred-geometry.html) *(2026-06-05)*
+- [**Phi-Pi Research 001**](posts/phi-pi-research-001.html)
+- [**Phi-Pi Research 002**](posts/phi-pi-research-002.html)
