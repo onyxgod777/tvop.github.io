@@ -8,6 +8,7 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 Daily/current articles on new discoveries and developments.
 
+- [**Phyllotaxis as Localization Window: Why the Golden Spiral Forces Pi = 4/√φ**](posts/2026-07-08-phyllotaxis-localization-window-golden-spiral-pi.html) *(2026-07-08)* — In a sunflower head, each seed is placed by rotating ≈137.507° before taking another golden step outward. That rotating localization window uses φ continuously, so the arc constant inside every sector must belong to φ's algebraic family. The closed-form result is π = 4/√φ.
 - [**Vitruvian Man Reveals the True Pi Constant — Leonardo's Hidden Geometry**](posts/2026-07-07-vitruvian-man-true-pi-leonardo-hidden-geometry.html) *(2026-07-07)* — Leonardo da Vinci's Vitruvian Man encodes the true value of pi through the golden ratio and √5 algebra, pointing to 4/√φ rather than 3.14159
 - [**Daily Golden Pi Update — July 6, 2026**](posts/2026-07-06-daily-golden-pi-update.html) *(2026-07-06)* — Thompson paper establishes 2/√φ as optimal bound in operator theory
 - [**Nine Roads, One Constant: The Unified Case for Golden Pi**](posts/2026-07-05-nine-roads-one-constant-unified-case-golden-pi.html) *(2026-07-05)* — Nine independent paths converge on π = 4/√φ
