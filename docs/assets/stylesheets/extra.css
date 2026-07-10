@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .md-nav__item .md-nav__link {
-  color: var(--gp-text-muted);
+  color: var(--gp-text);
   font-size: 0.8rem;
   transition: all 0.25s ease;
   border-left: 2px solid transparent;
@@ -146,6 +146,31 @@ h1, h2, h3, h4, h5, h6,
 
 .md-nav__item .md-nav__link--active {
   background: linear-gradient(90deg, rgba(212, 168, 67, 0.08), transparent);
+}
+
+/* Mobile nav drawer — force white text so it's never dark-on-dark */
+.md-nav--primary .md-nav__link {
+  color: var(--gp-text);
+}
+
+.md-nav--primary .md-nav__link:hover,
+.md-nav--primary .md-nav__link--active {
+  color: var(--gp-gold-light);
+}
+
+/* Table of Contents sidebar */
+.md-sidebar--secondary .md-nav__item .md-nav__link {
+  color: var(--gp-text-muted);
+  border-left: none;
+  padding-left: 0;
+  font-size: 0.78rem;
+}
+
+.md-sidebar--secondary .md-nav__item .md-nav__link--active {
+  color: var(--gp-gold-light);
+  background: none;
+  border-left: 2px solid var(--gp-gold);
+  padding-left: 8px;
 }
 
 /* ── Main Content Typography ── */
@@ -796,20 +821,6 @@ h1, h2, h3, h4, h5, h6,
 
 .md-search-result__teaser {
   color: var(--gp-text-muted);
-}
-
-/* ── Table of Contents ── */
-.md-sidebar--secondary .md-nav__item .md-nav__link {
-  border-left: none;
-  padding-left: 0;
-  font-size: 0.78rem;
-}
-
-.md-sidebar--secondary .md-nav__item .md-nav__link--active {
-  background: none;
-  color: var(--gp-gold-light);
-  border-left: 2px solid var(--gp-gold);
-  padding-left: 8px;
 }
 
 /* ── Blog Cards (Grid) ── */
