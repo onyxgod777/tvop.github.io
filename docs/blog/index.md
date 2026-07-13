@@ -8,6 +8,7 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 Daily/current articles on new discoveries and developments.
 
+- [**Phi Family Closure: How the Golden Ratio Forces Pi Into an Algebraic Expression**](posts/2026-07-06-phi-family-closure-forces-pi-algebraic-expression.html) *(2026-07-06)* — The golden ratio’s algebraic family is closed under multiplication, division, and square roots. A circle constant that interacts with φ at every nesting depth cannot remain transcendental. Here is the step-by-step closure argument for π = 4/√φ.
 - [**The Great Pyramid and Golden Pi — How Ancient Egypt Encoded φ in Stone Geometry**](posts/2026-07-13-great-pyramid-golden-pi-ancient-egypt-alignment.html) *(2026-07-13)* — The Great Pyramid of Giza encodes the golden ratio φ and points directly to the true circle constant π = 4/√φ through the royal cubit, pyramid slope, and squaring-the-circle geometry
 - [**Structured Scaling Invariance: Why Cylinder, Sphere, and Torus Share One Law Under Golden Pi**](posts/2026-07-12-structured-scaling-invariance-golden-pi.html) *(2026-07-12)* — Cylinder surface, sphere surface, torus circumference, and circle scaling all collapse to identical algebra when π = 4/√φ
 - [**How Kepler's Laws Point to Golden Pi: Orbital Geometry and the Constant 4/√φ**](posts/2026-07-11-kepler-laws-golden-pi-orbital-geometry.html) *(2026-07-11)* — Kepler's first two laws suggest a hidden orbit defined by the golden rectangle; third-law spacing and orbital energy collapse when φ and π are unified
