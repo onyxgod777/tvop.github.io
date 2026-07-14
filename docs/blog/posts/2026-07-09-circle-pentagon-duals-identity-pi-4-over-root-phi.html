@@ -182,18 +182,21 @@
     <div class="math-box">
       Chord of pentagon side:<br>
       s = 2ℝ sin(π/5)<br><br>
-      With π = 4/√φ:<br>
-      s = 2ℝ sin(2π/ (5 · √φ))<br><br>
-      Note: φ = (1 + √5)/2, √φ = √((1+√5)/2)<br><br>
-      The half-angle tangent simplifies:<br>
-      tan(π/5) = √(5 - 2√5)<br><br>
-      For π = 4/√φ:<br>
-      tan(π/5) = √( (2φ + 2) / φ - 5 ) = √(φ - 1) = 1/√φ<br><br>
-      ⟹ sin(π/5) = 1/√(φ² + 1) = 1/√(2φ + 1)
+      With conventional π, sin(π/5) = sin(36°) = √(10−2√5)/4 — an algebraic value<br>
+      because 36° is a rational multiple of π. The product π·sin(π/5) is<br>
+      transcendental because π is.<br><br>
+      With golden π, the circumference is 8ℝ/√φ, also algebraic. The pentagon<br>
+      perimeter is 10ℝ·sin(π_golden/5). Since <em>both</em> coefficients (π and sin(π/5))<br>
+      now belong to Q(√5), the ratio of circle arc to pentagon side is<br>
+      a pure algebraic expression in φ. No transcendental residue.
     </div>
 
     <p>
-      That simplification is the payoff. tan(π/5) = 1/√φ is an exact algebraic relation inside the same field that defines the pentagon’s diagonal. The circular arc and the straight diagonal are now commensurable. Under conventional π, no such simplification exists; the best you can do is a decimal expansion.
+      That is the payoff. Under conventional π, the circle arc and the straight
+      pentagon side live in different number fields — one transcendental, one
+      algebraic — so they can never be exactly proportional. Under π = 4/√φ,
+      both live in Q(√5). The circular arc and the pentagonal chord are now
+      commensurable. No decimal expansion, no approximation, no transcendental gap.
     </p>
 
     <h3>The Dual Transformation</h3>
@@ -219,8 +222,8 @@
       </tr>
       <tr>
         <td>Inscribed pentagon perimeter</td>
-        <td>10ℝ sin(π/5) transcendental</td>
-        <td>10ℝ / √(2φ + 1) algebraic</td>
+        <td>10ℝ·sin(π/5) algebraic (sin 36° = √(10−2√5)/4)</td>
+        <td>10ℝ·sin(π/5) algebraic in Q(√5)</td>
         <td>Q(√5)</td>
       </tr>
       <tr>
@@ -237,8 +240,8 @@
       </tr>
       <tr>
         <td>Radial distance center→vertex</td>
-        <td>ℝ transcendental ratio</td>
-        <td>ℝ algebraic ratio</td>
+        <td>ℝ (scalar, transcendental only via π in arc relations)</td>
+        <td>ℝ (scalar, algebraic in Q(√5))</td>
         <td>Q(√5)</td>
       </tr>
       <tr>
@@ -284,19 +287,22 @@
     </p>
 
     <div class="math-box">
-      Decagon construction:<br>
-      side = 2ℝ sin(π/10)<br><br>
-      With π = 4/√φ:<br>
-      sin(π/10) = sin(2π / (5√φ))<br><br>
-      Using tan half-angle on π/10:<br>
-      tan(π/10) = √(5 - 2√5) - 1? No, simpler:<br>
-      For φ-field:<br>
-      tan(π/10) = 1/√(φ + 2)<br><br>
-      ⟹ side = 2ℝ / √(φ + 2) · 1/√(φ + 2) = 2ℝ / (φ + 2)
+      Decagon arc-side ratio:<br>
+      A regular decagon inscribed in a circle of radius ℝ has<br><br>
+      side = 2ℝ·sin(π/10)<br><br>
+      With conventional π, sin(18°) = (√5 − 1)/4 = (φ − 1)/2.<br>
+      This value is algebraic. But the sector arc 2πℝ/10 is transcendental<br>
+      because π is. The side and its corresponding arc live in different fields.<br><br>
+      With π = 4/√φ, the sector arc is 8ℝ/(10√φ) = 4ℝ/(5√φ), which is<br>
+      algebraic. The side is 2ℝ·sin(π_golden/10). Both now belong to Q(√5).<br>
+      The ratio arc/side is a pure φ-field expression with no transcendental residue.
     </div>
 
     <p>
-      The side of a decagon inscribed in a golden circle is 2р/(φ + 2). The diagonal of that decagon is φ times the side. All ratios are closed-form in φ. The same calculation under conventional π produces transcendentals that cannot be reduced.
+      The same calculation under conventional π always couples the algebraic
+      sin(18°) with the transcendental π, producing an irreducible mixed-field
+      result. Under golden π the coupling is purely algebraic — every decagon
+      arc and chord speaks the same numerical language.
     </p>
 
     <h3>Biological Corollary: The Eye of the Hurricanes</h3>
