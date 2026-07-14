@@ -6,8 +6,7 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 ## 📰 Daily Updates
 
-Daily/current articles on new discoveries and developments.
-
+- [**The Golden Angle and Phyllotaxis: Why Leaf Spirals Reveal the True Value of Pi**](posts/2026-07-14-golden-angle-phyllotaxis-leaf-spirals-true-pi.html) *(2026-07-14)* — Why do sunflower seeds, pine cones, and rose petals spiral at exactly 137.507... degrees? The golden angle in phyllotaxis is the geometry of π expressed through φ, pointing directly to the true circle constant π = 4/√φ = 3.1446055...
 - [**The Great Pyramid and Golden Pi — How Ancient Egypt Encoded φ in Stone Geometry**](posts/2026-07-13-great-pyramid-golden-pi-ancient-egypt-alignment.html) *(2026-07-13)* — The Great Pyramid of Giza encodes the golden ratio φ and points directly to the true circle constant π = 4/√φ through the royal cubit, pyramid slope, and squaring-the-circle geometry
 - [**Structured Scaling Invariance: Why Cylinder, Sphere, and Torus Share One Law Under Golden Pi**](posts/2026-07-12-structured-scaling-invariance-golden-pi.html) *(2026-07-12)* — Cylinder surface, sphere surface, torus circumference, and circle scaling all collapse to identical algebra when π = 4/√φ
 - [**How Kepler's Laws Point to Golden Pi: Orbital Geometry and the Constant 4/√φ**](posts/2026-07-11-kepler-laws-golden-pi-orbital-geometry.html) *(2026-07-11)* — Kepler's first two laws suggest a hidden orbit defined by the golden rectangle; third-law spacing and orbital energy collapse when φ and π are unified
@@ -15,7 +14,6 @@ Daily/current articles on new discoveries and developments.
 - [**Why the Circle and Pentagon Are Duals: The Identity π = 4/√φ and Its Geometric Consequences**](posts/2026-07-09-circle-pentagon-duals-identity-pi-4-over-root-phi.html) *(2026-07-09)* — When π lives in φ's field, the inscribed pentagon and circumscribed circle share the same constant, enabling perfect tiling and zero-drift modulation
 - [**Phyllotaxis as Localization Window: Why the Golden Spiral Forces Pi = 4/√φ**](posts/2026-07-08-phyllotaxis-localization-window-golden-spiral-pi.html) *(2026-07-08)* — In a sunflower head, each seed is placed by rotating ≈137.507° before taking another golden step outward. That rotating localization window uses φ continuously, so the arc constant inside every sector must belong to φ's algebraic family. The closed-form result is π = 4/√φ.
 - [**Vitruvian Man Reveals the True Pi Constant — Leonardo's Hidden Geometry**](posts/2026-07-07-vitruvian-man-true-pi-leonardo-hidden-geometry.html) *(2026-07-07)* — Leonardo da Vinci's Vitruvian Man encodes the true value of pi through the golden ratio and √5 algebra, pointing to 4/√φ rather than 3.14159
-- [**Phi Family Closure: How the Golden Ratio Forces Pi Into an Algebraic Expression**](posts/2026-07-06-phi-family-closure-forces-pi-algebraic-expression.html) *(2026-07-06)* — The golden ratio's algebraic family is closed under multiplication, division, and square roots. A circle constant that interacts with φ at every nesting depth cannot remain transcendental. Here is the step-by-step closure argument for π = 4/√φ.
 - [**Daily Golden Pi Update — July 6, 2026**](posts/2026-07-06-daily-golden-pi-update.html) *(2026-07-06)* — Thompson paper establishes 2/√φ as optimal bound in operator theory
 - [**Nine Roads, One Constant: The Unified Case for Golden Pi**](posts/2026-07-05-nine-roads-one-constant-unified-case-golden-pi.html) *(2026-07-05)* — Nine independent paths converge on π = 4/√φ
 - [**Euler's Field Equation**](posts/2026-07-04-euler-field-golden-pi-terms.html) *(2026-07-04)* — Why mathematical constants must conform to Golden Pi
@@ -28,11 +26,9 @@ Daily/current articles on new discoveries and developments.
 - [**The Golden Angle 137.5°**](posts/2026-06-27-golden-angle-137-5-phi-pi-geometry.html) *(2026-06-27)*
 - [**Golden Pi and the Human Ear**](posts/2026-06-26-golden-pi-cochlea-spiral-of-sound.html) *(2026-06-26)*
 - [**The Eye of Horus and the Rhind Papyrus**](posts/2026-06-25-eye-horus-rhind-papyrus-golden-pi.html) *(2026-06-25)*
-- [**The Nautilus Geometry Decoded**](posts/2026-06-24-nautilus-geometry-true-pi-golden-spiral.html) *(2026-06-24)*
 - [**Samuel Laboy's Perfect Symbol**](posts/samuel-laboy-perfect-symbol-squaring-circle.html) *(2026-06-24)*
 - [**The Reuleaux Triangle and Golden Pi**](posts/2026-06-23-reuleaux-triangle-golden-pi-constant-width.html) *(2026-06-23)*
 - [**The Parthenon's Golden Blueprint**](posts/2026-06-22-parthenon-golden-blueprint-true-pi.html) *(2026-06-22)*
-
 ---
 
 ## 📐 Geometry & Proofs
