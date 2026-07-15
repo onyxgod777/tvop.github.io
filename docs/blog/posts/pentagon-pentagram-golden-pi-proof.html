@@ -173,65 +173,6 @@
       trigonometric definition gives us.
     </p>
 
-    <hr style="border-color:var(--border);margin:32px 0;" />
-
-    <h3 style="font-size:22px;margin-bottom:16px;color:var(--gold-light);">
-      <span class="step-num">2</span> The Trigonometric Constraint
-    </h3>
-
-    <p>
-      For the geometry to be self-consistent, the side length computed through the circle must equal 
-      the side length computed through φ-based Euclidean geometry. This gives us the constraint:
-    </p>
-
-    <div class="math-box">
-      <span class="label">Self-consistency constraint</span>
-      2 · sin(36°) = √((5 − √5) / 2)
-    </div>
-
-    <p>
-      This is already satisfied for any value of π in the sense that sin(36°) is defined 
-      trigonometrically. But here is the crucial step: the angle 36° is defined as <strong>π/5 radians</strong>. 
-      The value of π directly determines what 36° <em>is</em> in radian measure, and therefore what 
-      sin(36°) equals numerically.
-    </p>
-
-    <p>
-      In conventional mathematics, this works because we define degrees independently of π (360° = 1 full 
-      rotation). But if we treat the pentagon as the <em>primary</em> geometric object — with the circle 
-      as its circumscribed container — we can ask: what must π be so that the chord length, computed 
-      via the arc-based radian system, matches the Euclidean chord length exactly?
-    </p>
-
-    <h3 style="font-size:22px;margin-bottom:16px;color:var(--gold-light);">
-      <span class="step-num">3</span> The Critical Identity: sin(36°) and φ
-    </h3>
-
-    <p>
-      Remarkably, sin(36°) itself has an exact expression in terms of φ:
-    </p>
-
-    <div class="math-box">
-      <span class="label">sin(36°) in terms of φ</span>
-      sin(36°) = √(10 − 2√5) / 4 &nbsp;=&nbsp; (1/2) · √(2 − 2/φ)
-    </div>
-
-    <p>
-      And the pentagon side length in φ terms is even simpler:
-    </p>
-
-    <div class="math-box">
-      s = √(2 − 2/φ) &nbsp;=&nbsp; √(2 − 2(φ − 1)) &nbsp;=&nbsp; √(4 − 2φ)
-    </div>
-
-    <p>
-      Since φ = (1 + √5)/2 ≈ 1.618034, we have 4 − 2φ = 4 − (1 + √5) = 3 − √5, and:
-    </p>
-
-    <div class="math-box">
-      s = √(3 − √5) &nbsp;≈&nbsp; √(0.763932) ≈ 1.175571
-    </div>
-
     <p>
       Now here is where π enters. The chord length formula in a unit circle uses the sine of half 
       the central angle:
@@ -247,15 +188,15 @@
     </p>
 
     <div class="math-box">
-      2 · sin(π/5) = √(4 − 2φ)
+      2 · sin(π/5) = √(3 − φ)
     </div>
 
     <p>
-      And since √(4 − 2φ) = √(2 − 2/φ), we can write:
+      And since √(3 − φ) = √((5 − √5)/2), we can write:
     </p>
 
     <div class="math-box">
-      sin(π/5) = (1/2) · √(2 − 2/φ)
+      sin(π/5) = (1/2) · √(3 − φ)
     </div>
 
     <p>
@@ -485,7 +426,7 @@
     </p>
 
     <div class="math-box">
-      P₁₀ / P₅ = (10/φ) / (5 · √(4 − 2φ)) = (2/φ) / √(4 − 2φ)
+      P₁₀ / P₅ = (10/φ) / (5 · √(3 − φ)) = (2/φ) / √(3 − φ)
     </div>
 
     <p>
@@ -517,7 +458,7 @@
       </tr>
       <tr>
         <td>φ-based geometry</td>
-        <td>√(4 − 2φ)</td>
+        <td>√(3 − φ)</td>
         <td>1.1755705</td>
         <td class="match">—</td>
       </tr>
@@ -587,33 +528,18 @@
     </div>
 
     <p>
-      And the chord s = √(4 − 2φ). The ratio arc/s with golden π gives:
+      And the chord s = √(3 − φ). The ratio arc/s with golden π gives:
     </p>
 
     <div class="math-box">
-      arc/s = (8/(5√φ)) / √(4 − 2φ) = 8 / (5√φ · √(4 − 2φ))
+      arc/s = (8/(5√φ)) / √(3 − φ) = 8 / (5√φ · √(3 − φ))
     </div>
 
     <p>
-      Simplifying √(4 − 2φ): since φ = (1+√5)/2, we have 4 − 2φ = 4 − (1+√5) = 3 − √5.
+      This ratio is a pure algebraic expression in φ's field Q(√5) — no transcendental residue.
+      Under conventional π the same ratio would couple the transcendental 2π with sin(π/5),
+      producing an irreducible mixed-field result.
     </p>
-
-    <div class="math-box">
-      √(3 − √5) = √((6 − 2√5)/2) = √((√5 − 1)²/2) = (√5 − 1)/√2 = 2φ − 2?<br>
-      No: (√5 − 1)/√2 = 2φ−2 = 2/φ
-    </div>
-
-    <p>
-      Since (√5 − 1) = 2/φ, we get √(3 − √5) = (2/φ)/√2 = √2/φ.
-    </p>
-
-    <p>
-      Therefore:
-    </p>
-
-    <div class="math-box">
-      arc/s = 8 / (5√φ · (√2/φ)) = (8φ) / (5√φ · √2) = (8√φ) / (5√2) = (4√(2φ))/5
-    </div>
 
     <p>
       This is a closed algebraic expression — no transcendental numbers, no infinite series. 

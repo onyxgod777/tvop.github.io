@@ -20,7 +20,11 @@ When $\pi = 4/\sqrt{\Phi}$:
 
 $$\text{Circle area} = \pi r^2 = \frac{4}{\sqrt{\Phi}} r^2$$
 
-For a circle with radius $\sqrt{\Phi}$, the area equals $4$ — a perfect square.
+For a circle with radius $\sqrt{\Phi}$, the *circumference* equals $8$ — a perfect integer:
+$$C = 2\pi r = 2 \cdot \frac{4}{\sqrt{\Phi}} \cdot \sqrt{\Phi} = 8$$
+
+For the area itself to equal $4$, the radius must be $\Phi^{1/4}$ (the fourth root of $\Phi$):
+$$A = \pi (\Phi^{1/4})^2 = \frac{4}{\sqrt{\Phi}} \cdot \sqrt{\Phi} = 4$$
 
 ## See Also
 

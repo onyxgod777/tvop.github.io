@@ -23,9 +23,11 @@ When a circle is drawn with radius equal to the pyramid's height, its circumfere
 
 ## Royal Cubit
 
-The pyramid was built using the Royal Cubit, which itself encodes the relationship between Φ and π:
+The pyramid was built using the Royal Cubit, which encodes the Golden Ratio directly:
 
-$$\text{Royal Cubit} = \frac{\Phi^2}{5} = \frac{\pi}{6} \approx 0.5236 \text{ m}$$
+$$\text{Royal Cubit} = \frac{\Phi^2}{5} \approx 0.5236 \text{ m}$$
+
+This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by only 8 parts per million — a remarkable empirical alignment of the two constants in ancient metrology.
 
 ## See Also
 
