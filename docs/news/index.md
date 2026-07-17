@@ -12,137 +12,170 @@ On this page, we track **current world events as observed causes** and project t
 
 ## Current Events & Projected Outcomes
 
-*Updated 2026-07-16*
+*Updated 2026-07-17*
 
 ---
 
 ### 🔥 US–Iran War Escalation
 
 ???+ danger "Observed Cause"
-    The United States has launched waves of airstrikes across Iran, disabled an Iranian vessel
-    attempting to break a naval blockade, and intensified military pressure in the Gulf region.
-    Iran has retaliated by targeting US military assets based in neighbouring Gulf states.
-    Both sides publicly hint at diplomacy while continuing to escalate military action.
-    Oil prices are spiking; China's economic growth has already fallen below target partly
+    The United States has launched new waves of airstrikes against Iran, with Tehran reporting
+    that bridges and other civilian infrastructure have been hit. The US Navy boarded a vessel
+    in the Strait of Hormuz — a direct escalation of the naval blockade. Oil prices continue
+    to spike as Gulf shipping lanes become contested. Both administrations issue public
+    statements hinting at diplomatic off-ramps while continuing to escalate military action
+    on the ground and at sea. China's economic growth has already fallen below target partly
     due to the energy price shock.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Wider regional war** — Gulf states drawn directly into conflict as staging grounds are hit
-    - **Strait of Hormuz contested** — global oil supply disrupted, energy crisis deepened
-    - **Economic cascades** — China slowdown accelerates, global recession risk rises
-    - **Refugee displacement** — civilian populations caught between airstrikes and ground campaigns
-    - **Civilian harm** — collateral damage generates generational resentment, planting the causes of the *next* war
+    - **Strait of Hormuz closure** — a contested strait means disrupted oil flows; global recession risk deepens
+    - **Wider theatre** — Gulf state bases hosting US assets become legitimate targets, drawing in regional powers
+    - **Humanitarian catastrophe** — civilian infrastructure destruction (bridges, power, water) creates cascading suffering
+    - **China recession accelerates** — energy cost + trade disruption compounds domestic demand weakness
+    - **Generational grievance** — destruction creates the causes of the *next* conflict
 
     *"You are your own destiny; depending on whether you create good or evil in your thoughts
     and feelings, you will be such in your self-created part of your inner nature."* — §128
 
-    **The hinge:** Any escalation is a *choice*. If one side genuinely alters the cause — de-escalates,
-    opens humanitarian corridors, pursues diplomacy in action rather than in word — the projected
-    effect changes accordingly, by the same law.
+    **The hinge:** Each airstrike and each boarding is a *chosen act*. If either side changes the cause —
+    announces a ceasefire, opens humanitarian corridors, submits to mediation — the projected
+    effect changes by the same law that projects it now.
 
 ---
 
-### 🌫️ Climate Feedback Loop
+### 🌲 Canadian Wildfire Crisis — Air Quality Emergency
 
 ???+ danger "Observed Cause"
-    **800+** active wildfires burning across Canada. Air quality declared "hazardous" in
-    Michigan, Minneapolis, and Minnesota — smoke drifting into major US population centres.
-    Europe simultaneously experiencing extreme heatwaves with wildfires in France,
-    including a suspected arsonist firefighter. The fire season is far from over, and each
-    fire releases more carbon into the atmosphere, accelerating the conditions for more fires.
+    More than **800 active wildfires** are burning across Canada, concentrated in Northern Ontario.
+    The Ontario government has requested military assistance. Smoke has drifted south, triggering
+    air quality alerts across **20 US states** from Minnesota to New York. Toronto recorded the
+    worst air quality of any major city in the world on July 16. Each fire releases millions of
+    tonnes of carbon, accelerating the conditions that produce more fires — a self-reinforcing
+    feedback loop driven by accumulated emissions and inadequate forest management.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Agricultural disruption** — persistent smoke blocks sunlight, damages crops across North America
-    - **Public health crisis** — prolonged hazardous air quality causes respiratory illness at population scale
-    - **Mass migration** — climate-displaced populations grow, compounding the Rohingya boat crisis (500+ feared dead)
-      as a preview of what happens when environmental pressure meets political neglect
-    - **Self-reinforcing loop** — fires release carbon → heat rises → more fires → more carbon
+    - **Public health crisis at scale** — prolonged PM2.5 exposure causes respiratory disease, cardiac events, and premature death across millions
+    - **Agricultural damage** — persistent smoke blocks sunlight, reducing crop yields across the US Midwest and Canadian breadbasket
+    - **Economic cost** — firefighting, lost productivity, healthcare burden, and property destruction run into tens of billions
+    - **Self-reinforcing collapse** — fires → carbon → heat → drought → more fires — the loop tightens each season
 
     *"Through the accumulation of the energy and power which leads back to the cause, an ever
     greater compaction forms which the creator must experience, live and work out themselves."* — §118
 
-    **The hinge:** The cause is not "nature" — it is the accumulated choices of industrial civilization.
-    The same causal law that projects disaster also projects recovery: reduce emissions, protect forests,
-    invest in resilience, and the trajectory bends.
+    **The hinge:** The cause is not "nature" — it is the accumulated choices of industrial civilisation.
+    The same causal law that projects disaster also projects recovery: reduce emissions, fund
+    fire prevention and forest resilience, and the trajectory bends. Each degree of warming
+    prevented is a change in the cause.
 
 ---
 
-### 🇺🇦 Ukraine — Internal Fracturing
+### 🗳️ Trump Election Security Address — Democracy Under Strain
 
 ???+ danger "Observed Cause"
-    Ukrainian President Zelenskyy dismissed Defence Minister Mykhailo Fedorov without explanation.
-    Civil society and military circles are protesting in Kyiv and other cities. Simultaneously,
-    Russian sabotage operations in Poland — attributed to a teenager recruited to incite ethnic
-    tensions between Poland and Ukraine — are attempting to exploit any instability.
+    On July 16, former President Donald Trump delivered a **prime-time national address** alleging
+    that China interfered in the 2020 US presidential election and questioning the integrity of
+    voting systems ahead of the November 2026 midterm elections. China's government dismissed
+    the claims as "fabricated." Democratic leaders accused Trump of laying groundwork to
+    contest the midterm results if they do not favour Republicans. The speech comes amid
+    a deeply polarised electorate and declining public trust in electoral institutions.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Loss of command trust** during active war — military effectiveness degraded from within
-    - **Russian exploitation** — the Polish sabotage is designed to widen the rift
-    - **Potential leadership crisis** — if protests grow beyond Kyiv, political instability compounds
+    - **Erosion of electoral trust** — baseless allegations of rigging, repeated at scale, make the outcome
+      of any close election contested by a large portion of the electorate
+    - **Pre-emptive delegitimisation** — if the cause is a narrative of a "stolen" or "rigged" system,
+      the necessary effect is that the losing side rejects the result
+    - **Civil unrest risk** — disputed elections in a polarised environment create the causal
+      conditions for street-level conflict
+    - **Geopolitical weaponisation** — false attribution of interference to foreign powers inflames
+      international tensions without evidence
 
     *"Through your activity and your actions and deeds you yourselves create distinct causes
     which you then have to bear as your destiny."* — §105
 
-    **The hinge:** Transparency from the presidency would break the causal chain. An unexplained
-    decision produces instability. An explained one produces understanding, even if disagreeable.
+    **The hinge:** The cause is a *rhetorical choice* — to present allegations without evidence or
+    to engage voters through policy and vision. Words are causes. If the cause changes — if
+    leaders affirm electoral integrity regardless of outcome — the projected effect of
+    delegitimisation dissolves.
 
 ---
 
-### 💰 Global Economic Reconfiguration
+### 💰 Trade War Fronts Multiply — Brazil, Britain, Semiconductors
 
 ???+ danger "Observed Cause"
-    - TSMC commits **$100B more** to US production ($265B total) — semiconductor sovereignty race
-    - **British Steel nationalised** by UK government to prevent collapse
-    - **SpaceX stock volatile**, trading below IPO debut
-    - **China growth misses target** — weak domestic demand + Iran war oil impact
+    Three trade fronts have intensified simultaneously:
+    - **Brazil** vows to impose retaliatory tariffs if the US follows through on threatened **25% tariffs**
+      on Brazilian steel, aluminium, and agricultural goods
+    - **British Steel** has been **nationalised** by the UK government — the country's only remaining
+      virgin steel producer was unviable under market pressure after years of energy cost spikes
+      and competition from state-subsidised Chinese producers
+    - **TSMC** has committed an additional **$100 billion** to US fabrication plants ($265B total),
+      accelerating the decoupling of semiconductor supply chains from Taiwan
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Industrial decoupling accelerates** — security trumps efficiency, global supply chains fragment
-    - **Nationalisation wave** — governments step in as critical industries become unviable under market pressure
-    - **Asset bubbles correct** — SpaceX volatility signals hype giving way to fundamentals
-    - **Cost of living rises** — decoupled supply chains are more expensive; the consumer bears the cost
+    - **Global trade fragmentation** — retaliatory tariffs cascade; each protectionist move invites
+      a response, and the system constricts
+    - **Nationalisation wave** — when critical industries fail under market conditions, governments
+      step in; this sets a precedent for future bailouts and state ownership
+    - **Decoupled supply chains = higher costs** — reshoring semiconductor and steel production
+      costs more than the globalised system; consumers and downstream industries absorb the price
+    - **Strategic vulnerability** — concentrating chip production in one geopolitical bloc creates
+      a new single point of failure for the global technology economy
 
     *"Each destiny and each interaction is preceded by your own free and willing decision…
     so you have to live in that which you create today."* — §108
 
-    **The hinge:** The question is whether decoupling is done *constructively* — building new
-    resilient systems — or *destructively* — merely breaking old ones without replacement.
+    **The hinge:** Decoupling can be done constructively (building diversified, resilient supply
+    networks) or destructively (merely breaking old ones). Tariffs can be negotiation tools
+    left on the table or weapons that are fired. The choice determines whether the economic
+    effect is stabilisation or contraction.
 
 ---
 
-### 🚢 Rohingya Refugee Crisis
+### 📱 Pegasus Spyware — Surveillance State Exposed
 
 ???+ danger "Observed Cause"
-    More than **500 Rohingya refugees feared dead** after two boats capsized off the Myanmar coast.
-    The UN reports the ships vanished, with survivors likely numbering in the single digits.
-    This follows years of systematic persecution, statelessness, and environmental pressure in
-    Myanmar's Rakhine state — causes that have been accumulating for decades.
+    A Moroccan intelligence insider has come forward with evidence of **widespread, systematic
+    use of Pegasus spyware** by Moroccan security services. The whistleblower details how the
+    NSO Group's hacking software was deployed against journalists, human rights defenders,
+    politicians, and foreign officials — including phones of French President Emmanuel Macron
+    and South African officials. The revelations confirm what previous investigations had
+    suggested: that spyware developed for "counter-terrorism" has been routinely repurposed
+    for political surveillance and repression.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Normalisation of mass death at sea** — if 500+ can vanish with minimal global response, the threshold
-      for action rises, and larger tragedies become possible
-    - **Further displacement** — the causes (persecution, environmental degradation, economic collapse)
-      remain unresolved, guaranteeing more boats
+    - **Normalisation of mass surveillance** — if governments can spy on journalists and
+      opposition figures with impunity, the threshold for surveillance of ordinary citizens
+      also lowers
+    - **Chilling effect on journalism** — reporters who know their phones are compromised
+      self-censor; the cause is fear, the effect is reduced press freedom
+    - **Diplomatic fallout** — Macron's phone being hacked by a nominally friendly intelligence
+      service erodes trust between states
+    - **Arms race in spyware** — as Pegasus is exposed, new tools emerge; the cause (demand
+      for surveillance capability) persists even if one vendor is identified
 
-    *"Every destiny and every interaction is preceded by your own free and willing decision."* — §108
+    *"Do not believe that you have no free will to change direction. The laws and recommendations
+    of the Creation are, in their mode of functioning, bound to cause and effect… if you change
+    the cause, the effect changes along with it."* — §111
 
-    **The hinge:** The cause is political (statelessness, persecution). The law is precise —
-    remove the cause, and the effect (desperate boat crossings) ceases.
+    **The hinge:** The cause is *demand* — governments choose to buy and deploy spyware for
+    surveillance. International export controls, binding human rights due diligence for
+    cyber-weapons, and independent judicial oversight are choices that would change the cause.
+    So long as the demand exists, the supply will find a way.
 
 ---
 
 ## The Pattern
 
-Look across these five crises. Though they appear unrelated — war, fire, governance collapse,
-economic fragmentation, refugee drownings — they share a common causal structure:
+Look across these five crises. Though they appear unrelated — war, fire, democratic erosion,
+economic fragmentation, surveillance expansion — they share a common causal structure:
 
 | Domain | Primary Cause | Necessary Effect |
 |--------|--------------|-----------------|
 | Iran War | Military escalation chosen over diplomacy | Wider war + economic shock |
-| Climate | Emissions + environmental neglect | Self-reinforcing ecological collapse |
-| Ukraine | Unexplained leadership change | Internal fracturing under external pressure |
-| Economy | Decoupling without replacement systems | Costly fragmentation |
-| Rohingya | Persecution + statelessness unresolved | More deaths at sea |
+| Wildfires | Emissions + forest management neglect | Self-reinforcing ecological collapse |
+| Election Trust | Baseless delegitimisation rhetoric | Contested outcomes + unrest |
+| Trade Wars | Protectionism without constructive replacement | Costly fragmentation |
+| Surveillance | Government demand for political spying tools | Repression + press freedom erosion |
 
 In every case, the cause is **a human choice** — and therefore, the effect is **changeable**.
 
