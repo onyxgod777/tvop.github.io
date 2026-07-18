@@ -12,170 +12,111 @@ On this page, we track **current world events as observed causes** and project t
 
 ## Current Events & Projected Outcomes
 
-*Updated 2026-07-17*
+*Updated 2026-07-18*
 
 ---
 
-### 🔥 US–Iran War Escalation
+### 🔥 US–Iran War — Seventh Night of Strikes, Kuwait Hit
 
 ???+ danger "Observed Cause"
-    The United States has launched new waves of airstrikes against Iran, with Tehran reporting
-    that bridges and other civilian infrastructure have been hit. The US Navy boarded a vessel
-    in the Strait of Hormuz — a direct escalation of the naval blockade. Oil prices continue
-    to spike as Gulf shipping lanes become contested. Both administrations issue public
-    statements hinting at diplomatic off-ramps while continuing to escalate military action
-    on the ground and at sea. China's economic growth has already fallen below target partly
-    due to the energy price shock.
+    The United States has conducted airstrikes against Iran for the **seventh consecutive night** as of July 18, 2026. New satellite imagery shows a damaged bridge in Iran's southern Hormozgan Province. In a significant escalation, Iran has retaliated by striking a **Kuwaiti power and water desalination plant** — marking the first direct attack on a US-allied Gulf state's infrastructure. The White House has not publicly altered its military posture, while diplomatic back-channels remain unacknowledged. Oil markets are pricing in a Strait of Hormuz disruption scenario. China's GDP growth has already fallen below target, partly due to energy price volatility.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Strait of Hormuz closure** — a contested strait means disrupted oil flows; global recession risk deepens
-    - **Wider theatre** — Gulf state bases hosting US assets become legitimate targets, drawing in regional powers
-    - **Humanitarian catastrophe** — civilian infrastructure destruction (bridges, power, water) creates cascading suffering
-    - **China recession accelerates** — energy cost + trade disruption compounds domestic demand weakness
-    - **Generational grievance** — destruction creates the causes of the *next* conflict
+    - **Regional conflict expansion** — the Kuwait strike proves the theatre is no longer Iran-vs-US; Gulf states will be drawn in as front-line combatants
+    - **Energy blockade risk** — Hormuz is the chokepoint for 20% of global oil; even the credible threat of closure triggers a recessionary oil spike
+    - **Humanitarian crisis** — hitting power and water infrastructure (Kuwait, potentially Iranian civilian sites) creates immediate suffering cascades
+    - **China's economic drag deepens** — Beijing faces a strategic choice: intervene diplomatically or absorb the cost of regional war
+    - **Generational grievance cycle** — each destroyed bridge, each bombed plant creates the causal seeds of the *next* conflict
 
-    *"You are your own destiny; depending on whether you create good or evil in your thoughts
-    and feelings, you will be such in your self-created part of your inner nature."* — §128
+    *"If in your thoughts, your feelings, your words and your actions you create a bad, evil thing, then you will likewise bear within yourself a bad, evil destiny."* — §192
 
-    **The hinge:** Each airstrike and each boarding is a *chosen act*. If either side changes the cause —
-    announces a ceasefire, opens humanitarian corridors, submits to mediation — the projected
-    effect changes by the same law that projects it now.
+    **The hinge:** Every airstrike is a chosen act. Every missile fired from Iranian soil is a chosen act. If either side changes the cause — opens a humanitarian corridor, submits to UN-mediated ceasefire terms, or even unilaterally pauses for 48 hours — the projected trajectory of widening war dissolves. The same causal law that projects escalation also projects peace; it is the choice that determines which trajectory is realised.
 
 ---
 
-### 🌲 Canadian Wildfire Crisis — Air Quality Emergency
+### 🌲 Canadian Wildfires — Trump Threatens Tariffs Over Smoke
 
 ???+ danger "Observed Cause"
-    More than **800 active wildfires** are burning across Canada, concentrated in Northern Ontario.
-    The Ontario government has requested military assistance. Smoke has drifted south, triggering
-    air quality alerts across **20 US states** from Minnesota to New York. Toronto recorded the
-    worst air quality of any major city in the world on July 16. Each fire releases millions of
-    tonnes of carbon, accelerating the conditions that produce more fires — a self-reinforcing
-    feedback loop driven by accumulated emissions and inadequate forest management.
+    **838 active wildfires** are burning across Canada, concentrated in Northern Ontario. Smoke has plunged Toronto into the worst air quality of any major city in the world and has drifted south across the US border, turning New York City's skyline orange. Former President Donald Trump has responded by threatening **new tariffs on Canadian goods** over the fires sending "filthy" air into US cities. Canadian Prime Minister Mark Carney responded that both countries share equal responsibility for climate action. The fires are a self-reinforcing feedback loop: burning forests release stored carbon, accelerating the warming that produces more fire-conducive drought conditions.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Public health crisis at scale** — prolonged PM2.5 exposure causes respiratory disease, cardiac events, and premature death across millions
-    - **Agricultural damage** — persistent smoke blocks sunlight, reducing crop yields across the US Midwest and Canadian breadbasket
-    - **Economic cost** — firefighting, lost productivity, healthcare burden, and property destruction run into tens of billions
-    - **Self-reinforcing collapse** — fires → carbon → heat → drought → more fires — the loop tightens each season
+    - **Deepening public health emergency** — prolonged PM2.5 exposure across 20+ US states causes respiratory disease, cardiac events, and premature death at population scale
+    - **US–Canada trade rupture** — threatening tariffs on a close ally over an environmental crisis poisons bilateral relations and distracts from the actual cause (emissions)
+    - **Agricultural damage** — prolonged smoke reduces solar radiation, suppressing crop yields across the US Midwest and Canadian breadbasket
+    - **Feedback loop tightens** — more fires → more carbon → more heat → more drought → more fires; each season's acreage burned sets the baseline for the next
+    - **Normalisation of crisis** — as orange skies become seasonal, the urgency to act fades even as the causal engine accelerates
 
-    *"Through the accumulation of the energy and power which leads back to the cause, an ever
-    greater compaction forms which the creator must experience, live and work out themselves."* — §118
+    *"Through the accumulation of the energy and power which leads back to the cause, an ever greater compaction forms which the creator must experience, live and work out themselves."* — §118
 
-    **The hinge:** The cause is not "nature" — it is the accumulated choices of industrial civilisation.
-    The same causal law that projects disaster also projects recovery: reduce emissions, fund
-    fire prevention and forest resilience, and the trajectory bends. Each degree of warming
-    prevented is a change in the cause.
+    **The hinge:** The cause is not the fires — the fires are already the effect. The deeper cause is the accumulated emissions of industrial civilisation, and the current political choice to respond with tariffs rather than emissions reduction and forest resilience funding. If the cause changes — if both governments redirect investment toward decarbonisation, indigenous-led forest stewardship, and international climate finance — the trajectory bends. The same causal law that projects disaster also projects recovery; each tonne of CO₂ not emitted is a change in the cause.
 
 ---
 
-### 🗳️ Trump Election Security Address — Democracy Under Strain
+### 🇪🇺 EU Proposes Slowing Carbon Emission Cuts
 
 ???+ danger "Observed Cause"
-    On July 16, former President Donald Trump delivered a **prime-time national address** alleging
-    that China interfered in the 2020 US presidential election and questioning the integrity of
-    voting systems ahead of the November 2026 midterm elections. China's government dismissed
-    the claims as "fabricated." Democratic leaders accused Trump of laying groundwork to
-    contest the midterm results if they do not favour Republicans. The speech comes amid
-    a deeply polarised electorate and declining public trust in electoral institutions.
+    The **European Union has proposed relaxing its Emissions Trading System (ETS)**, giving businesses more time to reduce their carbon output. Under the new proposals, companies face slower compliance timelines and more generous allowances. The move comes amid sustained lobbying from energy-intensive industries — steel, chemicals, cement — who argue that rapid decarbonisation is harming European competitiveness against Chinese and US producers. The EU frames the slowdown as "pragmatic flexibility," but climate analysts warn it represents the first major backsliding of European climate policy since the 2019 Green Deal.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Erosion of electoral trust** — baseless allegations of rigging, repeated at scale, make the outcome
-      of any close election contested by a large portion of the electorate
-    - **Pre-emptive delegitimisation** — if the cause is a narrative of a "stolen" or "rigged" system,
-      the necessary effect is that the losing side rejects the result
-    - **Civil unrest risk** — disputed elections in a polarised environment create the causal
-      conditions for street-level conflict
-    - **Geopolitical weaponisation** — false attribution of interference to foreign powers inflames
-      international tensions without evidence
+    - **Delayed decarbonisation** — relaxing the ETS removes the price signal that drives industrial innovation; emissions that could have been cut in 2027 are pushed to 2030+
+    - **Competitiveness paradox** — by protecting legacy industries today, Europe locks in the very cost disadvantage it fears, as global markets pivot faster than EU policy
+    - **Loss of climate leadership** — if the bloc that positioned itself as the global standard-setter for carbon pricing backtracks, there is no backstop for international climate ambition
+    - **Carbon leakage accelerates** — if production is cheaper outside Europe because carbon costs are deferred, emissions simply relocate, achieving nothing for the planet
+    - **Intergenerational inequity** — the cost of delayed action is borne by younger generations, who inherit both higher cumulative emissions and a harder transition
 
-    *"Through your activity and your actions and deeds you yourselves create distinct causes
-    which you then have to bear as your destiny."* — §105
+    *"You are your own destiny; depending on whether you create good or evil in your thoughts and feelings, you will be such in your self-created part of your inner nature."* — §128
 
-    **The hinge:** The cause is a *rhetorical choice* — to present allegations without evidence or
-    to engage voters through policy and vision. Words are causes. If the cause changes — if
-    leaders affirm electoral integrity regardless of outcome — the projected effect of
-    delegitimisation dissolves.
+    **The hinge:** The choice is whether "pragmatic flexibility" is a genuine recalibration (slowing now to avoid political collapse of the entire climate framework) or a capitulation to vested interests. If the EU pairs delayed compliance with increased direct investment in green industrial capacity, the cause changes — delay becomes strategic rather than regressive. If the relaxation is merely a concession to polluters without compensating acceleration, the projected effect of lost leadership and delayed transition materialises.
 
 ---
 
-### 💰 Trade War Fronts Multiply — Brazil, Britain, Semiconductors
+### 🇺🇦 Ukraine Defence Minister Removed — Protests and Military Unrest
 
 ???+ danger "Observed Cause"
-    Three trade fronts have intensified simultaneously:
-    - **Brazil** vows to impose retaliatory tariffs if the US follows through on threatened **25% tariffs**
-      on Brazilian steel, aluminium, and agricultural goods
-    - **British Steel** has been **nationalised** by the UK government — the country's only remaining
-      virgin steel producer was unviable under market pressure after years of energy cost spikes
-      and competition from state-subsidised Chinese producers
-    - **TSMC** has committed an additional **$100 billion** to US fabrication plants ($265B total),
-      accelerating the decoupling of semiconductor supply chains from Taiwan
+    On July 16–17, Ukraine's Defence Minister **Mykhailo Fedorov was removed** from his post. The decision triggered widespread **protests in Kyiv and other cities**, with soldiers now also publicly criticising the move in interviews with the BBC. Fedorov, a politically connected figure who oversaw Ukraine's battlefield drone modernisation and digital warfare capabilities, was seen as a reformer by both Western partners and frontline troops. The government has offered no explicit public rationale for the dismissal. The removal comes at a critical juncture: the war with Russia is in its third year, Western aid uncertainty looms, and internal political stability is essential for maintaining both morale and international confidence.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Global trade fragmentation** — retaliatory tariffs cascade; each protectionist move invites
-      a response, and the system constricts
-    - **Nationalisation wave** — when critical industries fail under market conditions, governments
-      step in; this sets a precedent for future bailouts and state ownership
-    - **Decoupled supply chains = higher costs** — reshoring semiconductor and steel production
-      costs more than the globalised system; consumers and downstream industries absorb the price
-    - **Strategic vulnerability** — concentrating chip production in one geopolitical bloc creates
-      a new single point of failure for the global technology economy
+    - **Fractured civil-military trust** — when soldiers and the public see a competent minister removed without explanation, the perceived cause is political infighting, not national interest
+    - **Morale erosion** — frontline troops who trusted Fedorov's leadership face a crisis of confidence; the effect is measurable in combat effectiveness
+    - **Western partner unease** — donors (US, EU, UK) watch internal Ukrainian politics; instability raises the perceived risk of further funding and weapons commitments
+    - **Political opportunity for Russia** — internal discord in Kyiv is a strategic asset for Moscow; the cause of division becomes a military vulnerability
+    - **Brain drain risk** — if reform-minded officials see political loyalty valued over competence, the most capable leave government; the effect is institutional decay
 
-    *"Each destiny and each interaction is preceded by your own free and willing decision…
-    so you have to live in that which you create today."* — §108
+    *"Through your activity and your actions and deeds you yourselves create distinct causes which you then have to bear as your destiny."* — §105
 
-    **The hinge:** Decoupling can be done constructively (building diversified, resilient supply
-    networks) or destructively (merely breaking old ones). Tariffs can be negotiation tools
-    left on the table or weapons that are fired. The choice determines whether the economic
-    effect is stabilisation or contraction.
+    **The hinge:** The cause is a *decision about leadership* — whether ministers are appointed and removed based on national strategy or internal power dynamics. If the government issues a clear, substantive rationale for the change and re-binds the military's trust through transparent engagement, the projected effect of demoralisation and division dissolves. If the cause remains opaque — a palace intrigue — the effect of eroded trust is as inevitable as gravity.
 
 ---
 
-### 📱 Pegasus Spyware — Surveillance State Exposed
+### 🚀 India Launches First Commercial Orbital Rocket — Skyroot Vikram-1
 
 ???+ danger "Observed Cause"
-    A Moroccan intelligence insider has come forward with evidence of **widespread, systematic
-    use of Pegasus spyware** by Moroccan security services. The whistleblower details how the
-    NSO Group's hacking software was deployed against journalists, human rights defenders,
-    politicians, and foreign officials — including phones of French President Emmanuel Macron
-    and South African officials. The revelations confirm what previous investigations had
-    suggested: that spyware developed for "counter-terrorism" has been routinely repurposed
-    for political surveillance and repression.
+    On July 18, 2026, **India's first space-tech unicorn, Skyroot Aerospace, successfully launched Vikram-1** — the country's first privately developed rocket designed to reach orbit. The rocket carried multiple payloads, including a "diamond lotus" symbolising India's space ambitions. The launch marks a watershed moment for India's private space sector, following the government's 2020 decision to open space to private participation. Skyroot's "cab to orbit" model aims to reduce satellite launch costs and turnaround times. The mission delivers on years of R&D investment and positions India as a competitive player in the global commercial launch market alongside SpaceX, Rocket Lab, and China's private launchers.
 
 ??? warning "Projected Effect (if cause persists)"
-    - **Normalisation of mass surveillance** — if governments can spy on journalists and
-      opposition figures with impunity, the threshold for surveillance of ordinary citizens
-      also lowers
-    - **Chilling effect on journalism** — reporters who know their phones are compromised
-      self-censor; the cause is fear, the effect is reduced press freedom
-    - **Diplomatic fallout** — Macron's phone being hacked by a nominally friendly intelligence
-      service erodes trust between states
-    - **Arms race in spyware** — as Pegasus is exposed, new tools emerge; the cause (demand
-      for surveillance capability) persists even if one vendor is identified
+    - **Accelerated commercial space race** — India's entry as a credible low-cost launcher intensifies competition; launch costs fall further, access to orbit expands
+    - **Strategic independence** — India reduces reliance on foreign launch providers for its national security and earth-observation satellites
+    - **Innovation ecosystem deepens** — a successful private launch validates venture investment in Indian deep-tech; the cause of policy reform begets more startups
+    - **Potential for space debris acceleration** — cheaper access to orbit without commensurate regulations on debris mitigation could worsen the orbital commons tragedy
+    - **Geopolitical signalling** — a successful private launch demonstrates technological capability that has dual-use implications; India's strategic weight in space governance increases
 
-    *"Do not believe that you have no free will to change direction. The laws and recommendations
-    of the Creation are, in their mode of functioning, bound to cause and effect… if you change
-    the cause, the effect changes along with it."* — §111
+    *"Every thing that exists becomes and passes — change is the only constant, and it begins with the causes you choose."* — §240
 
-    **The hinge:** The cause is *demand* — governments choose to buy and deploy spyware for
-    surveillance. International export controls, binding human rights due diligence for
-    cyber-weapons, and independent judicial oversight are choices that would change the cause.
-    So long as the demand exists, the supply will find a way.
+    **The hinge:** The cause here is predominantly positive — a policy choice to open space to private enterprise created the conditions for this achievement. The hinge for the *negative* projections is regulatory: as launch costs fall, the choice to implement binding debris-mitigation standards alongside market liberalisation determines whether the effect is a sustainable space economy or a congested, dangerous orbital environment. Technology is never neutral; the regulatory framework chosen alongside it determines whether the cause serves creation or destruction.
 
 ---
 
 ## The Pattern
 
-Look across these five crises. Though they appear unrelated — war, fire, democratic erosion,
-economic fragmentation, surveillance expansion — they share a common causal structure:
+Look across these five stories. Though they appear unrelated — war, fire, climate backtracking, political fracture, and a technological leap — they share a common causal structure:
 
 | Domain | Primary Cause | Necessary Effect |
 |--------|--------------|-----------------|
-| Iran War | Military escalation chosen over diplomacy | Wider war + economic shock |
-| Wildfires | Emissions + forest management neglect | Self-reinforcing ecological collapse |
-| Election Trust | Baseless delegitimisation rhetoric | Contested outcomes + unrest |
-| Trade Wars | Protectionism without constructive replacement | Costly fragmentation |
-| Surveillance | Government demand for political spying tools | Repression + press freedom erosion |
+| Iran War | Military escalation chosen over diplomacy for 7 consecutive days | Theatre widening, energy crisis, humanitarian suffering |
+| Wildfires + Tariffs | Accumulated emissions + political response (tariffs) instead of climate action | Public health crisis + trade rupture + accelerating feedback loop |
+| EU Emissions Slowdown | Political concession to industrial lobbies, relaxation of carbon pricing | Delayed decarbonisation, lost climate leadership |
+| Ukraine Politics | Opaque ministerial removal, unexplained leadership change | Eroded civil-military trust, donor unease, strategic vulnerability |
+| India Space Launch | Policy reform + private investment yielding technical success | Lowered launch costs, expanded access, regulatory challenges |
 
 In every case, the cause is **a human choice** — and therefore, the effect is **changeable**.
 
