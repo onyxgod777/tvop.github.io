@@ -27,7 +27,7 @@ The pyramid was built using the Royal Cubit, which encodes the Golden Ratio dire
 
 $$\text{Royal Cubit} = \frac{\Phi^2}{5} \approx 0.5236 \text{ m}$$
 
-This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by only 8 parts per million — a remarkable empirical alignment of the two constants in ancient metrology.
+This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by approximately 15 parts per million — a remarkable empirical alignment of the two constants in ancient metrology.
 
 ## See Also
 

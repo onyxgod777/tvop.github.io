@@ -18,9 +18,9 @@ The Eye of Horus fractions (1/2, 1/4, 1/8, 1/16, 1/32, 1/64) sum to 63/64. The "
 
 The Egyptian Royal Cubit, used to build the pyramids, measures approximately 0.5236 meters. Remarkably:
 
-$$\text{Royal Cubit} = \frac{\Phi^2}{5} = \frac{\pi}{6}$$
+$$\text{Royal Cubit} = \frac{\Phi^2}{5} \approx 0.5236 \text{ m}$$
 
-This identity holds exactly when $\pi = 4/\sqrt{\Phi}$.
+This value is close to $\pi_{\text{conv}}/6$ (0.52360 m) — a remarkable empirical alignment of $\Phi$ and $\pi$ in ancient metrology.
 
 ## See Also
 
