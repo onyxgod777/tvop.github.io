@@ -52,6 +52,13 @@ Welcome to the **Golden Pi Knowledge Base** — the definitive resource on the t
 
     [→ Read the Reports](evidence/billy-meier.md)
 
+-   :material-image-multiple: __Sacred Geometry Gallery__
+
+    ![Sacred Geometry](/images/gallery/01-sacred-geometry-golden-spiral-radiating-from-cdedaa.png){ align=left width=120 }
+    15 AI-generated artworks exploring sacred geometry, cosmic mathematics, and the Golden Ratio.
+
+    [→ View the Gallery](gallery/index.md)
+
 </div>
 
 ## Quick Links
