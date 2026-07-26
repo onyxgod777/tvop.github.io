@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0a2e"/>
+      <stop offset="100%" stop-color="#000005"/>
+    </radialGradient>
+    <radialGradient id="star1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#ffdd44"/>
+      <stop offset="100%" stop-color="#ff880066"/>
+    </radialGradient>
+    <radialGradient id="star2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#4488ff"/>
+      <stop offset="100%" stop-color="#0044ff66"/>
+    </radialGradient>
+    <radialGradient id="star3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#ff4488"/>
+      <stop offset="100%" stop-color="#ff004466"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="60" cy="80" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="430" cy="60" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="380" cy="150" r="1.5" fill="#fff" opacity="0.4"/>
+  <circle cx="100" cy="400" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="420" cy="420" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="50" cy="250" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="450" cy="300" r="1" fill="#fff" opacity="0.4"/>
+  <!-- Orbits -->
+  <ellipse cx="250" cy="220" rx="180" ry="80" fill="none" stroke="#ffffff15" stroke-width="0.5"/>
+  <ellipse cx="250" cy="280" rx="160" ry="70" fill="none" stroke="#ffffff15" stroke-width="0.5"/>
+  <!-- Celestial bodies in syzygy -->
+  <circle cx="120" cy="230" r="28" fill="url(#star2)" filter="url(#glow)"/>
+  <circle cx="120" cy="230" r="12" fill="#88bbff" opacity="0.6"/>
+  <circle cx="250" cy="250" r="45" fill="url(#star1)" filter="url(#glow)"/>
+  <circle cx="250" cy="250" r="20" fill="#ffdd88" opacity="0.5"/>
+  <circle cx="380" cy="270" r="35" fill="url(#star3)" filter="url(#glow)"/>
+  <circle cx="380" cy="270" r="15" fill="#ff88aa" opacity="0.5"/>
+  <!-- Alignment line -->
+  <line x1="92" y1="230" x2="415" y2="270" stroke="#ffffff22" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <!-- Text -->
+  <text x="250" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#ffffffcc" letter-spacing="6">SYZYGY</text>
+  <text x="250" y="410" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffffff66" letter-spacing="4">$SYZ</text>
+  <text x="250" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff44" font-style="italic">rare alignment of celestial bodies</text>
+</svg>

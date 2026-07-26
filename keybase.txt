@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/truthseeker777
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://realvalueofpi.xyz
+  * I am truthseeker777 (https://keybase.io/truthseeker777) on keybase.
+  * I have a public key ASC8fvQ8Xx06KqbjG9pu9jGoMclYLT96P7XUJoyhe4pfWwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc916f7b8838e5b76d3cdb08ab6bd344da634ca8b5d031dd2d5b47cb7b2f9b880a",
+      "host": "keybase.io",
+      "kid": "0120bc7ef43c5f1d3a2aa6e31bda6ef631a831c9582d3f7a3fb5d4268ca17b8a5f5b0a",
+      "uid": "1a3de015f22db2963dcc14a1437c3719",
+      "username": "truthseeker777"
+    },
+    "merkle_root": {
+      "ctime": 1743037880,
+      "hash": "5cc8f66a9c949aef4f0851d73f589166cf9767ad42c3ccab367f3a59814050eafec6f4417b8118b5277ce16da42c6ffc3a0cab7069ae054aae6f72a87cc0526d",
+      "hash_meta": "5b37bc29699adabb4b534209f02e2b0c702bd1ba04cce1d28c0b18ba726c87af",
+      "seqno": 26662623
+    },
+    "service": {
+      "entropy": "A34f72jiruXNRnGkQK8abRu2",
+      "hostname": "realvalueofpi.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1743037985,
+  "expire_in": 504576000,
+  "prev": "506db40a89196700f789dccb62664a384714491d8e4869c54481392ac7ea1c3e",
+  "seqno": 162,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvH70PF8dOiqm4xvabvYxqDHJWC0/ej+11CaMoXuKX1sKp3BheWxvYWTES5cCzKLEIFBttAqJGWcA94ncy2JmSjhHFEkdjkhpxUSBOSrH6hw+xCBQt6wdopyGSgYq69xjQ/CfrFtPM4XukGIdkZljMP+WoAIBwqNzaWfEQHYjx3n4598T5fDeDvFL1/rPQMBJQA5S9VqWR5c5ld21EdJuBDuSp+h4vmXNabTyMCE7vwk/q1ozCitMnvMD1Auoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAE0bmrQcl3MeXPMIRIcUMiHLZu/ba0Hf4mX0SPhrJtEKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/truthseeker777
+
+==================================================================
