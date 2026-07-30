@@ -32,6 +32,11 @@ jobs:
       - name: Build site
         run: mkdocs build
 
+      - name: Copy static blog posts into build output
+        run: |
+          mkdir -p site/blog/posts
+          cp docs/blog/posts/*.html site/blog/posts/ 2>/dev/null || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
