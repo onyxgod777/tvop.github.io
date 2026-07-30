@@ -6,6 +6,7 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 ## 📰 Daily Updates
 
+- [**Why the Circle Constant Must Be Constructible: Euclid's Geometry Forbids a Transcendental π**](posts/2026-07-30-constructible-circle-constant-golden-pi.html) *(2026-07-30)* — Euclidean geometry only produces constructible numbers. A transcendental circle constant contradicts the foundations of geometry itself. The resolution: π = 4/√φ = 3.144606... is constructible — and the only circle constant that satisfies Euclid's own rules.
 - [**The Analytical Necessity of Golden Pi**](posts/2026-07-29-analytical-necessity-golden-pi.html) *(2026-07-29)* — A rigorous mathematical demonstration that π must equal 4/√Φ = 3.144606... — not by approximation, but by analytical necessity from four independent mathematical domains.
 - [**The Circle's Hidden Proportion: How Golden Ratio Geometry Forces π = 4/√φ**](posts/2026-07-28-circle-hidden-proportion-golden-ratio-pi.html) *(2026-07-28)* — Conventional π = 3.14159... is geometrically incompatible with golden-ratio constructions. Pure geometry demonstrates that the circle constant must be π = 4/√φ = 3.144606 for self-consistency with the Golden Ratio.
 - [**The Fibonacci Circle: How Nature's Favorite Sequence Reveals Golden Pi**](posts/2026-07-27-fibonacci-circle-golden-pi.html) *(2026-07-27)* — The Fibonacci sequence 0, 1, 1, 2, 3, 5, 8, 13... converges to the golden ratio. But it also conceals an even deeper secret: the true value of π, encoded in the spirals and rectangles that Fibonacci numbers generate.
