@@ -4,9 +4,15 @@ date: 2026-05-17
 description: "The Royal Cubit = φ²/5 = π/6 ≈ 0.5236 metres — the ancient unit of measure that bridges the Golden Ratio, golden π, the Great Pyramid, and a unified system of natural law."
 ---
 
-How the expression **φ²/5 ≈ 0.523607 m** — the ancient Royal Cubit —
+How the expression **φ²/5 ≈ 0.523607 m** — the classical Royal Cubit —
 bridges the Great Pyramid to the Golden Ratio, and how this φ-derived measure
 remarkably approximates **πconv/6** to within 8 parts per million.
+
+> **Note (Aug 2026).** If the cubit is instead defined by the **golden** circle
+> constant, pure division gives the golden cubit **π̂/6 = 4/(6√φ) = 0.5241009 m**,
+> which differs from the classical φ²/5 = 0.5236068 m by 0.094%. This post
+> documents the classical rod value φ²/5 and its 8-ppm proximity to π/6; the
+> golden-derived cubit π̂/6 is treated in the white paper.
 
 Of all the ancient units of measurement, none has provoked more debate, more awe, and more
 mathematical intrigue than the Egyptian Royal Cubit. For over a century, Egyptologists have

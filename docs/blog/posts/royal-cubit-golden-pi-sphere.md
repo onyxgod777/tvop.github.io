@@ -4,8 +4,17 @@ date: 2026-05-28
 description: "The Egyptian Royal Cubit = φ²/5 = π/6 ≈ 0.5236 metres encodes the sphere-volume relationship that proves golden π = 4/√φ (3.144606). A geometric proof from the Great Pyramid to the sphere."
 ---
 
-How Ancient Egypt's Sacred Measure — **φ²/5 = π/6 = 0.5236…** — encodes the
-sphere-volume relationship that proves golden π = **4/√φ**.
+How Ancient Egypt's Sacred Measure — **φ²/5 = 0.5236…** — encodes the
+sphere-volume relationship and connects to golden π = **4/√φ**.
+
+> **Correction (Aug 2026).** This post conflates two distinct cubit values. The
+> **golden cubit** — one sixth of Golden Pi by pure division — is
+> **π̂/6 = 3.144605511/6 = 0.5241009 m**. The **classical rod value** is
+> **φ²/5 = 0.5236068 m**. These differ by 0.094%. The sphere–cube volume ratio
+> π/6 with golden π is π̂/6 = **0.5241**, NOT φ²/5 = 0.5236. The claim that
+> "φ²/5 = πg/6 is exact" in §VI is **incorrect** — the post's own Step 6 shows
+> the cross-check 3φ²√φ = 9.99… ≠ 10 (off by 0.094%), so the identity is an
+> approximation, not an equality. The golden-consistent cubit is π̂/6 = 0.5241.
 
 ![The Great Pyramid of Giza — its dimensions in Royal Cubits encode golden π = 4/√φ and the sphere-volume relationship](/img/great-pyramid.jpg)
 
