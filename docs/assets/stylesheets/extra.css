@@ -101,6 +101,14 @@ h1, h2, h3, h4, h5, h6,
   color: var(--gp-gold-light);
 }
 
+/* Force the active tab visible too — Material's
+   `.md-tabs__item--active .md-tabs__link { color: inherit }` has higher
+   specificity and inherits the dark text color on the dark navbar. */
+.md-tabs__item--active .md-tabs__link {
+  opacity: 1;
+  color: var(--gp-gold-light) !important;
+}
+
 .md-tabs__link--active::after {
   content: '';
   position: absolute;
