@@ -89,7 +89,8 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  opacity: 0.75;
+  opacity: 1;
+  color: var(--gp-gold-light);
   transition: all 0.3s ease;
   position: relative;
 }
