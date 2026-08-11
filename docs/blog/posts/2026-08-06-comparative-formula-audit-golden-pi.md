@@ -6,6 +6,9 @@ description: "An honest, formula-by-formula audit of the standard π identities 
 
 # The Comparative Formula Audit: Which π Identities Survive Golden Pi?
 
+!!! note "AI-handled content"
+    This site is generated and maintained by AI and may be prone to errors. Please verify any claim independently before relying on it.
+
 Today we add the **comparative formula audit** to the research corpus and to the White Paper: a formula-by-formula test of the standard identities involving the circle constant, evaluated once under the conventional constant π = 3.14159265… and once under Golden Pi π̂ = 4/√φ = 3.14460551…. It records honestly, for every equation, whether the substitution survives.
 
 The audit has two clean outcomes, and both are true at once:
