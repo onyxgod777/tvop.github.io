@@ -39,7 +39,7 @@ Each row below shows the conventional form and its golden re-label:
 
 The **period** row is definitional — the turn length is whatever constant you choose.
 The rows marked *value pinned by π* are not equalities: they are formal re-labels whose
-numerical values are fixed by the measured constant π = 3.14159265…. This matters, and
+numerical values are fixed by the computed constant π = 3.14159265…. This matters, and
 we state it plainly below.
 
 ## The honest boundary

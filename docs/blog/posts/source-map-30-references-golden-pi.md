@@ -6,7 +6,7 @@ description: "A comprehensive research survey of 36 sources supporting π = 4/�
 
 📜 Timeline Note: Priority of Disclosure
 
-The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren (through Billy Meier) stated the base for π had been miscalculated. This predates the first publication by Jain 108 (2006) by 11 years and Harry Lear's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/Plejaren disclosure at CR 251 (1995) is the earliest known source.
+The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren (through Billy Meier) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and Harry Lear's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/Plejaren disclosure at CR 251 (1995) is the earliest known source.
 
 ## The Source Map: 37 References That Support Golden π
 
@@ -64,7 +64,7 @@ If the Great Pyramid’s height = √φ (1.272) and base perimeter = 4, then: (P
 
 ### ▶ The FIGU — Billy Meier Contact Reports
 
-The claim that advanced extraterrestrial intelligence (the Plejaren) communicated the correct value of π to Billy Meier in 1980, and that Harry Lear’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is remarkable: the golden π value was published by FIGU years before Harry Lear’s proofs entered the public domain.
+The claim that advanced extraterrestrial intelligence (the Plejaren), through Billy Meier, prophesied that the value of π was miscalculated, and that Harry Lear’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is notable: the FIGU contact reports record the miscalculation claim years before Harry Lear’s proofs entered the public domain.
 
 ### Conclusion: A Growing Body of Work
 

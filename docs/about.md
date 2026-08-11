@@ -16,7 +16,7 @@ To demonstrate through geometry, ancient evidence, and cross-domain consistency 
 
 - **Geometry**: Squaring the circle, Kepler's Triangle, Vesica Piscis, pentagonal geometry
 - **Ancient Knowledge**: Great Pyramid of Giza, Rhind Papyrus, Royal Cubit
-- **FIGU/Contact Reports**: Billy Meier's corrected value of Pi from the Plejaren
+- **FIGU/Contact Reports**: Billy Meier's Plejaren prophecy that π was miscalculated (the golden value 4/√φ was advanced by later researchers)
 - **Natural Evidence**: Nautilus shells, cochlear spirals, sunflower phyllotaxis
 - **Harmonics**: 432 Hz resonance, musical intervals, fine-structure constant
 - **Probability**: Buffon's needle, Gaussian integral, Basel problem

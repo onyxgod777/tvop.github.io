@@ -6,8 +6,8 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 
 ## 📰 Daily Updates
 
-- [**The Comparative Formula Audit: Which π Identities Survive Golden Pi?**](posts/2026-08-06-comparative-formula-audit-golden-pi/) *(2026-08-06)* — A formula-by-formula audit of the standard π identities under Golden Pi (π̂ = 4/√φ = 3.144606). Geometric definitions (A = πr², C = 2πr, sphere area/volume) hold under any constant; series, integrals and special values (Leibniz, Machin, Wallis, Basel, Gaussian, Γ(1/2), Euler) pin the constant to the measured 3.14159265 and do not survive π̂. Now part of the White Paper.
-- [**The Golden Calculus: A Self-Consistent Analytic System on π̂**](posts/2026-08-06-golden-calculus-self-consistent-analytic-system/) *(2026-08-06)* — Golden Pi installed as the circle constant of a complete analytic framework, where the full turn is 2π̂ = 6.2892110. Coherent and exact in the constructed world; the measured analytic constant remains π, stated plainly in the honest boundary.
+- [**The Comparative Formula Audit: Which π Identities Survive Golden Pi?**](posts/2026-08-06-comparative-formula-audit-golden-pi/) *(2026-08-06)* — A formula-by-formula audit of the standard π identities under Golden Pi (π̂ = 4/√φ = 3.144606). Geometric definitions (A = πr², C = 2πr, sphere area/volume) hold under any constant; series, integrals and special values (Leibniz, Machin, Wallis, Basel, Gaussian, Γ(1/2), Euler) pin the constant to the computed 3.14159265 and do not survive π̂. Now part of the White Paper.
+- [**The Golden Calculus: A Self-Consistent Analytic System on π̂**](posts/2026-08-06-golden-calculus-self-consistent-analytic-system/) *(2026-08-06)* — Golden Pi installed as the circle constant of a complete analytic framework, where the full turn is 2π̂ = 6.2892110. Coherent and exact in the constructed world; the analytic constant remains π, stated plainly in the honest boundary.
 - [**The Golden Calculus and a New Closed Form of Golden Pi**](posts/golden-calculus-new-closed-form/) *(2026-08-05)* — Golden Pi admits a second closed form (4φ/((φ+1)√(φ−1))) and forms a fully self-consistent golden calculus — a complete analytic system built on the golden circle constant, with an honest boundary on which labels are pinned by conventional π.
 - [**The Golden Pi Triangle: How abc = 64 Completes the Eye of Horus**](posts/2026-08-01-golden-pi-triangle-abc-64-eye-horus/) *(2026-08-01)* — A right triangle with legs a = 4/√φ (Golden Pi) and b = 4, and hypotenuse c = √(a²+b²), has product abc = 64 exactly. The sides form the golden geometric progression {a, a√φ, aφ}, the complement angle reproduces the Great Pyramid's 51.84° face slope to within an arcminute, and the exact 64 supplies the missing 1/64 of the Eye of Horus fractions.
 - [**The Instrumentum Identity: How the Spacetime Interval Confirms π = 4/√φ**](posts/2026-07-31-instrumentum-spacetime-golden-pi/) *(2026-07-31)* — The instrumentum identity f(x,y) = 4xy²/((y²+x²)√(y²−x²)) produces exactly Golden Pi (π = 4/√φ = 3.144606...) when the ratio y/x = √φ — the same ratio that makes the Lorentz factor collapse to the golden ratio φ. A scientific proof that the circle constant and special relativity share one number.
@@ -117,7 +117,7 @@ Golden Pi in the natural world.
 
 Billy Meier's Plejaren contacts and the correction of π.
 
-- [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction/) *(2026-05-20)* — Ptaah's statements spanning 22 years
+- [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction/) *(2026-05-20)* — Ptaah's statements spanning two decades
 - [**FIGU Contact Report 251**](posts/figu-plejaren-contact-report-251-pi-correction/) *(2026-05-16)*
 - [**Harry Lear: Measuring Pi**](posts/harry-lear-measuring-pi/) — The researcher who visited FIGU in 2017
 

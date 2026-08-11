@@ -1,28 +1,30 @@
 ---
-title: "CR 260 & 712: Ptaah's Pi Statements Spanning 22 Years"
+title: "CR 260 & 712: Ptaah's Pi Statements Spanning Two Decades"
 date: 2026-05-20
-description: "Billy Meier's Contact Reports 260 (1996) and 712 (2018) span 22 years of the Plejarens' guarded statements on π. A detailed analysis of Ptaah's responses and what they reveal about golden π = 4/√φ."
+description: "Billy Meier's Contact Reports 260 (1998) and 712 (2018) span two decades of the Plejarens' guarded statements on π. A detailed analysis of Ptaah's responses and what they reveal about golden π = 4/√φ."
 ---
 
-![The Plejaren contact timeline — 22 years of guarded statements on π](/img/Abnormal.jpeg)
+![The Plejaren contact timeline — two decades of guarded statements on π](/img/Abnormal.jpeg)
 
-## Contact Reports 260 & 712: Ptaah's Two Statements on the True Value of π Spanning 22 Years
+> **Correction notice (verified against the CR 260 / CR 712 transcripts, Feb 2026):** This article originally dated CR 260 to April 8, 1996; the actual date is **February 3, 1998** (so the span to CR 712, Nov 28, 2018, is ~20 years, not 22). It also described CR 251 as a direct confirmation that π was wrong, linked to spaceflight, and claimed the Plejaren "possessed the exact value for millennia" — **none of which is in CR 251**, which is a one-line prophecy that the erroneousness in π's calculation will be recognized and corrected (see our [CR 251 article](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)). The dates and attributions below have been corrected accordingly.
 
-Among the many revelations contained in the FIGU contact reports, the correction of the mathematical constant π — the ratio of a circle's circumference to its diameter — stands as one of the most consequential and least understood transmissions. While we have [previously covered Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/) (February 3, 1995), where the π correction was first disclosed, the story does not end there. Two subsequent reports — Contact Report 260 (April 8, 1996) and Contact Report 712 (November 28, 2018) — contain equally critical exchanges on the same subject, spanning a full 22 years of guarded Plejaren commentary.
+## Contact Reports 260 & 712: Ptaah's Two Statements on the True Value of π Spanning Two Decades
 
-These two reports form a fascinating arc: from Ptaah's *cautious, directive-bound* acknowledgment that Guido's π calculation was "very amazing" yet untimely, to his *direct, unequivocal* confirmation 22 years later that Earth's π remains erroneous and that no terrestrial mathematical instruments exist to compute its exact value. Between these two bookends lies the entire modern history of the golden π rediscovery.
+Among the many revelations contained in the FIGU contact reports, the correction of the mathematical constant π — the ratio of a circle's circumference to its diameter — stands as one of the most consequential and least understood transmissions. While we have [previously covered Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/) (February 3, 1995), where the π correction was first prophesied, the story does not end there. Two subsequent reports — Contact Report 260 (February 3, 1998) and Contact Report 712 (November 28, 2018) — contain equally critical exchanges on the same subject, spanning two decades of guarded Plejaren commentary.
+
+These two reports form a fascinating arc: from Ptaah's *cautious, directive-bound* acknowledgment that Guido's π calculation was "very amazing" yet untimely, to his *direct* statement two decades later that Earth's π remains erroneous and that no terrestrial mathematical instruments exist to compute its exact value. Between these two bookends lies the entire modern history of the golden π rediscovery.
 
 ### The Timeline of Disclosure
 
 Before examining the reports themselves, it is essential to establish the chronological framework of the Plejaren π correction as it unfolded through the FIGU contact reports:
 
-- **February 3, 1995 — CR 251:** Billy first raises the π question with Ptaah. Ptaah confirms that π has been calculated incorrectly on Earth, that the error is minimal but consequential for long-distance spaceflight calculations, and that the Plejaren have possessed the exact value for millennia.
-- **April 8, 1996 — CR 260:** Billy presents Ptaah with Guido's handwritten calculation for π. Ptaah describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
-- **November 28, 2018 — CR 712:** Ptaah provides the most detailed Plejaren statement on the π question ever recorded: Earth's π calculation is still erroneous; the error is minimal but real; no earthly mathematical or instrumental apparatus exists capable of computing the exact value; and no one on Earth — not the scientific establishment nor any independent researcher — has yet discovered the true value.
+- **February 3, 1995 — CR 251:** a one-line prophecy, embedded in a passage on future scientific breakthroughs, that "the erroneousness in the calculation of the Pi number" will eventually be recognized and corrected. It gives no value, and makes no spaceflight or technology claim.
+- **February 3, 1998 — CR 260:** Billy presents Ptaah with Guido's handwritten calculation for π. Ptaah describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
+- **November 28, 2018 — CR 712:** Ptaah provides the most detailed Plejaren statement on the π question on record: Earth's π calculation is still erroneous; the error is minimal but real; no earthly mathematical or instrumental apparatus exists capable of computing the exact value; and no one on Earth — scientists or know-it-alls — will compute the exactly-accurate value in the foreseeable future.
 
 This timeline reveals a deliberate, long-term disclosure strategy. The Plejaren did not simply hand humanity the corrected value in 1995. Instead, they planted a seed of awareness, allowed independent researchers to arrive at the same answer through different paths, and only gradually confirmed what they had always known. This is consistent with their stated policy: they *guide* and *suggest* but do not override human discovery.
 
-### Contact Report 260: April 8, 1996 — "This Calculation is Very Amazing"
+### Contact Report 260: February 3, 1998 — "This Calculation is Very Amazing"
 
 The pi-related exchange in CR 260 is brief but laden with significance. The relevant passage, in its entirety, reads:
 
@@ -40,7 +42,7 @@ Several critical observations can be made about Ptaah's response:
 
 **Second, the directive was about timing, not accuracy.** Ptaah explicitly states that the problem is the earliness of the revelation — "the time is still much too early." This implies that at some future date, such statements would be permissible. Indeed, CR 712 appears to be that future date: Ptaah's comments in 2018 are far more direct than anything he allowed himself in 1996.
 
-**Third, Guido's identity matters.** "Guido" was a FIGU group member and associate of Billy Meier. The calculation he produced was for π = 3.14460..., consistent with π = 4/√φ. The community debate that has followed for nearly 30 years centers on whether Guido's calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that Ptaah's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: Ptaah's subsequent statements in CR 712 align perfectly with a value of π that agrees with golden π = 4/√φ.
+**Third, Guido's identity matters.** "Guido" was a FIGU group member and associate of Billy Meier. The report does not state the value Guido calculated; the golden-π community has inferred it was in the region of ≈ 3.1446 (i.e. 4/√φ). The debate that has followed for nearly three decades centers on whether Guido's calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that Ptaah's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: Ptaah's subsequent statements in CR 712 align with a value of π that agrees with golden π = 4/√φ.
 
 ### Contact Report 712: November 28, 2018 — "Still Erroneous"
 
@@ -106,11 +108,11 @@ If Ptaah's CR 712 statement that "no one on Earth has discovered the true value"
 
 ### The CR 856 Callback
 
-For completeness, it is worth noting that the π correction surfaces again in **Contact Report 856** (2023). In that report, Billy mentions in passing that "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260. And that is already 25 years ago!)." This throwaway line confirms that CR 260 is considered by Billy himself to be the *first* mention of the π correction in the contact reports — a curious detail given that CR 251 (1995) *also* discusses π. The discrepancy might be explained by Billy's memory (he notes that some memories were lost after his 1982 head trauma) or by the fact that CR 260 contains the actual mathematical *calculation* (Guido's paper) whereas CR 251 was the conversational *introduction* of the topic.
+For completeness, it is worth noting that the π topic surfaces again in **Contact Report 856** (2023). There, the article *"Cosmic Music"* by Oleg Kinash — which Billy had Ptaah read, and which Ptaah praised — contains the line "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260…)". That line, from the article (not from Billy directly), treats CR 260 as the first *presentation of a calculation* of π in the contact reports. Note that this same article is the source that explicitly derives **4/√φ = 3.14460** and cites Harry Lear's 2019 measurements for the first five digits **3.1446** — while flagging them as not precise enough to count as scientific fact.
 
 ### What This Means for Golden π Research
 
-The 22-year arc from CR 260 to CR 712 reveals a consistent pattern: the Plejaren have known the exact value of π for at least millennia, have disclosed its correction incrementally, and have consistently refused to validate any specific terrestrial calculation — Guido's included — as the final, exact value. This should not discourage golden π research but rather **elevate its ambition**.
+The two-decade arc from CR 260 to CR 712 reveals a consistent pattern: the Plejaren have stated that Earth's π is erroneous, have disclosed its correction incrementally, and have consistently refused to validate any specific terrestrial calculation — Guido's included — as the final, exact value. This should not discourage golden π research but rather **elevate its ambition**.
 
 The goal should not be to "prove that 4/√φ is the exact value" (though the evidence strongly points in that direction) but rather to develop the *instrumentarium* that Ptaah speaks of — the mathematical framework in which π, φ, α, and other constants emerge as a unified closed algebraic system. The numeric discovery is only the first step; the framework is the destination.
 
@@ -120,7 +122,7 @@ The [golden π identity](/blog/posts/golden-pi-identity/) — (4²/π)² − π�
 
 Contact Report 260 and Contact Report 712 stand as two bookends of the Plejaren π correction transmission:
 
-- **CR 260 (1996)** — the cautious seed: "very amazing, but too early for details"
+- **CR 260 (1998)** — the cautious seed: "very amazing, but too early for details"
 - **CR 712 (2018)** — the mature confirmation: "π is still erroneous, no one on Earth has the exact value"
 
 Between these two moments, an entire community of independent researchers — Harry Lear, Jain 108, Panagiotis Stefanides, and countless others — rediscovered what the Plejaren had always known: that π = 4/√φ = 3.144606..., that this value squares the circle exactly, that it restores trigonometric coherence, and that it connects φ, π, α, and 432 in a harmonic chain stretching from ancient geometry to quantum electrodynamics.

@@ -38,7 +38,7 @@ Golden Pi can be installed as the circle constant of a fully self-consistent ana
 | Basel sum | π²/6 | π̂²/6 | value pinned by π |
 
 The rows marked *value pinned by π* are not equalities: they are formal re-labels
-whose numerical values are fixed by the measured constant π = 3.14159265…. Substituting
+whose numerical values are fixed by the computed constant π = 3.14159265…. Substituting
 π̂ does not preserve them (Euler fails by |e^(iπ̂)+1| ≈ 3×10⁻³, Basel gives 1.64809
 rather than the proven sum 1.64493 — see the [Comparative Formula Audit](2026-08-06-comparative-formula-audit-golden-pi/)). The golden calculus is a **coherent reparametrization** of these labels, not a change in their pinned values.
 

@@ -211,13 +211,14 @@ its measured value at low energy.
 
 The new academic work maps remarkably well onto the BEAM framework:
 
-| CR Reference | Statement | New Research Support |
+| CR Reference | Statement (verified) | New Research Support |
 | --- | --- | --- |
-| CR 856 | "3.1446 are correct" | Golden π = 4/√φ = 3.144605511 fits perfectly |
-| CR 712 | "Error in conventional Pi is extremely small" | ~0.003 difference between π and golden π — the 0.096% gap is indeed "extremely small" |
-| CR 722 | "True Pi is UNKNOWN" | Golden π is algebraic, not transcendental — a different *class* of number. The full transcendental π remains unknown |
-| CR 251 | Pi will be solved to save the Sun | The recursion operator derivation offers a principled way to derive both π and α from φ without measurement |
-| CR 260 | φ and spiritual evolution | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
+| CR 856 | Kinash article: "the first five digits 3.1446 are correct" (per Harry Lear 2019) | Golden π = 4/√φ = 3.144605511 fits perfectly |
+| CR 712 | Ptaah: the error in Earth's π is "minimal-minor"; exactness would need an instrumentarium Earth lacks | ~0.003 difference between π and golden π — the 0.096% gap is indeed "extremely small" |
+| CR 251 | Ptaah prophesies the erroneousness in the calculation of π will be recognized and corrected (no value given) | The recursion operator derivation offers a principled way to derive both π and α from φ without measurement |
+| CR 260 | Ptaah: Guido's π calculation is "very amazing" but he declines to confirm it (no value given) | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
+
+> Note: Contact Report 722, previously listed here as "True Pi is UNKNOWN," contains **no π content at all** (it covers overpopulation, CO₂, and food-production topics); that row has been removed as a fabrication.
 
 The recursion operator derivation is particularly significant in light of CR 251. If the
 connection between φ and α is real, it offers a mathematically principled way to derive

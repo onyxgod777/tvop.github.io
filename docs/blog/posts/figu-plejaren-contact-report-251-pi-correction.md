@@ -8,11 +8,13 @@ description: "How Billy Meier's Contact Report 251 (Feb 3, 1995) first disclosed
 
 ![figu plejaren contact report 251 pi correction](/img/space-universe.jpg)
 
-On Friday, February 3, 1995, in a small Swiss farmhouse in the village of Hinterschmidrüti, something remarkable happened. Eduard "Billy" Meier sat down with Ptaah — a being from the Plejaren star system — for what would be recorded as **Contact Report 251**. During that conversation, Ptaah made a statement that, thirty years later, continues to ripple through fringe mathematics, sacred geometry, and ufology communities worldwide.
+> **Correction notice (verified against the CR 251 transcript, Feb 2026):** This article originally stated that Ptaah declared the true value of π to be 3.144605511029693144 (4/√φ) and tied it to advanced technology. **Contact Report 251 does not do that.** It contains a single prophecy that "the erroneousness in the calculation of the Pi number" will be recognized and corrected — with **no value given** and **no technology claim**. The figure 4/√φ = 3.1446055… originates with later golden-π researchers (Harry Lear; the Oleg Kinash article carried in Contact Report 856 / Sign of the Times 75), not with Ptaah. The sections below have been corrected accordingly.
 
-The statement was simple and devastating: the value of π — the most fundamental constant in mathematics — had been miscalculated. Its true value, Ptaah said, is 3.144605511029693144. And correcting it, he claimed, would unlock advanced technology.
+On Friday, February 3, 1995, in a small Swiss farmhouse in the village of Hinterschmidrüti, something remarkable happened. Eduard "Billy" Meier sat down with Ptaah — a being from the Plejaren star system — for what would be recorded as **Contact Report 251**. During that conversation, a prophecy was recorded that, thirty years later, continues to ripple through fringe mathematics, sacred geometry, and ufology communities worldwide.
 
-This is the story of that claim, the organization behind it, the researchers who validated it, and the scientific establishment that has largely rejected it.
+The statement was brief: the value of π — the most fundamental constant in mathematics — had been miscalculated. The report itself gave **no number**; the exact figure now associated with the story (3.144605511029693144, i.e. 4/√φ) came from later researchers, not from Contact Report 251. And correcting π, in the telling that grew around it, would unlock advanced technology.
+
+This is the story of that claim, the organization behind it, the researchers who supplied the specific value, and the scientific establishment that has largely rejected it.
 
 ### The FIGU Organization and Billy Meier
 
@@ -34,13 +36,12 @@ This was the first breadcrumb. The full disclosure would come fifteen years late
 
 On the same date as CR 127 — exactly fifteen years to the day — Ptaah sat down with Meier for CR 251. The timing was almost certainly intentional, a pattern the Plejaren frequently use to emphasize connections between transmissions.
 
-According to Meier's notes and the official FIGU transcript, Ptaah stated that the value of π as calculated by Archimedes and used by all of Earth's mathematics, physics, and engineering was incorrect. The base or foundation of π — the number that relates a circle's circumference to its diameter — had been wrong from the very start.
+According to Meier's notes and the official FIGU transcript, Ptaah's statement on π is far more modest than the legend that has grown around it. Contact Report 251 contains **one sentence** on the subject, embedded in a prophecy about the scientific breakthroughs of "1995 and the following years":
 
-The correct value, Ptaah said, is:
+> "…the year 1995 and the following years bring an enormous number of breakthroughs to change civilisation. **In the time to come, the factor of finally recognising and correcting that which is erroneous in the calculation of the Pi number will also contribute to this.**"
+> German: *"Dazu wird in kommender Zeit auch der Faktor dessen beitragen, dass endlich das Falsche in der Berechnung der Pi-Zahl erkannt und behoben wird."*
 
-π = 4/√φ = 3.144605511029693144...
-
-Ptaah further stated that once humanity adopted the correct value of π, a cascade of technological breakthroughs would follow. The new π would enable advances in space travel, energy generation, and what can only be described as hyperspace propulsion — a type of faster-than-light travel that the Plejaren themselves use. The correction of π, in other words, was not merely a mathematical curiosity. It was a key to humanity's future among the stars.
+The report gives **no value** — no 4/√φ, no 3.144605511029693144, no mention of Archimedes, and no claim about space travel, energy, or faster-than-light propulsion. Those elaborations entered the story later, through the broader golden-π narrative (Harry Lear's open letters, the They Fly blog, the FIGU-Italy page, and forum threads). The report itself only prophesies that the error in π's calculation will one day be recognized and corrected — and, per Contact Report 712 (2018), that exactness would require an *instrumentarium* Earth does not yet possess.
 
 ### How This Reached the Public: Christian Frehner and FIGU's Official Statement
 
@@ -48,7 +49,7 @@ For over two decades, this information existed primarily within the FIGU communi
 
 Then, on **September 3, 2017**, an American researcher named **Harry E. Lear, Jr.** arrived at the Semjase Silver Star Center with his wife Nancy. Lear, a US Army veteran who had served in intelligence during the Vietnam War, had independently concluded that π = 4/√φ through geometric proofs and physical measurements using CNC machining. He was seeking the blessing of the FIGU for his work.
 
-Christian Frehner, Billy Meier's right-hand man and a key FIGU official, received Lear and examined his proofs. The meeting was a watershed moment. Frehner recognized that Lear's independent discovery confirmed what the Plejaren had disclosed in CR 251 — validating the contact reports through independent research.
+Christian Frehner, Billy Meier's right-hand man and a key FIGU official, received Lear and examined his proofs. The meeting was a watershed moment. Frehner recognized that Lear's independent discovery fulfilled the prediction recorded in CR 251 — validating the contact reports through independent research.
 
 Subsequently, **Christian Frehner** authored a document titled **"Important Information for the Circle Number Pi"** — a PDF that has since become a foundational text in the golden π movement. The document, hosted at theyflyblog.com, lays out the case for π = 4/√φ in clear terms, referencing CR 251 and Lear's geometric proofs. It is a bridge between the Contact Reports and the world of empirical measurement — spiritual revelation meeting CNC-machined wood.
 
@@ -89,7 +90,7 @@ For a more technical treatment, the **[Billy Meier Wiki](https://wiki.saalome.or
 
 ### The Claim of Technological Breakthroughs
 
-Perhaps the most intriguing claim from Ptaah's transmission is that correcting π would unlock advanced technology. What kind of technology?
+A recurring theme in the golden-π narrative — though **not present in Contact Report 251 itself** — is that correcting π would unlock advanced technology. This elaboration developed later, largely through Harry Lear's open letters and the They Fly blog. What kind of technology is claimed?
 
 **Hyperspace Travel:** The Plejaren themselves travel at speeds exceeding light through what they describe as a "beam ship" that manipulates spacetime geometry. According to the contact reports, these ships operate on principles that require the correct value of π for navigation calculations. With traditional π, hyperspace calculations produce errors that compound over interstellar distances, making navigation impossible.
 

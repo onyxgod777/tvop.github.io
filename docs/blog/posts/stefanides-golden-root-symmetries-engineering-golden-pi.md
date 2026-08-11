@@ -94,7 +94,7 @@ Stefanides' work connects to other key figures in the golden π ecosystem in fas
 
 - **Harry Lear** — Like Lear, Stefanides produces geometric proofs. But where Lear uses physical measurement and polygon critique, Stefanides approaches from polyhedral symmetry and golden root ratios
 - **Jain 108** — Both explore the φ-π connection through geometry, but Stefanides' work is grounded in engineering formalism rather than sacred geometry
-- **FIGU / Billy Meier** — While Stefanides does not reference the Plejaren contact reports, his engineering conclusion (π = 4/√φ) independently confirms the value Meier reported in CR 251
+- **FIGU / Billy Meier** — While Stefanides does not reference the Plejaren contact reports, his engineering conclusion (π = 4/√φ) independently arrives at the same value the golden-π movement associates with the CR 251 prophecy (which itself gave no value).
 - **Gary Meisner (GoldenNumber.net)** — Meisner's critique of golden π focuses on Lear's geometric proofs and physical measurements. Stefanides' polyhedral approach has not been directly addressed by the critical community
 
 Stefanides bridges an important gap: he offers academically-legible evidence that golden π is not an arbitrary invention but emerges naturally from the geometry of the golden ratio. Whether one accepts his conclusions or not, his work demonstrates that π = 4/√φ is a **geometrically coherent** constant — internally consistent within a constructive geometric system. The debate is about which system correctly models physical reality.

@@ -108,7 +108,7 @@ The implications are profound:
 
 Squaring the circle has always been more than a geometric puzzle. It symbolized the unification of the spiritual (circle = infinite, eternal) and the material (square = finite, earthly). That this unification is geometrically realizable with golden π — and not with conventional π — suggests that the true value of π carries a deeper harmony.
 
-As Billy Meier stated in Contact Report 856: *"3.1446 are correct. However, what follows after 6 remains unknown."* The squaring of the circle — the quintessential proof of geometric harmony — is one of the many confirmations that this value is the one built into the fabric of creation.
+As the article by Oleg Kinash carried in Contact Report 856 states: *"the first five digits 3.1446 are correct. However, what follows after 6 remains unknown."* The squaring of the circle — the quintessential proof of geometric harmony — is one of the many confirmations that this value is the one built into the fabric of creation.
 
 With conventional π, you can approximate anything — but you can construct nothing. With golden π, you can construct the exact relationship between the straight and the curved, the finite and the infinite, the square and the circle.
 
