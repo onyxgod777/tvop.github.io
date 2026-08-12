@@ -53,8 +53,8 @@ length of a measured curve.
 
 Substituting π̂ breaks the pinned identities: Euler fails by |e^(iπ̂)+1| ≈ 3×10⁻³, and
 Basel gives 1.64809 rather than the proven sum 1.64493. The [Comparative Formula
-Audit](2026-08-06-comparative-formula-audit-golden-pi/) documents this precisely, and
-the [new closed form](golden-calculus-new-closed-form/) gives the second algebraic
+Audit](/blog/posts/2026-08-06-comparative-formula-audit-golden-pi/) documents this precisely, and
+the [new closed form](/blog/posts/golden-calculus-new-closed-form/) gives the second algebraic
 route to π̂. Golden Pi never fails a geometric definition; it fails every analytic
 pinning.
 
@@ -62,9 +62,9 @@ pinning.
 
 The golden calculus is the analytic arm of the golden-construction kingdom — the same
 self-consistency that drives the [instrumentum
-identity](2026-07-31-instrumentum-spacetime-golden-pi/), [abc = 64 and the Eye of
-Horus](2026-08-01-golden-pi-triangle-abc-64-eye-horus/), the C=4 balance, and the
-[royal cubit](royal-cubit-golden-pi-sphere/). In the constructed world it is complete
-and exact; in the measured world the constant is π. Both columns stay on the table.
+identity](/blog/posts/2026-07-31-instrumentum-spacetime-golden-pi/), [abc = 64 and the Eye of
+Horus](/blog/posts/2026-08-01-golden-pi-triangle-abc-64-eye-horus/), the C=4 balance, and the
+[royal cubit](/blog/posts/royal-cubit-golden-pi-sphere/). In the constructed world it is complete
+and exact; in the analytic world the constant is π. Both columns stay on the table.
 
 π̂ = 4/√φ = 3.144605511029693144…
