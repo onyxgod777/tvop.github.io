@@ -27,7 +27,17 @@ The pyramid was built using the Royal Cubit, which encodes the Golden Ratio dire
 
 $$\text{Royal Cubit} = \frac{\Phi^2}{5} \approx 0.5236 \text{ m}$$
 
-This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by approximately 15 parts per million — a remarkable empirical alignment of the two constants in ancient metrology.
+This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by approximately 15 parts per million — a remarkable empirical alignment of the two constants in ancient metrology. When the Royal Cubit is instead derived from the golden circle constant, it becomes exactly $\hat{\pi}/6 = 0.5241009$ m (see the [White Paper](../resources/golden-pi-whitepaper.pdf)).
+
+## The Record in the FIGU / Billy Meier Corpus
+
+The Great Pyramid also figures in the FIGU / Billy Meier contact-record corpus. A [summary page on the Future of Mankind wiki](https://www.futureofmankind.info/Billy_Meier/The_Great_Pyramid) — noted there as *not an official FIGU publication* — collects the relevant material:
+
+- **Age and origin.** Ptaah, Semjase and Asket are reported to have said the first Egyptian pyramids were built around **73,300 years ago**, later dismantled (through interior rot and weather) and rebuilt. When first built they stood amid lush jungle, not desert.
+- **Construction.** Per a FIGU forum answer from Billy, most of the work was carried out by roughly **200,000 slaves** (plus animals) over many decades, with only a small part done using telekinetic devices/forces; many of the workers died.
+- **Purpose.** The pyramid served many roles over its long history — protection during a deluge, a star map for measuring the cosmic age, a status symbol, burial, a ceremonial centre, and later a relic-looting and reclamation site — per a chain of contact reports (e.g. CR 215, 127, 256) and the Giza Intelligences material.
+
+These claims are presented as part of the documented FIGU/Meier narrative, not as established archaeological fact. The geometric encoding on this page — the Seked slope 14/11 ≈ √Φ, the 440 × 280 cubit model, and the Royal Cubit — stands independently of that narrative.
 
 ## See Also
 
