@@ -18,7 +18,7 @@ was advanced later by golden-π researchers, most prominently **Harry Lear** (ph
 
 - **Contact Report 251 (1995):** prophesies that the erroneousness in the calculation of π will be recognized and corrected; gives no value.
 - **Contact Report 712 (2018):** states π has never been exactly computed on Earth and that exactness would require an *instrumentarium* that does not yet exist in the earthly-mathematical sphere.
-- **Contact Report 260 (1998):** a member's ("Guido's") π calculation; Ptaah calls it "very amazing" but declines to confirm it.
+- **Contact Report 260 (1998):** a member's ("Guido's") π calculation — its photographed handwritten form shows π ≈ 3.1446…; Ptaah calls it "very amazing" but declines to confirm it.
 - **Contact Report 856 (2023):** carries the Oleg Kinash article deriving 4/√φ = 3.14460, which Ptaah read and praised ("very interesting and well written"), but which the article itself flags as not precise enough to count as scientific fact.
 - Harry Lear visited the Semjase Silver Star Center in 2017, presenting his geometric proofs, which supporters regard as fulfilling the CR 251 prediction.
 

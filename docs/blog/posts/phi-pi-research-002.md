@@ -216,7 +216,7 @@ The new academic work maps remarkably well onto the BEAM framework:
 | CR 856 | Kinash article: "the first five digits 3.1446 are correct" (per Harry Lear 2019) | Golden π = 4/√φ = 3.144605511 fits perfectly |
 | CR 712 | Ptaah: the error in Earth's π is "minimal-minor"; exactness would need an instrumentarium Earth lacks | ~0.003 difference between π and golden π — the 0.096% gap is indeed "extremely small" |
 | CR 251 | Ptaah prophesies the erroneousness in the calculation of π will be recognized and corrected (no value given) | The recursion operator derivation offers a principled way to derive both π and α from φ without measurement |
-| CR 260 | Ptaah: Guido's π calculation is "very amazing" but he declines to confirm it (no value given) | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
+| CR 260 | Guido's handwritten calculation (photo in report) shows π ≈ 3.1446…; Ptaah calls it "very amazing" but declines to confirm | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
 
 > Note: Contact Report 722, previously listed here as "True Pi is UNKNOWN," contains **no π content at all** (it covers overpopulation, CO₂, and food-production topics); that row has been removed as a fabrication.
 
