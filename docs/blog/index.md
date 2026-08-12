@@ -31,12 +31,15 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 - [**Vitruvian Man Reveals the True Pi Constant — Leonardo's Hidden Geometry**](posts/2026-07-07-vitruvian-man-true-pi-leonardo-hidden-geometry/) *(2026-07-07)* — Leonardo da Vinci's Vitruvian Man encodes the true value of pi through the golden ratio and √5 algebra, pointing to 4/√φ rather than 3.14159
 - [**Daily Golden Pi Update — July 6, 2026**](posts/2026-07-06-daily-golden-pi-update/) *(2026-07-06)* — Thompson paper establishes 2/√φ as optimal bound in operator theory
 - [**Nine Roads, One Constant: The Unified Case for Golden Pi**](posts/2026-07-05-nine-roads-one-constant-unified-case-golden-pi/) *(2026-07-05)* — Nine independent paths converge on π = 4/√φ
+- [**Daily Golden Pi Update — July 4, 2026**](posts/2026-07-04-daily-golden-pi-update/) *(2026-07-04)*
 - [**Euler's Field Equation**](posts/2026-07-04-euler-field-golden-pi-terms/) *(2026-07-04)* — Why mathematical constants must conform to Golden Pi
 - [**Planck-Electron Coincidence**](posts/2026-07-03-planck-electron-coincidence-algebraic-collision/) *(2026-07-03)* — Golden π inside the Fine Structure Constant
 - [**Why All Roads of Geometry Collapse to One Identity**](posts/2026-07-02-geometry-collapses-one-identity/) *(2026-07-02)*
 - [**Why the Pentagon Hides the True Circle Constant**](posts/2026-07-01-pentagon-hides-true-circle-constant/) *(2026-07-01)*
 - [**Build, Grow, Measure: One Constant**](posts/2026-06-30-build-grow-measure-shared-constant/) *(2026-06-30)* — Architecture, biology, and physics converge
+- [**Daily Golden Pi Update — June 29, 2026**](posts/2026-06-29-daily-golden-pi-update/) *(2026-06-29)*
 - [**Fibonacci Frequencies: Harmonic Series Collapse**](posts/2026-06-29-fibonacci-frequencies-harmonic-resonance-golden-pi/) *(2026-06-29)*
+- [**Heartbeat Geometry, Petal Spirals, and Phyllotaxis: Nature Repeats the Same Constant**](posts/2026-06-28-daily-golden-pi-update/) *(2026-06-28)*
 - [**Pi and the Language of Nature**](posts/2026-06-28-pi-language-of-nature-circles-spirals-crystals/) *(2026-06-28)*
 - [**The Golden Angle 137.5°**](posts/2026-06-27-golden-angle-137-5-phi-pi-geometry/) *(2026-06-27)*
 - [**Golden Pi and the Human Ear**](posts/2026-06-26-golden-pi-cochlea-spiral-of-sound/) *(2026-06-26)*
@@ -73,6 +76,8 @@ Golden Pi in physics, probability, and mathematical constants.
 - [**Physical Experiments That Measured Golden Pi**](posts/physical-experiments-golden-pi-measurements/) *(2026-05-17)*
 - [**Threefold Path to Golden Pi**](posts/threefold-path-golden-pi/) *(2026-05-26)* — DNA, Kepler's Triangle, seven derivations
 - [**Source Map: 30+ References**](posts/source-map-30-references-golden-pi/)
+- [**An Identity That Only Golden Pi Satisfies**](posts/golden-pi-identity/) *(2026-05-09)* — (4²/π)² − π² = 4² is exact with golden π = 4/√φ = 3.144606, but fails by 0.068 with conventional π
+- [**Phi Family Closure: How the Golden Ratio Forces Pi Into an Algebraic Expression**](posts/2026-07-06-phi-family-closure-forces-pi-algebraic-expression/) *(2026-07-06)* — The golden ratio's algebraic family is closed under multiplication, division, and square roots; a circle constant drawn from it must be algebraic
 
 ---
 
@@ -107,6 +112,7 @@ Golden Pi in the natural world.
 
 - [**Golden Pi in Nature**](posts/golden-pi-nature-biological-forms/) *(2026-05-21)* — Biological forms
 - [**Golden Spiral: Fibonacci and Pi**](posts/golden-spiral-fibonacci-pi/)
+- [**The Nautilus Geometry Decoded: How 4/√φ Bridges the Golden Spiral and the Circle**](posts/2026-06-24-nautilus-geometry-true-pi-golden-spiral/) *(2026-06-24)* — The chambered nautilus embodies both the golden spiral and circular growth; a geometric proof reveals why
 - [**Kepler Triangle & Vesica Piscis**](posts/kepler-triangle-vesica-piscis-golden-pi/)
 - [**Platonic Year and Golden Pi (432)**](posts/platonic-year-golden-pi-precession-432/) *(2026-05-25)*
 - [**Platonic Year and Golden Pi**](posts/platonic-year-golden-pi-precession/) *(2026-05-22)*
