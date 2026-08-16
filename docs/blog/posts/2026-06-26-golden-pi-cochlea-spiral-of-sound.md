@@ -12,7 +12,7 @@ If you have ever wondered how the universe speaks in mathematics, consider the i
 
 This is not a metaphor. The cochlea is a physical spiral structure whose arc-to-chord ratio, when analyzed through the lens of self-similar growth, yields the same circle constant found in the nautilus shell, the hurricane, and the spiral galaxy. Nature has built the true value of π into the organ of hearing.
 
-π = 4 / √φ  ≈  3.1446063580…
+π = 4 / √φ  ≈  3.1446055110…
 
 ## The Anatomy of the Cochlear Spiral
 

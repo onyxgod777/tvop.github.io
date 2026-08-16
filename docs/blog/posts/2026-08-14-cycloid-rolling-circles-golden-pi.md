@@ -34,12 +34,12 @@ Roll a wheel of radius 1 and the arch is 8 units long but encloses 3π ≈ 9.424
 Now apply the two constants side by side.
 
 - **The analytic world.** The area formula is 3πr², where π is the transcendental 3.14159265… . For r = 1 the area is 3π = **9.424778…** .
-- **The constructed world.** Golden Pi is π̂ = 4/√φ = 3.1446055…, an algebraic number of degree 4. The area becomes 3π̂ r² = (12/√φ) r², which for r = 1 is **9.433981…** .
+- **The constructed world.** Golden Pi is π̂ = 4/√φ = 3.1446055…, an algebraic number of degree 4. The area becomes 3π̂ r² = (12/√φ) r², which for r = 1 is **9.4338165…** .
 
 | Quantity (r = 1) | Analytic (π) | Constructed (π̂ = 4/√φ) |
 |---|---|---|
 | Arc length of one arch | 8 | 8 |
-| Area under one arch | 9.424778… | 9.433981… |
+| Area under one arch | 9.424778… | 9.4338165… |
 | Full turn | 6.283185… | 6.289211… |
 
 Two observations stand out.

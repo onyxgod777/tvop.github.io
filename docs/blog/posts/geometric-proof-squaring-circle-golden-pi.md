@@ -154,7 +154,7 @@ Asquare = (2/√φ)² = 4/φ
 
 For equality: π = 4/φ. This again gives ≈ 2.472. The area-squaring of the unit circle consistently demands π = 4/φ, not 4/√φ. These two values are related through the identity:
 
-(4/√φ) × (4/φ) = 16 / (φ√φ) ≈ 9.8885
+(4/√φ) × (4/φ) = 16 / (φ√φ) ≈ 7.7739
 (4/√φ) / (4/φ) = φ / √φ = √φ ≈ 1.2720
 
 The golden ratio itself relates the perimeter-π and area-π: the former is √φ times the latter. This reflects the fundamental fact that **a circle's circumference scales with r, while its area scales with r²**. The two squarings are linked by the geometric mean of φ.

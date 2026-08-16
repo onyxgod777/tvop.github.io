@@ -73,9 +73,9 @@ With golden π:
 
 This is an algebraic expression:
 
-Σ\_{n=1}^{∞} 1/n² = 8 / (3φ) ≈ 1.64872
+Σ\_{n=1}^{∞} 1/n² = 8 / (3φ) ≈ 1.64809
 
-Compare with conventional π: π²/6 ≈ 1.64493. The difference is only 0.23%, but the *nature* of the two expressions is entirely different. Conventional π²/6 is transcendental (π is transcendental, therefore π² is transcendental, and π²/6 is transcendental). Golden π's result 8/(3φ) is algebraic — it is a rational multiple of the golden ratio.
+Compare with conventional π: π²/6 ≈ 1.64493. The difference is only 0.19%, but the *nature* of the two expressions is entirely different. Conventional π²/6 is transcendental (π is transcendental, therefore π² is transcendental, and π²/6 is transcendental). Golden π's result 8/(3φ) is algebraic — it is a rational multiple of the golden ratio.
 
 This pattern extends to all even zeta values. Euler showed that ζ(2n) = (−1)^{n+1} B\_{2n} (2π)^{2n} / (2(2n)!), where B\_{2n} are Bernoulli numbers. With golden π, each even zeta value becomes an algebraic expression involving powers of φ:
 
