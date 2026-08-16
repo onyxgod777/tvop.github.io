@@ -59,6 +59,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.keys
   - admonition
+  - md_in_html
   - footnotes
   - toc:
       permalink: true
