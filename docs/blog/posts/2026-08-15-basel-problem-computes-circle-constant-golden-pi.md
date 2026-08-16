@@ -60,15 +60,15 @@ Now the two worlds give two different *values* for the same infinite sum:
 | Constant | Basel sum | Value |
 |---|---|---|
 | Analytic | π²/6 | 1.6449340668… |
-| Constructed | π̂²/6 = 8/(3φ) | 1.6454341236… |
+| Constructed | π̂²/6 = 8/(3φ) | 1.6480906367… |
 
-The gap between them is about **0.0005** in absolute terms — a relative difference of roughly **0.096%**, the same recurring "zero point one percent" that separates the two constants throughout Golden Pi literature. It comes straight out of the constants themselves:
+The gap between them is about **0.00316** in absolute terms — a relative difference of roughly **0.19%**, double the 0.096% that separates the two constants themselves. It comes straight out of the constants:
 
 ```
 π̂/π  =  (4/√φ)/3.14159…  ≈  1.0009590…
 ```
 
-Because the Basel value is the *square* of the constant, the 0.096% gap in the constant becomes about a 0.19% gap in π² — then division by 6 scales it back. The square root is why the gap reappears in a slightly different clothing: take √(π̂²/6) and you recover π̂; take √(π²/6) and you recover π.
+Because the Basel value is the *square* of the constant, the relative gap in π̂² — and therefore in π̂²/6 — is about twice the gap in the constants (0.19% ≈ 2 × 0.096%); dividing by 6 changes the magnitude but not that relative gap. The square root is why the gap reappears in a different clothing: take √(π̂²/6) and you recover π̂; take √(π²/6) and you recover π.
 
 ## A sum that decides nothing — and teaches everything
 
