@@ -12,7 +12,7 @@ Nature has been speaking a mathematical language for billions of years — a lan
 
 This golden π, approximately 3.144606, is not merely a mathematical curiosity. If nature truly operates on this value, then every biological structure built on φ — from the spiral of a nautilus shell to the arrangement of seeds in a sunflower — is also a direct expression of a corrected π. The two constants become one: the fundamental ratio of circumference to diameter is tied inextricably to nature's own growth ratio. In this article we explore how the φ–π convergence manifests throughout living geometry.
 
-π = 4 / √φ  ≈  3.1446063580…
+π = 4 / √φ  ≈  3.1446055110…
 
 ## The Golden Spiral: Nature's Blueprint
 
