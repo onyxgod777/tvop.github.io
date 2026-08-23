@@ -68,7 +68,7 @@ A = 4πr²  →  4π
 #### 1.5 The Kepler Triangle Recursion
 
 This is where things get interesting. In a Kepler Triangle (base φ, height √φ, hypotenuse = 1),
-Harry Lear's [geometric proof](/blog/posts/harry-lear-measuring-pi/) shows that the
+A visiting researcher's [geometric proof](/blog/posts/measuring-pi-squaring-phi/) shows that the
 tangent of the base angle equals π/4. The [identity
 (4²/π)² − π² = 4²](/blog/posts/golden-pi-identity/) is satisfied exactly only by πG. With πC,
 the identity produces 16.068 instead of exactly 16 — a 0.425% error that is *4.4× larger*
@@ -233,5 +233,5 @@ constants. The math itself is indifferent — but it does not allow both to be t
 - [Restoring Trigonometry with Golden π](/blog/posts/restoring-trigonometry-golden-pi-sine-function/)
 - [Squaring the Circle with Golden Pi](/blog/posts/squaring-circle-golden-pi-geometric-proof/)
 - [The 432 Connexion — φ, π, and the Fine-Structure Constant](/blog/posts/432-connexion-phi-pi-alpha/)
-- [Harry Lear's Measuring Pi Squaring Phi](/blog/posts/harry-lear-measuring-pi/)
+- [Measuring Pi Squaring Phi](/blog/posts/measuring-pi-squaring-phi/)
 - [The Royal Cubit: φ²/5 = π/6](/blog/posts/royal-cubit-phi-squared-pi-six-connection/)

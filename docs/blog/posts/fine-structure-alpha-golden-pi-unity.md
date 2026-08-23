@@ -59,7 +59,7 @@ When we plug golden π into equations involving 432, the results better approxim
 
 In 2021, researcher Wes Long published an article proposing what he calls "SyPi" — the concept that π is a "gradient function" rather than a single constant, and that its correct value is derived from a synergy between φ, the fine-structure constant, and the number 162 (a harmonic of 432 and 81).
 
-Long's approach argues that conventional π works acceptably at one scale (say, tangible geometry) but fails at others. His "Synergy constant" introduces the idea that π's value is not invariant across scales — a concept that aligns with the Plejaren claim that π requires correction.
+Long's approach argues that conventional π works acceptably at one scale (say, tangible geometry) but fails at others. His "Synergy constant" introduces the idea that π's value is not invariant across scales — a concept that aligns with the extraterrestrial claim that π requires correction.
 
 While Long's framework differs from the simple golden π = 4/√φ identity, both converge on the same essential point: the conventional value 3.14159... is not the fundamental circle constant. The true constant, whether expressed as 4/√φ or through Long's SyPi formalism, lives in an algebraic universe that conventional π cannot enter.
 
@@ -106,7 +106,7 @@ The Great Chain linking φ to π to α is either the most remarkable coincidence
 
 2. Jain 108, "The Book of Phi, Vol. 8: The True Value of Pi = JainPi = 3.144," 2014
 
-3. Harry Lear, "Measuring Pi Squaring Phi," measuringpisquaringphi.com
+3. "Measuring Pi Squaring Phi," measuringpisquaringphi.com
 
 4. Panagiotis Stefanides, "Golden Root Symmetries of Geometric Forms," Acta Scientific
 

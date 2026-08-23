@@ -135,7 +135,7 @@ And 108 is itself 360/φ² × (3/10) — a harmonic of the pentagonal 108° angl
 This is an exact algebraic expression, not a numerical fit. 108√φ is 0.226% above 1/α.
 The small gap may reflect the difference between the *ideal* geometric constant
 and the *measured* quantum-electrodynamic value — the "extremely small error"
-Ptaah referenced in Contact Report 712.
+The extraterrestrial spokesperson referenced in Contact Report 712.
 
 ## IV. Sound: A4 = 432 Hz and the Harmonic Series
 

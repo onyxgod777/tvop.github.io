@@ -6,7 +6,7 @@ description: "A comprehensive research survey of 36 sources supporting π = 4/�
 
 📜 Timeline Note: Priority of Disclosure
 
-The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren (through the contactee) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and Harry Lear's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/Plejaren disclosure at CR 251 (1995) is the earliest known source.
+The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the extraterrestrial (through the contactee) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and a visiting researcher's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/extraterrestrial disclosure at CR 251 (1995) is the earliest known source.
 
 ## The Source Map: 37 References That Support Golden π
 
@@ -18,11 +18,11 @@ This article maps **37 distinct sources** across nine categories, organized by w
 
 | # | Category | Source | Stance |
 | --- | --- | --- | --- |
-| 1–5 | Primary Proponents | Harry Lear, Jain 108, Stefanides, Liddz, Carlos Hernandez | Pro |
+| 1–5 | Primary Proponents | a visiting researcher, Jain 108, Stefanides, Liddz, Carlos Hernandez | Pro |
 | 6–8 | FIGU / the contactee | FIGU Italy, wiki.saalome.org, They Fly Blog | Pro |
 | 9–14, 37 | Academic & Papers | Stefanides (4 papers), Jain’s Book, PiUmeniuguisu, Scribd, Divisible by Zero, Thompson (arXiv) | Mixed |
 | 15–17 | Interactive / Tools | GeoGebra (2), Desmos | Mixed |
-| 18–23 | Video | Knew Geometry (2), Ninth Prime (4), Harry Lear, Jain 108, Gary Meisner | Mixed |
+| 18–23 | Video | Knew Geometry (2), Ninth Prime (4), a visiting researcher, Jain 108, Gary Meisner | Mixed |
 | 23–24 | Social Media | Facebook groups, Instagram | Pro |
 | 25–29 | Forum Discussions | Future of Mankind, Math Forums, TYCHOS, Reddit (4 threads) | Mixed |
 | 30 | Critical Voices | Gary Meisner, Mark Chu-Carroll, Reddit | Anti |
@@ -64,7 +64,7 @@ If the Great Pyramid’s height = √φ (1.272) and base perimeter = 4, then: (P
 
 ### ▶ The FIGU — The Contactee Contact Reports
 
-The claim that advanced extraterrestrial intelligence (the Plejaren), through the contactee, prophesied that the value of π was miscalculated, and that Harry Lear’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is notable: the FIGU contact reports record the miscalculation claim years before Harry Lear’s proofs entered the public domain.
+The claim that advanced extraterrestrial intelligence (the extraterrestrial), through the contactee, prophesied that the value of π was miscalculated, and that a visiting researcher’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is notable: the FIGU contact reports record the miscalculation claim years before a visiting researcher’s proofs entered the public domain.
 
 ### Conclusion: A Growing Body of Work
 
@@ -75,7 +75,7 @@ The claim that π = 4/√φ = 3.144605511… is not a random internet meme. It i
 - **Algebraic identities** — exact relationships that hold only for golden π
 - **Ancient architecture** — the Great Pyramid’s dimensions encode the value
 - **Academic publications** — papers from at least one Chartered Engineer in formal journals
-- **A documented contact narrative** — the FIGU/Plejaren timeline spanning 1980 to 2017
+- **A documented contact narrative** — the FIGU/extraterrestrial timeline spanning 1980 to 2017
 - **Community engagement** — active forums, social media groups, and YouTube channels
 
 At the same time, the **critical opposition is formidable**. Mainstream mathematicians have centuries of convergent proofs from calculus, infinite series, geometry, and physical measurement all validating the traditional value. The primary objections — that the geometric proofs smuggle in their conclusion, that physical measurements have error margins too large for the 0.1% difference, and that the transcendental nature of π is rigorously proven — deserve careful consideration.
@@ -89,7 +89,7 @@ This source map is a living document. As new research, proofs, and critiques eme
 - [The Pythagorean Triangle Proof — Interactive Visualization](/blog/posts/pythagorean-triangle-proof/)
 - [Squaring the Circle with Golden Pi](/blog/posts/squaring-circle-golden-pi-geometric-proof/)
 - [An Identity That Only Golden Pi Satisfies](/blog/posts/golden-pi-identity/)
-- [Harry Lear’s Measuring Pi Squaring Phi](/blog/posts/harry-lear-measuring-pi/)
+- [Measuring Pi Squaring Phi](/blog/posts/measuring-pi-squaring-phi/)
 
 π = 4/√φ = 3.144605511029693144…
 

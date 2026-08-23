@@ -70,13 +70,13 @@ More directly, we can compute: 1 + √φ + φ = 1 + √φ + (1 + √φ) = 2 + 2�
 
 But wait — let's use the golden ratio property φ = 1 + 1/φ, so φ = (√5 + 1)/2, and √φ = √[(√5 + 1)/2].
 
-H. Lear's circumference-square construction (see [Harry Lear's Measuring Pi Squaring Phi](/blog/posts/harry-lear-measuring-pi/)) shows that the perimeter of a square circumscribed around a circle of radius 1/√φ equals the circumference when π = 4/√φ. The algebra is exact:
+H. A visiting researcher's circumference-square construction (see [Measuring Pi Squaring Phi](/blog/posts/measuring-pi-squaring-phi/)) shows that the perimeter of a square circumscribed around a circle of radius 1/√φ equals the circumference when π = 4/√φ. The algebra is exact:
 
 Perimeter of square = 4 × (side) = 4 × (2/√φ) = 8/√φ | Circle circumference = 2π(1/√φ) = 2π/√φ
 
 For equality: 8/√φ = 2π/√φ → π = 4. But this is the trivial case. The *non-trivial* relation emerges from [the Kepler Triangle Genesis](/blog/posts/kepler-triangle-golden-pi-circle-constant/), which derives π = 4/√φ from the Kepler triangle's circumscribed circle radius.
 
-The critical algebraic step: Harry Lear's construction positions a circle whose radius R = (√φ)/2 inside a square of side φ, giving:
+The critical algebraic step: A visiting researcher's construction positions a circle whose radius R = (√φ)/2 inside a square of side φ, giving:
 
 2πR = 2π(√φ/2) = π√φ = 4 → π = 4/√φ ✓
 

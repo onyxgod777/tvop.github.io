@@ -16,7 +16,7 @@ To demonstrate through geometry, ancient evidence, and cross-domain consistency 
 
 - **Geometry**: Squaring the circle, Kepler's Triangle, Vesica Piscis, pentagonal geometry
 - **Ancient Knowledge**: Great Pyramid of Giza, Rhind Papyrus, Royal Cubit
-- **FIGU/Contact Reports**: The contactee's Plejaren prophecy that π was miscalculated (the golden value 4/√φ was advanced by later researchers)
+- **FIGU/Contact Reports**: The contactee's extraterrestrial prophecy that π was miscalculated (the golden value 4/√φ was advanced by later researchers)
 - **Natural Evidence**: Nautilus shells, cochlear spirals, sunflower phyllotaxis
 - **Harmonics**: 432 Hz resonance, musical intervals, fine-structure constant
 - **Probability**: Buffon's needle, Gaussian integral, Basel problem
@@ -24,7 +24,7 @@ To demonstrate through geometry, ancient evidence, and cross-domain consistency 
 ## Key Contributors
 
 - **Ninth Prime** — site author and researcher
-- **Harry Lear** — *Measuring Pi, Squaring Phi*
+- **a visiting researcher** — *Measuring Pi, Squaring Phi*
 - **Panagiotis Stefanides** — golden root symmetries
 - **Jain 108** — *Book of Phi*
 - **Samuel Laboy** — Perfect Symbol / squaring the circle

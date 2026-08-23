@@ -33,7 +33,7 @@ This value is close to $\pi_{\text{conv}}/6$ (0.52360 m), differing by approxima
 
 The Great Pyramid also figures in the FIGU / the contactee contact-record corpus. A [summary page on the Future of Mankind wiki](https://www.futureofmankind.info/Billy_Meier/The_Great_Pyramid) — noted there as *not an official FIGU publication* — collects the relevant material:
 
-- **Age and origin.** Ptaah, Semjase and Asket are reported to have said the first Egyptian pyramids were built around **73,300 years ago**, later dismantled (through interior rot and weather) and rebuilt. When first built they stood amid lush jungle, not desert.
+- **Age and origin.** the extraterrestrial spokesperson and two other extraterrestrial beings are reported to have said the first Egyptian pyramids were built around **73,300 years ago**, later dismantled (through interior rot and weather) and rebuilt. When first built they stood amid lush jungle, not desert.
 - **Construction.** Per a FIGU forum answer from the contactee, most of the work was carried out by roughly **200,000 slaves** (plus animals) over many decades, with only a small part done using telekinetic devices/forces; many of the workers died.
 - **Purpose.** The pyramid served many roles over its long history — protection during a deluge, a star map for measuring the cosmic age, a status symbol, burial, a ceremonial centre, and later a relic-looting and reclamation site — per a chain of contact reports (e.g. CR 215, 127, 256) and the Giza Intelligences material.
 

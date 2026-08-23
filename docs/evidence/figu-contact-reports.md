@@ -12,19 +12,19 @@ $$
 \pi = \frac{4}{\sqrt{\Phi}}
 $$
 
-was advanced later by golden-π researchers, most prominently **Harry Lear** (physical measurement) and the article by **Oleg Kinash** carried in Contact Report 856 / Sign of the Times 75 (2023), which derived 4/√φ and asserted the first five digits 3.1446 on the basis of Lear's 2019 tape measurements.
+was advanced later by golden-π researchers, most prominently **a visiting researcher** (physical measurement) and the article by **the article's author** carried in Contact Report 856 / Sign of the Times 75 (2023), which derived 4/√φ and asserted the first five digits 3.1446 on the basis of 2019 tape measurements.
 
 ## Contact Reports
 
 - **Contact Report 251 (1995):** prophesies that the erroneousness in the calculation of π will be recognized and corrected; gives no value.
 - **Contact Report 712 (2018):** states π has never been exactly computed on Earth and that exactness would require an *instrumentarium* that does not yet exist in the earthly-mathematical sphere.
-- **Contact Report 260 (1998):** a member's ("Guido's") π calculation — its photographed handwritten form shows π ≈ 3.1446…; Ptaah calls it "very amazing" but declines to confirm it.
-- **Contact Report 856 (2023):** carries the Oleg Kinash article deriving 4/√φ = 3.14460, which Ptaah read and praised ("very interesting and well written"), but which the article itself flags as not precise enough to count as scientific fact.
-- Harry Lear visited the Semjase Silver Star Center in 2017, presenting his geometric proofs, which supporters regard as fulfilling the CR 251 prediction.
+- **Contact Report 260 (1998):** a FIGU group member's π calculation — its photographed handwritten form shows π ≈ 3.1446…; the extraterrestrial spokesperson calls it "very amazing" but declines to confirm it.
+- **Contact Report 856 (2023):** carries the article deriving 4/√φ = 3.14460, which the extraterrestrial spokesperson read and praised ("very interesting and well written"), but which the article itself flags as not precise enough to count as scientific fact.
+- A visiting researcher visited the Silver Star Center (SSSC) in 2017, presenting his geometric proofs, which supporters regard as fulfilling the CR 251 prediction.
 
 ## Legacy
 
-The FIGU disclosure at Contact Report 251 (1995) is historically notable as the earliest known modern reference to the miscalculation of π, predating Jain 108 (2006) and Harry Lear (2017). The claim — that π is miscalculated, and specifically that π = 4/√φ — continues to be independently re-discovered by researchers who are unaware of the FIGU timeline.
+The FIGU disclosure at Contact Report 251 (1995) is historically notable as the earliest known modern reference to the miscalculation of π, predating Jain 108 (2006) and a visiting researcher (2017). The claim — that π is miscalculated, and specifically that π = 4/√φ — continues to be independently re-discovered by researchers who are unaware of the FIGU timeline.
 
 ## See Also
 

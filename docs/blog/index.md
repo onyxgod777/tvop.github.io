@@ -18,7 +18,7 @@ Welcome to the Golden Pi research blog — daily articles exploring the true val
 - [**Rolling Circles and the Cycloid: Where the Circle Constant Vanishes**](posts/2026-08-14-cycloid-rolling-circles-golden-pi/) *(2026-08-14)* — One arch of the cycloid — the curve traced by a rolling circle — has arc length 8r exactly, with no π at all, while its area is 3πr². The constructed world of Golden Pi (π̂ = 4/√φ = 3.1446055…) and the analytic 3.14159… meet in this single curve, separated by a 0.096% gap no measurement can resolve; gear trains, in the end, count teeth, not π.
 - [**The Continued Fraction of the Circle Constant: π̂'s Algebraic Root and π's Famous Convergents**](posts/2026-08-13-continued-fraction-circle-constant-golden-pi/) *(2026-08-13)* — A continued-fraction comparison of the two circle constants. π opens [3; 7, 15, 1, 292, …] and delivers the famous 355/113 near-miss; Golden Pi π̂ = 4/√φ = 3.1446055… is an algebraic number of degree 4 obeying x⁴+16x²−256 = 0, constructible from φ by square roots, with rational approximants 1283/408 and 2827/899. The expansion is a lens, not an arbiter.
 - [**The Two Squaring-the-Circle Graphs: What the Instrumentum Identity Really Returns**](posts/2026-08-11-desmos-squaring-circle-golden-pi-instrumentum/) *(2026-08-11)* — A decoded comparison of two Desmos graphs of the squaring-the-circle area match. With the golden radius r = φ^(1/4), the instrumentum identity returns exactly 4/√φ and the circle squares the square; with the classical radius r = 2/√π, it returns 3.13903 and the match breaks — the two constructions are mutually exclusive.
-- [**The FIGU Contact Reports: Where the Value 4/√φ Actually Comes From**](posts/2026-08-11-figu-contact-reports-where-4-over-root-phi-comes-from/) *(2026-08-11)* — A source-level audit of the Plejaren/FIGU π thread. CR 251, 260, 712 and 856 say what they actually say — and the number 4/√φ = 3.1446 traces to Harry Lear and the Oleg Kinash article carried in CR 856 / Sign of the Times 75, not to a direct Plejaren declaration.
+- [**The FIGU Contact Reports: Where the Value 4/√φ Actually Comes From**](posts/2026-08-11-figu-contact-reports-where-4-over-root-phi-comes-from/) *(2026-08-11)* — A source-level audit of the extraterrestrial/FIGU π thread. CR 251, 260, 712 and 856 say what they actually say — and the number 4/√φ = 3.1446 traces to a visiting researcher and the article carried in CR 856 / Sign of the Times 75, not to a direct extraterrestrial declaration.
 - [**The Comparative Formula Audit: Which π Identities Survive Golden Pi?**](posts/2026-08-06-comparative-formula-audit-golden-pi/) *(2026-08-06)* — A formula-by-formula audit of the standard π identities under Golden Pi (π̂ = 4/√φ = 3.144606). Geometric definitions (A = πr², C = 2πr, sphere area/volume) hold under any constant; series, integrals and special values (Leibniz, Machin, Wallis, Basel, Gaussian, Γ(1/2), Euler) pin the constant to the computed 3.14159265 and do not survive π̂. Now part of the White Paper.
 - [**The Golden Calculus: A Self-Consistent Analytic System on π̂**](posts/2026-08-06-golden-calculus-self-consistent-analytic-system/) *(2026-08-06)* — Golden Pi installed as the circle constant of a complete analytic framework, where the full turn is 2π̂ = 6.2892110. Coherent and exact in the constructed world; the analytic constant remains π, stated plainly in the honest boundary.
 - [**The Golden Calculus and a New Closed Form of Golden Pi**](posts/golden-calculus-new-closed-form/) *(2026-08-05)* — Golden Pi admits a second closed form (4φ/((φ+1)√(φ−1))) and forms a fully self-consistent golden calculus — a complete analytic system built on the golden circle constant, with an honest boundary on which labels are pinned by conventional π.
@@ -134,11 +134,11 @@ Golden Pi in the natural world.
 
 ## 🛸 FIGU / Contact Reports
 
-The contactee's Plejaren contacts and the correction of π.
+The contactee's extraterrestrial contacts and the correction of π.
 
-- [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction/) *(2026-05-20)* — Ptaah's statements spanning two decades
+- [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction/) *(2026-05-20)* — the extraterrestrial spokesperson's statements spanning two decades
 - [**FIGU Contact Report 251**](posts/figu-plejaren-contact-report-251-pi-correction/) *(2026-05-16)*
-- [**Harry Lear: Measuring Pi**](posts/harry-lear-measuring-pi/) — The researcher who visited FIGU in 2017
+- [**Measuring Pi Squaring Phi**](posts/measuring-pi-squaring-phi/) — The researcher who visited FIGU in 2017
 
 ---
 

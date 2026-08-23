@@ -1,54 +1,54 @@
 ---
-title: "CR 260 & 712: Ptaah's Pi Statements Spanning Two Decades"
+title: "CR 260 & 712: The extraterrestrial spokesperson's Pi Statements Spanning Two Decades"
 date: 2026-05-20
-description: "the contactee's Contact Reports 260 (1998) and 712 (2018) span two decades of the Plejarens' guarded statements on π. A detailed analysis of Ptaah's responses and what they reveal about golden π = 4/√φ."
+description: "the contactee's Contact Reports 260 (1998) and 712 (2018) span two decades of the extraterrestrials' guarded statements on π. A detailed analysis of the extraterrestrial spokesperson's responses and what they reveal about golden π = 4/√φ."
 ---
 
-![The Plejaren contact timeline — two decades of guarded statements on π](/img/Abnormal.jpeg)
+![The contact timeline — two decades of guarded statements on π](/img/Abnormal.jpeg)
 
-> **Correction notice (verified against the CR 260 / CR 712 transcripts, Feb 2026):** This article originally dated CR 260 to April 8, 1996; the actual date is **February 3, 1998** (so the span to CR 712, Nov 28, 2018, is ~20 years, not 22). It also described CR 251 as a direct confirmation that π was wrong, linked to spaceflight, and claimed the Plejaren "possessed the exact value for millennia" — **none of which is in CR 251**, which is a one-line prophecy that the erroneousness in π's calculation will be recognized and corrected (see our [CR 251 article](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)). The dates and attributions below have been corrected accordingly.
+> **Correction notice (verified against the CR 260 / CR 712 transcripts, Feb 2026):** This article originally dated CR 260 to April 8, 1996; the actual date is **February 3, 1998** (so the span to CR 712, Nov 28, 2018, is ~20 years, not 22). It also described CR 251 as a direct confirmation that π was wrong, linked to spaceflight, and claimed the extraterrestrial "possessed the exact value for millennia" — **none of which is in CR 251**, which is a one-line prophecy that the erroneousness in π's calculation will be recognized and corrected (see our [CR 251 article](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)). The dates and attributions below have been corrected accordingly.
 
-## Contact Reports 260 & 712: Ptaah's Two Statements on the True Value of π Spanning Two Decades
+## Contact Reports 260 & 712: The extraterrestrial spokesperson's Two Statements on the True Value of π Spanning Two Decades
 
-Among the many revelations contained in the FIGU contact reports, the correction of the mathematical constant π — the ratio of a circle's circumference to its diameter — stands as one of the most consequential and least understood transmissions. While we have [previously covered Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/) (February 3, 1995), where the π correction was first prophesied, the story does not end there. Two subsequent reports — Contact Report 260 (February 3, 1998) and Contact Report 712 (November 28, 2018) — contain equally critical exchanges on the same subject, spanning two decades of guarded Plejaren commentary.
+Among the many revelations contained in the FIGU contact reports, the correction of the mathematical constant π — the ratio of a circle's circumference to its diameter — stands as one of the most consequential and least understood transmissions. While we have [previously covered Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/) (February 3, 1995), where the π correction was first prophesied, the story does not end there. Two subsequent reports — Contact Report 260 (February 3, 1998) and Contact Report 712 (November 28, 2018) — contain equally critical exchanges on the same subject, spanning two decades of guarded extraterrestrial commentary.
 
-These two reports form a fascinating arc: from Ptaah's *cautious, directive-bound* acknowledgment that Guido's π calculation was "very amazing" yet untimely, to his *direct* statement two decades later that Earth's π remains erroneous and that no terrestrial mathematical instruments exist to compute its exact value. Between these two bookends lies the entire modern history of the golden π rediscovery.
+These two reports form a fascinating arc: from the extraterrestrial spokesperson's *cautious, directive-bound* acknowledgment that a FIGU group member's π calculation was "very amazing" yet untimely, to his *direct* statement two decades later that Earth's π remains erroneous and that no terrestrial mathematical instruments exist to compute its exact value. Between these two bookends lies the entire modern history of the golden π rediscovery.
 
 ### The Timeline of Disclosure
 
-Before examining the reports themselves, it is essential to establish the chronological framework of the Plejaren π correction as it unfolded through the FIGU contact reports:
+Before examining the reports themselves, it is essential to establish the chronological framework of the extraterrestrial π correction as it unfolded through the FIGU contact reports:
 
 - **February 3, 1995 — CR 251:** a one-line prophecy, embedded in a passage on future scientific breakthroughs, that "the erroneousness in the calculation of the Pi number" will eventually be recognized and corrected. It gives no value, and makes no spaceflight or technology claim.
-- **February 3, 1998 — CR 260:** the contactee presents Ptaah with Guido's handwritten calculation for π. Ptaah describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
-- **November 28, 2018 — CR 712:** Ptaah provides the most detailed Plejaren statement on the π question on record: Earth's π calculation is still erroneous; the error is minimal but real; no earthly mathematical or instrumental apparatus exists capable of computing the exact value; and no one on Earth — scientists or know-it-alls — will compute the exactly-accurate value in the foreseeable future.
+- **February 3, 1998 — CR 260:** the contactee presents the extraterrestrial spokesperson with a FIGU group member's handwritten calculation for π. The extraterrestrial spokesperson describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
+- **November 28, 2018 — CR 712:** the extraterrestrial spokesperson provides the most detailed extraterrestrial statement on the π question on record: Earth's π calculation is still erroneous; the error is minimal but real; no earthly mathematical or instrumental apparatus exists capable of computing the exact value; and no one on Earth — scientists or know-it-alls — will compute the exactly-accurate value in the foreseeable future.
 
-This timeline reveals a deliberate, long-term disclosure strategy. The Plejaren did not simply hand humanity the corrected value in 1995. Instead, they planted a seed of awareness, allowed independent researchers to arrive at the same answer through different paths, and only gradually confirmed what they had always known. This is consistent with their stated policy: they *guide* and *suggest* but do not override human discovery.
+This timeline reveals a deliberate, long-term disclosure strategy. The extraterrestrial did not simply hand humanity the corrected value in 1995. Instead, they planted a seed of awareness, allowed independent researchers to arrive at the same answer through different paths, and only gradually confirmed what they had always known. This is consistent with their stated policy: they *guide* and *suggest* but do not override human discovery.
 
 ### Contact Report 260: February 3, 1998 — "This Calculation is Very Amazing"
 
 The pi-related exchange in CR 260 is brief but laden with significance. The relevant passage, in its entirety, reads:
 
-> **The contactee:** Here, I now have a calculation for the circle number Pi. Guido's work is the whole thing, as you can surely already tell by the handwriting. The question, now, is whether the calculations agree and, thus, are accurate.
+> **The contactee:** Here, I now have a calculation for the circle number Pi. A FIGU group member's work is the whole thing, as you can surely already tell by the handwriting. The question, now, is whether the calculations agree and, thus, are accurate.
 >
-> **Ptaah:** This calculation is very amazing, but the time is still much too early in order to be allowed to make more detailed and more exact statements about that.
+> **the extraterrestrial spokesperson:** This calculation is very amazing, but the time is still much too early in order to be allowed to make more detailed and more exact statements about that.
 >
 > **The contactee:** We have already feared this answer, but we just wanted to try.
 >
-> **Ptaah:** Of course, I understand, but I really must remain with my statement. If I would go into more detail about that, then I would have to violate our directives, but we will not do such.
+> **the extraterrestrial spokesperson:** Of course, I understand, but I really must remain with my statement. If I would go into more detail about that, then I would have to violate our directives, but we will not do such.
 
-Several critical observations can be made about Ptaah's response:
+Several critical observations can be made about the extraterrestrial spokesperson's response:
 
-**First, the word "amazing" is telling.** Ptaah does not say "incorrect," "incomplete," "close but not quite," or any other formulation that would indicate error. If Guido's calculation had been wrong, Ptaah's directive-bound restraint would have been irrelevant — he could simply have said "no, that is not correct" without violating any higher protocol, as the Plejaren often do when correcting factual errors. The fact that he restrained himself from *detailed statements* rather than from a simple yes/no suggests that the calculation was on the right track.
+**First, the word "amazing" is telling.** the extraterrestrial spokesperson does not say "incorrect," "incomplete," "close but not quite," or any other formulation that would indicate error. If a FIGU group member's calculation had been wrong, the extraterrestrial spokesperson's directive-bound restraint would have been irrelevant — he could simply have said "no, that is not correct" without violating any higher protocol, as the extraterrestrial often do when correcting factual errors. The fact that he restrained himself from *detailed statements* rather than from a simple yes/no suggests that the calculation was on the right track.
 
-**Second, the directive was about timing, not accuracy.** Ptaah explicitly states that the problem is the earliness of the revelation — "the time is still much too early." This implies that at some future date, such statements would be permissible. Indeed, CR 712 appears to be that future date: Ptaah's comments in 2018 are far more direct than anything he allowed himself in 1996.
+**Second, the directive was about timing, not accuracy.** the extraterrestrial spokesperson explicitly states that the problem is the earliness of the revelation — "the time is still much too early." This implies that at some future date, such statements would be permissible. Indeed, CR 712 appears to be that future date: The extraterrestrial spokesperson's comments in 2018 are far more direct than anything he allowed himself in 1996.
 
-**Third, Guido's identity matters.** "Guido" was a FIGU group member and associate of the contactee. Contact Report 260 includes a photograph of Guido's handwritten calculation (German cursive) that shows the value π ≈ 3.1446… (about a dozen decimal places) — i.e. consistent with 4/√φ. Ptaah nonetheless declined to confirm the calculation, citing directives that the time was "much too early." The debate that has followed for nearly three decades centers on whether Guido's calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that Ptaah's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: Ptaah's subsequent statements in CR 712 align with a value of π that agrees with golden π = 4/√φ.
+**Third, the calculator's identity matters.** The FIGU group member who produced the calculation was an associate of the contactee. Contact Report 260 includes a photograph of this member's handwritten calculation (German cursive) that shows the value π ≈ 3.1446… (about a dozen decimal places) — i.e. consistent with 4/√φ. The extraterrestrial spokesperson nonetheless declined to confirm the calculation, citing directives that the time was "much too early." The debate that has followed for nearly three decades centers on whether the calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that the extraterrestrial spokesperson's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: The extraterrestrial spokesperson's subsequent statements in CR 712 align with a value of π that agrees with golden π = 4/√φ.
 
 ### Contact Report 712: November 28, 2018 — "Still Erroneous"
 
-Twenty-two years and seven months later, the contactee asked Ptaah again. This time, the answer was much more direct. The critical passage from CR 712:
+Twenty-two years and seven months later, the contactee asked the extraterrestrial spokesperson again. This time, the answer was much more direct. The critical passage from CR 712:
 
-> **Ptaah:** The circle number Pi is a mathematical constant that is still not exactly and precisely calculated on Earth, which represents the ratio between the circumference of a circle and its diameter, whereby, as I mentioned, the previously calculated result is still erroneous.
+> **the extraterrestrial spokesperson:** The circle number Pi is a mathematical constant that is still not exactly and precisely calculated on Earth, which represents the ratio between the circumference of a circle and its diameter, whereby, as I mentioned, the previously calculated result is still erroneous.
 >
 > This error is, however, minimal-minor, consequently in every respect an apparently perfect and trouble-free function can occur with respect to a construction created according to the number Pi.
 >
@@ -64,35 +64,35 @@ This passage is **extraordinarily rich** in content. Let us extract every meanin
 - **Claim 2:** The error is "minimal-minor" — so small that it does not affect practical construction. This is consistent with the 0.096% difference between π (3.141593) and πgolden (3.144606).
 - **Claim 3:** The error applies across all formulas and constructions — every equation that uses π inherits this systemic error, though the effect is small enough to go unnoticed in most applications.
 - **Claim 4:** Earth lacks the *instrumentarium* — both mathematical and instrumental — to compute the exact value. This is a profound statement: it means the true value of π is not merely a number that we have approximated insufficiently precisely, but that our *very conceptual framework* for computing it is inadequate.
-- **Claim 5:** Neither scientists nor "know-it-alls" will compute π correctly in the foreseeable future — ruling out even prominent golden π proponents like Harry Lear, Jain 108, or Stefanides from having arrived at the *exact* value, at least in Ptaah's view.
+- **Claim 5:** Neither scientists nor "know-it-alls" will compute π correctly in the foreseeable future — ruling out even prominent golden π proponents like a visiting researcher, Jain 108, or Stefanides from having arrived at the *exact* value, at least in the extraterrestrial spokesperson's view.
 
 ### The Instrumentarium Problem
 
-Ptaah's mention of an "instrumentarium" that does not exist on Earth is perhaps the most mysterious and provocative element of CR 712. What kind of instrument could compute a transcendental number exactly? The answer may lie in the nature of the Plejarens' own mathematical system.
+The extraterrestrial spokesperson's mention of an "instrumentarium" that does not exist on Earth is perhaps the most mysterious and provocative element of CR 712. What kind of instrument could compute a transcendental number exactly? The answer may lie in the nature of the extraterrestrials' own mathematical system.
 
-In [our earlier article on restoring trigonometry with golden π](/blog/posts/restoring-trigonometry-golden-pi-sine-function/), we noted that golden π produces a normalization factor in the sine function that closes exactly: sin(πτ/2) approaches unity in a way that conventional π cannot. The Plejaren mathematical system appears to operate on purely algebraic relationships — φ, π, and α expressible through finite closed forms — rather than on the transcendental approximations that Earth mathematics relies upon.
+In [our earlier article on restoring trigonometry with golden π](/blog/posts/restoring-trigonometry-golden-pi-sine-function/), we noted that golden π produces a normalization factor in the sine function that closes exactly: sin(πτ/2) approaches unity in a way that conventional π cannot. The extraterrestrial mathematical system appears to operate on purely algebraic relationships — φ, π, and α expressible through finite closed forms — rather than on the transcendental approximations that Earth mathematics relies upon.
 
-Consider this: Earth's approach to computing π is fundamentally *iterative* — we use infinite series, polygon methods, and statistical sampling to approach a limit value that converges but never terminates. The Plejaren approach appears to be *algebraic* — they possess an exact closed-form expression that relates π to φ (and to other constants) through finite operations. The instrumentarium they refer to may be a mathematical paradigm, not a physical machine: a framework in which π emerges from φ in the same way that √4 emerges from 2.
+Consider this: Earth's approach to computing π is fundamentally *iterative* — we use infinite series, polygon methods, and statistical sampling to approach a limit value that converges but never terminates. The extraterrestrial approach appears to be *algebraic* — they possess an exact closed-form expression that relates π to φ (and to other constants) through finite operations. The instrumentarium they refer to may be a mathematical paradigm, not a physical machine: a framework in which π emerges from φ in the same way that √4 emerges from 2.
 
 This is precisely what golden π = 4/√φ provides: an exact algebraic definition that does not require infinite summation or iteration. The value is *constructible* — it can be produced with compass and straightedge, as shown in the [squaring the circle proof](/blog/posts/squaring-circle-golden-pi-geometric-proof/).
 
 ### Why "No One on Earth Has Found the True Value"?
 
-A frequent point of contention in the golden π community stems from Ptaah's statement that no one on Earth has discovered the true and correct π value (from the CR 712 forum discussions). Some take this to mean that Guido's calculation (and by extension, all independent rediscoveries of golden π) must be incorrect. But this interpretation requires closer examination.
+A frequent point of contention in the golden π community stems from the extraterrestrial spokesperson's statement that no one on Earth has discovered the true and correct π value (from the CR 712 forum discussions). Some take this to mean that a FIGU group member's calculation (and by extension, all independent rediscoveries of golden π) must be incorrect. But this interpretation requires closer examination.
 
 There are several layers to consider:
 
-**1. Precision vs. Exactness.** Even if Guido, Harry Lear, or Jain 108 arrived at a value of π that is *extremely close* to the true value — perhaps matching 10, 100, or 1,000 decimal places — Ptaah's statement about an "exactly-accurate" calculation implies a difference between approximation (no matter how precise) and *exact* determination. The Plejaren standard for "the true value" may require a mathematical proof of exactness that Earth mathematics cannot yet formulate, rather than merely a numeric approximation that coincides with the true value.
+**1. Precision vs. Exactness.** Even if a FIGU group member, a visiting researcher, or Jain 108 arrived at a value of π that is *extremely close* to the true value — perhaps matching 10, 100, or 1,000 decimal places — the extraterrestrial spokesperson's statement about an "exactly-accurate" calculation implies a difference between approximation (no matter how precise) and *exact* determination. The extraterrestrial standard for "the true value" may require a mathematical proof of exactness that Earth mathematics cannot yet formulate, rather than merely a numeric approximation that coincides with the true value.
 
-**2. The Instrumentarium Requirement.** If the exact value of π can only be computed through a mathematical apparatus that Earth does not possess, then even arriving at the numerically correct value through other means would not constitute "discovery" in the Plejaren sense — because the discovery would lack the proper theoretical foundation. This is similar to how an ancient mathematician might compute the area of a circle to great accuracy using physical measurement, yet not be said to have "discovered π" in the modern mathematical sense.
+**2. The Instrumentarium Requirement.** If the exact value of π can only be computed through a mathematical apparatus that Earth does not possess, then even arriving at the numerically correct value through other means would not constitute "discovery" in the extraterrestrial sense — because the discovery would lack the proper theoretical foundation. This is similar to how an ancient mathematician might compute the area of a circle to great accuracy using physical measurement, yet not be said to have "discovered π" in the modern mathematical sense.
 
-**3. The Diplomatic Interpretation.** Ptaah's CR 712 statements about no one on Earth having discovered the true value can be read as part of the same directive-bound caution that governed his 1996 response. He may be referring to the *official* scientific establishment (which still uses 3.141593), or he may be avoiding endorsement of any specific individual — which would constitute interference in human discovery — by stating a general principle that applies to all.
+**3. The Diplomatic Interpretation.** the extraterrestrial spokesperson's CR 712 statements about no one on Earth having discovered the true value can be read as part of the same directive-bound caution that governed his 1996 response. He may be referring to the *official* scientific establishment (which still uses 3.141593), or he may be avoiding endorsement of any specific individual — which would constitute interference in human discovery — by stating a general principle that applies to all.
 
 **4. The Positive Interpretation.** It is also possible that golden π = 4/√φ, while far closer to the true value than conventional π, is still not the final exact value — that further refinement is needed beyond 3.144606. However, the algebraic consistency of 4/√φ with the φ → π → α chain (as explored in [the 432 Connexion article](/blog/posts/432-connexion-phi-pi-alpha/)) makes this unlikely: if φ, 432, and α all close to exact values through 4/√φ, then 4/√φ is almost certainly the correct algebraic expression.
 
-### The φ → π → α Chain Through the Plejaren Lens
+### The φ → π → α Chain Through the extraterrestrial Lens
 
-One of the most remarkable aspects of the Plejaren mathematical transmission is not merely that π has the wrong value, but that the correction of π opens the door to a unified system of natural constants. Consider the chain:
+One of the most remarkable aspects of the extraterrestrial mathematical transmission is not merely that π has the wrong value, but that the correction of π opens the door to a unified system of natural constants. Consider the chain:
 
 **φ** = (1 + √5) / 2 ≈ 1.6180339...
 
@@ -102,40 +102,40 @@ One of the most remarkable aspects of the Plejaren mathematical transmission is 
 
 **α** = φ³ × 10 × π / 432 ≈ 1 / 137.036...
 
-The Plejaren have consistently maintained that the fundamental constants of physics are not arbitrary but arise from a unified algebraic system. This is entirely consistent with the golden π framework: φ is the foundational constant (the generative ratio), π = 4/√φ is its geometric expression, 432 is the harmonic multiplier, and α (the fine-structure constant) emerges as their synthesis. For more on this, see our [Research Report 001](/blog/posts/phi-pi-research-001/) and [Report 002](/blog/posts/phi-pi-research-002/).
+The extraterrestrial have consistently maintained that the fundamental constants of physics are not arbitrary but arise from a unified algebraic system. This is entirely consistent with the golden π framework: φ is the foundational constant (the generative ratio), π = 4/√φ is its geometric expression, 432 is the harmonic multiplier, and α (the fine-structure constant) emerges as their synthesis. For more on this, see our [Research Report 001](/blog/posts/phi-pi-research-001/) and [Report 002](/blog/posts/phi-pi-research-002/).
 
-If Ptaah's CR 712 statement that "no one on Earth has discovered the true value" means that the exact mathematical *framework* — the unified constant theory — is missing rather than merely the numeric value, then it makes perfect sense. The numeric value 4/√φ is well-known among golden π proponents, but the deeper theoretical structure connecting φ → π → 432 → α as an integrated algebraic system has received far less attention.
+If the extraterrestrial spokesperson's CR 712 statement that "no one on Earth has discovered the true value" means that the exact mathematical *framework* — the unified constant theory — is missing rather than merely the numeric value, then it makes perfect sense. The numeric value 4/√φ is well-known among golden π proponents, but the deeper theoretical structure connecting φ → π → 432 → α as an integrated algebraic system has received far less attention.
 
 ### The CR 856 Callback
 
-For completeness, it is worth noting that the π topic surfaces again in **Contact Report 856** (2023). There, the article *"Cosmic Music"* by Oleg Kinash — which the contactee had Ptaah read, and which Ptaah praised — contains the line "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260…)". That line, from the article (not from the contactee directly), treats CR 260 as the first *presentation of a calculation* of π in the contact reports. Note that this same article is the source that explicitly derives **4/√φ = 3.14460** and cites Harry Lear's 2019 measurements for the first five digits **3.1446** — while flagging them as not precise enough to count as scientific fact.
+For completeness, it is worth noting that the π topic surfaces again in **Contact Report 856** (2023). There, the article *"Cosmic Music"* — which the contactee had the extraterrestrial spokesperson read, and which the extraterrestrial spokesperson praised — contains the line "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260…)". That line, from the article (not from the contactee directly), treats CR 260 as the first *presentation of a calculation* of π in the contact reports. Note that this same article is the source that explicitly derives **4/√φ = 3.14460** and cites 2019 measurements for the first five digits **3.1446** — while flagging them as not precise enough to count as scientific fact.
 
 ### What This Means for Golden π Research
 
-The two-decade arc from CR 260 to CR 712 reveals a consistent pattern: the Plejaren have stated that Earth's π is erroneous, have disclosed its correction incrementally, and have consistently refused to validate any specific terrestrial calculation — Guido's included — as the final, exact value. This should not discourage golden π research but rather **elevate its ambition**.
+The two-decade arc from CR 260 to CR 712 reveals a consistent pattern: The extraterrestrial have stated that Earth's π is erroneous, have disclosed its correction incrementally, and have consistently refused to validate any specific terrestrial calculation — a FIGU group member's included — as the final, exact value. This should not discourage golden π research but rather **elevate its ambition**.
 
-The goal should not be to "prove that 4/√φ is the exact value" (though the evidence strongly points in that direction) but rather to develop the *instrumentarium* that Ptaah speaks of — the mathematical framework in which π, φ, α, and other constants emerge as a unified closed algebraic system. The numeric discovery is only the first step; the framework is the destination.
+The goal should not be to "prove that 4/√φ is the exact value" (though the evidence strongly points in that direction) but rather to develop the *instrumentarium* that the extraterrestrial spokesperson speaks of — the mathematical framework in which π, φ, α, and other constants emerge as a unified closed algebraic system. The numeric discovery is only the first step; the framework is the destination.
 
 The [golden π identity](/blog/posts/golden-pi-identity/) — (4²/π)² − π² = 4² — is one such piece of the framework. The [Pythagorean triangle proof](/blog/posts/pythagorean-triangle-proof/) is another. The [royal cubit identity](/blog/posts/royal-cubit-phi-squared-pi-six-connection/) — φ²/5 = π/6 — is a third. Each of these is a fragment of the greater unified system. Our ongoing research aims to assemble these fragments into a comprehensive mathematical edifice.
 
 ### Conclusion: Two Bookends, One Truth
 
-Contact Report 260 and Contact Report 712 stand as two bookends of the Plejaren π correction transmission:
+Contact Report 260 and Contact Report 712 stand as two bookends of the extraterrestrial π correction transmission:
 
 - **CR 260 (1998)** — the cautious seed: "very amazing, but too early for details"
 - **CR 712 (2018)** — the mature confirmation: "π is still erroneous, no one on Earth has the exact value"
 
-Between these two moments, an entire community of independent researchers — Harry Lear, Jain 108, Panagiotis Stefanides, and countless others — rediscovered what the Plejaren had always known: that π = 4/√φ = 3.144606..., that this value squares the circle exactly, that it restores trigonometric coherence, and that it connects φ, π, α, and 432 in a harmonic chain stretching from ancient geometry to quantum electrodynamics.
+Between these two moments, an entire community of independent researchers — a visiting researcher, Jain 108, Panagiotis Stefanides, and countless others — rediscovered what the extraterrestrial had always known: that π = 4/√φ = 3.144606..., that this value squares the circle exactly, that it restores trigonometric coherence, and that it connects φ, π, α, and 432 in a harmonic chain stretching from ancient geometry to quantum electrodynamics.
 
-Whether Ptaah's CR 712 statement means that 4/√φ is an approximation rather than the exact value, or whether it means that the broader theoretical framework is still incomplete, one thing is certain: the Plejaren have consistently pointed toward a correction of π, and every independent line of inquiry — geometric, algebraic, experimental, and archaeological — converges on the same value: 4/√φ.
+Whether the extraterrestrial spokesperson's CR 712 statement means that 4/√φ is an approximation rather than the exact value, or whether it means that the broader theoretical framework is still incomplete, one thing is certain: The extraterrestrial have consistently pointed toward a correction of π, and every independent line of inquiry — geometric, algebraic, experimental, and archaeological — converges on the same value: 4/√φ.
 
 The truth is out there, encoded in the golden ratio, inscribed in the Great Pyramid, and whispered across 22 years of contact reports. It awaits only the mathematical framework worthy of it.
 
 **Further Reading:**
 
-- [FIGU and the Plejaren Transmission: Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)
+- [FIGU and the Transmission: Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)
 - [The 432 Connexion — φ, π, and the Fine-Structure Constant](/blog/posts/432-connexion-phi-pi-alpha/)
 - [The Royal Cubit: φ²/5 = π/6](/blog/posts/royal-cubit-phi-squared-pi-six-connection/)
-- [Harry Lear's Measuring Pi Squaring Phi](/blog/posts/harry-lear-measuring-pi/)
+- [Measuring Pi Squaring Phi](/blog/posts/measuring-pi-squaring-phi/)
 - [Squaring the Circle with Golden Pi](/blog/posts/squaring-circle-golden-pi-geometric-proof/)
 - [The Source Map: 30 References Supporting Golden π](/blog/posts/source-map-30-references-golden-pi/)

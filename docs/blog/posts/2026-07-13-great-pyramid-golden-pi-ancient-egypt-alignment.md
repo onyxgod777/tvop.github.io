@@ -137,7 +137,7 @@ with the wrong number."
 The Great Pyramid does not stand alone in the case for golden π. It forms one corner of a
 network of independent sources — the pentagram and vesica piscis from Greek sacred geometry,
 the Kepler triangle from Renaissance mathematics, Samuel Laboy's squaring-the-circle proof from
-modern algebraic geometry, and physical experiments by Harry Lear and Jain 108 that measure
+modern algebraic geometry, and physical experiments by a visiting researcher and Jain 108 that measure
 π ≈ 3.1446055 directly. Each source arrives at the same destination through a different path.
 
 That convergence is not coincidence. When five independent lines of reasoning — ancient

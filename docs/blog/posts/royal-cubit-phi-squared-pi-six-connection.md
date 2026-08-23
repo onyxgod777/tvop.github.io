@@ -273,21 +273,21 @@ None of these scholars had golden π. They laboured with conventional π, which 
 golden π value, they would have seen the identity immediately and recognised the cubit
 not as an empirical approximation but as an algebraic necessity born of φ and the circle.
 
-## VII. The Plejaren Transmission: Contact Report 260 and the Cubit
+## VII. The extraterrestrial Transmission: Contact Report 260 and the Cubit
 
 In BEAM [Contact Report 251](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)
-(February 3, 1995), the Plejaren first disclosed that π had been miscalculated. But it is
+(February 3, 1995), the extraterrestrial first disclosed that π had been miscalculated. But it is
 in **Contact Report 260** (September 21, 1995) that the deeper metrological
-framework emerges. In this conversation, Semjase reveals that the Royal Cubit was transmitted
+framework emerges. In this conversation, an extraterrestrial being reveals that the Royal Cubit was transmitted
 to humanity in antiquity as a standard of measure derived from universal constants — not
 arbitrarily chosen but mathematically determined.
 
-According to the transcript, the Plejaren explained that the Great Pyramid's dimensions in
+According to the transcript, the extraterrestrial explained that the Great Pyramid's dimensions in
 Royal Cubits were chosen so that:
 
 Height = 280 cubits = 2π × 10,000 / (2 × 360 × 100/π)
 
-The number 280 appears repeatedly in Plejaren transmissions — 280 elements of the great
+The number 280 appears repeatedly in extraterrestrial transmissions — 280 elements of the great
 cosmic law, 280 grammatical elements of the Nokodemion language — and here, 280 cubits
 for the pyramid height. 280 = 432 / φ² + 58.3... or more interestingly:
 
@@ -295,7 +295,7 @@ for the pyramid height. 280 = 432 / φ² + 58.3... or more interestingly:
 
 Where 1,760 = base perimeter in cubits, and 2πg ≈ 6.2892.
 
-The Plejaren also revealed that the cubit was not an Egyptian invention but rather a
+The extraterrestrial also revealed that the cubit was not an Egyptian invention but rather a
 "transmission of knowledge from the Creation" — a unit whose exact value was tied to
 the Earth's dimensions and its relationship to the Sun. The 1/6 fraction is crucial
 because the Earth's orbital plane divides the celestial circle into 360°, and 360/6 = 60
@@ -343,7 +343,7 @@ The Egyptians could not measure φ²/5 to 10 decimal places. Yet the Royal Cubit
 matches this value across over 4,000 years of architectural use. Either they stumbled on
 the exact constant by trial and error (unlikely for a value matching to 0.001%), or they
 received this knowledge from a source that understood the φ-π relationship — whether that
-source was the Plejaren, an earlier advanced civilisation, or a mathematical tradition lost
+source was the extraterrestrial, an earlier advanced civilisation, or a mathematical tradition lost
 to history.
 
 ### 3. The Metre Is a Derivative of the Cubit

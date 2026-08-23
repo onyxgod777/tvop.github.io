@@ -105,7 +105,7 @@ Evaluated at x = φ: P(φ) = 1/αideal ≈ **137.082**
 
 This is within **0.033%** of the measured 1/α = 137.036. The remaining gap
 can be interpreted as the electroweak running correction — the same "extremely small error"
-in π that Ptaah referenced in Contact Report 712.
+in π that the extraterrestrial spokesperson referenced in Contact Report 712.
 
 ### The Fractal Standard Model
 
@@ -213,16 +213,16 @@ The new academic work maps remarkably well onto the BEAM framework:
 
 | CR Reference | Statement (verified) | New Research Support |
 | --- | --- | --- |
-| CR 856 | Kinash article: "the first five digits 3.1446 are correct" (per Harry Lear 2019) | Golden π = 4/√φ = 3.144605511 fits perfectly |
-| CR 712 | Ptaah: the error in Earth's π is "minimal-minor"; exactness would need an instrumentarium Earth lacks | ~0.003 difference between π and golden π — the 0.096% gap is indeed "extremely small" |
-| CR 251 | Ptaah prophesies the erroneousness in the calculation of π will be recognized and corrected (no value given) | The recursion operator derivation offers a principled way to derive both π and α from φ without measurement |
-| CR 260 | Guido's handwritten calculation (photo in report) shows π ≈ 3.1446…; Ptaah calls it "very amazing" but declines to confirm | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
+| CR 856 | the article: "the first five digits 3.1446 are correct" (per a visiting researcher 2019) | Golden π = 4/√φ = 3.144605511 fits perfectly |
+| CR 712 | the extraterrestrial spokesperson: the error in Earth's π is "minimal-minor"; exactness would need an instrumentarium Earth lacks | ~0.003 difference between π and golden π — the 0.096% gap is indeed "extremely small" |
+| CR 251 | the extraterrestrial spokesperson prophesies the erroneousness in the calculation of π will be recognized and corrected (no value given) | The recursion operator derivation offers a principled way to derive both π and α from φ without measurement |
+| CR 260 | a FIGU group member's handwritten calculation (photo in report) shows π ≈ 3.1446…; the extraterrestrial spokesperson calls it "very amazing" but declines to confirm | The recursion operator IS growth without repetition — the mathematical basis of consciousness evolution |
 
 > Note: Contact Report 722, previously listed here as "True Pi is UNKNOWN," contains **no π content at all** (it covers overpopulation, CO₂, and food-production topics); that row has been removed as a fabrication.
 
 The recursion operator derivation is particularly significant in light of CR 251. If the
 connection between φ and α is real, it offers a mathematically principled way to derive
-π and α from first principles — exactly the kind of "solving" that Ptaah described as a
+π and α from first principles — exactly the kind of "solving" that the extraterrestrial spokesperson described as a
 future milestone for Earth science.
 
 ## 8. Implications and Open Questions

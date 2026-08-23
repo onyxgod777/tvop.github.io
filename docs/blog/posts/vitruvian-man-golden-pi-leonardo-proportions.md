@@ -300,7 +300,7 @@ correct circle constant is algebraic, not transcendental, and it belongs to the 
 **Q(√5)** field as the golden ratio.
 
 This convergence across independent traditions — ancient Egyptian (Great Pyramid), Greek
-(Platonic solids), Renaissance (Vitruvian Man), and modern physical experiments (Harry Lear,
+(Platonic solids), Renaissance (Vitruvian Man), and modern physical experiments (a visiting researcher,
 Jain 108) — cannot be dismissed as coincidence. It represents a rediscovery of a mathematical
 truth that was once known and has been lost in the noise of convention.
 

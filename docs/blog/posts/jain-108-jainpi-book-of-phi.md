@@ -1,7 +1,7 @@
 ---
 title: "Jain 108's JainPi and The Book of Phi Vol 8"
 date: 2026-05-15
-description: "Jain 108's 'The Book of Phi, Vol 8' (2014) proposed JainPi = 4/√φ = 3.1446055. Note: the Plejaren first disclosed the π correction through the contactee in Contact Report 251 (Feb 3, 1995). Jain is an important independent rediscoverer."
+description: "Jain 108's 'The Book of Phi, Vol 8' (2014) proposed JainPi = 4/√φ = 3.1446055. Note: The extraterrestrial first disclosed the π correction through the contactee in Contact Report 251 (Feb 3, 1995). Jain is an important independent rediscoverer."
 ---
 
 ## Jain 108's JainPi and The Book of Phi Vol 8: The Foundation of Golden Pi
@@ -10,9 +10,9 @@ description: "Jain 108's 'The Book of Phi, Vol 8' (2014) proposed JainPi = 4/√
 
 📜 Editorial Note: The True Origin of the Pi Correction
 
-The first known reference to the miscalculation of π in modern times does not come from Jain 108 or any terrestrial researcher — it comes from **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren **Ptaah** (speaking through the contactee) prophesied, in a single line, that "the erroneousness in the calculation of the Pi number" would be recognized and corrected — the report gives **no value** and makes **no technology claim**. This predates Jain 108's first publication (2006) by 11 years. Jain 108 is therefore a **rediscoverer** and popularizer, not the originator, of the golden π correction. The full text of CR 251 is available at [futureofmankind.co.uk](https://www.futureofmankind.co.uk/Billy_Meier/Contact_Report_251).
+The first known reference to the miscalculation of π in modern times does not come from Jain 108 or any terrestrial researcher — it comes from **Contact Report 251** dated **Friday, February 3, 1995**, in which the extraterrestrial spokesperson (speaking through the contactee) prophesied, in a single line, that "the erroneousness in the calculation of the Pi number" would be recognized and corrected — the report gives **no value** and makes **no technology claim**. This predates Jain 108's first publication (2006) by 11 years. Jain 108 is therefore a **rediscoverer** and popularizer, not the originator, of the golden π correction. The full text of CR 251 is available at [futureofmankind.co.uk](https://www.futureofmankind.co.uk/Billy_Meier/Contact_Report_251).
 
-Before Harry Lear cut his famous CNC wooden disk, before Panagiotis Stefanides published his golden root symmetries in Acta Scientific, and before the FIGU released its official statement on the correction of π — there was Jain 108, one of several independent modern rediscoverers of the golden π constant.
+Before a visiting researcher cut his famous CNC wooden disk, before Panagiotis Stefanides published his golden root symmetries in Acta Scientific, and before the FIGU released its official statement on the correction of π — there was Jain 108, one of several independent modern rediscoverers of the golden π constant.
 
 In 2006, an Australian author, speaker, and self-described "mathemagician" first began publishing his findings on the true value of π. In 2014, he published *The Book of Phi, Vol 8: The True Value of Pi = JainPi = 3.144...* (ISBN 978-0-9872543-4-4). At 247 pages, it was the first comprehensive text dedicated to the proposition that the circle constant π — the most recognized number in mathematics — had been incorrectly calculated for over two thousand years.
 
@@ -48,11 +48,11 @@ This may seem like a niche geometric observation, but it has broader implication
 
 ### The Legacy: From JainPi to a Global Movement
 
-Since the publication of *The Book of Phi, Vol 8* in 2014, the golden pi movement has grown steadily. What was once a fringe idea discussed primarily in sacred geometry forums has attracted contributions from engineers (Harry Lear), academics (Panagiotis Stefanides), and the FIGU organization associated with the contactee.
+Since the publication of *The Book of Phi, Vol 8* in 2014, the golden pi movement has grown steadily. What was once a fringe idea discussed primarily in sacred geometry forums has attracted contributions from engineers (a visiting researcher), academics (Panagiotis Stefanides), and the FIGU organization associated with the contactee.
 
-Jain 108's role in this ecosystem is significant as an early independent rediscoverer and popularizer. His work provided a comprehensive framework — geometric proofs, historical context, and sacred geometry connections — that later researchers would build upon. When Harry Lear conducted his CNC-machined physical measurement in 2017, he was testing a value that Jain had articulated in print three years earlier.
+Jain 108's role in this ecosystem is significant as an early independent rediscoverer and popularizer. His work provided a comprehensive framework — geometric proofs, historical context, and sacred geometry connections — that later researchers would build upon. When a visiting researcher conducted his CNC-machined physical measurement in 2017, he was testing a value that Jain had articulated in print three years earlier.
 
-However, it is important to place these events in the correct historical sequence. The Plejaren, speaking through the Swiss contactee, disclosed the miscalculation of π in **Contact Report 251 on February 3, 1995** — eleven years before Jain 108 began publishing his findings in 2006. The FIGU's later official statements on π (2017–2018) drew from the information originally given in the Contact Reports, not from Jain's work. Jain 108 is therefore a significant **rediscoverer** — one who independently arrived at the same conclusion through geometric reasoning — but the priority of the disclosure belongs to the Plejaren through the the contactee contacts.
+However, it is important to place these events in the correct historical sequence. The extraterrestrial, speaking through the Swiss contactee, disclosed the miscalculation of π in **Contact Report 251 on February 3, 1995** — eleven years before Jain 108 began publishing his findings in 2006. The FIGU's later official statements on π (2017–2018) drew from the information originally given in the Contact Reports, not from Jain's work. Jain 108 is therefore a significant **rediscoverer** — one who independently arrived at the same conclusion through geometric reasoning — but the priority of the disclosure belongs to the extraterrestrial through the the contactee contacts.
 
 This does not diminish the value of Jain's contribution. Rediscovery through independent reasoning is a powerful form of validation. The fact that Jain arrived at π = 4/√φ through sacred geometry, starting from the Kepler Triangle and the Flower of Life, independently arrives at the same value the golden-π movement associates with the CR 251 prophecy. Intellectual movements often need multiple discoverers working from different angles, and Jain 108's *Book of Phi, Vol 8* remains an important text in the golden pi literature.
 
@@ -83,4 +83,4 @@ As Jain himself put it, "The truth of Pi is not about replacing one number with 
 - [The Great Pyramid and Golden Pi](/blog/posts/great-pyramid-golden-pi-encodes-earth-dimensions/) — How the pyramid's geometry encodes 4/√φ
 - [Pythagorean Triangle Proof](/blog/posts/pythagorean-triangle-proof/) — Interactive visualization of why only golden π closes the triangle
 - [The 432 Connexion](/blog/posts/432-connexion-phi-pi-alpha/) — How φ, π, and α form a harmonic chain through 432
-- [Harry Lear's Measuring Pi Squaring Phi](/blog/posts/harry-lear-measuring-pi/) — The CNC physical proof of golden π
+- [Measuring Pi Squaring Phi](/blog/posts/measuring-pi-squaring-phi/) — The CNC physical proof of golden π

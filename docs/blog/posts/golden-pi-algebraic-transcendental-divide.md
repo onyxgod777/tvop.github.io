@@ -168,8 +168,8 @@ Golden pi = 4/sqrt(phi) belongs to the quadratic field Q(sqrt5), the same algebr
 
 1. Lindemann, F. "Über die Zahl π." *Mathematische Annalen* 20 (1882): 213–225.
 2. Hermite, C. "Sur la fonction exponentielle." *Comptes Rendus* 77 (1873).
-3. Lear, H. "Measuring Pi Squaring Phi." 2017. [measuringpisquaringphi.com](https://measuringpisquaringphi.com)
+3. A visiting researcher, H. "Measuring Pi Squaring Phi." 2017. [measuringpisquaringphi.com](https://measuringpisquaringphi.com)
 4. Stefanides, P. "Golden Root Symmetries and Geometric Constructions." *Journal of Engineering Science and Technology Review*.
 5. Nebel, J. *Goblet of the Truth* / Kelch der Wahrheit. FIGU, 1975–present.
 6. CODATA 2018: Recommended values of the fundamental physical constants.
-7. FIGU — Plejaren Contact Report 251 (February 3, 1995).
+7. FIGU — extraterrestrial Contact Report 251 (February 3, 1995).

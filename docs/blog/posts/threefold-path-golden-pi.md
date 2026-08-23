@@ -54,9 +54,9 @@ Hypotenuse: **φ** ≈ 1.6180339887
 
 The geometric progression is 1 : √φ : φ, with common ratio √φ. Johannes Kepler himself regarded this triangle as a "precious jewel" of geometry, recognizing that it uniquely unifies the Pythagorean theorem with the golden ratio in a single figure.
 
-### 3. Proof I: The Circumference-Square Derivation (Harry Lear's Proof 1)
+### 3. Proof I: The Circumference-Square Derivation (a visiting researcher's Proof 1)
 
-This is the most direct geometric proof, originally developed by Harry Lear and independently rediscovered by Jain 108 and others.
+This is the most direct geometric proof, originally developed by a visiting researcher and independently rediscovered by Jain 108 and others.
 
 #### Step 1: Construct the Kepler Triangle
 
@@ -97,7 +97,7 @@ Thus, by the simplest geometric construction — a Kepler triangle, four blue ci
 **Related articles:**
 [Squaring the Circle](/blog/posts/squaring-circle-golden-pi-geometric-proof/) ·
 [Seven Derivations](/blog/posts/golden-pi-seven-derivations-unity/) ·
-[Harry Lear's Experiments](/blog/posts/harry-lear-measuring-pi/)
+[Measurement Experiments](/blog/posts/measuring-pi-squaring-phi/)
 
 ### 4. Proof II: The Direct Algebraic Derivation
 
@@ -286,7 +286,7 @@ The Kepler Triangle is not merely one proof among many — it is the *Rosetta St
 
 Five independent lines of reasoning all arrive at the same destination:
 
-**1. The Circumference-Square Construction (Harry Lear's Proof):** Four blue circles and a square built from the Kepler triangle yield π = 4/√φ through pure geometric equality.
+**1. The Circumference-Square Construction (a visiting researcher's Proof):** Four blue circles and a square built from the Kepler triangle yield π = 4/√φ through pure geometric equality.
 
 **2. The Direct Algebraic Derivation:** The Pythagorean identity 1² + (√φ)² = φ² and the perimeter-matching condition lead directly to π = 4/√φ without any geometric construction.
 
@@ -302,7 +302,7 @@ When Johannes Kepler wrote that "Geometry has two great treasures: one is the Th
 
 ### References and Further Reading
 
-- • [Harry Lear — Measuring Pi Squaring Phi: Geometric Proofs](/blog/posts/harry-lear-measuring-pi/)
+- • [Measuring Pi Squaring Phi: Geometric Proofs](/blog/posts/measuring-pi-squaring-phi/)
 - • [Jain 108 — The Book of Phi Vol 8: JainPi](/blog/posts/jain-108-jainpi-book-of-phi/)
 - • [Seven Derivations of Golden Pi — Seven Paths, One Constant](/blog/posts/golden-pi-seven-derivations-unity/)
 - • [Squaring the Circle with Golden Pi](/blog/posts/squaring-circle-golden-pi-geometric-proof/)
@@ -318,7 +318,7 @@ When Johannes Kepler wrote that "Geometry has two great treasures: one is the Th
 - • [The π Gap: Conventional vs. Golden π](/blog/posts/pi-gap-comparison-conventional-golden/)
 - • [The Source Map: 30 References](/blog/posts/source-map-30-references-golden-pi/)
 
-**Keywords:** Kepler triangle, golden ratio φ, golden π, π = 4/√φ, squaring the circle, Harry Lear, Jain 108, Fibonacci convergence, algebraic pi, constructible numbers, Q(√5), pentagon proof, fine-structure constant α, 432 Hz, sacred geometry
+**Keywords:** Kepler triangle, golden ratio φ, golden π, π = 4/√φ, squaring the circle, a visiting researcher, Jain 108, Fibonacci convergence, algebraic pi, constructible numbers, Q(√5), pentagon proof, fine-structure constant α, 432 Hz, sacred geometry
 
 ## Part II: The DNA-Golden Pi Nexus
 
@@ -680,7 +680,7 @@ Now try it with π = 4/√φ = 3.144606. Hypotenuse: 16/3.144606 = 5.088078. App
 
 Seven derivations. Seven perfect closures. One constant. **π = 4/√φ.**
 
-**References:** This article synthesizes content from previous blog posts. See each cited article for full references and bibliography. The Kepler Triangle proof is attributed to Harry Lear (2017); the Pythagorean triangle and golden pi identity are original to this blog's research; the Pentagonal and Platonic derivations draw on the work of Panagiotis Stefanides and Jain 108.
+**References:** This article synthesizes content from previous blog posts. See each cited article for full references and bibliography. The Kepler Triangle proof is attributed to a visiting researcher (2017); the Pythagorean triangle and golden pi identity are original to this blog's research; the Pentagonal and Platonic derivations draw on the work of Panagiotis Stefanides and Jain 108.
 
 **Tags:** golden pi, π = 4/√φ, Kepler triangle, pentagon proof, squaring the circle, Pythagorean triangle, Euler's identity, Platonic solids, royal cubit, golden ratio, fine-structure constant, algebraic closure, transcendence
 

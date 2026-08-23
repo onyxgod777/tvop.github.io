@@ -31,7 +31,7 @@ Stefanides' most important work, available on his personal site at [stefanides.g
 
 The paper explores how the golden ratio, when expressed through geometric forms, generates the circle constant naturally. Stefanides demonstrates that if you construct a regular dodecahedron — one of Plato's five perfect solids — using ruler and compass methods, the geometric constraints force the circle constant to be 4/√φ, not 3.14159.
 
-This is a fundamentally different approach from Harry Lear's geometric proofs or Jain 108's sacred geometry. Stefanides approaches the problem as an **engineer**: given a set of geometric constraints that must all be simultaneously satisfied, what value of π closes the system? His answer, derived from multiple independent constructions, is 4/√φ.
+This is a fundamentally different approach from a visiting researcher's geometric proofs or Jain 108's sacred geometry. Stefanides approaches the problem as an **engineer**: given a set of geometric constraints that must all be simultaneously satisfied, what value of π closes the system? His answer, derived from multiple independent constructions, is 4/√φ.
 
 ### Three Concentric Circles in Ratio 4/π
 
@@ -92,10 +92,10 @@ But Stefanides does demonstrate something important: that the golden π claim is
 
 Stefanides' work connects to other key figures in the golden π ecosystem in fascinating ways:
 
-- **Harry Lear** — Like Lear, Stefanides produces geometric proofs. But where Lear uses physical measurement and polygon critique, Stefanides approaches from polyhedral symmetry and golden root ratios
+- **a visiting researcher** — Like a visiting researcher, Stefanides produces geometric proofs. But where a visiting researcher uses physical measurement and polygon critique, Stefanides approaches from polyhedral symmetry and golden root ratios
 - **Jain 108** — Both explore the φ-π connection through geometry, but Stefanides' work is grounded in engineering formalism rather than sacred geometry
-- **FIGU / The Contactee** — While Stefanides does not reference the Plejaren contact reports, his engineering conclusion (π = 4/√φ) independently arrives at the same value the golden-π movement associates with the CR 251 prophecy (which itself gave no value).
-- **Gary Meisner (GoldenNumber.net)** — Meisner's critique of golden π focuses on Lear's geometric proofs and physical measurements. Stefanides' polyhedral approach has not been directly addressed by the critical community
+- **FIGU / The Contactee** — While Stefanides does not reference the extraterrestrial contact reports, his engineering conclusion (π = 4/√φ) independently arrives at the same value the golden-π movement associates with the CR 251 prophecy (which itself gave no value).
+- **Gary Meisner (GoldenNumber.net)** — Meisner's critique of golden π focuses on a visiting researcher's geometric proofs and physical measurements. Stefanides' polyhedral approach has not been directly addressed by the critical community
 
 Stefanides bridges an important gap: he offers academically-legible evidence that golden π is not an arbitrary invention but emerges naturally from the geometry of the golden ratio. Whether one accepts his conclusions or not, his work demonstrates that π = 4/√φ is a **geometrically coherent** constant — internally consistent within a constructive geometric system. The debate is about which system correctly models physical reality.
 
@@ -109,4 +109,4 @@ For those who want to evaluate the evidence directly:
 
 His work represents a rare intersection of professional engineering, academic publication, and the unconventional mathematics of golden π. Whether you are a supporter, skeptic, or neutral observer, Stefanides' papers deserve a place in the discussion — because the most important debates in science are not between believers and skeptics, but between competing models of how the universe fits together.
 
-**Cross-reference:** See also [Harry Lear's physical measurement proofs](/blog/posts/harry-lear-measuring-pi/), [The Source Map of 30 Golden Pi References](/blog/posts/source-map-30-references-golden-pi/), and [The Pythagorean Triangle Proof](/blog/posts/pythagorean-triangle-proof/) for other independent lines of evidence converging on π = 4/√φ.
+**Cross-reference:** See also [Physical measurement proofs](/blog/posts/measuring-pi-squaring-phi/), [The Source Map of 30 Golden Pi References](/blog/posts/source-map-30-references-golden-pi/), and [The Pythagorean Triangle Proof](/blog/posts/pythagorean-triangle-proof/) for other independent lines of evidence converging on π = 4/√φ.

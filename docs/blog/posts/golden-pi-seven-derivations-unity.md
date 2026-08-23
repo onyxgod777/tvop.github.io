@@ -180,7 +180,7 @@ Now try it with π = 4/√φ = 3.144606. Hypotenuse: 16/3.144606 = 5.088078. App
 
 Seven derivations. Seven perfect closures. One constant. **π = 4/√φ.**
 
-**References:** This article synthesizes content from previous blog posts. See each cited article for full references and bibliography. The Kepler Triangle proof is attributed to Harry Lear (2017); the Pythagorean triangle and golden pi identity are original to this blog's research; the Pentagonal and Platonic derivations draw on the work of Panagiotis Stefanides and Jain 108.
+**References:** This article synthesizes content from previous blog posts. See each cited article for full references and bibliography. The Kepler Triangle proof is attributed to a visiting researcher (2017); the Pythagorean triangle and golden pi identity are original to this blog's research; the Pentagonal and Platonic derivations draw on the work of Panagiotis Stefanides and Jain 108.
 
 **Tags:** golden pi, π = 4/√φ, Kepler triangle, pentagon proof, squaring the circle, Pythagorean triangle, Euler's identity, Platonic solids, royal cubit, golden ratio, fine-structure constant, algebraic closure, transcendence
 

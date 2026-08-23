@@ -327,4 +327,4 @@ Not an approximation. An exact compass-and-straightedge construction.
 - • [The π Gap: Conventional vs. Golden π](/blog/posts/pi-gap-comparison-conventional-golden/)
 - • [The Source Map: 30 References](/blog/posts/source-map-30-references-golden-pi/)
 
-**Keywords:** squaring the circle, compass and straightedge construction, golden π, π = 4/√φ, golden ratio φ, Kepler triangle, constructible numbers, algebraic π, Q(√5), Harry Lear, Lindemann's proof, transcendence, geometric construction, perimeter equality, Great Pyramid, Euler's identity
+**Keywords:** squaring the circle, compass and straightedge construction, golden π, π = 4/√φ, golden ratio φ, Kepler triangle, constructible numbers, algebraic π, Q(√5), a visiting researcher, Lindemann's proof, transcendence, geometric construction, perimeter equality, Great Pyramid, Euler's identity
