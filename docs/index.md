@@ -45,12 +45,12 @@ Welcome to the **Golden Pi Knowledge Base** — the definitive resource on the t
 
     [→ Learn About Φ](golden-ratio/phi.md)
 
--   :material-book-open-variant: __Billy Meier / FIGU__
+-   :material-book-open-variant: __FIGU / Contactee__
 
     ![Space Cosmos](/img/space-cosmos.jpg){ align=left width=120 }
     Contact reports correcting the value of Pi.
 
-    [→ Read the Reports](evidence/billy-meier.md)
+    [→ Read the Reports](evidence/figu-contact-reports.md)
 
 -   :material-image-multiple: __Sacred Geometry Gallery__
 
@@ -68,6 +68,6 @@ Welcome to the **Golden Pi Knowledge Base** — the definitive resource on the t
 - [Kepler's Right Triangle](golden-pi/kepler-triangle.md) — the geometric proof
 - [Squaring the Circle](golden-pi/squaring-circle.md) — ancient problem solved
 - [Pyramid of Giza](evidence/pyramid-of-giza.md) — ancient evidence
-- [Billy Meier / FIGU](evidence/billy-meier.md) — disclosure reports
+- [FIGU / Contactee](evidence/figu-contact-reports.md) — disclosure reports
 - [Interactive Calculator](calculator/index.md) — compute Golden Pi
 - [Research Blog](blog/index.md) — daily golden pi articles

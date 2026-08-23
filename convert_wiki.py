@@ -19,7 +19,7 @@ PAGES = [
     ("golden-ratio/in-architecture.md", "wiki/golden-ratio/in-architecture/index.html", 1),
     ("evidence/pyramid-of-giza.md",    "wiki/evidence/pyramid-of-giza/index.html", 1),
     ("evidence/ancient-knowledge.md",  "wiki/evidence/ancient-knowledge/index.html", 1),
-    ("evidence/billy-meier.md",        "wiki/evidence/billy-meier/index.html", 1),
+    ("evidence/figu-contact-reports.md",  "wiki/evidence/figu-contact-reports/index.html", 1),
     ("resources/bibliography.md",      "wiki/resources/bibliography/index.html", 1),
     ("manual/squaring-the-circle.md",  "wiki/manual/squaring-the-circle.html", 1),
     ("manual/true-value-of-pi.md",     "wiki/manual/true-value-of-pi.html", 1),

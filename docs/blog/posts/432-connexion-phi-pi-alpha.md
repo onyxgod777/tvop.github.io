@@ -212,7 +212,7 @@ The number 432 appears with remarkable consistency across ancient cultures:
 The pattern suggests that ancient civilizations possessed either precise astronomical observations
 or direct knowledge (through contact or inherited tradition) of the geometric relationship
 between φ, π, and the precessional cycle. The Goblet of the Truth teachings speak of the
-"prophet line" — a chain of knowledge transmission from Henoch through Elia to Billy Meier —
+"prophet line" — a chain of knowledge transmission from Henoch through Elia to the contactee —
 that preserved key mathematical and cosmological truths across millennia.
 
 In this light, 432 is not a "coincidence to marvel at" — it is a *structural constant*

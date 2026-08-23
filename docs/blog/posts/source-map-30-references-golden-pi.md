@@ -6,7 +6,7 @@ description: "A comprehensive research survey of 36 sources supporting π = 4/�
 
 📜 Timeline Note: Priority of Disclosure
 
-The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren (through Billy Meier) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and Harry Lear's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/Plejaren disclosure at CR 251 (1995) is the earliest known source.
+The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the Plejaren (through the contactee) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and Harry Lear's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/Plejaren disclosure at CR 251 (1995) is the earliest known source.
 
 ## The Source Map: 37 References That Support Golden π
 
@@ -19,7 +19,7 @@ This article maps **37 distinct sources** across nine categories, organized by w
 | # | Category | Source | Stance |
 | --- | --- | --- | --- |
 | 1–5 | Primary Proponents | Harry Lear, Jain 108, Stefanides, Liddz, Carlos Hernandez | Pro |
-| 6–8 | FIGU / Billy Meier | FIGU Italy, wiki.saalome.org, They Fly Blog | Pro |
+| 6–8 | FIGU / the contactee | FIGU Italy, wiki.saalome.org, They Fly Blog | Pro |
 | 9–14, 37 | Academic & Papers | Stefanides (4 papers), Jain’s Book, PiUmeniuguisu, Scribd, Divisible by Zero, Thompson (arXiv) | Mixed |
 | 15–17 | Interactive / Tools | GeoGebra (2), Desmos | Mixed |
 | 18–23 | Video | Knew Geometry (2), Ninth Prime (4), Harry Lear, Jain 108, Gary Meisner | Mixed |
@@ -34,7 +34,7 @@ This article maps **37 distinct sources** across nine categories, organized by w
 
 ### 1. Primary Proponents
 
-### 2. FIGU & Billy Meier Connection
+### 2. FIGU & The Contactee Connection
 
 ### 3. Academic & Research Papers
 
@@ -62,9 +62,9 @@ See the interactive visualization: [The Pythagorean Triangle Proof](/blog/posts/
 
 If the Great Pyramid’s height = √φ (1.272) and base perimeter = 4, then: (Perimeter of base) / (2 × height) ≈ 4 / (2 × √φ) = 4/√φ. Using the actual dimensions (height 146.6m, side 230.4m), the pyramid yields π ≈ 3.143 — remarkably close to 3.1446. The ancient builders either knew golden π, or the value emerges naturally from proportions encoded in the structure. Either way, the correlation is striking.
 
-### ▶ The FIGU — Billy Meier Contact Reports
+### ▶ The FIGU — The Contactee Contact Reports
 
-The claim that advanced extraterrestrial intelligence (the Plejaren), through Billy Meier, prophesied that the value of π was miscalculated, and that Harry Lear’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is notable: the FIGU contact reports record the miscalculation claim years before Harry Lear’s proofs entered the public domain.
+The claim that advanced extraterrestrial intelligence (the Plejaren), through the contactee, prophesied that the value of π was miscalculated, and that Harry Lear’s 2017 visit to the SSSC was seen as the fulfillment of a prediction made in Contact 251 (1995), adds a dimension to the story that transcends conventional mathematics. Whether one accepts the extraterrestrial hypothesis or not, the documented timeline is notable: the FIGU contact reports record the miscalculation claim years before Harry Lear’s proofs entered the public domain.
 
 ### Conclusion: A Growing Body of Work
 

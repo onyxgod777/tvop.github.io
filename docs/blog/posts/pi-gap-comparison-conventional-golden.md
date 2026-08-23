@@ -219,7 +219,7 @@ engineering and measurement. Profound because it *systematically* shifts every
 and reveals a closed algebraic system linking π, φ, the royal cubit, the fine-structure
 constant, and the number 432 — a system that conventional π cannot sustain.
 
-As Billy Meier conveyed in Contact Report 856: *"3.1446 are correct. However, what
+As the contactee conveyed in Contact Report 856: *"3.1446 are correct. However, what
 follows after 6 remains unknown."* The gap between 3.14159 and 3.14460 is real,
 measurable, and carries consequences across the entire edifice of mathematical physics.
 Whether one adopts golden π or not depends on whether one values definitional consistency

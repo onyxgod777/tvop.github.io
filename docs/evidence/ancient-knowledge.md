@@ -25,5 +25,5 @@ This value is close to $\pi_{\text{conv}}/6$ (0.52360 m) — a remarkable empiri
 ## See Also
 
 - [Pyramid of Giza](pyramid-of-giza.md)
-- [Billy Meier / FIGU](billy-meier.md)
+- [FIGU / Contactee](figu-contact-reports.md)
 - [True Value of Pi](../golden-pi/true-value.md)

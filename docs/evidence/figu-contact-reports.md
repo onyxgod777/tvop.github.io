@@ -1,8 +1,8 @@
-# Billy Meier
+# The FIGU Contactee and the π Correction
 
 ![Space and Cosmos](/img/space-cosmos.jpg){ align=right width=200 }
 
-Eduard Albert "Billy" Meier is a Swiss citizen and UFO contactee whose organization FIGU is an early modern source for the claim that the value of π had been miscalculated (Contact Report 251, 1995). His work predates the modern golden π movement by over a decade.
+The Swiss UFO contactee who founded FIGU is an early modern source for the claim that the value of π had been miscalculated (Contact Report 251, 1995). This work predates the modern golden π movement by over a decade.
 
 ## The Value
 

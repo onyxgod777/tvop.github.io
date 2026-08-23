@@ -1,7 +1,7 @@
 ---
 title: "FIGU and the Plejaren Transmission — How Contact Report 251 Predicted the Correction of π"
 date: 2026-05-16
-description: "How Billy Meier's Contact Report 251 (Feb 3, 1995) first disclosed the miscalculation of π. The Plejaren transmission, FIGU's official endorsement, Harry Lear's 2017 SSSC visit, and the ongoing debate."
+description: "How the contactee's Contact Report 251 (Feb 3, 1995) first disclosed the miscalculation of π. The Plejaren transmission, FIGU's official endorsement, Harry Lear's 2017 SSSC visit, and the ongoing debate."
 ---
 
 ## FIGU and the Plejaren Transmission: How Contact Report 251 Predicted the Correction of π
@@ -10,23 +10,23 @@ description: "How Billy Meier's Contact Report 251 (Feb 3, 1995) first disclosed
 
 > **Correction notice (verified against the CR 251 transcript, Feb 2026):** This article originally stated that Ptaah declared the true value of π to be 3.144605511029693144 (4/√φ) and tied it to advanced technology. **Contact Report 251 does not do that.** It contains a single prophecy that "the erroneousness in the calculation of the Pi number" will be recognized and corrected — with **no value given** and **no technology claim**. The figure 4/√φ = 3.1446055… originates with later golden-π researchers (Harry Lear; the Oleg Kinash article carried in Contact Report 856 / Sign of the Times 75), not with Ptaah. The sections below have been corrected accordingly.
 
-On Friday, February 3, 1995, in a small Swiss farmhouse in the village of Hinterschmidrüti, something remarkable happened. Eduard "Billy" Meier sat down with Ptaah — a being from the Plejaren star system — for what would be recorded as **Contact Report 251**. During that conversation, a prophecy was recorded that, thirty years later, continues to ripple through fringe mathematics, sacred geometry, and ufology communities worldwide.
+On Friday, February 3, 1995, in a small Swiss farmhouse in the village of Hinterschmidrüti, something remarkable happened. the Swiss contactee sat down with Ptaah — a being from the Plejaren star system — for what would be recorded as **Contact Report 251**. During that conversation, a prophecy was recorded that, thirty years later, continues to ripple through fringe mathematics, sacred geometry, and ufology communities worldwide.
 
 The statement was brief: the value of π — the most fundamental constant in mathematics — had been miscalculated. The report itself gave **no number**; the exact figure now associated with the story (3.144605511029693144, i.e. 4/√φ) came from later researchers, not from Contact Report 251. And correcting π, in the telling that grew around it, would unlock advanced technology.
 
 This is the story of that claim, the organization behind it, the researchers who supplied the specific value, and the scientific establishment that has largely rejected it.
 
-### The FIGU Organization and Billy Meier
+### The FIGU Organization and the Contactee
 
-To understand Contact Report 251, one must first understand FIGU. The **Freie Interessengemeinschaft für Grenz- und Geisteswissenschaften und Ufologie-Studien** (Free Community of Interest for Border and Spiritual Sciences and UFOlogy Studies) was founded by Eduard "Billy" Meier in the 1970s. Meier, a Swiss farmer and former police officer, claims to have been in ongoing contact with extraterrestrial beings from the Plejaren star system (often referred to as the Plejaren) since his childhood in the 1940s.
+To understand Contact Report 251, one must first understand FIGU. The **Freie Interessengemeinschaft für Grenz- und Geisteswissenschaften und Ufologie-Studien** (Free Community of Interest for Border and Spiritual Sciences and UFOlogy Studies) was founded by the Swiss contactee in the 1970s. The contactee, a Swiss farmer and former police officer, claims to have been in ongoing contact with extraterrestrial beings from the Plejaren star system (often referred to as the Plejaren) since his childhood in the 1940s.
 
-The Plejaren, according to Meier, are a humanoid race from a star system approximately 500 light-years from Earth. They share a common ancestry with humanity — the "Lyran root race" — and their purpose in contacting Meier is to guide humanity away from self-destruction, correct scientific errors, and provide spiritual teachings aligned with the "Goblet of the Truth" (Kelch der Wahrheit) — a body of Creation-wide truths transmitted through a prophetic line from Henoch to Meier himself.
+The Plejaren, according to the contactee, are a humanoid race from a star system approximately 500 light-years from Earth. They share a common ancestry with humanity — the "Lyran root race" — and their purpose in contacting the contactee is to guide humanity away from self-destruction, correct scientific errors, and provide spiritual teachings aligned with the "Goblet of the Truth" (Kelch der Wahrheit) — a body of Creation-wide truths transmitted through a prophetic line from Henoch to the contactee himself.
 
 FIGU, now based at the Semjase Silver Star Center (SSSC) in Hinterschmidrüti, Switzerland, maintains over 500 contact reports spanning decades. These reports cover topics from cosmology and spiritual evolution to weaponry, time travel, and — critically for our purposes — mathematics.
 
 ### Contact Report 127 (1980): The First Seed
 
-Fifteen years before CR 251, a foundational conversation took place. In **Contact Report 127, dated February 3, 1980**, Billy Meier discussed with the Plejaren being **Semjase** the number of elements in the periodic table — then thought to be 280 (a number that included theoretical transuranic elements before modern periodic tables settled on 118 confirmed).
+Fifteen years before CR 251, a foundational conversation took place. In **Contact Report 127, dated February 3, 1980**, the contactee discussed with the Plejaren being **Semjase** the number of elements in the periodic table — then thought to be 280 (a number that included theoretical transuranic elements before modern periodic tables settled on 118 confirmed).
 
 But the report also contained something more significant: a discussion of the Great Pyramid of Giza. Semjase revealed that the pyramid's original height of 280 royal cubits encoded knowledge of the speed of light (299,792,458 m/s) and that its geometry contained fundamental mathematical constants. The number 280 appears repeatedly in Plejaren communications — 280 elements, 280 cubits — and would later connect directly to the π correction through the pyramid's height-to-base ratio that generates φ, and from φ, the true π.
 
@@ -34,9 +34,9 @@ This was the first breadcrumb. The full disclosure would come fifteen years late
 
 ### Contact Report 251 (February 3, 1995): The Disclosure
 
-On the same date as CR 127 — exactly fifteen years to the day — Ptaah sat down with Meier for CR 251. The timing was almost certainly intentional, a pattern the Plejaren frequently use to emphasize connections between transmissions.
+On the same date as CR 127 — exactly fifteen years to the day — Ptaah sat down with the contactee for CR 251. The timing was almost certainly intentional, a pattern the Plejaren frequently use to emphasize connections between transmissions.
 
-According to Meier's notes and the official FIGU transcript, Ptaah's statement on π is far more modest than the legend that has grown around it. Contact Report 251 contains **one sentence** on the subject, embedded in a prophecy about the scientific breakthroughs of "1995 and the following years":
+According to the contactee's notes and the official FIGU transcript, Ptaah's statement on π is far more modest than the legend that has grown around it. Contact Report 251 contains **one sentence** on the subject, embedded in a prophecy about the scientific breakthroughs of "1995 and the following years":
 
 > "…the year 1995 and the following years bring an enormous number of breakthroughs to change civilisation. **In the time to come, the factor of finally recognising and correcting that which is erroneous in the calculation of the Pi number will also contribute to this.**"
 > German: *"Dazu wird in kommender Zeit auch der Faktor dessen beitragen, dass endlich das Falsche in der Berechnung der Pi-Zahl erkannt und behoben wird."*
@@ -45,11 +45,11 @@ The report gives **no value** — no 4/√φ, no 3.144605511029693144, no mentio
 
 ### How This Reached the Public: Christian Frehner and FIGU's Official Statement
 
-For over two decades, this information existed primarily within the FIGU community — believers who accepted Meier's contact claims and a small circle of German-speaking researchers. It might have remained there indefinitely, another obscure footnote in ufology.
+For over two decades, this information existed primarily within the FIGU community — believers who accepted the contactee's contact claims and a small circle of German-speaking researchers. It might have remained there indefinitely, another obscure footnote in ufology.
 
 Then, on **September 3, 2017**, an American researcher named **Harry E. Lear, Jr.** arrived at the Semjase Silver Star Center with his wife Nancy. Lear, a US Army veteran who had served in intelligence during the Vietnam War, had independently concluded that π = 4/√φ through geometric proofs and physical measurements using CNC machining. He was seeking the blessing of the FIGU for his work.
 
-Christian Frehner, Billy Meier's right-hand man and a key FIGU official, received Lear and examined his proofs. The meeting was a watershed moment. Frehner recognized that Lear's independent discovery fulfilled the prediction recorded in CR 251 — validating the contact reports through independent research.
+Christian Frehner, the contactee's right-hand man and a key FIGU official, received Lear and examined his proofs. The meeting was a watershed moment. Frehner recognized that Lear's independent discovery fulfilled the prediction recorded in CR 251 — validating the contact reports through independent research.
 
 Subsequently, **Christian Frehner** authored a document titled **"Important Information for the Circle Number Pi"** — a PDF that has since become a foundational text in the golden π movement. The document, hosted at theyflyblog.com, lays out the case for π = 4/√φ in clear terms, referencing CR 251 and Lear's geometric proofs. It is a bridge between the Contact Reports and the world of empirical measurement — spiritual revelation meeting CNC-machined wood.
 
@@ -70,7 +70,7 @@ The Italian FIGU page represents the most official, public-facing endorsement of
 
 ### The They Fly Blog: Connecting the Dots
 
-The blog **[They Fly](https://theyflyblog.com/)** — which covers Billy Meier material and related topics — has been a crucial media platform for the golden π story. Their 2018 post **"More about Pi, Pyramids and Phil's Folly"** (a direct jab at skeptical astronomer Phil Plait) brought all the threads together: the Plejaren's disclosure, Harry Lear's physical proof, Christian Frehner's PDF, and the Apophis asteroid concern.
+The blog **[They Fly](https://theyflyblog.com/)** — which covers the contactee material and related topics — has been a crucial media platform for the golden π story. Their 2018 post **"More about Pi, Pyramids and Phil's Folly"** (a direct jab at skeptical astronomer Phil Plait) brought all the threads together: the Plejaren's disclosure, Harry Lear's physical proof, Christian Frehner's PDF, and the Apophis asteroid concern.
 
 The post warns that NASA's trajectory calculations for the asteroid Apophis — which will make a close approach to Earth in 2029 — are based on the wrong value of π. Harry Lear had warned in his open letter to President Trump (January 29, 2018) that the difference in orbital circumference between traditional π and golden π amounts to approximately 901,434 km for Earth and 831,517 km for Apophis — potentially enough to transform a near miss into a collision.
 
@@ -78,7 +78,7 @@ Whether or not one accepts this claim, the They Fly blog article remains one of 
 
 ### The Future of Mankind Forum: 284 Replies and Counting
 
-No story of the golden π movement would be complete without the **Future of Mankind Forum** — an online community dedicated to Billy Meier material. The thread titled **"The Non Transcendental, Exact Value of π and the Squaring of the Circle"** has, as of May 2026, accumulated **284 replies and 267,670+ views** — making it one of the most active discussions on the entire forum.
+No story of the golden π movement would be complete without the **Future of Mankind Forum** — an online community dedicated to the contactee material. The thread titled **"The Non Transcendental, Exact Value of π and the Squaring of the Circle"** has, as of May 2026, accumulated **284 replies and 267,670+ views** — making it one of the most active discussions on the entire forum.
 
 The thread features the key proponents: **C.Β.** (who presents mathematical arguments for golden π), **omedam777** (a longtime FIGU supporter), and others who argue that the correction of π is both a mathematical necessity and a fulfillment of Plejaren prophecy. Opposite them is **Hush**, a persistent skeptic who calls the proofs "1/2-page faked pretend math" and demands rigorous mathematical reasoning.
 
@@ -86,7 +86,7 @@ The dynamic is fascinating. Proponents invoke the Plejaren's authority; skeptics
 
 ### The Wiki.saalome.org Page: The Technical Reference
 
-For a more technical treatment, the **[Billy Meier Wiki](https://wiki.saalome.org/Billy_Meier/Science_and_Mathematics)** (hosted at wiki.saalome.org) maintains a comprehensive page on "Science and Mathematics" that includes the original German and English calculations for π showing 3.144605511029693144. The page discusses how Archimedes' polygon method has an inherent error related to the area under the curve. It notes that golden π is "irrational, not transcendental" — a crucial distinction, because if π were truly non-transcendental, the ancient problem of squaring the circle would be solvable with compass and straightedge.
+For a more technical treatment, the **[Future of Mankind Wiki](https://wiki.saalome.org/Billy_Meier/Science_and_Mathematics)** (hosted at wiki.saalome.org) maintains a comprehensive page on "Science and Mathematics" that includes the original German and English calculations for π showing 3.144605511029693144. The page discusses how Archimedes' polygon method has an inherent error related to the area under the curve. It notes that golden π is "irrational, not transcendental" — a crucial distinction, because if π were truly non-transcendental, the ancient problem of squaring the circle would be solvable with compass and straightedge.
 
 ### The Claim of Technological Breakthroughs
 
@@ -102,7 +102,7 @@ A recurring theme in the golden-π narrative — though **not present in Contact
 
 It would be irresponsible to present this narrative without acknowledging that mainstream science completely rejects it. The reasons are well-rehearsed:
 
-- **Billy Meier's credibility:** Critics accuse him of fraud, citing inconsistent timeline of his UFO photographs, the use of model spaceships, and the lack of independent verification of his contact claims. The FIGU community responds that the evidence — over 1,000 clear photographs, film footage, metal samples, and the consistency of 500+ contact reports over 50 years — speaks for itself.
+- **The contactee's credibility:** Critics accuse him of fraud, citing inconsistent timeline of his UFO photographs, the use of model spaceships, and the lack of independent verification of his contact claims. The FIGU community responds that the evidence — over 1,000 clear photographs, film footage, metal samples, and the consistency of 500+ contact reports over 50 years — speaks for itself.
 - **Mathematical impossibility:** Traditional π has been proven transcendental (Lindemann–Weierstrass, 1882). Golden π = 4/√φ is algebraic (a root of x² + 4x − 16 = 0), which would mean either the transcendence proof is wrong — considered impossible by mainstream mathematicians — or the two numbers are different constants entirely. Proponents argue that the transcendence proof assumes traditional π, and the question is circular.
 - **Convergent proofs:** π = 3.14159... is confirmed by hundreds of independent methods: infinite series, Monte Carlo methods, physical measurement, numerical integration. The golden π proponents claim these all have a hidden assumption that prevents convergence to the true value — a claim skeptics find extraordinary.
 - **The approximation argument:** 4/√φ ≈ 3.1446 differs from traditional π by about 0.096%. This is closer than 22/7 (error 0.04%) but less accurate than 355/113 (error 0.000008%). Critics argue that if golden π were the true value, it would be closer to measured reality — not significantly further from π than 22/7 and 355/113.
@@ -112,7 +112,7 @@ It would be irresponsible to present this narrative without acknowledging that m
 
 The Plejaren π correction sits at the intersection of several fascinating human phenomena: the willingness to believe in extraterrestrial guidance, the appeal of correcting a centuries-old error, the tension between institutional science and independent research, and the power of a simple formula (4/√φ) that connects π to the golden ratio in an aesthetically pleasing way.
 
-By mainstream standards, every element of this story is fringe or pseudoscientific. Billy Meier's contact claims are rejected by the vast majority of ufologists. The π correction is rejected by every mainstream mathematician. The Apophis warning is rejected by NASA and the astronomical community.
+By mainstream standards, every element of this story is fringe or pseudoscientific. The contactee's contact claims are rejected by the vast majority of ufologists. The π correction is rejected by every mainstream mathematician. The Apophis warning is rejected by NASA and the astronomical community.
 
 And yet — the story persists. The Future of Mankind forum thread grows by the month. Harry Lear continues to publish proofs. The FIGU Italy page remains online as an official declaration. Christian Frehner's PDF circulates through email chains, forum posts, and social media groups. Independent researchers like Jain 108 and Panagiotis Stefanides, working in different countries and from different traditions, arrive at the same value through geometry alone.
 
@@ -129,7 +129,7 @@ Whether the Plejaren were real, whether Contact Report 251 is authentic, whether
 - **Harry Lear's Open Letter to President Trump:** [measuringpisquaringphi.com](https://measuringpisquaringphi.com/correcting-pi-problems/)
 - **They Fly Blog — "More about Pi, Pyramids and Phil's Folly":** [theyflyblog.com](https://theyflyblog.com/2018/02/more-about-pi-pyramids-and-phils-folly/)
 - **Future of Mankind Forum Thread:** [forum.futureofmankind.co.uk (284 replies)](https://forum.futureofmankind.co.uk/viewtopic.php?t=13)
-- **Billy Meier Wiki — Science and Mathematics:** [wiki.saalome.org](https://wiki.saalome.org/Billy_Meier/Science_and_Mathematics)
+- **Future of Mankind Wiki — Science and Mathematics:** [wiki.saalome.org](https://wiki.saalome.org/Billy_Meier/Science_and_Mathematics)
 - **Harry Lear's Website:** [measuringpisquaringphi.com](https://measuringpisquaringphi.com/)
 - **Jain 108 Academy:** [jain108academy.com](https://jain108academy.com/true-value-of-pi/)
 

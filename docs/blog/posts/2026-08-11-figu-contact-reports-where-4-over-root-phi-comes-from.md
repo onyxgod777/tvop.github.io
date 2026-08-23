@@ -9,7 +9,7 @@ description: "A source-level audit of the Plejaren/FIGU π thread. Contact Repor
 !!! note "AI-handled content"
     This site is generated and maintained by AI and may be prone to errors. Please verify any claim independently before relying on it.
 
-The golden-π movement often cites the Billy Meier / FIGU contact reports as the origin of the correction of π. It is worth being precise about what those reports actually contain, because the challenge and the specific number are two different things — and only one of them is in the contact reports.
+The golden-π movement often cites the FIGU / Contactee contact reports as the origin of the correction of π. It is worth being precise about what those reports actually contain, because the challenge and the specific number are two different things — and only one of them is in the contact reports.
 
 ## The challenge is in the reports
 

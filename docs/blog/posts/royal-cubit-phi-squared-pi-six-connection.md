@@ -390,4 +390,4 @@ remarkable numerical convergence between two independent constants — one from 
 Ratio and one from the circle. This convergence is the thread that links the Great Pyramid,
 the number 432, and the fine-structure constant into a coherent mathematical picture.
 
-"Truth stands, regardless of belief." — Billy Meier, from the Goblet of the Truth
+"Truth stands, regardless of belief." — from the Goblet of the Truth

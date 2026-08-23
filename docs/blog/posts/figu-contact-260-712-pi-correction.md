@@ -1,7 +1,7 @@
 ---
 title: "CR 260 & 712: Ptaah's Pi Statements Spanning Two Decades"
 date: 2026-05-20
-description: "Billy Meier's Contact Reports 260 (1998) and 712 (2018) span two decades of the Plejarens' guarded statements on π. A detailed analysis of Ptaah's responses and what they reveal about golden π = 4/√φ."
+description: "the contactee's Contact Reports 260 (1998) and 712 (2018) span two decades of the Plejarens' guarded statements on π. A detailed analysis of Ptaah's responses and what they reveal about golden π = 4/√φ."
 ---
 
 ![The Plejaren contact timeline — two decades of guarded statements on π](/img/Abnormal.jpeg)
@@ -19,7 +19,7 @@ These two reports form a fascinating arc: from Ptaah's *cautious, directive-boun
 Before examining the reports themselves, it is essential to establish the chronological framework of the Plejaren π correction as it unfolded through the FIGU contact reports:
 
 - **February 3, 1995 — CR 251:** a one-line prophecy, embedded in a passage on future scientific breakthroughs, that "the erroneousness in the calculation of the Pi number" will eventually be recognized and corrected. It gives no value, and makes no spaceflight or technology claim.
-- **February 3, 1998 — CR 260:** Billy presents Ptaah with Guido's handwritten calculation for π. Ptaah describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
+- **February 3, 1998 — CR 260:** the contactee presents Ptaah with Guido's handwritten calculation for π. Ptaah describes it as "very amazing" but refuses to comment further, citing directives that the time is "much too early."
 - **November 28, 2018 — CR 712:** Ptaah provides the most detailed Plejaren statement on the π question on record: Earth's π calculation is still erroneous; the error is minimal but real; no earthly mathematical or instrumental apparatus exists capable of computing the exact value; and no one on Earth — scientists or know-it-alls — will compute the exactly-accurate value in the foreseeable future.
 
 This timeline reveals a deliberate, long-term disclosure strategy. The Plejaren did not simply hand humanity the corrected value in 1995. Instead, they planted a seed of awareness, allowed independent researchers to arrive at the same answer through different paths, and only gradually confirmed what they had always known. This is consistent with their stated policy: they *guide* and *suggest* but do not override human discovery.
@@ -28,11 +28,11 @@ This timeline reveals a deliberate, long-term disclosure strategy. The Plejaren 
 
 The pi-related exchange in CR 260 is brief but laden with significance. The relevant passage, in its entirety, reads:
 
-> **Billy:** Here, I now have a calculation for the circle number Pi. Guido's work is the whole thing, as you can surely already tell by the handwriting. The question, now, is whether the calculations agree and, thus, are accurate.
+> **The contactee:** Here, I now have a calculation for the circle number Pi. Guido's work is the whole thing, as you can surely already tell by the handwriting. The question, now, is whether the calculations agree and, thus, are accurate.
 >
 > **Ptaah:** This calculation is very amazing, but the time is still much too early in order to be allowed to make more detailed and more exact statements about that.
 >
-> **Billy:** We have already feared this answer, but we just wanted to try.
+> **The contactee:** We have already feared this answer, but we just wanted to try.
 >
 > **Ptaah:** Of course, I understand, but I really must remain with my statement. If I would go into more detail about that, then I would have to violate our directives, but we will not do such.
 
@@ -42,11 +42,11 @@ Several critical observations can be made about Ptaah's response:
 
 **Second, the directive was about timing, not accuracy.** Ptaah explicitly states that the problem is the earliness of the revelation — "the time is still much too early." This implies that at some future date, such statements would be permissible. Indeed, CR 712 appears to be that future date: Ptaah's comments in 2018 are far more direct than anything he allowed himself in 1996.
 
-**Third, Guido's identity matters.** "Guido" was a FIGU group member and associate of Billy Meier. Contact Report 260 includes a photograph of Guido's handwritten calculation (German cursive) that shows the value π ≈ 3.1446… (about a dozen decimal places) — i.e. consistent with 4/√φ. Ptaah nonetheless declined to confirm the calculation, citing directives that the time was "much too early." The debate that has followed for nearly three decades centers on whether Guido's calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that Ptaah's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: Ptaah's subsequent statements in CR 712 align with a value of π that agrees with golden π = 4/√φ.
+**Third, Guido's identity matters.** "Guido" was a FIGU group member and associate of the contactee. Contact Report 260 includes a photograph of Guido's handwritten calculation (German cursive) that shows the value π ≈ 3.1446… (about a dozen decimal places) — i.e. consistent with 4/√φ. Ptaah nonetheless declined to confirm the calculation, citing directives that the time was "much too early." The debate that has followed for nearly three decades centers on whether Guido's calculation was mathematically rigorous or whether it relied on approximations. Some forum participants have argued that Ptaah's comment about it being "too early" was a diplomatic non-answer — neither confirming nor denying correctness. But the weight of evidence suggests otherwise: Ptaah's subsequent statements in CR 712 align with a value of π that agrees with golden π = 4/√φ.
 
 ### Contact Report 712: November 28, 2018 — "Still Erroneous"
 
-Twenty-two years and seven months later, Billy asked Ptaah again. This time, the answer was much more direct. The critical passage from CR 712:
+Twenty-two years and seven months later, the contactee asked Ptaah again. This time, the answer was much more direct. The critical passage from CR 712:
 
 > **Ptaah:** The circle number Pi is a mathematical constant that is still not exactly and precisely calculated on Earth, which represents the ratio between the circumference of a circle and its diameter, whereby, as I mentioned, the previously calculated result is still erroneous.
 >
@@ -108,7 +108,7 @@ If Ptaah's CR 712 statement that "no one on Earth has discovered the true value"
 
 ### The CR 856 Callback
 
-For completeness, it is worth noting that the π topic surfaces again in **Contact Report 856** (2023). There, the article *"Cosmic Music"* by Oleg Kinash — which Billy had Ptaah read, and which Ptaah praised — contains the line "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260…)". That line, from the article (not from Billy directly), treats CR 260 as the first *presentation of a calculation* of π in the contact reports. Note that this same article is the source that explicitly derives **4/√φ = 3.14460** and cites Harry Lear's 2019 measurements for the first five digits **3.1446** — while flagging them as not precise enough to count as scientific fact.
+For completeness, it is worth noting that the π topic surfaces again in **Contact Report 856** (2023). There, the article *"Cosmic Music"* by Oleg Kinash — which the contactee had Ptaah read, and which Ptaah praised — contains the line "the famous circular number π seems to come out of nowhere (first mention of it is in Contact Report 260…)". That line, from the article (not from the contactee directly), treats CR 260 as the first *presentation of a calculation* of π in the contact reports. Note that this same article is the source that explicitly derives **4/√φ = 3.14460** and cites Harry Lear's 2019 measurements for the first five digits **3.1446** — while flagging them as not precise enough to count as scientific fact.
 
 ### What This Means for Golden π Research
 

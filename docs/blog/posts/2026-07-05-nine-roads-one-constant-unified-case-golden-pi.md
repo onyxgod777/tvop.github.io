@@ -24,7 +24,7 @@ Individually, each path can be debated, qualified, or dismissed on technical gro
 | 6. 432 Hz harmonic bridge | Frequency-domain physics | Are Fibonacci-adjacent modes phase-locked algebraically? | Arc and growth must share φ² convergence |
 | 7. Planck-electron ratio | Quantum-electrodynamics | Does r\_e / ℓ\_P collapse algebraically? | φ-family propagates through every term iff π = 4/√φ |
 | 8. Euler field expression | Complex analysis | Does eiq − 1 = 0 remain in one field when q = 1 − φ/φ²? | Mixed transcendence with conventional π; single field with golden π |
-| 9. Source-map survey | Historical + empirical | Do independent traditions converge on the same numeric value? | FIGU/Meier (1995), Jain 108 (2006), Lear (2017), Stefanides, Meisner, Chu-Carroll, Reddit — nine categories spanning 36+ sources |
+| 9. Source-map survey | Historical + empirical | Do independent traditions converge on the same numeric value? | FIGU/the contactee (1995), Jain 108 (2006), Lear (2017), Stefanides, Meisner, Chu-Carroll, Reddit — nine categories spanning 36+ sources |
 
 The table is the argument. Each row is a separate discipline, a separate set of assumptions, and a separate target. None of the rows depends on another. That independence is what makes the table stronger than any single row.
 
@@ -48,7 +48,7 @@ That single membership difference explains every row:
 
 ### What the Source Map Adds
 
-The [source map](/blog/posts/source-map-30-references-golden-pi/) catalogs thirty-six references across nine categories: proponents like Harry Lear and Jain 108, academic engineers like Panagiotis Stefanides, outsider sources like FIGU/Billy Meier, and critics like Gary Meisner and Mark Chu-Carroll. What the map shows is not unanimity but directionality: every independent source that actually engages the geometry reproduces the same identity, while critics attack measurement methodology or presuppose transcendence rather than testing algebraic closure directly.
+The [source map](/blog/posts/source-map-30-references-golden-pi/) catalogs thirty-six references across nine categories: proponents like Harry Lear and Jain 108, academic engineers like Panagiotis Stefanides, outsider sources like FIGU/the contactee, and critics like Gary Meisner and Mark Chu-Carroll. What the map shows is not unanimity but directionality: every independent source that actually engages the geometry reproduces the same identity, while critics attack measurement methodology or presuppose transcendence rather than testing algebraic closure directly.
 
 The directional bias of the evidence matters. If the formula “came from nowhere,” as critics claim, we would expect random scatter across candidate values. Instead, the candidates that survive detailed computation cluster tightly around 3.144605511..., the exact value of 4/√φ.
 

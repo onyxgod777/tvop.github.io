@@ -134,7 +134,7 @@ Golden Pi in the natural world.
 
 ## 🛸 FIGU / Contact Reports
 
-Billy Meier's Plejaren contacts and the correction of π.
+The contactee's Plejaren contacts and the correction of π.
 
 - [**Contact Reports 260 & 712**](posts/figu-contact-260-712-pi-correction/) *(2026-05-20)* — Ptaah's statements spanning two decades
 - [**FIGU Contact Report 251**](posts/figu-plejaren-contact-report-251-pi-correction/) *(2026-05-16)*
