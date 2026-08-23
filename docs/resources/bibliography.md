@@ -15,7 +15,7 @@
 
 ## White Paper
 
-- **📄 [The Golden Pi White Paper (PDF)](golden-pi-whitepaper.pdf)** *(August 2026)* — A complete 12-page publication consolidating all current research on Golden Pi (π̂ = 4/√φ = 3.144605511): the instrumentum identity, the Great Pyramid's Royal Cubit and Seked encoding, the abc = 64 golden triangle, the pyramid face angle, the Eye of Horus, the golden calculus, a comparative formula audit, a full numerical summary, and a verified section on the record in the FIGU / Billy Meier Contact Reports (251, 260, 712, 856).
+- **📄 [The Golden Pi White Paper (PDF)](golden-pi-whitepaper.pdf)** *(August 2026)* — A complete 15-page publication consolidating all current research on Golden Pi (π̂ = 4/√φ = 3.144605511): the instrumentum identity, the Great Pyramid's Royal Cubit and Seked encoding, the abc = 64 golden triangle, the pyramid face angle, the Eye of Horus, the golden calculus, a comparative formula audit, a full numerical summary, and a verified section on the record in the FIGU / Billy Meier Contact Reports (251, 260, 712, 856). Every section is illustrated with a vector diagram.
 
 ## Secondary Sources
 
