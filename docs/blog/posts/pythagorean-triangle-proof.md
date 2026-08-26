@@ -82,7 +82,7 @@ is the simplest possible Pythagorean test involving the circle constant. If π i
 But if π = **4/√φ = √(√320−8) = 3.144605511...**, the equality holds **exactly**.
 No approximation. No measurement error. The geometry proves itself.
 
-This means conventional π is a *measurement* — the shadow on the cave wall. Golden π is the
+This means conventional π is a *computed* value — the shadow on the cave wall. Golden π is the
 *geometry* — the object casting the shadow. The ∼0.003 gap between them is the
 **"extremely small error"** the extraterrestrial spokesperson described in Contact Report 712, and the first
 five digits **3.1446** match what he confirmed in CR 856.

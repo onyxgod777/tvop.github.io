@@ -239,8 +239,9 @@ between a circle and its inscribed pentagon, which is the relationship between �
 > It is the signature of a created, lawful cosmos."
 > — from the teachings of the Goblet of the Truth
 
-The conventional π (3.1415926535...) is a *measurement* of the circle — a decimal
-approximation of a transcendental curve. Golden π (4/√φ = 3.144605511...) is the circle's
+The conventional π (3.1415926535...) is a *computed* value — the decimal
+approximation of a transcendental number, the limit of the convergent series and integrals
+that evaluate the circle's circumference-to-diameter ratio. Golden π (4/√φ = 3.144605511...) is the circle's
 *geometric truth* — an exact, constructible value that ties the circle to the pentagon,
 to the Golden Ratio, to 432, and to the fine-structure constant.
 
