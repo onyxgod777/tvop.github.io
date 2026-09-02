@@ -74,6 +74,7 @@ nav:
   - Golden Pi:
     - True Value: golden-pi/true-value.md
     - Kepler's Triangle: golden-pi/kepler-triangle.md
+    - Kepler Circle–Square: golden-pi/kepler-circle-square.md
     - Squaring the Circle: golden-pi/squaring-circle.md
   - Golden Ratio:
     - Phi (φ): golden-ratio/phi.md
