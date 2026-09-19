@@ -1,7 +1,7 @@
 ---
-title: "Ramanujan's and Chudnovsky's Series for 1/π: How the Fastest Known Computations Fix the Circle Constant, and Where Golden Pi Cannot Follow"
+title: "Ramanujan's and Chudnovsky's Series for 1/π: How the Fastest Known Series Pin the Circle Constant, and Why Golden Pi Is Not Their Limit"
 date: 2026-09-04
-description: "Srinivasa Ramanujan's 1914 modular series and the Chudnovsky brothers' 1989 refinement compute 1/π at eight and fourteen digits per term — the engine behind every modern world-record π computation. These pure arithmetic limits pin the analytic constant to 3.14159265…, computed and never measured, and no relabel to Golden Pi (π̂ = 4/√φ = 3.144605511…) can be substituted into them."
+description: "Srinivasa Ramanujan's 1914 modular series and the Chudnovsky brothers' 1989 refinement compute 1/π at roughly eight and fourteen decimal places per term — the engine behind every modern world-record π computation. These pure arithmetic limits converge to the analytic constant 3.14159265…, computed and never measured, and no relabel to Golden Pi (π̂ = 4/√φ = 3.144605511…) can be substituted into them."
 ---
 
 !!! note "AI-handled content"
@@ -17,9 +17,9 @@ In 1914 the Indian mathematician Srinivasa Ramanujan published "Modular equation
 1/π = (2√2/9801) · Σ_{k=0}^{∞} (4k)!·(1103 + 26390k) / ((k!)^4 · 396^{4k})
 ```
 
-The miraculous constants in the numerator — 1103, 26390 — are not fitted; they fall out of the singular value theory of the elliptic modular function, which Ramanujan had mastered to a degree nobody else at the time could follow. What matters for computation is how fast the sum closes in on its target: each successive term adds roughly **eight correct decimal digits**. The very first term alone already reproduces 1/π to eight places, which is why the series was such a shock when the mathematical world absorbed it — a single term of a Ramanujan series beat many thousands of terms of the classical arctangent or Leibniz sums.
+The miraculous constants in the numerator — 1103, 26390 — are not fitted; they fall out of the singular value theory of the elliptic modular function, which Ramanujan had mastered to a degree nobody else at the time could follow. What matters for computation is how fast the sum closes in on its target: each successive term adds nine, then seven, correct decimal places, averaging roughly **eight per term**. The very first term alone already reproduces 1/π to seven decimal places, which is why the series was such a shock when the mathematical world absorbed it — a single term of a Ramanujan series beat many thousands of terms of the classical arctangent or Leibniz sums.
 
-It took seven decades for a computer to exploit this. In 1985 the American programmer and mathematician Bill Gosper used Ramanujan's 1914 series to compute π to seventeen million decimal places, at the time a record and the first time a general-purpose personal-computer-style machine had dethroned the mainframes. The series works so well that a handheld calculator can demonstrate it: three terms of the 9801 identity already give π correctly through about two dozen decimal places.
+It took seven decades for a computer to exploit this. In 1985 the American programmer and mathematician Bill Gosper used Ramanujan's 1914 series to compute π to seventeen million decimal places, at the time a record and the first time a general-purpose personal-computer-style machine had dethroned the mainframes. The series works so well that a handheld calculator can demonstrate it: three terms of the 9801 identity already give π correctly through 23 decimal places.
 
 ## The modular machinery behind the magic
 
@@ -31,15 +31,17 @@ This matters for the site's honesty discipline in a precise way. Because the mac
 
 The "eight digits per term" for Ramanujan and "fourteen digits per term" for Chudnovsky are not folklore; they are directly checkable. Summing the first few terms and counting how many decimal digits agree with the known reciprocal 1/π = 0.3183098861837906715… gives:
 
-| Terms kept | Ramanujan (9801 identity) — correct digits | Chudnovsky — correct digits |
+| Terms kept | Ramanujan (9801 identity) — correct decimal places | Chudnovsky — correct decimal places |
 |---|---|---|
-| k = 0 only | 8 | 15 |
-| k ≤ 1 | 17 | 29 |
-| k ≤ 2 | 24 | 43 |
-| k ≤ 3 | 33 | 57 |
-| k ≤ 4 | 40 | 71 |
+| k = 0 only | 7 | 14 |
+| k ≤ 1 | 16 | 28 |
+| k ≤ 2 | 23 | 42 |
+| k ≤ 3 | 32 | 56 |
+| k ≤ 4 | 39 | 69 |
 
-The pattern is plain: each additional Ramanujan term buys about eight digits, each additional Chudnovsky term about fourteen. Where the old series on this site needed hundreds or millions of terms to fix a handful of digits, these two fix dozens with a few. That is not an opinion — it is what the partial sums above show.
+*(Counted as decimal places after the point, agreeing with 1/π = 0.3183098861837906715…)*
+
+The pattern is plain: each additional Ramanujan term buys nine then seven decimal places, averaging about eight; each additional Chudnovsky term buys about fourteen. Where the old series on this site needed hundreds or millions of terms to fix a handful of digits, these two fix dozens with a few. That is not an opinion — it is what the partial sums above show.
 
 ## Chudnovsky: the series that computes the records
 
@@ -55,7 +57,7 @@ It is not an exaggeration to say that essentially every modern world-record comp
 
 Nothing about a record at two hundred trillion digits resembles measurement. It is the largest sustained act of pure arithmetic computation ever performed. And the number it confirms, to every one of those digits, is the value the classical series on this site have always converged to: the analytic circle constant 3.14159265358979323846264338327950288419716939937510… The computation is complete; nothing is left to a laboratory, and nothing is left open.
 
-## What the fastest series actually fix
+## What the fastest series actually pin
 
 This is the point the fastest series make more forcefully than the slow ones. When a computation reaches two hundred trillion digits and an independent rerun agrees, the constant is not *approximately* known or *conventionally* chosen — it is fixed, as a computed limit, to a precision far beyond any conceivable physical measurement. A consequence follows that this site has stated before and states again plainly:
 
