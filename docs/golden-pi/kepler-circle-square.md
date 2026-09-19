@@ -85,8 +85,13 @@ and the constant cooperate. That happens at $\pi = 4/\sqrt{\Phi}$ and at no othe
 
 This arrangement equates the **perimeter** of the square with the **circumference**
 of the circle — an *equal-perimeter* closure. It is a fully constructible,
-self-consistent, Golden-Pi-only result. The classical equal-**area** problem is a
-separate question, and a constructible physical solution to it remains open.
+self-consistent, Golden-Pi-only result.
+
+The **equal-area** problem is a separate question with a different scope. Under
+Golden Pi it is also constructible: the required side is $r\sqrt{4/\sqrt{\Phi}} = 2r/\Phi^{1/4}$,
+and $\Phi^{1/4}$ is a square root of a square root. For the *drawn* circle, whose
+constant is transcendental, Lindemann's 1882 proof rules the same construction out.
+The two statements concern different constants and do not conflict.
 
 ## See Also
 

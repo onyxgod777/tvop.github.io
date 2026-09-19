@@ -15,7 +15,7 @@
 | Conventional π | 3.141592653589793... |
 
       ## Derivation
-      From [Kepler's Right Triangle](kepler-triangle.html), where the sides are in the ratio **1 : √Φ : Φ**, the circumference of a circle with diameter equal to the triangle's height relates directly to 4/√Φ.
+      From [Kepler's Right Triangle](kepler-triangle.html), where the sides are in the ratio **1 : √Φ : Φ**, the triangle's full base — when the triangle is scaled so that the hypotenuse is 2√Φ and the height is 2 — is exactly 4/√Φ, the same length as Golden Pi.
 
       
         **See also:**

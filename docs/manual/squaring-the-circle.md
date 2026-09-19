@@ -27,7 +27,7 @@
         - Construct a line segment of length Φ using the golden section division
         - Construct √Φ as the geometric mean of 1 and Φ
         - Divide 4 by √Φ (constructible as the fourth proportional)
-        - Use this length to construct the square's side equal to the circle's area
+        - The square of equal area to the circle has side s = r·√(4/√Φ) = 2r/Φ^(1/4) — constructible, since Φ^(1/4) is the square root of a square root. (The length 4/√Φ is the circle *constant*, not the square's side.)
       </ol>
 
       ## Historical Significance

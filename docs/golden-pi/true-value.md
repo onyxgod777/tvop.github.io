@@ -26,7 +26,7 @@ From [Kepler's Right Triangle](kepler-triangle.md), where the sides are in the r
 | --- | --- | --- |
 | Source | Archimedes approximation | Geometric derivation from Φ |
 | Precision | Engineering limit | Geometric exactness |
-| Squaring the Circle | Impossible (transcendental) | Solvable geometrically |
+| Squaring the Circle | Impossible for the drawn circle (1882, Lindemann — π transcendental) | Constructible under Golden Pi (4/√Φ algebraic and constructible) |
 | Connection to Φ | None | Direct via √Φ |
 
 ## See Also
