@@ -313,7 +313,7 @@ When Johannes Kepler wrote that "Geometry has two great treasures: one is the Th
 - • [The Fine-Structure Constant α and Golden Pi](/blog/posts/fine-structure-alpha-golden-pi-unity/)
 - • [The 432 Connexion — φ, π, and α](/blog/posts/432-connexion-phi-pi-alpha/)
 - • [Transcendence vs Algebra: Why Golden π Unlocks a Closed φ-Field](/blog/posts/golden-pi-algebraic-transcendental-divide/)
-- • [Three Physical Experiments That Measured Golden Pi](/blog/posts/physical-experiments-golden-pi-measurements/)
+- • [Physical Measurement and the Two Circle Constants](/blog/posts/physical-experiments-golden-pi-measurements/)
 - • [The Royal Cubit: φ²/5 = π/6](/blog/posts/royal-cubit-phi-squared-pi-six-connection/)
 - • [The π Gap: Conventional vs. Golden π](/blog/posts/pi-gap-comparison-conventional-golden/)
 - • [The Source Map: 30 References](/blog/posts/source-map-30-references-golden-pi/)
@@ -654,7 +654,7 @@ Golden π = 4/√φ = **3.144605511029693…** satisfies *all seven* derivations
 
 The seven derivations above are purely geometric and algebraic — they do not require physics. Yet the same constant appears throughout physical reality when measurements are examined closely:
 
-- **Physical experiments:** CNC machining, laser measurement, and rolling tests all converged on π = 4/√φ within measurement error. [See the experimental evidence →](/blog/posts/physical-experiments-golden-pi-measurements/)
+- **Physical experiments:** whether physical measurement can separate the two circle constants is examined honestly — and the answer is that it cannot. [What the laws of appearance do and do not affirm →](/blog/posts/physical-experiments-golden-pi-measurements/)
 - **The fine-structure constant:** α ≈ 1/137 is linked to φ and π through the 432 harmonic bridge. [The α–φ–π chain →](/blog/posts/fine-structure-alpha-golden-pi-unity/)
 - **The Great Year:** Earth's 25,920-year precession encodes the pentagon's 72° through the 432 pathway. [The Great Year and Golden Pi →](/blog/posts/platonic-year-golden-pi-precession-432/)
 - **Music of the spheres:** The 432 Hz frequency — the harmonic tuning derived from φ — resonates with golden π. [The 432 Connexion →](/blog/posts/432-connexion-phi-pi-alpha/)

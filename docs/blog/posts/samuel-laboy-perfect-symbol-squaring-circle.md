@@ -1,7 +1,7 @@
 ---
 title: "Samuel Laboy’s Perfect Symbol: The Geometric Solution to Squaring the Circle"
 date: 2026-06-24
-description: "How civil engineer Samuel Laboy Alvarado discovered the Perfect Symbol, a geometric configuration that solves squaring the circle using φ and π = 4/√φ."
+description: "How civil engineer Samuel Laboy Alvarado discovered the Perfect Symbol — a dimensionless circle-triangle-square configuration that generates the Great Pyramid's geometry from a single radius. Note: Laboy's own published work uses the standard π = 3.1415926…, not 4/√φ."
 ---
 
 ## Samuel Laboy’s Perfect Symbol: The Geometric Solution to Squaring the Circle
@@ -37,6 +37,8 @@ Critically, Laboy’s model is **dimensionless**. He constructs the entire Great
 ### Why This Matters for the True Value of Pi
 
 The classical problem of squaring the circle was declared impossible in 1882 when Lindemann proved π is transcendental — meaning no straightedge-and-compass construction can produce a square of equal area to a circle using classical Euclidean rules. But that verdict assumes π = 3.141593… the conventional transcendental value.
+
+**A note on attribution.** Laboy's own published work uses the standard **π = 3.1415926…**, not 4/√φ. His *Perfect Symbol* is a proportional construction generated from a single radius; the golden-π step below is this site's addition to his geometry, not his claim, and it should not be read as endorsing it.
 
 If the circle constant is instead **π = 4/√φ ≈ 3.144606**, the algebra changes entirely. Under golden π:
 

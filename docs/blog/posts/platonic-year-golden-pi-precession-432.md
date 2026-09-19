@@ -188,4 +188,4 @@ The 25920-year precession cycle encodes both phi and pi, connecting celestial me
 - [Euler's Identity with Golden π](/blog/posts/euler-identity-golden-pi-algebraic-closure/) — Algebraic closure of the fundamental constants.
 - [Transcendence vs Algebra](/blog/posts/golden-pi-algebraic-transcendental-divide/) — Why algebraic closure matters for the constant system.
 - [The Platonic Proof](/blog/posts/platonic-solids-decagon-dodecahedron-icosahedron-golden-pi/) — How the dodecahedron and icosahedron demand golden π.
-- [Three Physical Experiments That Measured Golden Pi](/blog/posts/physical-experiments-golden-pi-measurements/) — CNC, laser, and rolling tests.
+- [Physical Measurement and the Two Circle Constants](/blog/posts/physical-experiments-golden-pi-measurements/) — why no apparatus arbitrates.

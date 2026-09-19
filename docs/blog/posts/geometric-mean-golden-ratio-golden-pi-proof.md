@@ -290,4 +290,4 @@ For the Kepler triangle foundation, see
 - [An Identity That Only Golden Pi Satisfies](/blog/posts/golden-pi-identity/) — The algebraic uniqueness of π = 4/√φ.
 - [The Kepler Triangle Genesis](/blog/posts/kepler-triangle-golden-pi-circle-constant/) — How the 1:√φ:φ triangle demands golden π.
 - [Golden Pi in Nature](/blog/posts/golden-pi-nature-biological-forms/) — How the φ–π convergence manifests in living geometry.
-- [Three Physical Experiments That Measured Golden Pi](/blog/posts/physical-experiments-golden-pi-measurements/) — CNC, laser, and rolling tests.
+- [Physical Measurement and the Two Circle Constants](/blog/posts/physical-experiments-golden-pi-measurements/) — why no apparatus arbitrates.

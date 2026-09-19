@@ -116,7 +116,7 @@ Golden Pi in physics, probability, and mathematical constants.
 - [**The π Gap**](posts/pi-gap-comparison-conventional-golden/) *(2026-05-18)* — Systematic comparison across domains
 - [**Pi and Probability**](posts/golden-pi-probability-gaussian-buffon-needle/) *(2026-06-12)* — Gaussian, Buffon's needle, Basel problem
 - [**Transcendence vs Algebra**](posts/golden-pi-algebraic-transcendental-divide/) *(2026-05-19)*
-- [**Physical Experiments That Measured Golden Pi**](posts/physical-experiments-golden-pi-measurements/) *(2026-05-17)*
+- [**Physical Measurement and the Two Circle Constants**](posts/physical-experiments-golden-pi-measurements/) *(2026-05-17)* — what the laws of appearance do and do not affirm
 - [**Threefold Path to Golden Pi**](posts/threefold-path-golden-pi/) *(2026-05-26)* — DNA, Kepler's Triangle, seven derivations
 - [**Source Map: 30+ References**](posts/source-map-30-references-golden-pi/)
 - [**An Identity That Only Golden Pi Satisfies**](posts/golden-pi-identity/) *(2026-05-09)* — (4²/π)² − π² = 4² is exact with golden π = 4/√φ = 3.144606, but fails by 0.068 with conventional π
