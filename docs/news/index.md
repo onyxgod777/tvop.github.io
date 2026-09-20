@@ -4,6 +4,12 @@
 >
 > — *Goblet of the Truth*, §110–111, §240
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The law of cause and effect is the most precise and impartial of all creational laws. It does not punish or reward — **it reflects**. Every thought, feeling, word, and deed generates a specific vibrational cause. That cause accumulates energy, compresses into lived experience, and returns — amplified — as your destiny.
 
 On this page, we track **current world events as observed causes** and project their **necessary effects** if those causes persist unchanged. This is not fortune-telling. It is **causal inference** — the same principle that lets a physicist predict a trajectory from position and velocity. See the cause, know the effect. Change the cause, and the effect dissolves.
