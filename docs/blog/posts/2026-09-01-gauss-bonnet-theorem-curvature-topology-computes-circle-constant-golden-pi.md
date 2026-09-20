@@ -11,6 +11,12 @@ description: "The Gauss–Bonnet theorem ties the total curvature of a closed su
 
 Take a sphere and a flat plane. Curve the plane gently into a saddle, a bowl, a hill — anywhere the surface bends — and then ask a strange question: if you add up *all* the bending everywhere on a closed surface, what do you get? For a balloon that bending sums to a finite, fixed number; for a doughnut it sums to something remarkably different. The theorem that answers this, proved in its modern form by Carl Friedrich Gauss and Pierre Ossian Bonnet, is one of the most astonishing results in all of geometry — because the total bending of a surface turns out to depend **only on how many holes it has**, and the constant that anchors the entire identity is the circle constant π. Today we walk that road, then ask the question this site is built around: what does the same, honestly-proved theorem become under Golden Pi, π̂ = 4/√φ = 3.144605511…?
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## The Theorem That Measures Nothing
 
 The **Gauss–Bonnet theorem** concerns the **Gaussian curvature** K of a surface — a number at each point that says how the surface bends there. On a sphere K is positive and constant; on a saddle K is negative; on a flat plane K is zero. The theorem says that for any closed, compact, orientable surface, the integral of K over the whole surface equals a fixed multiple of the circle constant:

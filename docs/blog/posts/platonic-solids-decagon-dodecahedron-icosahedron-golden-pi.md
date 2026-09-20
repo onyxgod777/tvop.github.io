@@ -6,6 +6,12 @@ description: "Three Platonic solids built on φ — the decagon, dodecahedron, a
 
 ![Platonic solids inscribed in circles — the decagon, dodecahedron, and icosahedron](/img/geometry-circle.jpg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## The Platonic Proof: How Decagons, Dodecahedra, and Icosahedra Demand Golden π
 
 Of the five Platonic solids — the tetrahedron, cube, octahedron, dodecahedron, and icosahedron — three are fundamentally *governed by the Golden Ratio φ*. This fact has been known since antiquity: Euclid's *Elements* closes with the construction of the dodecahedron using φ-proportioned pentagons. What has not been fully appreciated is that these same φ-governed solids impose a strict constraint on the value of π — a constraint that conventional π (3.141593) fails, but golden π (4/√φ = 3.144606) satisfies exactly.

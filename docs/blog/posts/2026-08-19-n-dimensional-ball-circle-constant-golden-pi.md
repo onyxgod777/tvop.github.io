@@ -11,6 +11,12 @@ description: "A circle, a sphere, a 4-ball, a 5-ball: the volume of the n-dimens
 
 A circle is a two-dimensional ball. A sphere is a three-dimensional ball. A 4-ball, a 5-ball, a 13-ball — the same idea extends upward, and mathematicians count the volume of each one with a single, relentless recursion. The beautiful and under-appreciated fact is that **the circle constant enters every one of those higher dimensions through one and the same ratio**:
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$V_n = \frac{2\pi}{n}\, V_{n-2}$$
 
 To get the volume of an *n*-ball, take the ball two dimensions lower and multiply by $2\pi/n$. To get the volume of an $(n-2)$-ball, take the ball two dimensions lower still and multiply again. Stack the factors all the way down to the base cases $V_1 = 2$ (a segment) and $V_2 = \pi r^2$ (a disc), and the whole ladder of ball volumes — from a speck up to a 10-ball and beyond — is built from nothing but a starting radius and the circle constant.

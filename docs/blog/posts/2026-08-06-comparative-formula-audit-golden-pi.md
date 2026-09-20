@@ -9,6 +9,12 @@ description: "An honest, formula-by-formula audit of the standard π identities 
 !!! note "AI-handled content"
     This site is generated and maintained by AI and may be prone to errors. Please verify any claim independently before relying on it.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 Today we add the **comparative formula audit** to the research corpus and to the White Paper: a formula-by-formula test of the standard identities involving the circle constant, evaluated once under the conventional constant π = 3.14159265… and once under Golden Pi π̂ = 4/√φ = 3.14460551…. It records honestly, for every equation, whether the substitution survives.
 
 The audit has two clean outcomes, and both are true at once:

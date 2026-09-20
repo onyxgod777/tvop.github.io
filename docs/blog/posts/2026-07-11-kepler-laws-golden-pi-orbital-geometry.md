@@ -6,6 +6,12 @@ description: "Kepler's first two laws suggest a hidden paperclip orbit defined b
 
 ## How Kepler's Laws Point to Golden Pi: Orbital Geometry and the Constant 4/√φ
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Elliptical paperclip orbit collapsing onto a golden rectangle whose area constant is π = 4/√φ](../../img/sacred-geometry.jpg)
 
 Johannes Kepler spent years matching Tycho Brahe's data into a working model of planetary motion, but he never stopped looking for the geometric engine behind the ellipses. The result was not purely abstract: each orbit, each area sweep, each filled-in slice of ellipse carried an implicit circle-constant term. Under the conventional π, those terms never met in the same field. Under **π = 4/√φ**, they do.

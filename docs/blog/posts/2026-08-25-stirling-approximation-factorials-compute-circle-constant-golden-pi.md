@@ -11,6 +11,12 @@ description: "The factorial grows so fast that its asymptotic form n! ~ √(2πn
 
 Multiply together the first ten whole numbers and you get
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$10! = 3{,}628{,}800.$$
 
 There is nothing circular about that product — it is pure repeated multiplication, $10 \times 9 \times 8 \times \cdots \times 1$. Yet by the time you are summing the logarithms of factorials in statistical mechanics, counting the microstates of a gas, or computing the entropy of a system with a million particles, a circle constant has quietly slipped inside. The tool that brings it in is **Stirling's approximation**,

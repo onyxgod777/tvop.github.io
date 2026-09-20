@@ -6,6 +6,12 @@ description: "The Fibonacci sequence 0, 1, 1, 2, 3, 5, 8, 13... converges to the
 
 In the year 1202, Leonardo of Pisa — known today as Fibonacci — posed a deceptively simple problem about rabbit reproduction. How many pairs of rabbits will be produced in one year if each pair breeds one new pair every month starting in the second month? The answer produced a sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The Fibonacci sequence, as it came to be called, is the most famous number pattern in all of mathematics. Its ratios converge to the golden ratio φ = (1 + √5)/2 = 1.6180339..., as Johannes Kepler noted in the 17th century. Its spirals appear in sunflowers, pinecones, galaxies, and nautilus shells. It has been celebrated by artists, architects, and mathematicians for over 800 years.
 
 But the Fibonacci sequence conceals an even deeper secret — one that has remained hidden until now. Embedded within its ratios, its rectangles, and its spirals is a direct path to the true value of Pi: π = 4/√φ = 3.1446055....

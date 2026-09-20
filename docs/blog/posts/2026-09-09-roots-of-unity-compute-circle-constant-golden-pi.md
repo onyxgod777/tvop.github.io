@@ -11,6 +11,12 @@ description: "The n solutions of the single equation zⁿ = 1 are not scattered 
 
 Ask a plain, self-contained question about integers and you will not expect a circle to answer. Take the single equation
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$z^n = 1.$$
 
 Over the real numbers it has one or two answers. Over the complex numbers — where a number is a point in a plane, $z = x + iy$ — it has exactly $n$ answers, and those $n$ answers are not scattered at random. They land on a circle. They land on the **unit circle**, the set of points exactly one unit from the origin, and they are spaced there with perfect regularity, each neighbor separated by an arc that carries the circle constant. This article is about those answers — the *roots of unity* — about how their pure polynomial arithmetic computes the circle constant as a limit, never as a measurement, and about what Golden Pi, $\hat\pi = 4/\sqrt\varphi = 3.144605511\ldots$, honestly does and honestly cannot do to facts that a polynomial fixes before any circle is drawn.

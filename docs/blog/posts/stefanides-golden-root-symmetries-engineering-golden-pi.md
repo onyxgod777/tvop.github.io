@@ -6,6 +6,12 @@ description: "Greek engineer Panagiotis Stefanides published peer-reviewed paper
 
 ## Panagiotis Stefanides and the Golden Root Symmetries — An Engineer's Peer-Reviewed Case for π = 4/√φ
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![stefanides golden root symmetries engineering golden pi](/img/math-equations.jpg)
 
 The golden π discussion is often framed as a battle between two worlds: on one side, self-taught geometricians and sacred geometry enthusiasts; on the other, credentialed academics defending the mathematical establishment. But this framing misses a crucial figure who occupies both worlds — a professionally qualified engineer with multiple peer-reviewed publications who built his work on the foundation of π = 4/√φ.

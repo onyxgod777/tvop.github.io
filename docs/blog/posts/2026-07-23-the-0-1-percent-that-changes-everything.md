@@ -6,6 +6,12 @@ description: "The difference between conventional π (3.14159) and golden π (4/
 
 ## The 0.1% That Changes Everything
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/fiaveghiqu?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Polygons drawn with square roots only" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Inscribed and circumscribed polygons built with square roots alone — no trigonometry, no constant assumed.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Golden Pi vs Conventional Pi - the 0.096% gap visualized as sacred geometry](/img/golden-pi-0-1-percent.jpg)
 
 The two numbers look nearly identical. One is **3.141592653589793...** — the π every schoolchild learns, the ratio of a circle's circumference to its diameter, calculated by Archimedes, refined by Liu Hui, immortalized by Euler. The other is **3.144605511029693...** — the golden π, derived from the golden ratio, expressible as a simple algebraic formula: π = 4/√φ.

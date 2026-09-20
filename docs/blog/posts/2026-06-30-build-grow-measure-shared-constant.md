@@ -6,6 +6,12 @@ description: "Architecture, biology, and physics all converge on the same circle
 
 ## Build, Grow, Measure: What Architecture, Biology, and Physics Share in One Constant
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Abstract composition of a building plan, a biological spiral, and an interference pattern](/img/Abnormal.jpeg)
 
 Architecture, biology, and physics belong to different languages, but they share one grammar: every measuring line, growing curve, and constructed proportion ultimately refers back to the same circle. Pi should be one value everywhere — yet today two values compete for the name. One is transcendental and numerically accidental. The other is algebraic and algebraically exact: **π = 4/√φ (3.144605...)**.

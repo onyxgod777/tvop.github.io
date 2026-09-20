@@ -11,6 +11,12 @@ description: "The Almagest's table of chords turns circle geometry into pure rat
 
 The previous articles in this series have all followed the same shape. An integral converges, a series sums, a solid angle integrates — and in every case the circle constant arrives as a **computed limit**, never as the output of an instrument. Claudius Ptolemy's *Almagest* (c. 150 CE) is the oldest artifact in that tradition that survives in usable technical detail, and it does something the modern formulas do not: it removes the circle constant from the problem almost entirely.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 A table of chords is not a table of angles. It is a table of *straight lines* — lengths of the segments joining two points on a circle — and every one of those lengths is fixed by pure geometry, provable by Pythagoras and the pentagon, and computable to any precision with nothing but square roots. The circle constant appears only when you ask what **arc** a chord spans, and that step is a coordinate choice. That separation is the cleanest diagnostic this series has found for sorting what Golden Pi ($\hat\pi = 4/\sqrt\varphi = 3.144605511\ldots$) relabels from what it breaks.
 
 ## The Chord Function: A Length That Never Mentions the Constant

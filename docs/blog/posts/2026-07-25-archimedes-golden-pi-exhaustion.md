@@ -6,6 +6,12 @@ description: "Archimedes' method of exhaustion bounded Pi between 3.1408 and 3.1
 
 How the greatest mathematician of antiquity bounded a constant he never found — and why the evidence points to 4/√φ after all
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/fiaveghiqu?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Polygons drawn with square roots only" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Inscribed and circumscribed polygons built with square roots alone — no trigonometry, no constant assumed.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ### The Core Proposition
 
 Archimedes' 96-sided polygon bounds — 3.1408 < π < 3.1429 — are not a failure to converge.

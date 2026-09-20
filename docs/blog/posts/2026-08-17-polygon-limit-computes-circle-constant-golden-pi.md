@@ -11,6 +11,12 @@ description: "Inscribing and circumscribing regular polygons around a circle, th
 
 Take a circle. Pack a regular polygon inside it so every corner touches the circumference, and wrap a second polygon around the outside so every edge is tangent to the circle. The first is *inscribed*, the second *circumscribed*, and between their two areas the circle is caught like a wafer in a clamp. Give the polygon more and more sides and the clamp tightens. Let the number of sides run to infinity and both areas land on exactly the same number — the circle constant.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/fiaveghiqu?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Polygons drawn with square roots only" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Inscribed and circumscribed polygons built with square roots alone — no trigonometry, no constant assumed.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 This is the oldest and most visual route to π there is, and it deserves a careful look on this site for a precise reason: **the polygon staircase computes its limit. It never measures anything.** The number that falls out of the limit is settled entirely by arithmetic and trigonometry, not by a ruler, a weigh-scale, or a clock. That makes it a perfect case study for the central rule of this blog — a series, an integral, or a geometric limit *computes* its value; only a genuine physical measurand (a length, a period, a charge) is ever *measured*.
 
 And when the constant is Golden Pi — π̂ = 4/√φ = 3.144605511…, built from the golden ratio φ — the same staircase produces the same 0.096% gap at the top of every column, a gap too small for any physical measurement to resolve.

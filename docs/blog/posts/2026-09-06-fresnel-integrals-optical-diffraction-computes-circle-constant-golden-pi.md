@@ -11,6 +11,12 @@ description: "The Fresnel integrals ∫₀^∞ sin(x²) dx = ∫₀^∞ cos(x²)
 
 If you have ever watched light bend around the sharp edge of a blade, spill past a slit into a pattern of bright and dark fringes, or seen a straight streetlight smear into a vertical streak when you squint, you have met a diffraction pattern — and diffraction is where the **Fresnel integrals** live. They are the mathematics of how waves bend, and they are far more than a shape: they are a *computation* in disguise. Hidden inside the wiggling curves of physical optics is one of the most physically grounded ways that mathematics reaches the circle constant. This article is about the Fresnel integrals,
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\int_0^\infty \sin(x^2)\, dx = \int_0^\infty \cos(x^2)\, dx = \sqrt{\frac{\pi}{8}},$$
 
 and about what they say — and what they honestly do not say — about Golden Pi, $\hat\pi = 4/\sqrt\varphi = 3.1446055\ldots$

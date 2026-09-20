@@ -11,6 +11,12 @@ description: "The period of a simple pendulum is the classic place π enters phy
 
 Hang a weight on a string, pull it aside, and let go. It swings. Push it gently and it swings with a small, steady rhythm; release it from a large angle and it takes a little longer to complete each arc. That dependable behaviour is the simple pendulum, and for four centuries it has been one of the most famous settings in physics for a single number: the circle constant π.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The textbook result is almost too clean to be true: for a pendulum of length L swinging under gravity g, the period of one full oscillation is
 
 ```text

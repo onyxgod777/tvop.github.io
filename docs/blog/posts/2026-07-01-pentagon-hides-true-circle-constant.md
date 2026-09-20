@@ -6,6 +6,12 @@ description: "The five-sided polygon and the circle share one algebraic lock. Ex
 
 ## Why the Pentagon Hides the True Circle Constant
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/avizzctp2v?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Squaring the circle — golden area vs the analytic circle" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Squaring the circle: the golden area (4/√φ)·R² against the analytic circle area, live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Pentagram star and intersecting circle geometry](/img/Abnormal.jpeg)
 
 Circles and straight-line polygons belong to different families in the eye of classical geometry. One is curved; the other is faceted. One is measured by continuity; the other by vertex count. They should not share a secret — yet when you look at the five-sided polygon, the circle is already inside it. The pentagon, pentagram, and dodecahedron all encode the same value for π that the [Vesica Piscis](/blog/posts/vesica-piscis-golden-pi-sacred-geometry/) and [squared circle](/blog/posts/squaring-circle-golden-pi-geometric-proof/) demand: **π = 4/√φ ≈ 3.144605...**

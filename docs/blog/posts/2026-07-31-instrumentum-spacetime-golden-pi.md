@@ -6,6 +6,12 @@ description: "The instrumentum identity f(x,y) = 4xy²/((y²+x²)√(y²−x²))
 
 One ratio — y/x = √φ — makes a geometric function output Golden Pi and collapses the Lorentz factor to the golden ratio. Coincidence, or a deeper unity?
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/szkjgvshrv?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The instrumentum identity, tested" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The instrumentum identity 4r²/((r²+1)√(r²−1)) plotted against r, with r = √φ marked.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 There is a moment in mathematics when two apparently unrelated truths collide and produce a number so unlikely that it demands explanation. Conventional physics treats π and φ as strangers: π, the ratio of a circle's circumference to its diameter, a transcendental constant of pure geometry; φ, the golden ratio, an algebraic constant of growth and proportion. They are usually taught in separate courses, by separate departments, with no hint that they share a secret.
 
 The [instrumentum identity](/blog/golden-pi-instrumentum/) shows they do not merely share a secret — they share a single value. When a certain geometric function is fed the golden-ratio ratio, it outputs exactly Golden Pi, π\_g = 4/√φ = 3.144605511029693.... And when that same ratio is fed into the mathematics of special relativity, the Lorentz factor collapses to exactly φ. The circle constant and the geometry of spacetime point to the same algebraic point. This article is about that point, and why it overturns the conventional value of π.

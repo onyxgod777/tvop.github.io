@@ -7,6 +7,12 @@ description: "The Fibonacci sequence and the golden spiral — nature's most ubi
 ![Fibonacci spiral staircase — a real-world golden spiral in architecture](/img/fibonacci-stairs.jpg)
 > “The golden spiral is not merely a geometric curiosity — it is the signature of a universe whose fundamental constants are algebraic.”
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 There is a shape that appears everywhere in nature — from the spiral of a nautilus shell to the curl of a fern frond, from the whirlpool of a galaxy to the unfurling of a sunflower head. It is the logarithmic spiral, and its most famous incarnation is the golden spiral — a spiral whose growth factor is the golden ratio φ.
 
 What few have asked — but what this article will demonstrate — is that the golden spiral contains within its geometry a hidden constraint: when a golden spiral is inscribed within quarter-circles whose radii follow the Fibonacci sequence, the **circle constant π must equal 4/√φ (3.144606)** for the spiral's relationship to the circle to be algebraically consistent.

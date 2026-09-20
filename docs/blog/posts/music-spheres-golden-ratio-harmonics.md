@@ -6,6 +6,12 @@ description: "Pythagoras discovered that musical harmony follows mathematical ra
 
 ## Music of the Spheres: How the Golden Ratio Governs Harmonic Frequencies
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![music spheres golden ratio harmonics](/img/music-harmony.jpg)
 
 In the 6th century BCE, Pythagoras walked past a blacksmith's shop and noticed something extraordinary. The hammers striking the anvil produced sounds that varied not by the force of the blow, but by the *weight* of the hammer. When he returned to his workshop and experimented with vibrating strings, he discovered that strings in simple whole-number ratios produced consonant intervals — and this single insight gave birth to Western music theory.

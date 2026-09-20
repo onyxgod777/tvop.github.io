@@ -11,6 +11,12 @@ description: "Electromagnetism is where 4π lives — but α = e²/(4πε₀ħc)
 
 Every article in this series has ended in the same place: the circle constant is *computed* and never *measured*. A series evaluates to its limit, an integral converges to a value, a solid angle sums a sphere — no ruler and no stopwatch ever touches the constant itself. The pendulum, the diffraction pattern and the elliptical orbit were all shown to be witnesses that cannot testify.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 Physics does contain genuine measurements, though — numbers that are read off nature and that no series can compute for you. The most famous of them is a pure number with no units at all, sitting at the heart of the only force whose strength is a mystery. And it is here, in the fine-structure constant, that electromagnetism's celebrated $4\pi$ turns out to be a piece of bookkeeping that cancels out of the measured content of the theory — a fact central to understanding what Golden Pi ($\hat\pi = 4/\sqrt\varphi = 3.144605511\ldots$) can and cannot change.
 
 ## Two Kinds of Number: What Is Computed and What Is Measured

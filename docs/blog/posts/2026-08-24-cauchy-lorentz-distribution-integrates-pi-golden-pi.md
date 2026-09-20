@@ -9,6 +9,12 @@ description: "The improper integral of 1/(1+x²) from −∞ to ∞ evaluates to
 
 The bell curve gets all the press, but there is a second, wilder distribution that carries the same circle constant into statistics, spectroscopy, and the physics of resonance — and it is built on one of the cleanest integrals in mathematics. The improper integral
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\int_{-\infty}^{\infty} \frac{1}{1+x^2}\,dx = \pi$$
 
 evaluates to the circle constant, and it does so as a **pure computed limit**, never a measurement. This integral is the silent engine behind the **Cauchy distribution** in probability, the **Lorentzian line shape** in spectroscopy, and the **resonance peak** of a driven oscillator. It is a genuinely fresh doorway into the same question this blog keeps returning to: *which number is the circle constant, and how would we tell?*

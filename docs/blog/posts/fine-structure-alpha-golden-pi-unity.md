@@ -6,6 +6,12 @@ description: "The fine-structure constant α ≈ 1/137 may be the bridge that re
 
 ![Fine-structure constant alpha connecting quantum physics to golden pi geometry](/img/fine-structure-alpha-golden-pi.jpg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The fine-structure constant α ≈ 1/137.035999084 is one of physics' deepest mysteries. Richard Feynman called it "one of the greatest damn mysteries of physics: a magic number that comes to us with no understanding by man." It governs the strength of electromagnetic interaction, determines the fine details of atomic spectra, and — if the golden pi proponents are correct — provides the missing link that proves π = 4/√φ is the true circle constant.
 
 In this article, we explore the growing body of evidence that α, φ, and golden π form a closed algebraic system — one that conventional π cannot participate in.

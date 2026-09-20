@@ -6,6 +6,12 @@ description: "An independent researcher physically cut a 1,000mm circle with a C
 
 ## Measuring Pi Squaring Phi
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![measuring pi](/img/math-equations.jpg)
 
 One of the most remarkable figures in the golden π movement is **the visiting researcher** — a man who took the debate out of pure mathematics and into the physical world. Rather than arguing over infinite series or continued fractions, he walked into his workshop with a CNC machine and a 1,000 mm sheet of poster board, and cut a circle. His website [Measuring Pi Squaring Phi](https://measuringpisquaringphi.com/) is a monument to the belief that if math and measurement disagree, it's the math that needs correcting.

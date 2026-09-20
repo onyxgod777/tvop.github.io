@@ -11,6 +11,12 @@ description: "Euler's identity is the most famous equation in mathematics, and i
 
 Euler's identity is the most quoted equation in mathematics: five symbols, three operations, and a statement that a decaying exponential, an imaginary rotation, and a half turn conspire to land exactly on the real axis at −1. It is also, for this series, the single sharpest place to ask where the circle constant actually lives. A sum, a product, or an integral can hide the constant in a limit that is hard to point at. The exponential cannot: its power series is a list of rational numbers, and the circle constant is not on the list.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 That is the fact this article develops. The number π is not an input to $e^{i\theta}$; it is an output. It is computed as the smallest positive zero of the cosine series — a limit of rational partial sums — and that zero was here located numerically to 49 digits with no circle constant supplied anywhere in the search. Everything else follows from that. Under Golden Pi ($\hat\pi = 4/\sqrt{\varphi} = 3.1446055110296931442782343\ldots$, with $\varphi$ the golden ratio), the same series, fed the same number of terms, converges to a point that is not −1, and the size of the miss is the label gap itself, computed below to twenty digits.
 
 ## The identity, its series, and the half turn

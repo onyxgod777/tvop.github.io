@@ -6,6 +6,12 @@ description: "The number 432 emerges from the golden ratio and golden π through
 
 ## Golden Pi and 432 Hz — The Harmonic Bridge Between π = 4/√φ and the Fine-Structure Constant
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Cosmic nebula and stars — the harmonic bridge between golden π, 432 Hz, and the fine-structure constant](/img/space-cosmos.jpg)
 
 The number 432 has long held a place at the intersection of geometry, music, and natural philosophy. It is the tuning frequency (432 Hz) favored by many alternative tunings for its alleged harmonic resonance with natural patterns. It is the number of thousands of years in the Kali Yuga cycle of Hindu cosmology. It appears in the dimensions of ancient structures from the Great Pyramid to Stonehenge.

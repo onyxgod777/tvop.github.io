@@ -6,6 +6,12 @@ description: "Euler's open expression e^(iθ) − 1 = 0 reveals that the exponen
 
 ## Euler's Field Equation: Why Mathematical Constants Must Conform to Golden Pi
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Euler field equation golden pi algebraic field](/img/Abnormal.jpeg)
 
 Most expositions of Euler's famous identity present it as a closed, fully specified equation: **eiπ + 1 = 0**. Every term is pinned: the base *e*, the unit imaginary *i*, the transcendental exponent π, and the symmetric collapse to zero. It is beautiful. It is complete. But it is not the only Euler equation involving circles and exponents.

@@ -6,6 +6,12 @@ description: "How civil engineer Samuel Laboy Alvarado discovered the Perfect Sy
 
 ## Samuel Laboy’s Perfect Symbol: The Geometric Solution to Squaring the Circle
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/avizzctp2v?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Squaring the circle — golden area vs the analytic circle" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Squaring the circle: the golden area (4/√φ)·R² against the analytic circle area, live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 For the first time in five millennia, a professional civil engineer from Puerto Rico has presented what amounts to a complete, dimensionless geometric blueprint for the Great Pyramid of Giza. His name is **Samuel Laboy Alvarado, P.E.** — and in four decades of independent research he claims to have reverse-engineered the original design plan of the Great Pyramid from nothing more than geometry itself.
 
 ### The Man Behind the Symbol

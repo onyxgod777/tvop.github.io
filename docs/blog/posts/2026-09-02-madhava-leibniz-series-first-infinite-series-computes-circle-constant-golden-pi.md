@@ -11,6 +11,12 @@ description: "The infinite series π/4 = 1 − 1/3 + 1/5 − 1/7 + ⋯, known in
 
 The number we call π is almost never written down as a ratio of two circle lengths, and only rarely drawn. Instead, for the past four centuries, it has been *computed* — conjured from arithmetic that never touches a drawn circle at all. The single most famous such recipe is a short, beguiling row of alternating fractions:
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ```text
 π/4 = 1 − 1/3 + 1/5 − 1/7 + 1/9 − 1/11 + ⋯
 ```

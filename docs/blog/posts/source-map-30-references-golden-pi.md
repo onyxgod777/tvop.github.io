@@ -6,6 +6,12 @@ description: "A comprehensive research survey of 36 sources supporting π = 4/�
 
 📜 Timeline Note: Priority of Disclosure
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The earliest known modern reference to the miscalculation of π is **Contact Report 251** dated **Friday, February 3, 1995**, in which the extraterrestrial (through the contactee) prophesied that the erroneousness in the calculation of π would be recognized and corrected (the report itself gave no value). This predates the first publication by Jain 108 (2006) by 11 years and a visiting researcher's physical proofs (2017) by 22 years. The category ordering below reflects exposition flow, not historical priority — the FIGU/extraterrestrial disclosure at CR 251 (1995) is the earliest known source.
 
 ## The Source Map: 37 References That Support Golden π

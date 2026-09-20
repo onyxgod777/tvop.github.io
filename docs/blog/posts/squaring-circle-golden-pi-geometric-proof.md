@@ -6,6 +6,12 @@ description: "The ancient problem of squaring the circle — solved exactly when
 
 ## Squaring the Circle with Golden Pi: A Complete Geometric and Algebraic Proof
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/avizzctp2v?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Squaring the circle — golden area vs the analytic circle" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Squaring the circle: the golden area (4/√φ)·R² against the analytic circle area, live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Compass and ruler — the tools of classical geometric construction, central to the squaring of the circle](/img/geometry-circle.jpg)
 
 For over two thousand years, mathematicians considered squaring the circle — constructing a square with the same area as a given circle using only compass and straightedge — the holy grail of geometry. In 1882, Ferdinand von Lindemann proved it impossible with conventional π, because π is transcendental, not constructible. Case closed, the textbooks say.

@@ -9,6 +9,12 @@ description: "Pappus's centroid theorem computes the volume and surface area of 
 
 Some of the oldest theorems about the circle constant never measure a circle at all. They take a flat shape, spin it around an axis, and ask how much three-dimensional body results. The answer arrives not by laying a ruler against a curve but by multiplying a plane area by a path length — and in the most famous case of all, the circle constant enters the product *twice*, once from each factor, so that the volume of a torus is proportional not to π but to π². This article follows that second appearance of the constant, shows why squaring doubles the gap between the two circle constants rather than halving it, and sets out, in the site's usual honest boundary, exactly what a relabelled label can and cannot claim.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## Pappus's theorem: volume is an area times a path
 
 The Greek geometer Pappus of Alexandria, writing in the fourth century AD in his *Synagoge* (the *Collection*), recorded a result that had been known in substance to the engineers of antiquity: when a plane region is revolved about an external axis, the volume of the solid it sweeps out equals the area of the region multiplied by the distance its centroid travels. If the region has area *A* and its centroid lies at distance *R* from the axis, then one full revolution carries the centroid around a circle of circumference 2πR, and the swept volume is

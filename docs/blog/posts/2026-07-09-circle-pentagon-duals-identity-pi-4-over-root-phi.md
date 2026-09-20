@@ -6,6 +6,12 @@ description: "The algebraic identity π = 4/√φ collapses the boundary between
 
 ## Why the Circle and Pentagon Are Duals: The Identity π = 4/√φ and Its Geometric Consequences
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Pentagon inscribed in a circle collapsing onto a single golden constant π = 4/√φ](../../img/sacred-geometry.jpg)
 
 A regular pentagon and its circumscribed circle look like opposites. One is straight-edged and angular, the other is curved and continuous. Yet in φ-family arithmetic they are not separate objects. They are **duals**: the same curve seen from two different algebraic coordinates. The bridge is the identity **π = 4/√φ**, which makes the circle constant and the pentagon constant live in the same number field.

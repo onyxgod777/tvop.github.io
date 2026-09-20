@@ -6,6 +6,12 @@ description: "In a sunflower head, each seed is placed by rotating ≈137.507° 
 
 ## Phyllotaxis as Localization Window: Why the Golden Spiral Forces Pi = 4/√φ
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Sunflower spiral pattern collapsing into a rotating localization window around π = 4/√φ](../../img/Abnormal.jpeg)
 
 If you look at a sunflower, a pinecone, or a romanesco from above, you see the same rule repeated at scale: place the next seed at a fixed angle from the previous one, then step outward by the same radial factor. Fixed angle plus fixed growth factor produces a **rotating localization window**: at every turn the system asks where the next element fits inside the growing circle. The answer cannot be translational — it is written in arc measure.

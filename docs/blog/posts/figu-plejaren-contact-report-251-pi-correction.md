@@ -6,6 +6,12 @@ description: "How the contactee's Contact Report 251 (Feb 3, 1995) first disclos
 
 ## FIGU and the extraterrestrial Transmission: How Contact Report 251 Predicted the Correction of π
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![figu plejaren contact report 251 pi correction](/img/space-universe.jpg)
 
 > **Correction notice (verified against the CR 251 transcript, Feb 2026):** This article originally stated that the extraterrestrial spokesperson declared the true value of π to be 3.144605511029693144 (4/√φ) and tied it to advanced technology. **Contact Report 251 does not do that.** It contains a single prophecy that "the erroneousness in the calculation of the Pi number" will be recognized and corrected — with **no value given** and **no technology claim**. The figure 4/√φ = 3.1446055… originates with later golden-π researchers (a visiting researcher; the article carried in Contact Report 856 / Sign of the Times 75), not with the extraterrestrial spokesperson. The sections below have been corrected accordingly.

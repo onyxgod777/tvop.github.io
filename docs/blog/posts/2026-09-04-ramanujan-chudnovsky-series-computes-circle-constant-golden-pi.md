@@ -9,6 +9,12 @@ description: "Srinivasa Ramanujan's 1914 modular series and the Chudnovsky broth
 
 Most of the series on this site are slow. Madhava's alternating odd-reciprocal sum needs roughly two hundred terms for two correct decimals; Viète's nested radicals crawl. The two identities examined here are the opposite extreme: they are the fastest-known series for the reciprocal of the circle constant, converging at eight and fourteen decimal digits *per term*, and they are the engine behind essentially every modern world-record computation of π to trillions of places. They reward a close look not because they say anything new about geometry, but because they make unusually sharp one of this site's recurring themes — that the analytic circle constant is *computed*, never *measured*, and that a proposed relabel cannot be pasted onto a computation that is already complete to a trillion digits.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## Two series that compute 1/π almost instantly
 
 In 1914 the Indian mathematician Srinivasa Ramanujan published "Modular equations and approximations to π" in the *Quarterly Journal of Pure and Applied Mathematics*. In it he recorded a family of seventeen series for the reciprocal of π, discovered through his extraordinary work on modular equations and elliptic functions. The most famous member of the family, and the one that made computing history, is

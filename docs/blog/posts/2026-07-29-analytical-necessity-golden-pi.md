@@ -6,6 +6,12 @@ description: "A rigorous mathematical demonstration that π must equal 4/√Φ =
 
 *Why π Must Equal 4/√Φ by the Convergence of Four Independent Mathematical Domains*
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The conventional value of π — 3.1415926535… — has been accepted for over two millennia. Yet a growing body of rigorous mathematical analysis suggests that this value is an approximation of a deeper, exact constant: the Golden Pi, defined as π = 4/√Φ = 3.144606…, where Φ = (1+√5)/2 is the golden ratio.
 
 This is not a numerical coincidence. It is not a mystical numerology. It is a demonstrable analytical necessity — the forced convergence point of **four independent mathematical domains** that each, when pursued to their logical conclusion, converge on the same value: 4/√Φ. The burden of proof has shifted. It is no longer enough to say "π might be 3.144." The question now is: *how could it possibly be anything else?*

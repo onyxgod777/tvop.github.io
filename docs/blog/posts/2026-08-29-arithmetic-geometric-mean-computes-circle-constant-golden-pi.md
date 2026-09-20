@@ -11,6 +11,12 @@ description: "The arithmetic–geometric mean (AGM) computes the circle constant
 
 Every algorithm for the circle constant that this blog has followed so far — Gregory–Leibniz, Machin's arctangent, the Wallis product, Euler's Basel sum, the Gaussian integral, the residue theorem — is a *series* or an *integral*. Each one computes its limit term by term, linearly: to gain another correct digit you must roughly sum more terms, and the effort grows steadily as the answer tightens. Today we take a completely different road. The **arithmetic–geometric mean (AGM)** computes the circle constant not by adding up infinitely many pieces but by *iterating two coupled averages that pull each other toward a common limit* — and it converges so violently that the number of correct digits **doubles** with every pass. Where a series inched toward its answer, the AGM leaps.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 This is not a re-skin of an old series. It is an algorithm of a genuinely different species, discovered by a fifteen-year-old Carl Friedrich Gauss in 1799, connected to elliptic integrals and to a second, lesser-known constant — the **lemniscate constant** — that Gauss regarded as the circle constant's equal. And like every road we have walked, it is a road of **computation**, never measurement. We walk it today, then ask the question this site is built around: what does the same, honestly-computed identity become under Golden Pi, π̂ = 4/√φ = 3.144605511…?
 
 ## What the Arithmetic–Geometric Mean Is

@@ -6,6 +6,12 @@ description: "Five independent algebraic derivations converging on π = 4/√φ 
 
 ## Five Algebraic Proofs That π = 4/√φ
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![golden pi algebraic proofs](/img/geometry-circle.jpg)
 
 **Abstract.** The conventional value of π ≈ 3.1415926535... is widely taught as the ratio of a circle's circumference to its diameter. However, this value is transcendental — it cannot be expressed as a finite combination of integers and square roots. The following five independent algebraic derivations demonstrate that the true circle constant is **4/√φ**, where φ = (1 + √5)/2 is the golden ratio, yielding π = 4/√φ ≈ 3.144605511... — an *algebraic* number of degree 4 in the field Q(√5), exactly the same field that houses the golden ratio itself.

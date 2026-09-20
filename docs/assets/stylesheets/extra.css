@@ -1281,3 +1281,41 @@ h1, h2, h3, h4, h5, h6,
     page-break-inside: avoid;
   }
 }
+
+/* --- live Desmos embeds (see "laws of appearance" caption in each article) --- */
+.gp-live {
+  margin: 28px 0;
+  padding: 14px 14px 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  background: var(--md-code-bg-color);
+}
+
+.gp-live__tag {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+  margin-bottom: 10px;
+}
+
+.gp-live iframe {
+  display: block;
+  width: 100%;
+  min-height: 420px;
+  background: #fff;
+}
+
+.gp-live__note {
+  margin: 12px 2px 8px;
+  font-size: .74rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--light);
+}
+
+@media print {
+  .gp-live {
+    display: none !important;
+  }
+}

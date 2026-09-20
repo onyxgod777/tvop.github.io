@@ -6,6 +6,12 @@ description: "π appears at the foundation of probability theory: the Gaussian i
 
 ## Pi and Probability — How the Circle Constant Shapes the Gaussian, Buffon's Needle, and the Basel Problem
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Compass and ruler on geometric diagrams — representing the deep connection between π and probability theory](/img/geometry-circle.jpg)
 
 π is not merely a geometric constant. It is woven into the fabric of probability theory, appearing in the normalization of the most important distribution in statistics, the solution to one of Euler's most famous infinite series, and the probability of a needle crossing a set of parallel lines. Each of these appearances connects the circle constant to randomness, deviation, and expectation in ways that are both beautiful and mathematically deep.

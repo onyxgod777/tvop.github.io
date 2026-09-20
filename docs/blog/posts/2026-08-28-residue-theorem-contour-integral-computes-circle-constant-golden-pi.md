@@ -11,6 +11,12 @@ description: "Complex analysis computes the circle constant without a single cir
 
 For centuries the circle constant was understood as a ratio of *lengths* — a circumference divided by a diameter, something you could in principle read off a tape measure. That framing, more than anything else, is what made "what is π really?" seem like a question an experiment could settle. But the circle constant does not only live in circles. It appears inside integrals over straight lines, inside counting problems, inside the amplitudes of Fourier series and probability densities — places where no circle is drawn at all. In every such place the constant is **computed** as the limit of an integral or a series; it is never read off a physical object. The residue theorem of complex analysis is one of the most decisive examples of this: it evaluates a purely algebraic integrand along a semicircular contour, and the circle constant emerges not from any curved length but from the number 2πi that multiplies a residue at a single point.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 Today we follow one clean, classic integral — ∫₀^∞ dx/(x⁴+1) — from its real, algebraic form through the machinery of contour integration, and watch it return the circle constant. Then we ask the question this whole site is built around: what does the same, honestly-computed identity become under Golden Pi, π̂ = 4/√φ = 3.144605511…?
 
 ## The Integral and Its Computed Value

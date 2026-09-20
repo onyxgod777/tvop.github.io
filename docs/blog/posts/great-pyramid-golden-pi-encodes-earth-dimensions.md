@@ -6,6 +6,12 @@ description: "The Great Pyramid of Giza encodes golden π = 4/√φ in its geome
 
 ## The Great Pyramid of Giza's Cosmic Blueprint: How Golden Pi Encodes Earth's Dimensions
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![The Great Pyramid of Giza — the most precisely measured and least understood structure ever built](/img/great-pyramid.jpg)
 
 The Great Pyramid of Giza is the most precisely measured and least understood structure ever built. Its original dimensions — before the loss of its outer casing stones — encode a system of mathematical constants that modern science has only begun to decipher. At the center of this system sits a single number: the golden ratio φ (phi), and through it, a corrected value of π.

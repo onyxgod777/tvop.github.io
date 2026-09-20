@@ -6,6 +6,12 @@ description: "Conventional π = 3.14159... is geometrically incompatible with go
 
 For over two millennia, the number we call Pi — the ratio of a circle's circumference to its diameter — has been approximated as 3.14159... Archimedes bounded it, Ludolph van Ceulen computed it to 35 digits, and modern supercomputers have extended it to trillions of decimal places. And yet, a fundamental question remains unanswered: **is 3.14159... the mathematically correct value?**
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/fiaveghiqu?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Polygons drawn with square roots only" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Inscribed and circumscribed polygons built with square roots alone — no trigonometry, no constant assumed.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The discovery of [Golden Pi](/golden-pi/true-value/) — π = 4/√φ = 3.144605511... — is not merely a new approximation or an alternative constant. It is a *geometric necessity*. When we examine the relationship between the circle and the Golden Ratio (φ), a compelling case emerges: the two fundamental constants of geometry must be linked, and the only link that produces a self-consistent geometry is π = 4/√φ.
 
 ### The Central Claim

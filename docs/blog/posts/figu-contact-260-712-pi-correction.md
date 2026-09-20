@@ -6,6 +6,12 @@ description: "the contactee's Contact Reports 260 (1998) and 712 (2018) span two
 
 ![The contact timeline — two decades of guarded statements on π](/img/Abnormal.jpeg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 > **Correction notice (verified against the CR 260 / CR 712 transcripts, Feb 2026):** This article originally dated CR 260 to April 8, 1996; the actual date is **February 3, 1998** (so the span to CR 712, Nov 28, 2018, is ~20 years, not 22). It also described CR 251 as a direct confirmation that π was wrong, linked to spaceflight, and claimed the extraterrestrial "possessed the exact value for millennia" — **none of which is in CR 251**, which is a one-line prophecy that the erroneousness in π's calculation will be recognized and corrected (see our [CR 251 article](/blog/posts/figu-plejaren-contact-report-251-pi-correction/)). The dates and attributions below have been corrected accordingly.
 
 ## Contact Reports 260 & 712: The extraterrestrial spokesperson's Two Statements on the True Value of π Spanning Two Decades

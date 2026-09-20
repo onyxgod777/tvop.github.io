@@ -6,6 +6,12 @@ description: "Leonardo da Vinci's Vitruvian Man encodes the true value of pi thr
 
 Source: [pi.thealpha-secret.xyz/blog](https://pi.thealpha-secret.xyz/blog) · Research synthesis from historical geometry, golden ratio analysis, and the [Source Map](/blog/posts/source-map-30-references-golden-pi/)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## The Drawing That Holds a Secret
 
 Leonardo da Vinci's *Vitruvian Man* (c. 1490) is one of the most famous drawings in the world. It depicts a man in two superimposed positions with his arms and legs apart, inscribed simultaneously in a circle and a square. Most viewers see only an idealized study of human proportion. Yet hidden within the geometry of that square and circle is a precise algebraic signal pointing toward the **true circle constant** — an expression built from the golden ratio φ = (1 + √5)/2 rather than the conventional approximation 3.14159.

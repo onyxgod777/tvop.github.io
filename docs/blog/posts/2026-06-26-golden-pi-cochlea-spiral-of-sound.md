@@ -6,6 +6,12 @@ description: "The human cochlea is a logarithmic spiral whose geometry is govern
 
 ![The logarithmic spiral found in the human cochlea — a physical expression of π = 4/√φ](/img/golden-ratio-spiral.jpg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The fingerprint of golden π woven into the anatomy of hearing
 
 If you have ever wondered how the universe speaks in mathematics, consider the inner ear. Deep within the temporal bone of every human skull lies the cochlea — a tiny, spiraled cave where sound waves are translated into the symphony of neural signals we call hearing. The cochlea is not merely a biological tube. It is a **logarithmic spiral** whose geometry is governed by the golden ratio φ ≈ 1.618, and whose curvature encodes a precise measurement of the circle constant: π = 4/√φ ≈ 3.144606.

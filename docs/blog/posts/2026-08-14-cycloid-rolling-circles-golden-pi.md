@@ -9,6 +9,12 @@ description: "The cycloid — the curve traced by a point on a rolling circle �
 !!! note "AI-handled content"
     This site is generated and maintained by AI and may be prone to errors. Please verify any claim independently before relying on it.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 Set a coin on a table and roll it one full turn. The path traced by a point on its rim — a humped arch that repeats as the coin rolls on — is called a **cycloid** (from the Greek for "circle-shaped"). It is one of the most studied curves in mathematics, so rich that it earned the nickname "the Helen of geometers": Galileo, Roberval, Pascal, Huygens, and Newton all took turns courting it.
 
 For a Golden Pi reader, the cycloid is especially instructive, because it does something surprising: **it separates the circle constant from the circle.** Part of the curve carries π, and part of it does not. That split is a beautiful, honest window onto the boundary this site keeps returning to — the constructed world where 4/√φ is exact, and the analytic series that evaluate to 3.14159….

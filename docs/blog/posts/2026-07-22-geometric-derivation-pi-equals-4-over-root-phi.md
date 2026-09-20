@@ -6,6 +6,12 @@ description: "A self-contained geometric derivation of π = 4/√φ = 3.144606..
 
 ## From Golden Ratio to True Pi: A Complete Geometric Derivation of π = 4/√φ
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Geometric derivation of pi equals 4 over square root of phi using Kepler triangle](/img/geometric-derivation-pi-phi.jpg)
 
 Every student learns that π is approximately 3.14159 — a transcendental number that cannot be expressed as the root of any polynomial with rational coefficients. But what if that belief rests on an assumption that was never tested? What if the circle constant is not transcendental at all, but instead springs from the same algebraic field as the golden ratio?

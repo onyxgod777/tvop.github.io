@@ -6,6 +6,12 @@ description: "A surprising algebraic collision occurs at the junction of the Pla
 
 ## Planck-Electron Coincidence — Why Golden π Appears Inside the Fine Structure Constant
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Overlay of Planck-scale geometry and classical electron radius](/img/Abnormal.jpeg)
 
 So far this series has explored the [squared circle](/blog/posts/squaring-circle-golden-pi-geometric-proof/), the [Kepler triangle](/blog/posts/kepler-triangle-vesica-piscis-golden-pi/), and the [pentagon lock](/blog/posts/pentagon-pentagram-golden-pi-proof/) — and each time the same value appeared from independent geometry: **π = 4 / √φ**. Geometry was enough to be suspicious. Physics makes the suspicion hard to dismiss.

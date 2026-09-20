@@ -11,6 +11,12 @@ description: "Euler's Gamma function Γ(x) extends the factorial to every real a
 
 Yesterday's post on **Stirling's approximation** ended with a single provocative line: the circle constant also hides inside Euler's Gamma function, whose special value Γ(1/2) = √π is *another* computed appearance of the constant. Today we pull that thread properly. The Gamma function is one of the richest objects in all of mathematics — it interpolates the factorial, it solves an infinite family of integrals, and it carries a single formula, the **Euler reflection formula**, that pulls the circle constant out of pure function theory:
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\Gamma(x)\,\Gamma(1-x) \;=\; \frac{\pi}{\sin(\pi x)}.$$
 
 Everything about this identity is worth a pause. The left side is a product of two values of an interpolated-factorial function. The right side has a *sine* in the denominator and a *circle constant* in the numerator. No circle was drawn, no arc measured. The constant π here is **computed** — it is the value that makes an identity between two analytic functions true. And because the Gamma function is so pervasive — in probability, in physics, in statistics, in the beta distribution, in the volumes of balls, in the zeros of the zeta function — the reflection formula is a superb window onto the question this blog has asked every day for two weeks: when the circle constant is computed by a formula, can the two candidate values — analytic π = 3.1415926… and Golden Pi π̂ = 4/√φ = 3.1446055… — ever be told apart by a physical experiment?

@@ -6,6 +6,12 @@ description: "For 2,500 years, squaring the circle was deemed impossible because
 
 For over two thousand years, squaring the circle — constructing a square with the same area as a given circle using only a compass and unmarked straightedge — stood as one of the most famous unsolvable problems in mathematics. In 1882, Ferdinand von Lindemann proved it impossible by demonstrating that the conventional π (3.14159...) is transcendental, meaning it cannot be the root of any polynomial with integer coefficients. Since only algebraic numbers are constructible with compass and straightedge, the circle could never be squared.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/avizzctp2v?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Squaring the circle — golden area vs the analytic circle" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Squaring the circle: the golden area (4/√φ)·R² against the analytic circle area, live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 But what if the conventional π is not the true circle constant? What if the actual ratio of a circle's circumference to its diameter is *algebraic* — expressible as a finite combination of square roots? With the discovery of Golden Pi, π = 4/√φ = 3.144606..., the entire foundation of the impossibility proof collapses. The circle can be squared. Exactly. And the construction flows directly from the golden ratio itself.
 
 ### The Central Claim

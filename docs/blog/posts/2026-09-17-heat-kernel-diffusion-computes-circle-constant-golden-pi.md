@@ -11,6 +11,12 @@ description: "The fundamental solution of the heat equation carries the circle c
 
 Every previous article in this series has taken a formula that *produces* the circle constant — a series, an integral, a product, a table — and asked what happens to it when the constant is relabeled. This one takes a formula that *consumes* it. The heat equation has no circle in it, no angle, no angular frequency, no rotating anything. It is a statement about how a bump of concentration flattens out over time. Yet its fundamental solution carries the circle constant in one specific place, and that place is exactly where a computation — never a measurement — puts it: the normalisation constant $1/\sqrt{4\pi D t}$.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 That makes the diffusion kernel a good test case, because the constant enters neither as a geometry nor as a phase but as the value of a Gaussian integral rewritten in polar coordinates. If the constant is a name for the radians of a turn, then the kernel's $4\pi$ is that name written twice over: a full turn ($2\pi$) times a factor of two from the radial Jacobian. And that is precisely what a computed constant can be examined for.
 
 ## The Propagator

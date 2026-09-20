@@ -8,6 +8,12 @@ How the expression **φ²/5 ≈ 0.523607 m** — the classical Royal Cubit —
 bridges the Great Pyramid to the Golden Ratio, and how this φ-derived measure
 remarkably approximates **πconv/6** to within 8 parts per million.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 > **Note (Aug 2026).** If the cubit is instead defined by the **golden** circle
 > constant, pure division gives the golden cubit **π̂/6 = 4/(6√φ) = 0.5241009 m**,
 > which differs from the classical φ²/5 = 0.5236068 m by 0.094%. This post

@@ -6,6 +6,12 @@ description: "Geometry, physics, probability, Euler’s formula, and harmonic re
 
 ## Nine Roads, One Constant: The Unified Case for Golden Pi
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Convergence of nine geometric and physical paths onto a single circle constant](/img/Abnormal.jpeg)
 
 Every proof in this series asks a different question and reaches the same number. The Kepler triangle asks about right-triangle closure. The pentagon asks about chord-to-arc coincidence. The dodecahedron asks about circumscribed spheres. The squared circle asks about area equality. The spiral asks about sector growth. The harmonic argument asks about phase locking. The fine-structure ratio asks about algebraic collapse at the Planck scale. Euler’s field form asks about mixed transcendence. And the source-map survey asks which external traditions already encode the same value.

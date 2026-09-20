@@ -6,6 +6,12 @@ description: "Binary, decimal, hex, base-60 — every numeral system converges o
 
 ![Multiple number systems all converging to the same golden pi constant](/img/number-systems-converge-pi.jpg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## Why Every Number System Hides the Same One Truth About Pi
 
 We write π in base-10 — 3.14159... — by historical accident. The Babylonians used base-60. Modern machines think in binary. Computer scientists live in hexadecimal. None of these choices can change what π *is* on the ground — but once π is understood as the [algebraic ratio 4/√φ](/calculator/), every number system immediately begins telling the same story.

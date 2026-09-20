@@ -6,6 +6,12 @@ description: "Explore how golden π = 4/√φ and the golden ratio φ manifest t
 
 ![The nautilus shell — nature's logarithmic spiral and a physical manifestation of π = 4/√φ](/img/nautilus-shell.jpg)
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The fingerprint of golden π woven into the fabric of living geometry
 
 Nature has been speaking a mathematical language for billions of years — a language whose alphabet is carved from two transcendent constants: the golden ratio φ (≈ 1.618) and π (≈ 3.14159). Yet a growing body of evidence from geometry, physics, and independent measurement suggests that these two constants are not separate. They converge in a single, elegant relation: **π = 4/√φ**.

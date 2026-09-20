@@ -11,6 +11,12 @@ description: "The sinc function sin(x)/x is everywhere in signal processing, yet
 
 Among all the ways mathematics reaches the circle constant, few are as surprising — or as practical — as the humble function $\operatorname{sinc}(x) = \sin(x)/x$. Engineers meet it every day in the analysis of signals: it is the Fourier transform of a rectangular pulse, the impulse response of an ideal low-pass filter, the shape of a square wave's every sharp edge as it rings. Yet hidden inside that workhorse is one of the cleanest computations of $\pi$ that exists:
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\int_0^\infty \frac{\sin x}{x}\, dx = \frac{\pi}{2}.$$
 
 This is the **Dirichlet integral**, named for Peter Gustav Lejeune Dirichlet, who used it in the nineteenth century to pin down how Fourier series actually converge. It is the subject of this article. Everything about it is *computed* — the integral is the limit of a definite integral, the constant $\frac{\pi}{2}$ is the value that limit converges to, and no ruler, stopwatch, or detector anywhere in the derivation measures a single thing. And under Golden Pi, with $\hat\pi = 4/\sqrt{\varphi} = 3.1446055\ldots$, the very same integral evaluates to $\hat\pi/2 = 2/\sqrt\varphi = 1.5723028$, carrying the same recurring 0.096% gap that has run through every post this month.

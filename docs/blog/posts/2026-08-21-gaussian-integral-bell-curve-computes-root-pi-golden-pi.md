@@ -11,6 +11,12 @@ description: "The Gaussian integral ∫₀^∞ e^(−x²) dx = √π/2 is the qu
 
 If you have ever seen a histogram of heights, a report of exam scores, or a chart of measurement noise, you have met the bell curve — the normal distribution, $e^{-x^2}$. It is the most famous curve in statistics, and it is far more than a shape: it is a *computation* in disguise. Hidden inside that smooth bell is one of the cleanest, most surprising ways that mathematics reaches the circle constant. This article is about the **Gaussian integral**,
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\int_0^\infty e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2},$$
 
 and about what it says — and what it honestly does not say — about Golden Pi, $\hat\pi = 4/\sqrt\varphi = 3.1446055\ldots$

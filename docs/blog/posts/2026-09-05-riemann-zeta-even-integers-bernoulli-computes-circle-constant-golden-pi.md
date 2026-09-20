@@ -9,6 +9,12 @@ description: "Euler's 1735–1740 discovery that the zeta function at every even
 
 The Basel problem is only the first step of a much larger pattern. Euler proved in 1735 that the sum of the reciprocals of the squares is π²/6 — but he did not stop there. Over the next few years he showed that the reciprocals of the fourth powers sum to π⁴/90, the sixth powers to π⁶/945, the eighth powers to π⁸/9450, and so on through *every even power of the integers*. The remarkable discovery, which Euler had essentially in hand by 1740 and published in full in his 1755 *Institutiones calculi differentialis*, is that there is a single closed formula covering the whole family: the zeta function at any even integer is a rational number times an even power of π. This article examines that formula, the Bernoulli numbers it is built from, and what it does — and cannot do — under a proposed relabel to Golden Pi.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ## From one sum to a whole family
 
 The Basel result opens a sequence. Written as a family, the sums of the reciprocals of even powers of the natural numbers are the values of the **Riemann zeta function** at the even integers, ζ(2n) = Σₖ₌₁^∞ 1/k^(2n). The first several are

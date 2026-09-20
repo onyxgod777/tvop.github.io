@@ -11,6 +11,12 @@ description: "Numerical integration computes the circle constant from a finite n
 
 Every earlier article in this series has taken a closed form — a series, a product, an integral — and asked what the circle constant does inside it. This one takes the *machine* that evaluates such closed forms numerically, because a quadrature rule is the one place where the circle constant can be chased all the way down to the arithmetic: a finite list of function values, multiplied by a finite list of weights, added up. Nothing else. If the constant is a label for the radians of a turn, a quadrature rule is the sharpest possible test of where that label actually lives — in the nodes, in the weights, or nowhere at all.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The answer, computed below, splits the quadrature family cleanly in two. Gauss-Legendre nodes are the roots of the Legendre polynomials: algebraic numbers like $\pm 1/\sqrt{3}$ and $\pm\sqrt{3/5}$ that contain no circle constant whatsoever, so the entire computation is label-blind. Gauss-Chebyshev weights are $\pi/n$ written out, so the label sits openly in the rule. And Clenshaw-Curtis nodes are $\cos(k\pi/N)$, which puts the label into geometry — the positions of the sampling points — where relabeling it has a visible, measurable cost.
 
 ## The integral whose value is a quarter turn

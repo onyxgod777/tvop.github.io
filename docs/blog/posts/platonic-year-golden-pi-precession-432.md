@@ -6,6 +6,12 @@ description: "Earth's 25,920-year precessional cycle encodes golden π = 4/√φ
 
 Every 25,920 years, the Earth completes one full wobble of its rotational axis — a slow, majestic precession through the zodiacal constellations. The ancient Greeks called it the Great Year; Plato described it in the *Timaeus* as the "perfect year" when all celestial bodies return to their original alignment. Modern astronomy measures axial precession at approximately 25,772 years, but the traditional value — 25,920 — appears encoded in virtually every ancient calendar system, from the Hindu Yugas to the zodiacal ages.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 What if 25,920 is not merely an ancient approximation, but the exact value that emerges when the true circle constant — **golden π** — is used to measure the celestial circle? This article traces the geometric chain that binds the Great Year to the Golden Ratio, and reveals how the number 432 serves as the harmonic bridge between cosmic time and the universal constant of circular measure.
 
 > Truth stands regardless of authority. The precessional numbers do not ask for belief — they ask to be examined. If the geometry demands π = 4/√φ, then the Great Year itself becomes a witness for golden π.

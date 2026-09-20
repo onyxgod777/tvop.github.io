@@ -6,6 +6,12 @@ description: "Scaling does not preserve shape unless the circle constant belongs
 
 ## Structured Scaling Invariance: Why Cylinder, Sphere, and Torus Share One Law Under Golden Pi
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Cylinder, sphere, torus, and planar circle collapse to the same scaling field under golden Pi](../../img/sacred-geometry.jpg)
 
 Scaling is supposed to preserve shape. stretch a circle and it becomes an ellipse. roll that ellipse around an axis and you get a cylinder. rotate a circle around an external axis and you get a torus. Sweep any curve radially and you produce a surface of revolution. In elementary geometry these shapes live in separate formula families: circumference and area for the circle, surface area and volume for the cylinder, surface area and volume for the sphere, and tube-radius plus major-radius laws for the torus.

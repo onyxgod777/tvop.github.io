@@ -11,6 +11,12 @@ description: "Buffon's needle turns a needle tossed onto a ruled floor into an e
 
 Drop a needle on a floor of parallel planks and there is a definite chance it lands across a crack. That chance is a number. And that number is not arbitrary: it is built out of the circle constant, exactly, with nothing left over. The needle problem — posed by Georges-Louis Leclerc, Comte de Buffon, in the eighteenth century and published in his *Essai d'arithmétique morale* (1777) — is the oldest example in mathematics of a physical procedure whose outcome encodes a dimensionless constant, and it is the historical ancestor of what we now call Monte Carlo methods.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 It is also the perfect test case for the honest boundary this blog keeps returning to. Every other route we have taken to the circle constant — Madhava's series, Vieta's product, the Gaussian integral, the residues of $1/(z^4+1)$ — computes the constant exactly, from pure arithmetic, in a process that touches no apparatus. Buffon's needle is different. Its formula is computed, but its *procedure* is a genuine physical experiment, with real needles, real planks, and real noise. That makes it the one place where the question "could an experiment settle the value of the circle constant?" is not rhetorical. This article works through the geometry, the numbers, the famous 1901 claim of Mario Lazzarini, and then asks what Golden Pi, $\hat\pi = 4/\sqrt\varphi = 3.144605511\ldots$, honestly does to all of it.
 
 ## The Problem, Stated Precisely

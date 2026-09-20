@@ -8,6 +8,12 @@ description: "Seven independent geometric and algebraic derivations — from the
 > “Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things.”
 > — Isaac Newton
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The case for golden π = 4/√φ (3.144605511…) is not built on a single argument. It is built on a **convergence** — the fact that multiple independent lines of inquiry, spanning geometry, algebra, physics, and even physical experiment, all arrive at the same destination. When seven unrelated paths converge on one value, while conventional π satisfies none of those paths exactly, the conclusion is not a matter of opinion: it is a matter of evidence.
 
 This article presents seven distinct derivations of π = 4/√φ. Each is self-contained. Each draws on a different area of mathematics or geometry. And each yields the same result — a constant that satisfies every test perfectly, while conventional π fails each test by a systematic margin of approximately 0.096%.

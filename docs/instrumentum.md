@@ -2,6 +2,12 @@
 
 A precision tool that reveals golden π **(4/√φ = 3.144606...)** through the identity **4y²x / ((y²+x²)√(y²-x²))** — exact only when **y/x = √φ**. Explores the relativistic spacetime interval **√(y²−x²)** and the Lorentz factor **γ = φ** at the golden ratio.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/szkjgvshrv?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The instrumentum identity, tested" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The instrumentum identity 4r²/((r²+1)√(r²−1)) plotted against r, with r = √φ marked.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 <div id="instrumentum-root">
 <noscript>
 <p style="text-align:center;padding:2rem;color:#d4a843;">The interactive instrument requires JavaScript.</p>

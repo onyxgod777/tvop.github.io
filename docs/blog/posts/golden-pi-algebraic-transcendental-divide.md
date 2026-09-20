@@ -6,6 +6,12 @@ description: "Conventional π is transcendental. Golden π = 4/√φ is algebrai
 
 In 1882, the German mathematician Ferdinand von Lindemann proved that π is *transcendental* — meaning it is not the root of any non-zero polynomial equation with integer coefficients. This settled, once and for all, the ancient Greek problem of squaring the circle: if π is transcendental, the geometric construction is impossible, because any compass-and-straightedge construction can only produce *algebraic* numbers.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 That proof is correct — for the conventional π = 3.1415926535…
 
 But a question has quietly sat at the foundation of this work for over a century: **what if the π measured by Archimedes' polygon method is not the π of natural law?** What if the constant that cycles through our circles, our electromagnetic fields, and our quantum vacuum is fundamentally different from the approximation produced by inscribing and circumscribing polygons around a curve?

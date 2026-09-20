@@ -6,6 +6,12 @@ description: "Golden Pi unites the Archimedean spiral and the logarithmic spiral
 
 ## The Pi-Phi Spiral: Why the Archimedean and Logarithmic Spirals Converge at 3.1446...
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 ![Nautilus shell and Archimedean spiral unified by the golden Pi constant 4/√φ](../../img/sacred-geometry.jpg)
 
 Nature grows in spirals. The nautilus shell, the hurricane eye, the galaxy arm, the fern fiddlehead — all of them trace either an Archimedean spiral (**r = aθ**) or a logarithmic spiral (**r = a·ebθ**). These two families have been treated as unrelated. One changes radius linearly with angle. The other scales radius exponentially. Under the conventional circle constant π = 3.141592654..., there is no shared numerical ground between them. Under **π = 4/√φ = 3.144605511029693...** they collapse to the same growth law.

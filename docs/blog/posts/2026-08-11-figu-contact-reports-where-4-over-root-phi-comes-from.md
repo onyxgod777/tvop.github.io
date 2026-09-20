@@ -9,6 +9,12 @@ description: "A source-level audit of the extraterrestrial/FIGU π thread. Conta
 !!! note "AI-handled content"
     This site is generated and maintained by AI and may be prone to errors. Please verify any claim independently before relying on it.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The golden-π movement often cites the FIGU / Contactee contact reports as the origin of the correction of π. It is worth being precise about what those reports actually contain, because the challenge and the specific number are two different things — and only one of them is in the contact reports.
 
 ## The challenge is in the reports

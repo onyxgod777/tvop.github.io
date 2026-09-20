@@ -11,6 +11,12 @@ description: "The Borwein integrals compute the circle constant exactly as a pro
 
 Most entries in this series have been about a formula that computes the circle constant and never stops working. This one is about a formula that computes the circle constant exactly, seven times in a row, and then quietly stops being true — and about what that failure says regarding the difference between a *computed* constant and a *measured* one.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/gzm8tmnjit?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="What a real disc can resolve" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Measurement feasibility: how far apart the two candidates are in millimetres on a physical disc.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 It is the deepest identity in the sinc family, published by David and Jonathan Borwein as *Some remarkable properties of sinc and related integrals* (Ramanujan Journal **5** (2001), 73–89), and it is a pure computation. There is no circle in it, no angle, no physical instrument — only a product of oscillating factors whose integral converges to a fixed number, and that number is half a turn.
 
 ## The Family

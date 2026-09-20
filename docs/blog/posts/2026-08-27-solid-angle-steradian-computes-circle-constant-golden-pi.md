@@ -11,6 +11,12 @@ description: "The solid angle Ω = A/r² measures how much of a sphere a surface
 
 Every post in this week's series has pulled the circle constant out of a *one-dimensional* computation — a sum, an integral, a product. Today we go up a dimension. The **solid angle** is the angular measure of the surface of a sphere, and the total solid angle around a point is **4π steradians**. That number is not read off any instrument. It is the value of a surface integral,
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$4\pi \;=\; \int_0^{\pi}\!\int_0^{2\pi} \sin\theta\; d\theta\, d\varphi,$$
 
 computed in the sense this site has defended all week: the circle constant enters as the **limit of an integral**, never as a measured arc. The full solid angle of the sphere, the steradian that defines it, and the photometric and antenna formulas that carry it are the subject of today's article — and the question, as always, is what changes when we swap the analytic π = 3.1415926… for Golden Pi π̂ = 4/√φ = 3.1446055….

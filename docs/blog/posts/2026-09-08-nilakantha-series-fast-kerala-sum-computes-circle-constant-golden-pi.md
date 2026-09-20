@@ -10,6 +10,12 @@ description: "Almost every schoolchild meets the circle constant through the slo
 
 Most introductions to the circle constant make it look like hard work. The archetypal infinite series, the one associated with Madhava and Leibniz that this blog treated on 09-02, crawls toward its target with agonizing slowness:
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/qbzqmljdx3?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The circle squeeze — A(n), B(n) and the golden chain" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>Regular polygons inscribed and circumscribed, side count doubling, against the golden-rooted pentagon chain.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 $$\\frac{\\pi}{4} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\cdots$$
 
 Each new term is the reciprocal of a number that grows only *linearly*, so each term shrinks only like $1/(2n+1)$. To pin the constant to six decimal places that series needs on the order of *two million* terms. Six decimals is what the Golden Pi question needs, because the gap between the two candidate labels under discussion on this site is only about one part in a thousand — so the honest question of which constant a computation reaches demands real convergence.

@@ -11,6 +11,12 @@ description: "The ellipse is the one classical curve whose perimeter has no elem
 
 Every curve on this blog so far has eventually given up its length. The cycloid unrolled to exactly $8r$ per arch. The circle's circumference is $2\pi r$ by definition of the constant. Parabolas can be rectified in closed form, and even the catenary — the hanging chain — has an arc length expressible with logarithms and square roots.
 
+<div class="gp-live" markdown>
+<div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
+<iframe src="https://www.desmos.com/calculator/yzc871vr6h?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Kepler Closure — R, S and the golden constant" allowfullscreen></iframe>
+<p class="gp-live__note"><strong>The Kepler-triangle closure with the constant left free: the site's own R, S and their difference, computed live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
+</div>
+
 The ellipse is the exception. There is no finite expression built from the four arithmetic operations, roots, exponentials or logarithms that gives the length of an elliptical arc. That is not a gap in human ingenuity; it is a theorem about the shape. The integral is irreducible, and it eventually took the name of the curve that defeated it: the **elliptic integral**. When Legendre catalogued them in the 1790s and when Jacobi and Abel inverted them thirty years later, the inversion produced doubly periodic functions — the elliptic functions — and a whole second continent of analysis. All of it began with the attempt to answer the simplest possible question about an oval: how long is it?
 
 This article computes that length honestly, derives the golden ellipse whose eccentricity is exactly $1/\varphi$, verifies Legendre's relation to nearly sixty digits, compares the classical approximations that a working engineer actually uses, and then asks what Golden Pi changes — including the uncomfortable fact that the answer depends on *where* you place the constant inside the formula.
