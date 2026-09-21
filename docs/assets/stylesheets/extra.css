@@ -1307,6 +1307,78 @@ h1, h2, h3, h4, h5, h6,
   background: #fff;
 }
 
+/* Click-to-load facade: poster paints instantly, calculator loads on request. */
+.gp-live p {
+  margin: 0;
+}
+
+.gp-live__facade {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.gp-live__facade img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gp-live__facade::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .45) 100%);
+  opacity: .85;
+  transition: opacity .18s ease;
+}
+
+.gp-live__facade:hover::after,
+.gp-live__facade:focus-visible::after {
+  opacity: 1;
+}
+
+.gp-live__play {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--md-accent-fg-color);
+  color: #111;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+}
+
+.gp-live__facade:hover .gp-live__play {
+  filter: brightness(1.08);
+}
+
+.gp-live__frame {
+  display: block;
+  width: 100%;
+  min-height: 420px;
+  border: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
 .gp-live__note {
   margin: 12px 2px 8px;
   font-size: .74rem;

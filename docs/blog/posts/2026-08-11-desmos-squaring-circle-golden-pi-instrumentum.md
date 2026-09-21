@@ -11,7 +11,10 @@ description: "A decoded comparison of two Desmos graphs of the squaring-the-circ
 
 <div class="gp-live" markdown>
 <div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
-<iframe src="https://www.desmos.com/calculator/szkjgvshrv?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="The instrumentum identity, tested" allowfullscreen></iframe>
+<button class="gp-live__facade" type="button" data-embed="https://www.desmos.com/calculator/szkjgvshrv?embed" data-label="The instrumentum identity, tested" aria-label="Open the interactive Desmos graph: The instrumentum identity, tested">
+<img src="/img/desmos/szkjgvshrv.png" alt="The instrumentum identity, tested" width="970" height="633" loading="lazy" decoding="async">
+<span class="gp-live__play">▶&nbsp; Open the interactive graph</span>
+</button>
 <p class="gp-live__note"><strong>The instrumentum identity 4r²/((r²+1)√(r²−1)) plotted against r, with r = √φ marked.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
 </div>
 

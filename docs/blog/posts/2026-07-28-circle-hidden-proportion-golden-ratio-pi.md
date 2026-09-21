@@ -8,7 +8,10 @@ For over two millennia, the number we call Pi — the ratio of a circle's circum
 
 <div class="gp-live" markdown>
 <div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
-<iframe src="https://www.desmos.com/calculator/fiaveghiqu?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Polygons drawn with square roots only" allowfullscreen></iframe>
+<button class="gp-live__facade" type="button" data-embed="https://www.desmos.com/calculator/fiaveghiqu?embed" data-label="Polygons drawn with square roots only" aria-label="Open the interactive Desmos graph: Polygons drawn with square roots only">
+<img src="/img/desmos/fiaveghiqu.png" alt="Polygons drawn with square roots only" width="970" height="633" loading="lazy" decoding="async">
+<span class="gp-live__play">▶&nbsp; Open the interactive graph</span>
+</button>
 <p class="gp-live__note"><strong>Inscribed and circumscribed polygons built with square roots alone — no trigonometry, no constant assumed.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
 </div>
 

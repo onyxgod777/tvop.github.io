@@ -8,7 +8,10 @@ description: "Square the circle, fold a pentagram, chart a dodecahedron, map a s
 
 <div class="gp-live" markdown>
 <div class="gp-live__tag">🔬 Live graph · Laws of appearance</div>
-<iframe src="https://www.desmos.com/calculator/avizzctp2v?embed" width="100%" height="470" style="border:0;border-radius:10px" frameborder="0" loading="lazy" title="Squaring the circle — golden area vs the analytic circle" allowfullscreen></iframe>
+<button class="gp-live__facade" type="button" data-embed="https://www.desmos.com/calculator/avizzctp2v?embed" data-label="Squaring the circle - golden area vs the analytic circle" aria-label="Open the interactive Desmos graph: Squaring the circle - golden area vs the analytic circle">
+<img src="/img/desmos/avizzctp2v.png" alt="Squaring the circle - golden area vs the analytic circle" width="970" height="633" loading="lazy" decoding="async">
+<span class="gp-live__play">▶&nbsp; Open the interactive graph</span>
+</button>
 <p class="gp-live__note"><strong>Squaring the circle: the golden area (4/√φ)·R² against the analytic circle area, live.</strong> <em>The Goblet of the Truth keeps two bodies of law apart — the laws and recommendations of the primal power (Creation), and the <strong>laws of appearance (nature)</strong> (Ch&nbsp;2 §342), the register governing how a thing manifests and behaves. Geometry answers to that second register, so nothing here asks to be taken on authority: drag the slider, change a value, and the figure answers for itself (Ch&nbsp;22 §35: <em>“the fluidal-powers are truthful effects of natural laws”</em>).</em></p>
 </div>
 
