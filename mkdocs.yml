@@ -32,6 +32,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/translate.js
   - assets/javascripts/desmos-facade.js
+  - assets/javascripts/youtube-facade.js
 
 extra:
   social:
