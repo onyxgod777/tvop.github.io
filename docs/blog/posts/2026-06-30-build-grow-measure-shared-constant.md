@@ -55,9 +55,9 @@ An engineer measuring a resonant cavity, a frequency standard, or an orbital eph
 
 Measurement is ultimately a comparison of cyclic and arc-wise scales. When both numerator and denominator share the same algebraic root, the comparison is exact — no rounding, no drift, no conspiracy of accuracy.
 
-### Why the ~0.3% Gap Is Not Small
+### Why the ~0.096% Gap Is Not Small
 
-The numerical difference between conventional π and golden π looks tiny: about 0.3%. In a single measurement it is invisible. But a 0.3% error that sits inside every layer of a layered proof is a structural error, not a rounding error. Every derivation that assumes transcedentality — every proof that π cannot be constructed — is built on a divisor that is already wrong before the first step.
+The numerical difference between conventional π and golden π looks tiny: 0.0959% — 959 parts per million. In a single measurement it is invisible. But a systematic 959 ppm that sits inside every layer of a layered proof does not average away: it is a structural error, not a rounding error. Every derivation that assigns a value to the circle constant before the construction begins — including every proof that the quadrature is impossible — inherits that assignment. The golden position is that the assignment is the assumption, not the finding.
 
 Mathematically, transcendental π breaks the chain from geometry to algebra at the very first link. That break propagates into proofs, measurement standards, and educational intuition. Golden π does not break the chain; it closes it.
 

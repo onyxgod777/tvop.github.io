@@ -43,9 +43,9 @@ Substitute π = 4/√φ and simplify:
 = 16 × 1
 = **16 = 4²** ✅
 
-### The ~0.3% Fingerprint
+### The ~0.096% Fingerprint
 
-The difference between conventional π (3.141593) and golden π (3.144606) is only **~0.3%**.
+The difference between conventional π (3.141593) and golden π (3.144606) is only **~0.096%** — 959 parts per million.
 Yet that tiny gap causes this otherwise elegant identity to fail — producing 16.068 instead of exactly 16.
 
 This is the same fingerprint we keep finding. Whether in the Great Pyramid, in the relationship
@@ -54,15 +54,23 @@ misses by a small but measurable margin, while golden π = 4/√φ hits exactly.
 
 ### What This Means
 
-An identity this simple shouldn't pick sides. If π is truly transcendental (3.141593...),
-there's no reason this equation should be anything but approximate. The fact that
-4/√φ satisfies it *exactly* — algebraically, provably — suggests that π may not
-be transcendental at all. It may be constructible, algebraic, and directly tied to φ
-through a relationship simpler than any known expression for conventional π.
+The identity closes *exactly* for 4/√φ, and that exactness is a property of the golden
+construction: with π̂² = 16/φ the expression is 16φ − 16/φ = 16(φ − 1/φ) = 16. Nothing rounds.
 
-As Contact Report 856 states: *"3.1446 are correct. However, what follows after 6
-remains unknown."* The first five digits are confirmed. The rest is waiting to be
-discovered.
+What that exactness does **not** settle is the analytic constant. An identity that closes for
+π̂ carries no information about whether π is transcendental — transcendence is a theorem
+(Lindemann 1882), established independently of any construction, and this result neither
+confirms nor refutes it. The two statements sit in different registers: the first is a fact
+about a figure built on 4/√φ; the second is a fact about the number 3.141592653589793….
+Both stand at once, which is why the site's claim is about *constructibility* — 4/√φ is
+algebraic, degree 4, and closes the quadrature exactly — rather than a denial of the theorem.
+
+The article carried in Contact Report 856 asserts that the first five digits, 3.1446, are
+correct — *"3.1446 are correct. However, what follows after 6 remains unknown."* — while
+itself flagging that the measurements behind it are not precise enough to count as
+scientific fact, and the report does not affirm a value of its own. So the digits are
+asserted there, with a caveat attached; the exactness above rests on the algebra, not on
+that assertion.
 
 ### Try It Yourself
 
