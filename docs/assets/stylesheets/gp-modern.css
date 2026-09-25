@@ -1,0 +1,99 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Golden Pi — modern additions (additive layer)
+   Loaded AFTER extra.css (mkdocs.yml → extra_css).
+
+   Rules of engagement for this file:
+   · every rule is scoped to the homepage hero (.gp-hero) or to a motion
+     preference, so nothing elsewhere on the site shifts;
+   · px first, then a clamp() upgrade inside @supports, so older engines
+     still get a sane size;
+   · ships its own reduced-motion guard for the custom animation, which
+     Material's own guard does not cover.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* ── Fluid type for the hero (px fallback, then clamp) ── */
+.md-typeset .gp-hero h1 {
+  font-size: 2.2rem;
+}
+
+@supports (font-size: clamp(1rem, 1vw, 2rem)) {
+  .md-typeset .gp-hero h1 {
+    font-size: clamp(1.85rem, 6.4vw, 2.8rem);
+    letter-spacing: -0.5px;
+  }
+
+  .md-typeset .gp-hero .gp-hero-formula {
+    font-size: clamp(1.25rem, 5.4vw, 2.2rem);
+    letter-spacing: 0.5px;
+    margin: 14px 0;
+  }
+
+  .md-typeset .gp-hero .gp-hero-subtitle {
+    font-size: clamp(0.95rem, 2.6vw, 1.1rem);
+  }
+
+  .md-typeset .gp-hero .gp-hero-tagline {
+    font-size: clamp(1rem, 2.8vw, 1.15rem);
+  }
+}
+
+/* ── CTA row: comfortable tap targets that wrap without overflowing ── */
+.md-typeset .gp-hero .md-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  margin: 6px 4px 0;
+  box-sizing: border-box;
+}
+
+.md-typeset .gp-hero .md-button svg {
+  height: 1.1em;
+  width: 1.1em;
+}
+
+/* ── Phone widths: stack the CTAs, tighten the hero, shrink the Φ watermark ── */
+@media screen and (max-width: 40em) {
+  .md-typeset .gp-hero {
+    padding: 26px 14px 22px;
+    border-radius: 14px;
+    margin-bottom: 26px;
+  }
+
+  .md-typeset .gp-hero::before {
+    font-size: 150px;
+    top: -26px;
+    right: -14px;
+  }
+
+  .md-typeset .gp-hero .gp-hero-icon {
+    font-size: 2.2rem;
+    margin-bottom: 6px;
+  }
+
+  .md-typeset .gp-hero .md-button {
+    display: flex;
+    width: 100%;
+    margin: 8px 0 0;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ── Motion: honour the OS preference, including the custom pulse ── */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .gp-hero .gp-hero-formula span,
+  .md-typeset .gp-hero::before,
+  .md-typeset .gp-hero .gp-hero-icon,
+  .md-typeset .gp-hero .gp-hero-icon .twemoji {
+    animation: none !important;
+    filter: none !important;
+  }
+
+  .md-typeset .gp-hero .md-button,
+  .md-typeset .gp-hero .md-button:hover {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}

@@ -1,4 +1,16 @@
+<div class="gp-hero" markdown>
 # Golden Pi Wiki
+
+<p class="gp-hero-formula"><span>π̂ = 4/√φ</span></p>
+
+<p class="gp-hero-subtitle">…= 3.144605511029693… — the golden circle constant, derived from the Kepler right triangle, constructible with compass and straightedge, and exact where conventional π is a limit.</p>
+
+<p class="gp-hero-tagline">Two bodies of law. One figure that answers for itself.</p>
+
+[Start with the formula](golden-pi/true-value.md){ .md-button .md-button--primary }
+[White Paper (PDF)](resources/golden-pi-whitepaper.pdf){ .md-button }
+[Knowledge base](manual/squaring-the-circle.md){ .md-button }
+</div>
 
 ![Golden Pi Cover](/img/PiCover.jpeg){ align=center width=100% }
 

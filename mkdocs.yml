@@ -27,6 +27,7 @@ theme:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/gp-modern.css
 
 extra_javascript:
   - assets/javascripts/translate.js
