@@ -31,7 +31,7 @@ Welcome to the **Golden Pi Knowledge Base** — the definitive resource on the t
 
 <div class="grid cards" markdown>
 
--   :material-phi: __The True Value of Pi__
+-   :material-function-variant: __The True Value of Pi__
 
     ![Kepler Triangle](/img/kepler.jpg){ align=left width=120 }
     The formula π = 4/√Φ derived from geometric principles.
@@ -52,7 +52,7 @@ Welcome to the **Golden Pi Knowledge Base** — the definitive resource on the t
 
     [→ The Solution](golden-pi/squaring-circle.md)
 
--   :material-egyptian-pyramid: __Pyramid of Giza__
+-   :material-pyramid: __Pyramid of Giza__
 
     ![Great Pyramid](/img/great-pyramid.jpg){ align=left width=120 }
     Evidence of Golden Pi encoded in the Great Pyramid's dimensions.
