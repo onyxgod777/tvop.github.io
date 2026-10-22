@@ -1026,6 +1026,31 @@ h1, h2, h3, h4, h5, h6,
   margin: 40px 0;
 }
 
+/* ── Utterances comments (blog pages, injected by hooks/comments.py) ── */
+.comments-section {
+  margin-top: 3.2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--gp-border-strong, rgba(255, 255, 255, 0.12));
+}
+
+.comments-section h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin: 0 0 0.4rem;
+}
+
+.comments-section .comments-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  margin: 0 0 1.2rem;
+}
+
+.comments-section .utterances {
+  max-width: none;
+}
+
 /* ── Keys styling ── */
 .md-typeset .keys kbd {
   background: linear-gradient(145deg, rgba(15, 29, 53, 0.8), rgba(10, 22, 40, 0.9));

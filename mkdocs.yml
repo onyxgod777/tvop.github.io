@@ -46,6 +46,9 @@ extra:
     provider: google
     property: G-6WNFQTNH7F
 
+hooks:
+  - hooks/comments.py
+
 plugins:
   - search
   - tags
