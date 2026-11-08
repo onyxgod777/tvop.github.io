@@ -1,8 +1,8 @@
-"""Inject the Utterances comment thread on every blog page.
+"""Inject the Remark42 comment thread on every blog page.
 
-Comments are stored as GitHub issues in onyxgod777/pi (the repo the Utterances
-app is installed on), matched by issue-term=pathname, so each page owns exactly
-one thread and old threads stay attached as long as the URL does not change.
+Comments are served by a self-hosted Remark42 instance at
+https://comments.thealpha-secret.xyz (site_id=pi). Each page's thread is keyed
+by its URL, so threads persist as long as the URL does not change.
 
 A hook is used instead of a theme override so the block survives mkdocs-material
 upgrades, and blog/ is filtered explicitly because only posts carry threads.
@@ -10,20 +10,18 @@ upgrades, and blog/ is filtered explicitly because only posts carry threads.
 
 COMMENTS_BLOCK = """
 <div class="comments-section" id="comments">
-  <h3>💬 Leave a Comment</h3>
-  <p class="comments-note">
-    Sign in with GitHub to join the thread. Comments are stored as issues in
-    <a href="https://github.com/onyxgod777/pi/issues" target="_blank" rel="noopener">onyxgod777/pi</a>
-    and appear here automatically.
-  </p>
-  <script src="https://utteranc.es/client.js"
-    repo="onyxgod777/pi"
-    issue-term="pathname"
-    label="💬 comment"
-    theme="github-dark"
-    crossorigin="anonymous"
-    async>
+  <h3>💬 Comments</h3>
+  <div id="remark42"></div>
+  <script>
+    var remark_config = {
+      host: "https://comments.thealpha-secret.xyz",
+      site_id: "pi",
+      components: ["embed"],
+      theme: "dark",
+      max_shown_comments: 20
+    };
   </script>
+  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0;r.defer=!0;r.src=remark_config.host+"/web/"+e[o]+c;d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
 </div>
 """
 

@@ -580,16 +580,19 @@
 </div>
 
 <!-- ═══ FOOTER ═══ -->
-<div class="comments-section">
-  <h3>💬 Leave a Comment</h3>
-  <script src="https://utteranc.es/client.js"
-    repo="onyxgod777/pi"
-    issue-term="pathname"
-    label="💬 comment"
-    theme="github-dark"
-    crossorigin="anonymous"
-    async>
+<div class="comments-section" id="comments">
+  <h3>💬 Comments</h3>
+  <div id="remark42"></div>
+  <script>
+    var remark_config = {
+      host: "https://comments.thealpha-secret.xyz",
+      site_id: "pi",
+      components: ["embed"],
+      theme: "dark",
+      max_shown_comments: 20
+    };
   </script>
+  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0;r.defer=!0;r.src=remark_config.host+"/web/"+e[o]+c;d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
 </div>
 
 <footer>
