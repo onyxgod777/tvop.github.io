@@ -45,7 +45,7 @@ On this page, we track **current world events as observed causes** and project t
 
 ---
 
-### 🇺🇦 The Word Is "Flexibility", and It Is Not on the Record
+### 🇺🇦 The Word Is Flexibility, and It Is Not on the Record
 
 ???+ danger "Observed Cause"
     **The talks opened in Abu Dhabi on Tuesday with the one number that matters being the one nobody will publish.** US-mediated trilateral negotiations between **Ukraine, Russia and the United States** resumed after a **nine-month pause** — the last round was in **Geneva in February** — with **Steve Witkoff** and **Jared Kushner** representing Washington. A US official said on the eve of the talks that Moscow and Kyiv were privately showing **"a little bit of flexibility"** on who would control Ukraine's eastern regions in a postwar scenario, while acknowledging that this was not their public stance.
