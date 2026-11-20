@@ -17,7 +17,7 @@ COMMENTS_BLOCK = """
       host: "https://comments.thealpha-secret.xyz",
       site_id: "pi",
       components: ["embed"],
-      theme: "dark",
+      theme: "light",
       max_shown_comments: 20
     };
   </script>

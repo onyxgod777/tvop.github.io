@@ -7,12 +7,9 @@ edit_uri: blob/main/docs/
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: amber
-    accent: deep-orange
-  font:
-    text: Inter
-    code: Roboto Mono
+    scheme: default
+    primary: white
+    accent: indigo
   favicon: /img/favicon.ico
   logo: /img/favicon.ico
   features:
@@ -26,8 +23,7 @@ theme:
     - content.code.copy
 
 extra_css:
-  - assets/stylesheets/extra.css
-  - assets/stylesheets/gp-modern.css
+  - assets/stylesheets/wiki.css
 
 extra_javascript:
   - assets/javascripts/translate.js

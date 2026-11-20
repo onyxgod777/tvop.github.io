@@ -1,0 +1,1809 @@
+/* =========================================================================
+   Golden Pi Wiki — "Vector 2022" skin
+   Reverse-engineered from en.wikipedia.org (MediaWiki Vector 2022) on
+   2026-11-20: every token below was read from the live computed styles of
+   /wiki/Pi at 1440x900, not from memory.
+
+   Sampled values (desktop):
+     body            sans 16px / 1.6   #202122 on #f8f9fa
+     h1              serif 1.8em (28.8px) weight 400, #101418
+     h2              serif 1.5em (24px)  weight 400, rule 1px #a2a9b1
+     h3              sans 1.2em (19.2px) weight 700
+     link            #36c        visited #6a60b0     red #bf3c2c
+     border          #a2a9b1     subtle  #c8ccd1
+     neutral          #eaecf0    subtle  #f8f9fa
+     header          #fff, 66px
+     main menu       185px, 14px links #36c
+     content column  897px
+     toc box         14px, #36c links
+     search input    32px tall, 1px #a2a9b1, radius 2px, 14px
+     footer          rule 1px #a2a9b1, 12px links
+
+   Loaded alone (extra.css / gp-modern.css retired) so there is no cascade
+   fight with the old navy/gold theme.
+   ========================================================================= */
+
+/* ── 1. Tokens ─────────────────────────────────────────────────────────── */
+:root,
+[data-md-color-scheme="default"] {
+  --w-base: #202122;
+  --w-emph: #101418;
+  --w-subtle: #54595d;
+  --w-lighter: #72777d;
+  --w-progressive: #3366cc;
+  --w-progressive-hover: #2a4b8d;
+  --w-visited: #6a60b0;
+  --w-red: #bf3c2c;
+  --w-border: #a2a9b1;
+  --w-border-subtle: #c8ccd1;
+  --w-bg: #ffffff;
+  --w-neutral: #eaecf0;
+  --w-neutral-subtle: #f8f9fa;
+  --w-serif: "Linux Libertine", "Libertinus Serif", Georgia, Times,
+    "Source Serif 4", serif;
+  --w-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato,
+    "Helvetica Neue", Arial, sans-serif;
+  --w-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --w-sidebar: 185px;
+  --w-toc: 210px;
+  --w-column: 900px;
+
+  /* Material variable layer */
+  --md-primary-fg-color: var(--w-progressive);
+  --md-primary-fg-color--light: var(--w-visited);
+  --md-primary-fg-color--dark: var(--w-progressive-hover);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+  --md-accent-fg-color: var(--w-progressive-hover);
+  --md-accent-fg-color--transparent: rgba(51, 102, 204, 0.1);
+  --md-default-fg-color: var(--w-base);
+  --md-default-fg-color--light: var(--w-subtle);
+  --md-default-fg-color--lighter: var(--w-lighter);
+  --md-default-fg-color--lightest: var(--w-border-subtle);
+  --md-default-bg-color: var(--w-bg);
+  --md-typeset-color: var(--w-base);
+  --md-typeset-a-color: var(--w-progressive);
+  --md-typeset-mark-color: #fff9b3;
+  --md-typeset-del-color: rgba(191, 60, 44, 0.15);
+  --md-typeset-ins-color: rgba(51, 102, 204, 0.12);
+  --md-typeset-kbd-color: var(--w-neutral-subtle);
+  --md-typeset-kbd-border-color: var(--w-border-subtle);
+  --md-typeset-kbd-accent-color: #ffffff;
+  --md-typeset-table-color: var(--w-border);
+  --md-code-bg-color: var(--w-neutral-subtle);
+  --md-code-fg-color: var(--w-base);
+  --md-code-hl-color: rgba(51, 102, 204, 0.12);
+  --md-admonition-fg-color: var(--w-base);
+  --md-admonition-bg-color: var(--w-neutral-subtle);
+  --md-footer-bg-color: var(--w-neutral-subtle);
+  --md-footer-bg-color--dark: var(--w-neutral);
+  --md-footer-fg-color: var(--w-subtle);
+  --md-footer-fg-color--light: var(--w-subtle);
+  --md-footer-fg-color--lighter: var(--w-lighter);
+  --md-shadow-z1: none;
+  --md-shadow-z2: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --md-shadow-z3: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/* ── 2. Page shell ─────────────────────────────────────────────────────── */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--w-neutral-subtle);
+  color: var(--w-base);
+  font-family: var(--w-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.md-grid {
+  max-width: 1440px;
+  padding: 0 1.1rem;
+}
+
+[data-md-color-scheme="default"] .md-main,
+[data-md-color-scheme="default"] .md-container,
+[data-md-color-scheme="default"] .md-content {
+  background: transparent;
+}
+
+/* ── 3. Header (66px, white, hairline rule) ───────────────────────────── */
+.md-header {
+  background: var(--w-bg);
+  color: var(--w-base);
+  box-shadow: none;
+  border-bottom: 1px solid var(--w-border-subtle);
+  transition: none;
+}
+
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom-color: var(--w-border-subtle);
+}
+
+.md-header__inner {
+  height: 66px;
+  padding: 0;
+  align-items: center;
+}
+
+.md-header__button {
+  color: var(--w-subtle);
+  opacity: 1;
+}
+
+.md-header__button.md-logo {
+  margin: 0 0.9em 0 0;
+  padding: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 37px;
+  width: auto;
+}
+
+.md-header__title {
+  font-family: var(--w-serif);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  color: var(--w-emph);
+  margin-left: 0;
+}
+
+.md-header__topic:first-child {
+  font-weight: 400;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+  /* Material absolutely positions the topics so it can cross-fade them;
+     in flow, the wordmark has an intrinsic width again. */
+  position: static;
+}
+
+/* Wikipedia's wordmark never swaps to the page title */
+.md-header__topic + .md-header__topic,
+.md-header__topic:last-child:not(:first-child) {
+  display: none;
+}
+
+.md-header__topic:last-child,
+.md-header__topic + .md-header__topic {
+  display: none;
+}
+
+.md-header__source {
+  color: var(--w-subtle);
+}
+
+.md-source__repository {
+  font-size: 13px;
+  color: var(--w-subtle);
+}
+
+.md-source__facts {
+  font-size: 11px;
+  color: var(--w-lighter);
+}
+
+/* ── 4. Search box (472 × 32, 1px #a2a9b1, radius 2px) ────────────────── */
+/* Desktop only: on phones Material turns the field into an overlay, and a
+   fixed 472px width would squeeze the wordmark to zero. */
+@media screen and (min-width: 60em) {
+  body .md-search {
+    margin: 0;
+    padding: 0;
+    width: 472px;
+  }
+
+  body[data-md-color-primary] .md-search__inner {
+    width: 472px;
+  }
+
+  body .md-search__form {
+    width: 100%;
+  }
+}
+
+body .md-search__form {
+  background-color: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-radius: 2px;
+  box-shadow: none;
+  height: 32px;
+}
+
+body .md-search__form:hover {
+  background-color: var(--w-bg);
+  border-color: var(--w-lighter);
+  box-shadow: none;
+}
+
+.md-search__input {
+  color: var(--w-base);
+  font-family: var(--w-sans);
+  font-size: 14px;
+  height: 100%;
+  padding-left: 32px;
+}
+
+.md-search__input::placeholder {
+  color: var(--w-lighter);
+}
+
+.md-search__icon {
+  color: var(--w-lighter);
+}
+
+.md-search__options .md-search__icon {
+  color: var(--w-lighter);
+}
+
+.md-search__output {
+  border-radius: 2px;
+  border: 1px solid var(--w-border);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.md-search-result__meta {
+  background: var(--w-neutral);
+  color: var(--w-subtle);
+  font-size: 13px;
+}
+
+.md-search-result__link {
+  box-shadow: none;
+}
+
+.md-search-result__link:hover,
+.md-search-result__link:focus {
+  background: var(--w-neutral-subtle);
+}
+
+.md-search-result__title {
+  font-size: 14px;
+}
+
+.md-search-result__teaser {
+  font-size: 13px;
+  color: var(--w-subtle);
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  background: var(--w-bg);
+  border-color: var(--w-border);
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+/* ── 5. Section bar / page tabs ───────────────────────────────────────── */
+body .md-tabs {
+  background: transparent;
+  color: var(--w-base);
+  border-bottom: 1px solid var(--w-border);
+  box-shadow: none;
+}
+
+/* Tabs sit on the content column, not the page edge (Vector 2022):
+   list starts 26px in, the article column's text starts at 26 + 235 */
+@media screen and (min-width: 76.25em) {
+  body .md-tabs__list {
+    padding-left: 235px;
+  }
+}
+
+.md-tabs__link {
+  color: var(--w-progressive);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.4;
+  margin: 0 1em 0 0;
+  opacity: 1;
+  padding: 0;
+  transition: none;
+}
+
+.md-tabs__link:hover {
+  color: var(--w-progressive-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.md-tabs__link--active,
+.md-tabs__link--active:hover {
+  color: var(--w-emph);
+  font-weight: 400;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 var(--w-emph);
+}
+
+.md-tabs__item {
+  padding-left: 0;
+}
+
+/* ── 6. Sidebars ──────────────────────────────────────────────────────── */
+.md-sidebar {
+  background: transparent;
+  font-size: 14px;
+}
+
+.md-sidebar--primary {
+  width: var(--w-sidebar);
+}
+
+.md-sidebar--secondary {
+  width: var(--w-toc);
+}
+
+.md-sidebar__scrollwrap {
+  margin: 0;
+  scrollbar-width: thin;
+}
+
+.md-sidebar__inner {
+  border-right: none;
+  padding: 0;
+}
+
+/* Main menu: sentence case, #36c, 14px, hairline section rules */
+.md-nav {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Material paints the active nav row as a filled box; Vector 2022 uses
+   weight + #101418 only. */
+.md-nav--primary .md-nav__item,
+.md-nav--primary .md-nav__item--active,
+.md-nav--primary .md-nav__item--nested > .md-nav__link,
+.md-nav--primary .md-nav__link--active,
+.md-nav--primary .md-nav__list {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.md-nav--primary .md-nav__item {
+  padding: 0;
+}
+
+.md-nav--primary .md-nav__item--nested > .md-nav__link {
+  font-weight: 400;
+}
+
+.md-nav__title {
+  background: transparent;
+  box-shadow: none;
+  color: var(--w-subtle);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0.55em 0 0.35em;
+  border-bottom: 1px solid var(--w-border-subtle);
+  margin-bottom: 0.35em;
+}
+
+.md-nav__title .md-nav__icon {
+  color: var(--w-lighter);
+  height: 18px;
+  width: 18px;
+}
+
+.md-nav__link {
+  color: var(--w-progressive);
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0.28em 0;
+  margin: 0;
+  transition: none;
+}
+
+.md-nav__link:hover {
+  color: var(--w-progressive-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.md-nav__link--active,
+.md-nav__link--active:hover {
+  color: var(--w-emph);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.md-nav__link .md-nav__icon {
+  color: var(--w-lighter);
+  height: 17px;
+  width: 17px;
+}
+
+.md-nav--secondary .md-nav__item {
+  padding: 0;
+}
+
+.md-nav--secondary .md-nav__link {
+  color: var(--w-progressive);
+  font-size: 14px;
+  padding: 0.2em 0;
+}
+
+/* Table of contents as the classic MediaWiki box */
+.md-sidebar--secondary .md-nav--secondary {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border);
+  border-radius: 2px;
+  padding: 0.55em 0.8em 0.7em;
+  margin: 0;
+}
+
+.md-sidebar--secondary .md-nav--secondary > .md-nav__title {
+  border-bottom: none;
+  color: var(--w-base);
+  font-size: 0; /* MediaWiki's box says "Contents", not "Table of contents" */
+  font-weight: 700;
+  margin: 0 0 0.35em;
+  padding: 0;
+  text-align: center;
+}
+
+.md-sidebar--secondary .md-nav--secondary > .md-nav__title::before {
+  content: "Contents";
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.md-sidebar--secondary .md-nav--secondary > .md-nav__title .md-nav__icon {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link--passed {
+  color: var(--w-emph);
+  font-weight: 700;
+}
+
+.md-nav--secondary .md-nav__list {
+  padding-left: 0;
+}
+
+.md-nav--secondary .md-nav__item > .md-nav__list {
+  padding-left: 0.7em;
+}
+
+/* ── 7. Content column + typography ───────────────────────────────────── */
+.md-main {
+  background: transparent;
+}
+
+.md-main__inner {
+  margin-top: 18px;
+  padding-bottom: 28px;
+}
+
+.md-content {
+  background: transparent;
+}
+
+.md-content__inner {
+  max-width: var(--w-column);
+  padding: 0 0 0 30px;
+}
+
+.md-content__inner::before {
+  display: none;
+}
+
+.md-typeset {
+  color: var(--w-base);
+  font-family: var(--w-sans);
+  font-size: 0.8rem; /* Material root is 125% → 0.8rem = 16px, Wikipedia's base */
+  line-height: 1.6;
+  -webkit-font-smoothing: auto;
+}
+
+.md-typeset p,
+.md-typeset li {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.md-typeset p {
+  margin: 0.5em 0 1em;
+}
+
+.md-typeset ul,
+.md-typeset ol {
+  margin: 0.3em 0 1em 1.6em;
+}
+
+.md-typeset li {
+  margin: 0.1em 0;
+}
+
+.md-typeset h1 {
+  font-family: var(--w-serif);
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: normal;
+  color: var(--w-emph);
+  margin: 0 0 0.25em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--w-border);
+}
+
+.md-typeset h1::after {
+  content: none;
+}
+
+.md-typeset h2 {
+  font-family: var(--w-serif);
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: normal;
+  color: var(--w-emph);
+  margin: 1.4em 0 0.3em;
+  padding-bottom: 0.17em;
+  border-bottom: 1px solid var(--w-border);
+}
+
+.md-typeset h2::after {
+  content: none;
+}
+
+.md-typeset h3 {
+  font-family: var(--w-sans);
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--w-emph);
+  margin: 1.1em 0 0.25em;
+}
+
+.md-typeset h4 {
+  font-family: var(--w-sans);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--w-emph);
+  margin: 1em 0 0.2em;
+}
+
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: var(--w-sans);
+  font-size: 0.9375em;
+  font-weight: 700;
+  color: var(--w-base);
+  text-transform: none;
+  margin: 0.9em 0 0.2em;
+}
+
+.md-typeset h1 + p,
+.md-typeset h2 + p,
+.md-typeset h3 + p {
+  margin-top: 0.3em;
+}
+
+/* Links: blue, no underline, blue on hover — visited is lavender */
+.md-typeset a {
+  color: var(--w-progressive);
+  text-decoration: none;
+  text-shadow: none;
+  transition: none;
+}
+
+.md-typeset a:hover {
+  color: var(--w-progressive-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-shadow: none;
+}
+
+.md-typeset a:visited {
+  color: var(--w-visited);
+}
+
+.md-typeset a.new,
+.md-typeset a[href=""],
+.md-typeset a[href="#"] {
+  color: var(--w-red);
+}
+
+.md-typeset .headerlink {
+  color: var(--w-lighter);
+  opacity: 0;
+  transition: none;
+}
+
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset .headerlink:focus {
+  opacity: 1;
+  color: var(--w-lighter);
+}
+
+.md-typeset hr {
+  background: var(--w-border);
+  border: 0;
+  height: 1px;
+  margin: 1.4em 0;
+  overflow: visible;
+}
+
+.md-typeset hr::after {
+  content: none;
+}
+
+.md-typeset strong {
+  font-weight: 700;
+  color: var(--w-emph);
+}
+
+.md-typeset em {
+  font-style: italic;
+}
+
+.md-typeset small {
+  font-size: 0.875em;
+}
+
+.md-typeset blockquote {
+  border-left: 3px solid var(--w-border-subtle);
+  color: var(--w-subtle);
+  font-style: normal;
+  margin: 1em 0;
+  padding: 0 0 0 1em;
+}
+
+.md-typeset blockquote strong {
+  color: var(--w-base);
+}
+
+/* ── 8. Tables (wikitable) ────────────────────────────────────────────── */
+.md-typeset table:not([class]) {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-collapse: collapse;
+  border-radius: 0;
+  box-shadow: none;
+  display: table;
+  font-size: 0.875em;
+  margin: 1em 0;
+  max-width: 100%;
+  width: auto;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--w-neutral);
+  border: 1px solid var(--w-border);
+  color: var(--w-emph);
+  font-weight: 700;
+  padding: 0.3em 0.6em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) td {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  padding: 0.3em 0.6em;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: transparent;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: var(--w-neutral-subtle);
+}
+
+.md-typeset table:not([class]) caption {
+  caption-side: top;
+  color: var(--w-base);
+  font-size: 0.9375em;
+  font-weight: 700;
+  padding-bottom: 0.3em;
+}
+
+/* ── 9. Code ──────────────────────────────────────────────────────────── */
+.md-typeset code {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  color: var(--w-base);
+  font-family: var(--w-mono);
+  font-size: 0.875em;
+  padding: 0.1em 0.3em;
+  box-shadow: none;
+}
+
+.md-typeset pre {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-shadow: none;
+  line-height: 1.45;
+}
+
+.md-typeset pre > code {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: var(--w-base);
+  font-size: 13px;
+  padding: 0.9em 1em;
+}
+
+.md-typeset h3 code,
+.md-typeset h2 code {
+  border: 0;
+  background: none;
+  font-size: 0.9em;
+}
+
+.md-clipboard {
+  color: var(--w-lighter);
+}
+
+.md-clipboard:hover {
+  color: var(--w-progressive);
+}
+
+.md-typeset kbd {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-bottom-width: 2px;
+  border-radius: 2px;
+  box-shadow: none;
+  color: var(--w-base);
+  font-size: 0.8125em;
+  padding: 0.1em 0.35em;
+}
+
+/* ── 10. Buttons (MediaWiki progressive / normal) ─────────────────────── */
+.md-typeset .md-button {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-radius: 2px;
+  color: var(--w-progressive);
+  font-family: var(--w-sans);
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 1.4;
+  min-height: 32px;
+  padding: 0.4em 1em;
+  transition: none;
+  box-shadow: none;
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background: var(--w-neutral-subtle);
+  border-color: var(--w-lighter);
+  color: var(--w-progressive-hover);
+  text-decoration: none;
+  box-shadow: none;
+  transform: none;
+}
+
+.md-typeset .md-button--primary {
+  background: var(--w-progressive);
+  border-color: var(--w-progressive);
+  color: #ffffff;
+}
+
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background: var(--w-progressive-hover);
+  border-color: var(--w-progressive-hover);
+  color: #ffffff;
+}
+
+/* ── 11. Message boxes (ambox / details / admonitions) ────────────────── */
+.md-typeset details,
+.md-typeset .admonition {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border);
+  border-left-width: 1px;
+  border-radius: 2px;
+  box-shadow: none;
+  color: var(--w-base);
+  font-size: 0.875em;
+  margin: 1em 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.md-typeset details > summary,
+.md-typeset .admonition > .admonition-title {
+  background: var(--w-neutral);
+  border: 0;
+  border-bottom: 1px solid var(--w-border-subtle);
+  color: var(--w-emph);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.4em 0.7em 0.4em 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.md-typeset details > summary::before,
+.md-typeset details > summary::after {
+  color: var(--w-subtle);
+}
+
+.md-typeset details[open] > summary {
+  border-bottom: 1px solid var(--w-border-subtle);
+}
+
+.md-typeset details > summary:after {
+  border-radius: 0;
+}
+
+.md-typeset details > *:not(summary),
+.md-typeset .admonition > *:not(.admonition-title) {
+  padding: 0 0.8em;
+}
+
+.md-typeset details > *:not(summary):first-of-type,
+.md-typeset .admonition > *:not(.admonition-title):first-of-type {
+  margin-top: 0.6em;
+}
+
+.md-typeset .admonition.note,
+.md-typeset .admonition.info {
+  border-color: var(--w-border);
+}
+
+.md-typeset .admonition.warning,
+.md-typeset .admonition.caution {
+  border-color: #d4a017;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset .admonition.caution > .admonition-title {
+  background: #fdf6e3;
+}
+
+.md-typeset .admonition.danger,
+.md-typeset .admonition.failure,
+.md-typeset .admonition.bug {
+  border-color: #d33;
+}
+
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.failure > .admonition-title,
+.md-typeset .admonition.bug > .admonition-title {
+  background: #fee7e6;
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  left: 0.65em;
+  top: 0.55em;
+}
+
+/* ── 12. Content tabs ─────────────────────────────────────────────────── */
+.md-typeset .tabbed-set {
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  margin: 1em 0;
+}
+
+.md-typeset .tabbed-set > .tabbed-labels {
+  background: var(--w-neutral-subtle);
+  border-bottom: 1px solid var(--w-border-subtle);
+  box-shadow: none;
+}
+
+.md-typeset .tabbed-set > .tabbed-labels > label {
+  color: var(--w-progressive);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.5em 0.9em;
+  border-bottom: 2px solid transparent;
+}
+
+.md-typeset .tabbed-set > .tabbed-labels > label:hover {
+  color: var(--w-progressive-hover);
+  background: var(--w-neutral);
+}
+
+.md-typeset .tabbed-set > input:checked + label,
+.md-typeset .tabbed-set > .tabbed-labels > label:has(+ input:checked) {
+  color: var(--w-emph);
+  border-bottom-color: var(--w-emph);
+  background: var(--w-bg);
+}
+
+.md-typeset .tabbed-content {
+  font-size: 15px;
+}
+
+/* ── 13. Footer ───────────────────────────────────────────────────────── */
+.md-footer {
+  background: transparent;
+  color: var(--w-subtle);
+}
+
+.md-footer-meta {
+  background: transparent;
+  border-top: 1px solid var(--w-border);
+  color: var(--w-subtle);
+  font-size: 12px;
+  padding: 14px 0;
+}
+
+.md-footer__inner {
+  border-bottom: none;
+  font-size: 13px;
+  padding: 12px 0;
+}
+
+.md-footer__inner:not([hidden]) {
+  border-top: 0;
+}
+
+.md-footer__link {
+  color: var(--w-progressive);
+  opacity: 1;
+}
+
+.md-footer__title {
+  font-family: var(--w-sans);
+  font-size: 13px;
+  padding-left: 12px;
+}
+
+.md-footer__direction {
+  font-size: 11px;
+  color: var(--w-lighter);
+  opacity: 1;
+}
+
+.md-footer-copyright {
+  color: var(--w-subtle);
+  font-size: 12px;
+  padding: 0;
+}
+
+.md-footer-copyright a {
+  color: var(--w-progressive);
+}
+
+.md-footer-copyright a:hover {
+  color: var(--w-progressive-hover);
+}
+
+.md-footer-meta__inner {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.md-social a,
+.md-footer-social a {
+  color: var(--w-progressive);
+}
+
+.md-social a:hover,
+.md-footer-social a:hover {
+  color: var(--w-progressive-hover);
+}
+
+/* ── 14. Back-to-top ──────────────────────────────────────────────────── */
+.md-top {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-radius: 2px;
+  box-shadow: none;
+  color: var(--w-progressive);
+  font-size: 13px;
+}
+
+.md-top:hover {
+  background: var(--w-neutral-subtle);
+  color: var(--w-progressive-hover);
+  box-shadow: none;
+}
+
+.md-top .md-icon {
+  color: currentColor;
+}
+
+/* ── 15. Media, figures, footnotes, misc ──────────────────────────────── */
+.md-typeset img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.md-typeset p > img,
+.md-typeset li > img,
+.md-typeset figure img {
+  border: 1px solid var(--w-border-subtle);
+  background: var(--w-bg);
+  border-radius: 2px;
+  padding: 0;
+}
+
+.md-typeset img:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.md-typeset figure {
+  margin: 1em 0;
+}
+
+.md-typeset figcaption {
+  color: var(--w-subtle);
+  font-size: 0.875em;
+  padding-top: 0.35em;
+}
+
+.md-typeset .footnote {
+  border-top: 1px solid var(--w-border);
+  color: var(--w-subtle);
+  font-size: 0.875em;
+  padding-top: 0.6em;
+}
+
+.md-typeset .footnote-ref {
+  color: var(--w-progressive);
+  font-size: 0.75em;
+  vertical-align: super;
+}
+
+.md-typeset .footnote-backref {
+  color: var(--w-progressive);
+}
+
+.md-typeset mark {
+  background: var(--md-typeset-mark-color);
+  color: var(--w-base);
+  box-shadow: none;
+}
+
+.md-typeset del {
+  color: var(--w-subtle);
+}
+
+.md-typeset dl dt {
+  font-weight: 700;
+  color: var(--w-base);
+}
+
+.md-typeset dl dd {
+  color: var(--w-base);
+  margin-bottom: 0.6em;
+}
+
+.md-typeset .task-list-control .task-list-indicator::before {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-radius: 0;
+  color: var(--w-progressive);
+}
+
+.md-typeset .progress-label {
+  font-family: var(--w-sans);
+  font-size: 12px;
+  color: var(--w-subtle);
+}
+
+.md-typeset .progress-bar {
+  background: var(--w-neutral);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+}
+
+.md-typeset .progress-bar .progress {
+  background: var(--w-progressive);
+}
+
+.md-typeset .MathJax,
+.md-typeset .MathJax_CHTML,
+.md-typeset mjx-container {
+  color: var(--w-base) !important;
+  font-size: 100% !important;
+}
+
+/* ── 16. Custom content blocks ────────────────────────────────────────── */
+
+/* 16a. Homepage hero → lead panel (was a glowing navy card) */
+.md-typeset .gp-hero {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-shadow: none;
+  margin: 0 0 1.4em;
+  padding: 1.2em 1.5em 1.1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .gp-hero::before {
+  content: none;
+}
+
+.md-typeset .gp-hero h1 {
+  font-family: var(--w-serif);
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: normal;
+  border-bottom: 1px solid var(--w-border-subtle);
+  color: var(--w-emph);
+  margin: 0 0 0.4em;
+  padding-bottom: 0.2em;
+}
+
+.md-typeset .gp-hero .gp-hero-formula {
+  color: var(--w-emph);
+  font-family: var(--w-serif);
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.3;
+  margin: 0.3em 0 0.5em;
+  text-align: left;
+}
+
+.md-typeset .gp-hero .gp-hero-formula span {
+  background: none;
+  color: var(--w-emph);
+  text-shadow: none;
+  animation: none;
+  filter: none;
+}
+
+.md-typeset .gp-hero .gp-hero-subtitle {
+  color: var(--w-subtle);
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 0 0.6em;
+  max-width: 46em;
+}
+
+.md-typeset .gp-hero .gp-hero-tagline {
+  color: var(--w-subtle);
+  font-family: var(--w-sans);
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 0 1em;
+}
+
+.md-typeset .gp-hero .md-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.4em 0.4em 0;
+  min-height: 32px;
+  width: auto;
+}
+
+/* 16b. Desmos facade → Wikipedia thumbnail frame */
+.md-typeset .gp-live {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  font-size: 0.875em;
+  margin: 1.2em 0;
+  padding: 0.55em;
+}
+
+.md-typeset .gp-live__tag {
+  color: var(--w-subtle);
+  font-size: 0.875em;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin: 0 0 0.45em;
+  padding: 0;
+  text-transform: none;
+}
+
+.md-typeset .gp-live__facade {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.md-typeset .gp-live__facade:hover {
+  border-color: var(--w-border);
+  box-shadow: none;
+  transform: none;
+}
+
+.md-typeset .gp-live__facade img {
+  border: 0;
+  border-radius: 0;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.md-typeset .gp-live__play {
+  background: rgba(255, 255, 255, 0.94);
+  border-top: 1px solid var(--w-border-subtle);
+  bottom: 0;
+  color: var(--w-progressive);
+  display: block;
+  font-size: 0.875em;
+  font-weight: 400;
+  left: 0;
+  padding: 0.4em 0.6em;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.md-typeset .gp-live__note {
+  color: var(--w-base);
+  font-size: 0.875em;
+  line-height: 1.55;
+  margin: 0.5em 0 0;
+  padding: 0;
+}
+
+.md-typeset .gp-live__note strong {
+  color: var(--w-emph);
+}
+
+.md-typeset .gp-live__frame {
+  border-radius: 2px !important;
+  display: block;
+  width: 100%;
+}
+
+/* 16c. Gallery → Wikipedia thumb grid */
+.gp-gallery-intro {
+  border-bottom: 1px solid var(--w-border-subtle);
+  color: var(--w-subtle);
+  font-size: 0.9375em;
+  margin: 1em 0 1.2em;
+  padding-bottom: 0.6em;
+}
+
+.gp-gallery-intro strong {
+  color: var(--w-emph);
+}
+
+.gp-gallery {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  margin: 1.2em 0;
+}
+
+.gp-gallery-item {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.45em;
+  text-align: center;
+  transition: none;
+  animation: none;
+}
+
+.gp-gallery-item:hover {
+  border-color: var(--w-border);
+  box-shadow: none;
+  transform: none;
+}
+
+.gp-gallery-item p {
+  color: var(--w-subtle);
+  font-size: 0.8125em;
+  line-height: 1.45;
+  margin: 0.35em 0 0;
+}
+
+.gp-gallery-item p:first-child {
+  margin: 0;
+}
+
+.gp-gallery-item p:first-child strong,
+.gp-gallery-item p:last-child strong {
+  color: var(--w-emph);
+  font-size: 0.9375em;
+}
+
+.gp-gallery-item p:last-child {
+  margin-top: 0.4em;
+}
+
+.gp-gallery-item img {
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 0;
+  height: auto;
+  width: 100%;
+}
+
+.gp-gallery-item:hover img {
+  transform: none;
+  filter: none;
+}
+
+.gp-gallery-footer {
+  border-top: 1px solid var(--w-border-subtle);
+  color: var(--w-subtle);
+  font-size: 0.875em;
+  margin: 1.2em 0 0;
+  padding-top: 0.6em;
+  text-align: left;
+}
+
+.gp-gallery-footer a {
+  color: var(--w-progressive);
+}
+
+/* 16d. Homepage cards → navbox / portal boxes */
+.md-typeset .grid.cards {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  margin: 1.2em 0;
+  padding: 0;
+}
+
+.md-typeset .grid.cards > ul,
+.md-typeset .grid.cards > ol {
+  display: contents;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  background: var(--w-neutral-subtle);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0.8em 0.9em;
+  transition: none;
+}
+
+.md-typeset .grid.cards > ul > li::before,
+.md-typeset .grid.cards > ul > li::after,
+.md-typeset .grid.cards > ol > li::before,
+.md-typeset .grid.cards > ol > li::after {
+  content: none;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+  background: var(--w-neutral);
+  border-color: var(--w-border);
+  box-shadow: none;
+  transform: none;
+}
+
+.md-typeset .grid.cards > ul > li > p:first-child,
+.md-typeset .grid.cards > ol > li > p:first-child {
+  color: var(--w-emph);
+  font-family: var(--w-sans);
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 0.35em;
+  text-transform: none;
+}
+
+.md-typeset .grid.cards > ul > li > p:first-child .md-icon,
+.md-typeset .grid.cards > ul > li > p:first-child .twemoji {
+  color: var(--w-subtle);
+  height: 1em;
+  width: 1em;
+}
+
+.md-typeset .grid.cards > ul > li > p:nth-child(2),
+.md-typeset .grid.cards > ul > li > p:not(:first-child):not(:last-child) {
+  color: var(--w-base);
+  font-size: 0.9375em;
+  line-height: 1.55;
+}
+
+.md-typeset .grid.cards > ul > li > p:last-child a {
+  color: var(--w-progressive);
+  font-size: 0.9375em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.md-typeset .grid.cards > ul > li > p:last-child a:hover {
+  text-decoration: underline;
+  color: var(--w-progressive-hover);
+}
+
+.md-typeset .grid.cards > ul > li img,
+.md-typeset .grid.cards > ol > li img {
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 0;
+  max-width: 120px;
+}
+
+/* 16e. Blog cards */
+.md-typeset .grid.cards.blog > ul > li .blog-date {
+  color: var(--w-subtle);
+  font-size: 0.75em;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* ── 17. Dialogs / overlays / a11y ────────────────────────────────────── */
+.md-dialog {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border);
+  border-radius: 2px;
+  box-shadow: var(--md-shadow-z3);
+}
+
+.md-overlay {
+  background: rgba(32, 33, 34, 0.35);
+}
+
+.md-skip {
+  background: var(--w-base);
+  color: #ffffff;
+  font-size: 13px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--w-progressive);
+  outline-offset: 1px;
+}
+
+.md-typeset .md-button:focus-visible {
+  outline: 2px solid var(--w-progressive);
+  outline-offset: 2px;
+}
+
+/* ── 18. Responsive ───────────────────────────────────────────────────── */
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--secondary {
+    width: auto;
+  }
+
+  .md-sidebar--secondary .md-nav--secondary {
+    background: transparent;
+    border: 0;
+    padding: 0;
+  }
+
+  .md-sidebar--secondary .md-nav--secondary > .md-nav__title {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .md-sidebar--primary {
+    width: 12.1rem;
+    background: var(--w-bg);
+  }
+
+  .md-content__inner {
+    padding: 0;
+  }
+
+  .md-header__inner {
+    height: 56px;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.55em;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.3em;
+  }
+
+  .md-typeset .gp-hero {
+    padding: 1em 1em 0.9em;
+  }
+
+  .md-typeset .gp-hero h1 {
+    font-size: 1.5em;
+  }
+
+  .md-typeset .gp-hero .gp-hero-formula {
+    font-size: 1.3em;
+  }
+
+  .md-typeset .gp-hero .md-button {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0.45em;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .md-typeset table:not([class]) {
+    display: table;
+    font-size: 0.8125em;
+    width: 100%;
+  }
+
+  .md-typeset .gp-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  .md-typeset .grid.cards {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .gp-live__play {
+    font-size: 0.8125em;
+    padding: 0.45em 0.5em;
+  }
+}
+
+/* ── 19. Motion + print ───────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset *,
+  .md-typeset *::before,
+  .md-typeset *::after,
+  .gp-gallery-item,
+  .md-typeset .gp-hero .gp-hero-formula span {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+@media print {
+  body,
+  .md-main,
+  .md-content {
+    background: #ffffff;
+  }
+
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-top {
+    display: none;
+  }
+
+  .md-content__inner {
+    max-width: none;
+    padding: 0;
+  }
+
+  .md-typeset a {
+    color: var(--w-base);
+    text-decoration: underline;
+  }
+}
+
+/* =========================================================================
+   20. Material-specificity layer
+   Material ships `[data-md-color-primary=white] …` shortcuts (0,2,0) and
+   section/lifted-nav rules (0,3,0) that out-specify a single class. These
+   restate the skin's intent one level up so the cascade lands where the
+   design says it should.
+   ========================================================================= */
+
+/* Tabs: white bar, MediaWiki hairline, compact 14px items on the column */
+body[data-md-color-primary] .md-tabs {
+  background-color: transparent;
+  border-bottom: 1px solid var(--w-border);
+  box-shadow: none;
+}
+
+body[data-md-color-primary] .md-tabs__item {
+  height: auto;
+  padding: 0;
+}
+
+body[data-md-color-primary] .md-tabs__link {
+  color: var(--w-progressive);
+  font-size: 14px;
+  margin: 0.55rem 1.1rem 0 0;
+  opacity: 1;
+  transform: none;
+}
+
+body[data-md-color-primary] .md-tabs__item--active .md-tabs__link,
+body[data-md-color-primary] .md-tabs__link--active {
+  color: var(--w-emph);
+  box-shadow: inset 0 -2px 0 var(--w-emph);
+  opacity: 1;
+}
+
+body[data-md-color-primary] .md-tabs__link:focus,
+body[data-md-color-primary] .md-tabs__link:hover {
+  color: var(--w-progressive-hover);
+  opacity: 1;
+}
+
+/* Search: solid white field, 1px #a2a9b1, 472 × 32 (width set in §4) */
+body[data-md-color-primary] .md-search__form,
+body[data-md-color-primary] .md-search__form:hover {
+  background-color: var(--w-bg);
+  border: 1px solid var(--w-border);
+  box-shadow: none;
+  height: 32px;
+}
+
+body[data-md-color-primary] .md-search__form:hover {
+  border-color: var(--w-lighter);
+}
+
+body[data-md-color-primary] .md-search__input {
+  padding-left: 34px;
+}
+
+body[data-md-color-primary] .md-search__input::placeholder {
+  color: var(--w-lighter);
+}
+
+/* Main menu: #36c links, bold #101418 only for the current page, no fills */
+body[data-md-color-primary] .md-nav--primary .md-nav__item {
+  border-top: 0;
+}
+
+body[data-md-color-primary] .md-nav--primary .md-nav__link,
+body[data-md-color-primary] .md-nav__link {
+  color: var(--w-progressive);
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0.3em 0;
+}
+
+body[data-md-color-primary] .md-nav__link[href]:hover,
+body[data-md-color-primary] .md-nav__link[href]:focus {
+  color: var(--w-progressive-hover);
+}
+
+body[data-md-color-primary] .md-nav--primary .md-nav__item--active > .md-nav__link,
+body[data-md-color-primary] .md-nav--primary .md-nav__link--active {
+  color: var(--w-emph);
+  font-weight: 700;
+}
+
+/* Section headers keep Material's "label" role, in MediaWiki grey */
+body[data-md-color-primary] .md-nav__item--section > .md-nav__link {
+  color: var(--w-subtle);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Kill the "lifted" active row (white sticky block Material uses on tabs) */
+body[data-md-color-primary] .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 0;
+  position: static;
+}
+
+/* Primary nav panel: no Material chrome, no scroll shadows */
+body[data-md-color-primary] .md-nav--primary .md-nav__title,
+body[data-md-color-primary] .md-nav--primary .md-nav__title ~ .md-nav__list {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+body[data-md-color-primary] .md-nav--primary .md-nav__link .md-nav__icon {
+  color: var(--w-lighter);
+}
+
+/* Header wordmark: Material insets the title by 1rem on mobile */
+body[data-md-color-primary] .md-header__title {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 60em) {
+  body[data-md-color-primary] .md-header__inner {
+    height: 56px;
+  }
+
+  body[data-md-color-primary] .md-header__title {
+    font-size: 18px;
+  }
+}
+
+/* Pages without headings (gallery index, 404) have no TOC: don't draw an
+   empty MediaWiki box. */
+.md-sidebar--secondary:not(:has(.md-nav--secondary .md-nav__link)) {
+  display: none;
+}
+
+/* Vector 2022 puts the search field immediately after the wordmark, with the
+   account/source links pushed to the far right. */
+@media screen and (min-width: 60em) {
+  body[data-md-color-primary] .md-header__title {
+    flex: 0 0 auto;
+    width: max-content;
+    margin-right: 22px;
+  }
+
+  body[data-md-color-primary] .md-header__ellipsis {
+    width: auto;
+  }
+
+  body[data-md-color-primary] .md-search {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  body[data-md-color-primary] .md-header__source {
+    margin-left: auto;
+  }
+}
+
+/* A 40px tab bar, 14px links centred in it (MediaWiki's row is 33px) */
+body[data-md-color-primary] .md-tabs__list {
+  align-items: center;
+  height: 40px;
+}
+
+body[data-md-color-primary] .md-tabs__link {
+  margin: 0 1.1rem 0 0;
+  line-height: 40px;
+}
+
+/* MediaWiki's TOC is tighter than body copy */
+.md-sidebar--secondary .md-nav--secondary .md-nav__link {
+  line-height: 1.45;
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__list {
+  margin: 0.1em 0 0.4em;
+}
+
+/* Floated article images get the MediaWiki thumb treatment, and a bordered
+   figure never lets a float squeeze its caption into a narrow column. */
+.md-typeset img[align="right"] {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-sizing: content-box;
+  margin: 0 0 0.7em 1.1em;
+  padding: 3px;
+}
+
+.md-typeset img[align="left"] {
+  background: var(--w-bg);
+  border: 1px solid var(--w-border-subtle);
+  border-radius: 2px;
+  box-sizing: content-box;
+  margin: 0 1.1em 0.7em 0;
+  padding: 3px;
+}
+
+/* Only on narrow screens, where the float would otherwise squeeze the tag
+   into a three-line column. On desktop the figure may keep the float in its
+   top-right whitespace rather than leaving a 250px void. */
+@media screen and (max-width: 60em) {
+  .md-typeset .gp-live,
+  .md-typeset .gp-gallery {
+    clear: both;
+  }
+}
