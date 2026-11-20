@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-labelledby="t d">
+  <title id="t">The hat-box theorem</title>
+  <desc id="d">A sphere inside its circumscribed cylinder, with a horizontal zone of height h shaded on both; to the right the cylinder wall is unrolled and the same band carries the same area.</desc>
+  <defs>
+    <clipPath id="sphereclip">
+      <circle cx="210" cy="210" r="105"/>
+    </clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .ink { stroke: #1f2430; stroke-width: 2; fill: none; }
+      .thin { stroke: #1f2430; stroke-width: 1.4; fill: none; opacity: .55; }
+      .band { fill: #b5462b; }
+      .lbl { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 13px; fill: #1f2430; }
+      .lbl-s { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 11.5px; fill: #4b5563; }
+      .eq { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 15px; fill: #b5462b; }
+    </style>
+  </defs>
+
+  <text class="eq" x="360" y="34" text-anchor="middle">A zone&#8217;s area depends only on its height: A = 2&#960;Rh</text>
+
+  <!-- cylinder: bottom ellipse, body, top ellipse -->
+  <ellipse class="thin" cx="210" cy="315" rx="105" ry="24" fill="#ffffff"/>
+  <rect x="105" y="105" width="210" height="210" fill="#ffffff"/>
+  <line class="ink" x1="105" y1="105" x2="105" y2="315"/>
+  <line class="ink" x1="315" y1="105" x2="315" y2="315"/>
+  <ellipse class="ink" cx="210" cy="105" rx="105" ry="24" fill="#ffffff"/>
+
+  <!-- sphere -->
+  <circle cx="210" cy="210" r="105" fill="#ffffff" class="ink"/>
+
+  <!-- sphere zone, clipped to the circle -->
+  <g clip-path="url(#sphereclip)">
+    <rect class="band" x="105" y="185" width="210" height="50" opacity=".28"/>
+  </g>
+  <ellipse class="thin" cx="210" cy="185" rx="101.98" ry="20" stroke="#b5462b" opacity=".9"/>
+  <ellipse class="thin" cx="210" cy="235" rx="101.98" ry="20" stroke="#b5462b" opacity=".9"/>
+
+  <!-- height marks -->
+  <line x1="128" y1="185" x2="128" y2="235" stroke="#b5462b" stroke-width="1.4"/>
+  <line x1="123" y1="185" x2="133" y2="185" stroke="#b5462b" stroke-width="1.4"/>
+  <line x1="123" y1="235" x2="133" y2="235" stroke="#b5462b" stroke-width="1.4"/>
+  <text class="lbl-s" x="120" y="215" text-anchor="end" fill="#b5462b">h</text>
+
+  <text class="lbl" x="210" y="368" text-anchor="middle">sphere of radius R, zone of height h</text>
+  <text class="lbl-s" x="210" y="386" text-anchor="middle">A = 2&#960;Rh</text>
+
+  <!-- arrow -->
+  <line x1="336" y1="210" x2="404" y2="210" stroke="#6b7280" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text class="lbl-s" x="370" y="198" text-anchor="middle">unroll</text>
+
+  <!-- unrolled cylinder wall -->
+  <rect x="420" y="105" width="260" height="210" fill="#ffffff" class="ink"/>
+  <rect class="band" x="420" y="185" width="260" height="50" opacity=".16"/>
+  <line class="thin" x1="420" y1="185" x2="680" y2="185"/>
+  <line class="thin" x1="420" y1="235" x2="680" y2="235"/>
+  <line x1="660" y1="185" x2="660" y2="235" stroke="#b5462b" stroke-width="1.4"/>
+  <line x1="654" y1="185" x2="666" y2="185" stroke="#b5462b" stroke-width="1.4"/>
+  <line x1="654" y1="235" x2="666" y2="235" stroke="#b5462b" stroke-width="1.4"/>
+  <text class="lbl-s" x="672" y="215" fill="#b5462b">h</text>
+  <text class="lbl" x="550" y="368" text-anchor="middle">cylinder wall, unrolled</text>
+  <text class="lbl-s" x="550" y="386" text-anchor="middle">A = 2&#960;R&#183;h &#8212; identical, for every latitude</text>
+</svg>
